@@ -18,7 +18,7 @@ The inital local_vars.yml file comes from the git repo but is marked not tracked
 Variables Set in the Admin Console
 ==================================
 
-When installation is carried out using the [Admin Console](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_default_passwords.3F) an additional variable file is populated, /etc/iiab/config_vars.yml, which is set via a graphical user interface.  Values in this file further override values in default_vars.yml and local_vars.yml files. It should be kept in mind that the order of precedence of the variables files is that config_vars.yml overrides local_vars.yml and local_vars.yml overrides default_vars.yml.  This is true whether the console is used to perform an install or one of the command line scripts.
+When installation is carried out using the [Admin Console](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_default_passwords.3F) an additional variable file is populated, /etc/xsce/config_vars.yml, which is set via a graphical user interface.  Values in this file further override values in default_vars.yml and local_vars.yml files. It should be kept in mind that the order of precedence of the variables files is that config_vars.yml overrides local_vars.yml and local_vars.yml overrides default_vars.yml.  This is true whether the console is used to perform an install or one of the command line scripts.
 
 Computed or Derived Variables
 =============================
