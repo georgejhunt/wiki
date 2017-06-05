@@ -13,7 +13,7 @@ Building an IIAB server requires a number of steps, and there is usually some co
  There is also the option of setting a large array of variables that govern the detailed installation process. In most cases, the supplied defaults will be sufficient. Any changes to defaults should be placed in [``./vars/local_vars.yml``](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) within /opt/schoolserver/iiab (See details of [variable precedence](#variable-precedence) below).
 
   3. The Admin Console is the Graphical User Interface (when you log in to [http://box/admin](http://box/admin)) for making most configuration changes.  There is also a HELP menu system in the Admin Console itself, reproduced in full here:
-     1. [Overview](https://github.com/iiab/iiab-admin/roles/console/files/help/Overview.rst)
+     1. [Overview](https://github.com/iiab/iiab-admin/master/blog/roles/console/files/help/Overview.rst)
      2. [Control](https://github.com/iiab/iiab-admin/roles/console/files/help/Control.rst)
      3. [Configuration](https://github.com/iiab/iiab-admin/roles/console/files/help/Config.rst)
      4. [Install Content](https://github.com/iiab/iiab-admin/roles/console/files/help/InstContent.rst)
