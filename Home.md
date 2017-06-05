@@ -1,4 +1,4 @@
-## Welcome to the Internet-in-a-Box (IIAB) Wiki!
+## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
 The best place to start is [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) which has detailed information on installing the server in several different ways.
 
