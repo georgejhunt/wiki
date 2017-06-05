@@ -106,7 +106,7 @@ _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, a
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
-Beware "./runansible" takes about 2.5 hours to complete on a RPi3, the 1st time you run it. Subsequent runs (via Admin Console -> Configure -> Install Configured Options) generally take ~25 minutes.
+Beware "./runansible" takes about 2.5 hours to complete on a RPi3, the 1st time you run it.  Subsequent runs (via Admin Console -> Configure -> Install Configured Options) generally take about 20 to 25 minutes.
 
 Similarly, if you want to help test CentOS, consider this experimental recipe: http://download.iiab.io/6.2/x86/centos-load.txt
 
