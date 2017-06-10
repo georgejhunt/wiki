@@ -70,15 +70,14 @@ Here is the complete list of the steps required. Some may already be done.
          apt-get -y clean
 
          apt-get install -y git
-         mkdir -p /opt/schoolserver
-         cd /opt/schoolserver
+         mkdir -p /opt/iiab
+         cd /opt/iiab/iiab
          git clone https://github.com/iiab/iiab --branch release-6.2 --depth 1
-         cd /opt/schoolserver/iiab
 
          # The following command will install the correct version of Ansible
          ./scripts/ansible
 
-         cd /opt/schoolserver/iiab/vars
+         cd /opt/iiab/iiab/vars
          wget http://download.iiab.io/6.3/rpi/local_vars.yml
          # Above assumes a virgin RPi system (wget WON'T overwrite existing files)
 
@@ -114,7 +113,7 @@ NOTE: After the above "curl <url>" commands, a reboot is generally necessary bef
 
 **Please note that if you need to reinstall and it has been some time since you cloned IIAB you should do the following:**
 
-         cd /opt/schoolserver/iiab
+         cd /opt/iiab/iiab
          git pull
 
 Also recommended: On Debian or Raspbian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes).  In the past, `rpi-update` was required to update RPi firmware.  On CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`.
@@ -123,7 +122,7 @@ Also recommended: On Debian or Raspbian, download and install the latest securit
 
 You can see the log of the last install by typing:
 
-         cat /opt/schoolserver/iiab/xsce-install.log
+         cat /opt/iiab/iiab/xsce-install.log
 
 **Proceed to [Configure the Server](#configure-the-server).**
 
@@ -195,8 +194,8 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 * Clone the IIAB git repo and cd into it:
 
          cd /opt
-         mkdir -p schoolserver
-         cd schoolserver
+         mkdir -p iiab
+         cd iiab
          git clone --branch release-6.2 --depth 1 https://github.com/iiab/iiab
          cd iiab
 
