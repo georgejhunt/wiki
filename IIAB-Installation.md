@@ -94,15 +94,15 @@ Here is the complete list of the steps required. Some may already be done.
 For Debian, a basic version of the above ~10 commands can be automated as follows:
 
          apt-get install -y curl
-         curl http://download.iiab.io/6.2/x86/debian-load.txt | sudo bash
+         curl download.iiab.io/6.2/x86/debian-load.txt | sudo bash
 
 On the Raspberry Pi, curl and git are already included within the Raspbian OS, so run:
 
-         curl http://download.iiab.io/6.2/rpi/load.txt | sudo bash
+         curl download.iiab.io/6.2/rpi/load.txt | sudo bash
 
 _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then then give this a shot on a Raspberry Pi 3:_
 
-         curl http://download.iiab.io/6.3/rpi/load-master.txt | sudo bash
+         curl download.iiab.io/6.3/rpi/load-master.txt | sudo bash
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
