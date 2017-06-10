@@ -42,12 +42,12 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 
 ### Common Customizations
 
-Many of us edit /opt/schoolserver/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/XS_Community_Edition/local_vars.yml) so it contains the following 2 lines:
+Many of us edit /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/XS_Community_Edition/local_vars.yml) so it contains the following 2 lines:
 
 * services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
-* xsce_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
+* iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
 
-Note both above will likely become defaults by mid-2017.  But for now, if making changes to local_vars.yml, remember to then run "cd /opt/schoolserver/iiab" followed by "./runansible" (can take ~2.5 hours on RPi3).
+Note both above will likely become defaults by mid-2017.  But for now, if making changes to local_vars.yml, remember to then run "cd /opt/iiab/iiab" followed by "./runansible" (can take ~2.5 hours on RPi3).
 
 Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/release-6.2/xsce-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~25min on RPi3) in Utilities menu -> Display Job Status.
 
