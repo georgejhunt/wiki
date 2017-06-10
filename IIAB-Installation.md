@@ -122,7 +122,7 @@ Also recommended: On Debian or Raspbian, download and install the latest securit
 
 You can see the log of the last install by typing:
 
-         cat /opt/iiab/iiab/xsce-install.log
+         cat /opt/iiab/iiab/iiab-install.log
 
 **Proceed to [Configure the Server](#configure-the-server).**
 
@@ -205,7 +205,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 * Optionally, verify that all network interfaces are properly autodetected:
 
-         bash roles/common/library/xsce_facts
+         bash roles/common/library/iiab_facts
 
 * From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted ./runansible to complete the install process (increases size of /tmp so installs will complete successfully):
 
@@ -215,7 +215,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 At this point you should be able to connect to [http://box](http://box) from a browser.  In certain cases http://box.lan, http://schoolserver.lan, http://localhost or http://172.18.96.1 may instead be necessary.
 
-To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **xsce-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: http://schoolserver.org/faq
+To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **iiab-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: http://schoolserver.org/faq
 
 This permits selection of options, services, languages, etc to permit additional services, and educational resources to be enabled and selected for download.
 
@@ -277,7 +277,7 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 4. Hit button **Install Selected ZIMs** to begin downloading and installing them onto your server.  _This can take a very long time, during which time your server may appear unresponsive (within the first hour especially) while it's working!_
 
-5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each ZIM spawns 3 jobs which (1) download, (2) unzip, then (3) move the pieces into position within /library/zims/content and /library/zims/index.  In the past, after installing ZIMs, you also needed to run "xsce-make-kiwix-lib; systemctl restart kiwix-serve" &mdash; but this is no longer necessary as of IIAB/XSCE 6.2.
+5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each ZIM spawns 3 jobs which (1) download, (2) unzip, then (3) move the pieces into position within /library/zims/content and /library/zims/index.  In the past, after installing ZIMs, you also needed to run "iiab-make-kiwix-lib; systemctl restart kiwix-serve" &mdash; but this is no longer necessary as of IIAB/XSCE 6.2.
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Refresh ZIMs Installed List**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
