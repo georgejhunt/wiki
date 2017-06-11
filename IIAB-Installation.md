@@ -70,15 +70,17 @@ Here is the complete list of the steps required. Some may already be done.
          apt-get -y clean
 
          apt-get install -y git
-         mkdir -p /opt/iiab
-         cd /opt/iiab/iiab
-         git clone https://github.com/iiab/iiab --branch release-6.2 --depth 1
 
-         # The following command will install the correct version of Ansible
-         ./scripts/ansible
+         mkdir -p /opt/schoolserver
+         cd /opt/schoolserver/
+         git clone https://github.com/xsce/xsce  --branch release-6.2 --depth 1
 
-         cd /opt/iiab/iiab/vars
-         wget http://download.iiab.io/6.3/rpi/local_vars.yml
+         cd /opt/iiab/iiab/scripts/
+         ./ansible
+         # Installs the correct version of Ansible
+
+         cd /opt/schoolserver/xsce/vars/
+         wget http://download.iiab.io/6.2/rpi/local_vars.yml
          # Above assumes a virgin RPi system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
@@ -87,8 +89,9 @@ Here is the complete list of the steps required. Some may already be done.
          # NOTE: you can change many/most settings after install too, using the
          # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
 
+         cd /opt/schoolserver/xsce/
          ./runansible
-         # Try to rerun the above line if it fails!
+         # Try to rerun the above line if it fails?
 ```
 For Debian, a basic version of the above ~10 commands can be automated as follows:
 
@@ -99,7 +102,7 @@ On the Raspberry Pi, curl and git are already included within the Raspbian OS, s
 
          curl download.iiab.io/6.2/rpi/load.txt | sudo bash
 
-_If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then then give this a shot on a Raspberry Pi 3:_
+_If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot on a Raspberry Pi 3:_
 
          curl download.iiab.io/6.3/rpi/load-master.txt | sudo bash
 
