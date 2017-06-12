@@ -2,7 +2,7 @@
 
 ## Operating Systems
 
-Our [FAQ](http://schoolserver.org/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F) among these choices:
+Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F) among these choices:
 
 * Raspbian on Raspberry Pi 2 and 3 (desktop or headless)
 * Debian 8.7 Jessie
@@ -17,7 +17,7 @@ You should start with a **minimal** install of your chosen OS and read the [part
 
 Theoretically IIAB should run on any machine that can run Debian 8+ or CentOS 7, and close derivatives.
 
-In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_hardware_should_I_use.3F) within our [FAQ](http://schoolserver.org/FAQ).
+In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_hardware_should_I_use.3F) within our [FAQ](http://FAQ.IIAB.IO).
 
 #### Intel NUC and Gigabyte BRIX
 
