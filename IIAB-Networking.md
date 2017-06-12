@@ -49,6 +49,6 @@ Many of us edit /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/X
 
 Note both above will likely become defaults by mid-2017.  But for now, if making changes to local_vars.yml, remember to then run "cd /opt/iiab/iiab" followed by "./runansible" (can take ~2.5 hours on RPi3).
 
-Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/release-6.2/xsce-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~25min on RPi3) in Utilities menu -> Display Job Status.
+Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~25min on RPi3) in Utilities menu -> Display Job Status.
 
-Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://schoolserver.org/faq) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://FAQ.IIAB.IO) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
