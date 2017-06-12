@@ -218,7 +218,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 At this point you should be able to connect to [http://box](http://box) from a browser.  In certain cases http://box.lan, http://schoolserver.lan, http://localhost or http://172.18.96.1 may instead be necessary.
 
-To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **iiab-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: http://schoolserver.org/faq
+To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **iiab-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: http://FAQ.IIAB.IO
 
 This permits selection of options, services, languages, etc to permit additional services, and educational resources to be enabled and selected for download.
 
@@ -352,4 +352,4 @@ For legacy support of the LibraryBox and PirateBox communities, teachers may als
 
 Bonus: after the lesson, teachers should feel free to remove their USB sticks/drives without warning, as the IIAB server should unmount USB sticks/drives automagically.
 
-See "[Can teachers display their own content?](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#Can_teachers_display_their_own_content.3F)" within the [FAQ (Frequently Asked Questions)](http://schoolserver.org/FAQ) for more information.
+See "[Can teachers display their own content?](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#Can_teachers_display_their_own_content.3F)" within the [FAQ (Frequently Asked Questions)](http://FAQ.IIAB.IO) for more information.
