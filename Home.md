@@ -10,4 +10,12 @@ After installation, the Admin Console provides tools for selecting and downloadi
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
 
-Our Frequently Asked Questions (FAQ) covers broader topics for educators, operators and implementers here: http://FAQ.IIAB.IO
+N.B.: Internet-in-a-Box was formerly known as the OLPC School Server Community Edition (XSCE).
+
+See our [FAQ (Frequently Asked Questions)](http://FAQ.IIAB.IO) for more answers arising from our http://IIAB.io forums, towards building your very own powerful digital library!
+
+## Our Evolution
+ * [Release Notes 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes)
+ * [Release Notes 6.2](https://github.com/xsce/xsce/wiki/IIAB-6.2-Release-Notes)
+ * [Release Notes 6.1](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.1.md)
+ * [Release Notes 6.0](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.0.md)
