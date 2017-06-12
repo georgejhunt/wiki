@@ -10,4 +10,4 @@ After installation, the Admin Console provides tools for selecting and downloadi
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
 
-Our Frequently Asked Questions (FAQ) covers broader topics here: http://FAQ.IIAB.IO
+Our Frequently Asked Questions (FAQ) covers broader topics for educators, operators and implementers here: http://FAQ.IIAB.IO
