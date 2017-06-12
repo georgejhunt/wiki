@@ -4,4 +4,4 @@ As our release quickly approaches during the middle of 2017, please see http://w
 
 As of early June 2017, Tech Docs have now officially moved to: https://github.com/iiab/iiab/wiki
 
-Broader implementer docs reside at: http://FAQ.IIAB.IO
+Broader implementer/operator docs reside at: http://FAQ.IIAB.IO
