@@ -9,3 +9,5 @@ See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for platf
 After installation, the Admin Console provides tools for selecting and downloading content. After that is done, you will probably want to provide a [menu or portal](https://github.com/iiab/iiab/wiki/IIAB-Menuing) page for direct access to the selected content.
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
+
+Our Frequently Asked Questions (FAQ) covers broader topics here: http://FAQ.IIAB.IO
