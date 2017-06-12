@@ -16,6 +16,6 @@ See our [FAQ (Frequently Asked Questions)](http://FAQ.IIAB.IO) for more answers 
 
 ## Our Evolution
  * [Release Notes 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes)
- * [Release Notes 6.2](https://github.com/XSCE/xsce/wiki/IIAB-6.2-Release-Notes)
- * [Release Notes 6.1](https://github.com/XSCE/xsce/blob/release-6.2/ReleaseNotes6.1.md)
- * [Release Notes 6.0](https://github.com/XSCE/xsce/blob/release-6.2/ReleaseNotes6.0.md)
+ * [Release Notes 6.2](https://github.com/xsce/xsce/wiki/IIAB-6.2-Release-Notes)
+ * [Release Notes 6.1](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.1.md)
+ * [Release Notes 6.0](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.0.md)
