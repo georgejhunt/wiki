@@ -12,7 +12,7 @@ After installation, the Admin Console provides tools for selecting and downloadi
 
 N.B.: Internet-in-a-Box was formerly known as the OLPC School Server Community Edition (XSCE).
 
-See our [FAQ (Frequently Asked Questions)](http://wiki.laptop.org/go/XS_Community_Edition/FAQ) for more answers arising from our http://IIAB.io forums, towards building your very own powerful digital library!
+See our [FAQ (Frequently Asked Questions)](http://wiki.laptop.org/go/IIAB/FAQ) for more answers arising from our http://IIAB.io forums, towards building your very own powerful digital library!
 
 ## Our Evolution
  * [Release Notes 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes)
