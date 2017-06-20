@@ -6,4 +6,4 @@ A new version of WordPress (4.8) is expected, and also a complete overhaul of ow
 
 As of early June 2017, Tech Docs have now officially moved to: https://github.com/iiab/iiab/wiki
 
-Broader docs for educators/implementers/operators reside at: http://FAQ.IIAB.IO
+Broader docs for educators/implementers/operators reside at: [http://FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)
