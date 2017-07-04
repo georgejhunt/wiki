@@ -124,7 +124,7 @@ _Similarly, if you want to help test CentOS, please help us [improve on](https:/
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
 
-NOTE: After the above "curl <url>" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Host Name change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
+NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Host Name change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
 
 **Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
