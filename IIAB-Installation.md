@@ -57,7 +57,7 @@ Here is the complete list of the steps required. Some may already be done.
 
       **Please note that LVM partitioning will not work. You need to use the Standard partitioning scheme.** (See above reference!)
 
-   1. Install the OS (e.g. Debian 8.7+) using a **minimal** install (check the box to include ssh, but **uncheck** the boxes for Apache and everything else). Or, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Pixel or Lite non-graphical version) onto a microSD for a Raspberry Pi 3. If installing onto XO laptops, use OLPC's latest OS (based on Fedora 18). See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F). _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
+   1. Install your OS (e.g. Ubuntu 16.04.2) using a **minimal** install (if asked, check the box to include ssh, but **uncheck** boxes for Apache and most everything else). Or, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Pixel or Lite non-graphical version) onto a microSD for a Raspberry Pi 3. If installing onto XO laptops, use OLPC's latest OS (based on Fedora 18). See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F). _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
    1. Log into the machine locally or via ssh.  Escalate to root using "sudo su -" or similar.
    1. Verify your internet connection by typing:
 
