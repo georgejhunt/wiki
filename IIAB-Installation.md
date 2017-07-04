@@ -57,13 +57,13 @@ Here is the complete list of the steps required. Some may already be done.
 
       **Please note that LVM partitioning will not work. You need to use the Standard partitioning scheme.** (See above reference!)
 
-   1. Install your OS (e.g. Ubuntu 16.04.2) using a **minimal** install (if asked, check the box to include ssh, but **uncheck** boxes for Apache and most everything else). Or, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Pixel or Lite non-graphical version) onto a microSD for a Raspberry Pi 3. If installing onto XO laptops, use OLPC's latest OS (based on Fedora 18). See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F). _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
+   1. Install your OS (e.g. [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/)) using a **minimal** install (if asked, check the box to include ssh, but **uncheck** boxes for Apache and most everything else). Or, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Pixel or Lite non-graphical version) onto a microSD for a Raspberry Pi 3. If installing onto XO laptops, use OLPC's latest OS (based on Fedora 18). See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F). _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
    1. Log into the machine locally or via ssh.  Escalate to root using "sudo su -" or similar.
    1. Verify your internet connection by typing:
 
        ping yahoo.com
    
-   1. On Ubuntu, Debian or Raspbian, doing everything from scratch involves a few simple steps:
+   1. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
          apt-get -y update
          apt-get -y dist-upgrade
@@ -129,7 +129,7 @@ NOTE: After the above "curl <url>" commands, a reboot is generally necessary bef
          git pull
          ./runsansible
 
-Also recommended: On Debian or Raspbian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 **Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue.**
 
