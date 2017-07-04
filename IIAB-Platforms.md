@@ -5,7 +5,7 @@
 Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F) among these choices:
 
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 and 3
-* Ubuntu Server 16.04.2 LTS
+* [Ubuntu 16.04.2 LTS](http://releases.ubuntu.com/16.04/)
 * Debian 8.8 Jessie
 * Debian 9 (testing would be greatly appreciated)
 * CentOS 7.3 64-bit version (testing would be greatly appreciated)
