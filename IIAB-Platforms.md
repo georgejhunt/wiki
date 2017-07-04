@@ -4,12 +4,15 @@
 
 Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F) among these choices:
 
-* Raspbian on Raspberry Pi 2 and 3 (desktop or headless)
-* Debian 8.7 Jessie
+* [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 and 3
+* Ubuntu Server 16.04.2 LTS
+* Debian 8.8 Jessie
+* Debian 9 (testing would be greatly appreciated)
 * CentOS 7.3 64-bit version (testing would be greatly appreciated)
 * Fedora 22 (for IIAB/XSCE 6.1)
 * Fedora 18 32-bit on XO laptops
-* Ubuntu Server 16.04.2 LTS (experimental, [contact us](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_best_places_for_community_support.3F))
+
+[Contact us if you can help!](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_best_places_for_community_support.3F)
 
 You should start with a **minimal** install of your chosen OS and read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) below.
 
