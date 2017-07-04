@@ -63,7 +63,7 @@ Here is the complete list of the steps required. Some may already be done.
 
        ping yahoo.com
    
-   1. On Debian (and Raspbian), doing everything from scratch involves a few simple steps:
+   1. On Ubuntu, Debian or Raspbian, doing everything from scratch involves a few simple steps:
 ```
          apt-get -y update
          apt-get -y dist-upgrade
@@ -71,16 +71,19 @@ Here is the complete list of the steps required. Some may already be done.
 
          apt-get install -y git
 
-         mkdir -p /opt/schoolserver
-         cd /opt/schoolserver/
-         git clone https://github.com/xsce/xsce  --branch release-6.2 --depth 1
+         mkdir -p /opt/iiab
+         cd /opt/iiab/
+         git clone https://github.com/iiab/iiab --depth 1
+         git clone https://github.com/iiab/iiab-admin-console --depth 1
+         git clone https://github.com/iiab/iiab-menu --depth 1
+         git clone https://github.com/iiab/iiab-factory --depth 1
 
          cd /opt/iiab/iiab/scripts/
          ./ansible
          # Installs the correct version of Ansible
 
-         cd /opt/schoolserver/xsce/vars/
-         wget http://download.iiab.io/6.2/rpi/local_vars.yml
+         cd /opt/iiab/iiab/vars/
+         wget http://download.iiab.io/6.3/rpi/local_vars.yml
          # Above assumes a virgin RPi system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
@@ -89,37 +92,44 @@ Here is the complete list of the steps required. Some may already be done.
          # NOTE: you can change many/most settings after install too, using the
          # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
 
-         cd /opt/schoolserver/xsce/
+         cd /opt/iiab/iiab/
          ./runansible
          # Try to rerun the above line if it fails?
+
+         cd /opt/iiab/iiab-admin-console/
+         ./install
+
+         cd /opt/iiab/iiab-menu/
+         ./cp-menus
 ```
-For Debian, a basic version of the above ~10 commands can be automated as follows:
 
-         apt-get install -y curl
-         curl download.iiab.io/6.2/x86/debian-load.txt | sudo bash
+On a Raspberry Pi 3, you can instead run this 1-line installer:
 
-On the Raspberry Pi, curl and git are already included within the Raspbian OS, so run:
+         curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
-         curl download.iiab.io/6.2/rpi/load.txt | sudo bash
+The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  An even faster 1-line installer is below, if you want less servers apps &mdash; this one can complete in less than an hour:
 
-_If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot on a Raspberry Pi 3:_
+         curl download.iiab.io/6.3/rpi/load-lite.txt | sudo bash
 
-         curl download.iiab.io/6.3/rpi/load-master.txt | sudo bash
+_If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot:_
+
+         curl download.iiab.io/6.4/rpi/load-master.txt | sudo bash
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
-Beware "./runansible" takes 1 to 2.5 hours to complete on a RPi3, the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Subsequent runs (via Admin Console -> Configure -> Install Configured Options) generally take about 20 to 25 minutes.
+On a Raspberry Pi 3, beware that "./runansible" can take 1 to 2.5 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
 
-Similarly, if you want to help test CentOS, consider this experimental recipe: http://download.iiab.io/6.2/x86/centos-load.txt
+_Similarly, if you want to help test CentOS, please help us improve this experimental recipe: http://download.iiab.io/6.2/x86/centos-load.txt_
 
-NOTE: After the above "curl <url>" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put host name change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
+NOTE: After the above "curl <url>" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Host Name change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
 
-**Please note that if you need to reinstall and it has been some time since you cloned IIAB you should do the following:**
+**Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
          cd /opt/iiab/iiab
          git pull
+         ./runsansible
 
-Also recommended: On Debian or Raspbian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes).  In the past, `rpi-update` was required to update RPi firmware.  On CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`.
+Also recommended: On Debian or Raspbian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 **Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue.**
 
