@@ -9,8 +9,7 @@ Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.l
 * Debian 8.8 Jessie
 * Debian 9 (testing would be greatly appreciated)
 * CentOS 7.3 64-bit version (testing would be greatly appreciated)
-* Fedora 22 (for IIAB/XSCE 6.1)
-* Fedora 18 32-bit on XO laptops
+* Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
 [Contact us if you can help!](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_best_places_for_community_support.3F)
 
