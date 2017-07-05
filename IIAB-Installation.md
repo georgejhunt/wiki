@@ -55,7 +55,7 @@ Here is the complete list of the steps required. Some may already be done.
    1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_hardware_should_I_use.3F).
       See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
 
-      Traditionally we use Standard partitioning, but increasingly in 2017 LVM partitioning is possible as well. (See above "IIAB Platforms" document for partitioning tips.)
+      **Traditionally we use Standard partitioning, but increasingly in 2017 LVM partitioning is possible as well. In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
    1. Install your OS (e.g. [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/)) using a **minimal** install (do install ssh, but do not install Apache or most anything else!)  Or, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Pixel or Lite non-graphical version) onto a microSD for a Raspberry Pi 3.  If installing onto XO laptops, use OLPC's latest OS (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
    1. Log into the machine locally or via ssh.  Escalate to root using "sudo su -" or similar.
