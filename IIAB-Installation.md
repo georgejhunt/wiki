@@ -117,9 +117,11 @@ _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, a
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
-On a Raspberry Pi 3, beware that "./runansible" can take 1 to 2.5 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
+On a Raspberry Pi 3, beware that "./runansible" can take 1 to 2.5 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Likewise a slow SD card and/or a slow Internet connection will delay your install.
 
-_Similarly, if you want to help test CentOS, please help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 experimental recipes:_
+Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
+
+_Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 experimental recipes:_
 
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
