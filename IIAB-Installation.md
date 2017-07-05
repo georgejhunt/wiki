@@ -84,7 +84,7 @@ Here is the complete list of the steps required. Some may already be done.
 
          cd /opt/iiab/iiab/vars/
          wget http://download.iiab.io/6.3/rpi/local_vars.yml
-         # Above assumes a virgin RPi system (wget WON'T overwrite existing files)
+         # Above assumes a virgin system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
          # before running Ansible (below, which takes ~2.5 hours the first time!)
