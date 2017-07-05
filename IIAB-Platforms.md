@@ -49,9 +49,9 @@ A number of users have successfully deployed IIAB on late model desktop and lapt
 
 ## Disk Partitioning
 
-For large disks we recommend the following partitions. **Use standard partitioning, _not_ LVM:**
+For large disks we recommend the following partitions: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
 * /boot - 500 MB
-* swap - 2 G
+* swap - 2 GB
 * / - 50 GB
 * /library - the remainder
 
