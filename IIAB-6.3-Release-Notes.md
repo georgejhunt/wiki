@@ -4,7 +4,7 @@ Internet-in-a-Box (IIAB) 6.3 is expected in early/mid July of 2017, including dr
 
 IIAB 6.3 now runs on Ubuntu, as well as Raspbian (on Raspberry Pi) and several other Linux distributions like CentOS and Debian!
 
-Pre-release versions of IIAB 6.3 have already been brought to Ghana, Dominican Republic, Haiti, Nicaragua and Malaysia &mdash; while implementation work is currently ongoing for Lebanon.  We're very honored that IIAB 6.3 is increasingly used in medical education post-secondary and clinical contexts, as much as classical (primary and secondary) education!
+Pre-release versions of IIAB 6.3 have already been brought to Ghana, Dominican Republic, Haiti, Nicaragua and Malaysia &mdash; while implementation work is currently ongoing for Lebanon.  We're very honored that IIAB 6.3 is increasingly used in medical education (post-secondary and clinical contexts) as much as classical (primary and secondary) education!
 
 Please see [download.iiab.io/6.3](http://download.iiab.io/6.3) to try out some of these dramatic improvements, to install/build your own digital library &mdash; and also [wiki.iiab.io/6.3](http://wiki.iiab.io/6.3) to learn about our new rapid boot and friendly poweroff techniques &mdash; essential for low-electricity environments.
 
