@@ -1,6 +1,6 @@
 ### DRAFT
 
-Internet-in-a-Box (IIAB) 6.3 is expected in early/mid July of 2017, including dramatic improvements for educator/implementer communities &mdash; like an entirely new Kiwix engine, fixing the notorious Chrome bug &mdash; while also better supporting full-text searching across old ZIM files *and* new ZIM files both.
+Internet-in-a-Box (IIAB) 6.3 is expected in mid July of 2017, including dramatic improvements for educator/implementer communities &mdash; like an entirely new Kiwix engine, fixing the notorious Chrome bug &mdash; while also better supporting full-text searching across old ZIM files *and* new ZIM files both.
 
 IIAB 6.3 now runs on Ubuntu, as well as Raspbian (on Raspberry Pi) and several other Linux distributions like CentOS and Debian!
 
