@@ -42,7 +42,7 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 
 ### Common Customizations
 
-Many of us edit /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/XS_Community_Edition/local_vars.yml) so it contains the following 2 lines:
+Many of us edit /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) so it contains the following 2 lines:
 
 * services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
 * iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
@@ -51,4 +51,4 @@ Note both above will likely become defaults by mid-2017.  But for now, if making
 
 Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~25min on RPi3) in Utilities menu -> Display Job Status.
 
-Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://FAQ.IIAB.IO) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://FAQ.IIAB.IO) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
