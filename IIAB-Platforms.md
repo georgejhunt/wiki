@@ -11,7 +11,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
 * [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.8](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
-* [CentOS 7.3](https://www.centos.org/download/) LTS (testing would be greatly appreciated)
+* [CentOS 7.3](https://www.centos.org/download/) LTS
 
 The following OS's are theoretically possible, but require extensive babysitting to get right:
 
