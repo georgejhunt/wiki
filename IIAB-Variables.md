@@ -13,12 +13,12 @@ Variable Files
 
 The vars directory holds two files, default_vars.yml and local_vars.yml.  The former holds the default values for a number of global variables for the installation.  The latter allows deployments to override these values.  These parameters are either ones that a deployment may wish to override, such as iiab_domain, or global constants.
 
-The inital local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/release-6.2/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
+The inital local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/release-6.2/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
 
 Variables Set in the Admin Console
 ==================================
 
-When installation is carried out using the [Admin Console](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_default_passwords.3F) an additional variable file is populated, /etc/iiab/config_vars.yml, which is set via a graphical user interface.  Values in this file further override values in default_vars.yml and local_vars.yml files. It should be kept in mind that the order of precedence of the variables files is that config_vars.yml overrides local_vars.yml and local_vars.yml overrides default_vars.yml.  This is true whether the console is used to perform an install or one of the command line scripts.
+When installation is carried out using the [Admin Console](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F) an additional variable file is populated, /etc/iiab/config_vars.yml, which is set via a graphical user interface.  Values in this file further override values in default_vars.yml and local_vars.yml files. It should be kept in mind that the order of precedence of the variables files is that config_vars.yml overrides local_vars.yml and local_vars.yml overrides default_vars.yml.  This is true whether the console is used to perform an install or one of the command line scripts.
 
 Computed or Derived Variables
 =============================
