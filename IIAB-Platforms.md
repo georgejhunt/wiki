@@ -62,7 +62,7 @@ For large disks we recommend the following partitions: (traditionally we use sta
 
 For smaller disks and SD cards we recommend not creating a separate /library partition and reducing (or eliminating) swap.
 
-Please note that installers for Fedora often put the remaining disk space into /home.  You will need to remove this partition and create /library.  This can be done through the graphical installer that comes with Fedora.
+Please note that installers for Fedora and CentOS often put the remaining disk space into /home.  You will need to remove this partition and create /library.  This can be done through the graphical installer that comes with Fedora.
 
 ## Network Adapters
 
