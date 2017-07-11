@@ -11,7 +11,7 @@ Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.l
 * Debian 9 Stretch (highly experimental, testing would be greatly appreciated)
 * Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
-[Contact us if you can help!](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_best_places_for_community_support.3F)
+[Contact us if you can help!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)
 
 You should start with a **minimal** install of your chosen OS and read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) below.
 
@@ -19,7 +19,7 @@ You should start with a **minimal** install of your chosen OS and read the [part
 
 Theoretically IIAB should run on any machine that can run Debian 8+ or CentOS 7, and close derivatives.
 
-In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_hardware_should_I_use.3F) within our [FAQ](http://FAQ.IIAB.IO).
+In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) within our [FAQ](http://FAQ.IIAB.IO).
 
 #### Intel NUC and Gigabyte BRIX
 
