@@ -5,9 +5,9 @@
 Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F) among these choices: (please use a minimal 64-bit install in all cases, OLPC laptops notwithstanding)
 
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
-* [Ubuntu 16.04.2 LTS](http://releases.ubuntu.com/16.04/)
-* [Debian 8.8 Jessie](https://www.debian.org/releases/jessie/debian-installer/)
-* [CentOS 7.3](https://www.centos.org/download/) (testing would be greatly appreciated)
+* [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/) LTS
+* [Debian 8.8 Jessie](https://www.debian.org/releases/jessie/debian-installer/) LTS
+* [CentOS 7.3](https://www.centos.org/download/) LTS (testing would be greatly appreciated)
 * Debian 9 Stretch (highly experimental, testing would be greatly appreciated)
 * Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
