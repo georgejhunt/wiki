@@ -9,7 +9,7 @@ Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.l
 * [Debian 8.8 Jessie](https://www.debian.org/releases/jessie/debian-installer/)
 * [CentOS 7.3](https://www.centos.org/download/) (testing would be greatly appreciated)
 * Debian 9 Stretch (highly experimental, testing would be greatly appreciated)
-* Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops (testing would be greatly appreciated)
+* Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
 [Contact us if you can help!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)
 
