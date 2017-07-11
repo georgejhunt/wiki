@@ -15,10 +15,10 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 The following OS's are theoretically possible, but require extensive babysitting to get right:
 
-* Debian 9 "Stretch" (testing would be greatly appreciated)
+* Debian 9 "Stretch"
 * Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
-[Contact us if you can help!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)
+_[Contact us if you can help, testing would be greatly appreciated!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)_
 
 ## Hardware Platforms
 
