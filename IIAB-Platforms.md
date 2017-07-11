@@ -2,17 +2,20 @@
 
 ## Operating Systems
 
-Use a **minimal** 64-bit install in all cases, OLPC laptops notwithstanding!
+Install a **minimal** 64-bit OS in all cases, OLPC laptops notwithstanding!
 
 Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) below.
 
-[FAQ.iiab.io](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F) among these choices:
+[FAQ.iiab.io](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
 * [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.8](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [CentOS 7.3](https://www.centos.org/download/) LTS (testing would be greatly appreciated)
-* Debian 9 "Stretch" (highly experimental, testing would be greatly appreciated)
+
+The following OS's are theoretically possible, but require extensive babysitting to get right:
+
+* Debian 9 "Stretch" (testing would be greatly appreciated)
 * Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
 [Contact us if you can help!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)
