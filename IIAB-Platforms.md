@@ -6,8 +6,8 @@ Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.l
 
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
 * [Ubuntu 16.04.2 LTS](http://releases.ubuntu.com/16.04/)
-* Debian 8.8 Jessie
-* CentOS 7.3 (testing would be greatly appreciated)
+* [Debian 8.8 Jessie](https://www.debian.org/releases/jessie/debian-installer/)
+* [CentOS 7.3](https://www.centos.org/download/) (testing would be greatly appreciated)
 * Debian 9 Stretch (highly experimental, testing would be greatly appreciated)
 * Fedora 18 32-bit for legacy support of One Laptop per Child's (OLPC) XO laptops
 
