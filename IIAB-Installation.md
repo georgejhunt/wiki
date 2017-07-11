@@ -52,7 +52,7 @@ be files available for every platform and every configuration and the files may 
 
 Here is the complete list of the steps required. Some may already be done.
 
-   1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_hardware_should_I_use.3F).
+   1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F).
       See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
 
       **Traditionally we use Standard partitioning, but increasingly in 2017 LVM partitioning is possible as well. In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
@@ -281,7 +281,7 @@ WARNING: some of these Content Packs are quite large and you should pay attentio
 
 ### Add with Admin Console
 
-To begin, [log in](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_default_passwords.3F) to the Admin Console (http://box.lan/admin), take the **Install Content** menu item, and view relevant **Help**.
+To begin, [log in](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F) to the Admin Console (http://box.lan/admin), take the **Install Content** menu item, and view relevant **Help**.
 
 #### ZIM Files
 
@@ -308,7 +308,7 @@ To download the Khan Academy videos of your choosing, in various languages, use 
 * [http://box:8008](http://box:8008) (or [http://box.lan:8008](http://box.lan:8008) on non-standard devices/browsers)
 * [http://172.18.96.1:8008](http://172.18.96.1:8008) on much older devices/browsers
 
-Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_are_the_default_passwords.3F).
+Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F).
 
 KA Lite's English exercises (about 800MB) MUST be downloaded and installed, even if you are not using English videos, particularly starting with KA Lite 0.17.0.  Thankfully starting in April 2017, [more polished IIAB 6.2+ install images](http://tinyurl.com/iiabimages) will include this essential piece out-of-the-box.
 
@@ -335,7 +335,7 @@ http://OpenStreetMap.org (OSM) is much like Google Maps, but more democratic &md
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at http://unleashkids.org if the levels posted to http://download.iiab.io/content are insufficient.
+Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at http://unleashkids.org if the levels posted to http://download.iiab.io/content are insufficient.
 
 Either way, the following directories and their contents are needed:
 * /library/knowledge/modules/geonames_index
@@ -367,4 +367,4 @@ For legacy support of the LibraryBox and PirateBox communities, teachers may als
 
 Bonus: after the lesson, teachers should feel free to remove their USB sticks/drives without warning, as the IIAB server should unmount USB sticks/drives automagically.
 
-See "[Can teachers display their own content?](http://wiki.laptop.org/go/XS_Community_Edition/FAQ#Can_teachers_display_their_own_content.3F)" within the [FAQ (Frequently Asked Questions)](http://FAQ.IIAB.IO) for more information.
+See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F)" within the [FAQ (Frequently Asked Questions)](http://FAQ.IIAB.IO) for more information.
