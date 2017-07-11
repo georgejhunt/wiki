@@ -2,7 +2,7 @@
 
 ## Operating Systems
 
-Our [FAQ](http://FAQ.IIAB.IO) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F) among these choices: (please use a minimal 64-bit install in all cases, OLPC laptops notwithstanding)
+[FAQ.iiab.io](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F) among these choices: (please use a minimal 64-bit install in all cases, OLPC laptops notwithstanding)
 
 * [Raspbian Pixel (graphical desktop) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
 * [Ubuntu 16.04.2](http://releases.ubuntu.com/16.04/) LTS
