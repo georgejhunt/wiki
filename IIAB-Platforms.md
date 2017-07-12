@@ -24,7 +24,7 @@ _[Contact us if you can help, testing would be greatly appreciated!](http://wiki
 
 Theoretically IIAB should run on any machine that can run Debian 8+ or CentOS 7, and close derivatives.
 
-In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) within our [FAQ](http://FAQ.IIAB.IO).
+In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) within our [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).
 
 #### Intel NUC and Gigabyte BRIX
 
