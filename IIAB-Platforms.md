@@ -34,7 +34,7 @@ Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RA
 
 #### OLPC XO-1.5, XO-1.75, XO-4
 
-OLPC laptop with an SD card of 32, 64, or 128 GB and a subset of the content found on machines with more storage or with an external hard drive.
+OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content found on machines with more storage or with an external hard drive.
 
 - Only Fedora 18 has been tested, arising from OLPC OS
 
