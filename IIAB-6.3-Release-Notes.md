@@ -12,5 +12,5 @@ Among the suite of server apps you can choose from, a new version of WordPress (
 
 Our code (software) made the big move from [github.com/xsce](https://github.com/xsce) to [github.com/iiab](http://github.com/iiab) honoring our new name (Internet in a Box) with extensive internal "iiab" naming changes put in place (to avoid confusion with legacy "xsce" and "xs" naming conventions!)  In support of a new generation of contributors jumping in to engage, as we're about to enter our 2nd decade...
 
-IIAB Development Team
+IIAB Development Team<br>
 [http://FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)
