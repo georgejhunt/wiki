@@ -15,4 +15,4 @@ Give it a shot!  Installing onto [Raspbian](https://www.raspberrypi.org/download
 For more details, see [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).  To install onto laptops or larger servers, see [download.iiab.io/6.3](http://download.iiab.io/6.3).  In either case, we're excited that new countries keep getting involved &mdash; don't hesitate to [get in touch](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) as you too build your very own community digital library!
 
 IIAB Development Team<br>
-http://IIAB.IO
+http://IIAB.io
