@@ -12,7 +12,7 @@ Give it a shot!  Installing onto [Raspbian](https://www.raspberrypi.org/download
 
 `curl download.iiab.io/6.3/rpi/load.txt | sudo bash`
 
-For other install approaches onto other Linux platforms, please see [download.iiab.io/6.3](http://download.iiab.io/6.3) and also [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) to try out some of these dramatic improvements, to install/build your very own digital library!
+For other install approaches regular laptops or larger servers, please see [download.iiab.io/6.3](http://download.iiab.io/6.3) and also [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) to try out some of these dramatic improvements, to install and build your very own digital library!
 
 IIAB Development Team<br>
 [http://FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)
