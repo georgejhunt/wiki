@@ -10,7 +10,7 @@ Among the suite of server apps you can choose from, a new version of WordPress (
 
 Give it a shot!  Installing onto [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 is as easy as running this 1-line command:
 
-<center>curl download.iiab.io/6.3/rpi/load.txt | sudo bash</center>
+`curl download.iiab.io/6.3/rpi/load.txt | sudo bash`
 
 For other install approaches onto other Linux platforms, please see [download.iiab.io/6.3](http://download.iiab.io/6.3) and also [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) to try out some of these dramatic improvements, to install/build your very own digital library!
 
