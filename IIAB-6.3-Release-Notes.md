@@ -6,7 +6,7 @@ Pre-release versions of IIAB 6.3 have already been brought to Ghana, Dominican R
 
 IIAB 6.3 now runs on Ubuntu, as well as Raspbian (on Raspberry Pi) and several other Linux distributions like CentOS and Debian!  Read [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ) as our community documentation is beefed up for educators and implementers/operators offline (http://box/info) and online both.  Internally, Internet-in-a-Box Tech Docs underwent significant revision as they moved from [github.com/xsce](https://github.com/xsce) to [github.com/iiab/iiab/wiki](https://github.com/iiab/iiab/wiki).
 
-Please see [download.iiab.io/6.3](http://download.iiab.io/6.3) to try out some of these dramatic improvements, to install/build your own digital library &mdash; and also [wiki.iiab.io/6.3](http://wiki.iiab.io/6.3) to learn about our new rapid boot and friendly poweroff techniques &mdash; essential for medical and low-electricity environments.
+Please see [download.iiab.io/6.3](http://download.iiab.io/6.3) to try out some of these dramatic improvements, to install/build your own digital library &mdash; and also [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) to learn about our new rapid boot and friendly poweroff techniques &mdash; essential for medical and low-electricity environments.
 
 Among the suite of server apps you can choose from, a new version of WordPress (4.8) is included.  IIAB 6.3 also brings a much-anticipated transition from ownCloud to [Nextcloud](https://nextcloud.com/) very broadly backed by free and open-source communities.
 
