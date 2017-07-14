@@ -6,11 +6,9 @@ IIAB 6.3 now runs on Ubuntu, as well as Raspbian (on Raspberry Pi) and several o
 
 Likewise our code (software) made the big move from [github.com/xsce](https://github.com/xsce) to [github.com/iiab](http://github.com/iiab) honoring our new name (Internet in a Box) with extensive internal "iiab" naming changes put in place (to avoid confusion with legacy "xsce" and "xs" naming conventions).  In support of a new generation of contributors jumping in to engage, as we're about to enter our 2nd decade!
 
-Among the suite of server apps you can choose from, a new version of WordPress (4.8) is included.  IIAB 6.3 also brings a much-anticipated transition from ownCloud to [Nextcloud](https://nextcloud.com/) strongly backed by free and open-source communities &mdash; as well as new rapid boot and friendly poweroff techniques &mdash; essential for medical and low-electricity environments :)
+Among the suite of server apps you can choose from, a new version of WordPress (4.8) is included.  IIAB 6.3 also brings a much-anticipated transition from ownCloud to [Nextcloud](https://nextcloud.com/) strongly backed by free and open-source communities.  For medical and low-electricity environments, IIAB 6.3 greatly accelerates boot and shutdown times &mdash; while also providing a friendlier "single-click to power off" button for those requiring that.
 
-Give it a shot!  IIAB 6.3 dramatically steps up DIY implementers' ability to quickly arrange their own portal/menus of popular Content Packs, thanks to enhanced [Dynamic Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing) instead of hand-coding index.html
-
-Installing onto [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 is as easy as running this 1-line command, which completes in (about) an hour:
+Give it a shot!  IIAB 6.3 dramatically steps up DIY implementers' ability to quickly arrange their own portal/menus of popular Content Packs, thanks to enhanced [Dynamic Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing) (instead of hand-coding index.html).  Finally, installing onto [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 is as easy as running this 1-line command, which completes in (about) an hour:
 
      curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
