@@ -14,7 +14,9 @@ Give it a shot!  Installing onto [Raspbian](https://www.raspberrypi.org/download
 
      curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
-For more details, see [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).  To install onto laptops or larger servers, please also explore [download.iiab.io/6.3](http://download.iiab.io/6.3).  In either case, we're thrilled that new countries keep getting involved, supporting each other along the way &mdash; please don't hesitate to [get in touch](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) as you too build your very own community digital library!
+For more details, see [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).  To install onto laptops or larger servers, please also explore [download.iiab.io/6.3](http://download.iiab.io/6.3).
+
+_We're thrilled that new countries keep getting involved &mdash; supporting each other along the way &mdash; many of which are joining us at the http://OFF.NETWORK Hackathon August 13-18, 2017 in Potsdam, NY.  Please don't hesitate to [get in touch](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) as you too build your very own community digital library!_
 
 IIAB Development Team<br>
 http://IIAB.io
