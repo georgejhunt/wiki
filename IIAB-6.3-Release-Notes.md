@@ -8,11 +8,13 @@ Likewise our code (software) made the big move from [github.com/xsce](https://gi
 
 Among the suite of server apps you can choose from, a new version of WordPress (4.8) is included.  IIAB 6.3 also brings a much-anticipated transition from ownCloud to [Nextcloud](https://nextcloud.com/) strongly backed by free and open-source communities &mdash; as well as new rapid boot and friendly poweroff techniques &mdash; essential for medical and low-electricity environments :)
 
-Give it a shot!  Installing onto [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 is as easy as running this 1-line command:
+Give it a shot!  IIAB 6.3 dramatically steps up DIY implementers' ability to quickly arrange their own portal/menus of popular Content Packs, thanks to enhanced [Dynamic Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing) instead of hand-coding index.html
+
+Installing onto [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 is as easy as running this 1-line command, which completes in (about) an hour:
 
      curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
-For more details, see [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).  To install onto laptops or larger servers, please also explore [download.iiab.io/6.3](http://download.iiab.io/6.3).  In either case, we're excited that new countries keep getting involved &mdash; don't hesitate to [get in touch](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) as you too build your very own community digital library!
+For more details, see [wiki.iiab.io/6.3](http://wiki.laptop.org/go/IIAB/6.3) and [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).  To install onto laptops or larger servers, please also explore [download.iiab.io/6.3](http://download.iiab.io/6.3).  In either case, we're thrilled that new countries keep getting involved, supporting each other along the way &mdash; please don't hesitate to [get in touch](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) as you too build your very own community digital library!
 
 IIAB Development Team<br>
 http://IIAB.io
