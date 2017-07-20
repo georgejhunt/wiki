@@ -23,4 +23,4 @@ http://IIAB.io
 
 ### Known Issues
 
-* IIAB 6.3 fails to install when [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) contains "osm_install: False".  Workaround: please use "osm_install: True" for now, until this is resolved.
+* IIAB 6.3 fails to install when [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) contains "osm_install: False".  This is [fixed](https://github.com/iiab/iiab/commit/e426b10ec394a92132af552a8246f2c467c12f07) in IIAB 6.4 pre-releases.  Interim Workaround: please use "osm_install: True" for now, until this is resolved.
