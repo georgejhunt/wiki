@@ -87,7 +87,7 @@ Here is the complete list of the steps required. Some may already be done.
          # Above assumes a virgin system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
-         # before running Ansible (below, which takes ~2.5 hours the first time!)
+         # before running Ansible (below, which can take ~2 hours the first time!)
 
          # NOTE: you can change many/most settings after install too, using the
          # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
