@@ -83,7 +83,7 @@ Here is the complete list of the steps required. Some may already be done.
          # Installs the correct version of Ansible
 
          cd /opt/iiab/iiab/vars/
-         wget http://download.iiab.io/6.3/rpi/local_vars.yml
+         wget http://download.iiab.io/6.4/rpi/local_vars.yml
          # Above assumes a virgin system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
