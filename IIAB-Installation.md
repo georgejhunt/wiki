@@ -113,7 +113,7 @@ The above installation typically completes within 1.5 hours, if you have a fast 
 
 _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot:_
 
-         curl download.iiab.io/6.4/rpi/load-master.txt | sudo bash
+         curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
