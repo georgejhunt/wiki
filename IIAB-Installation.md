@@ -121,7 +121,7 @@ On a Raspberry Pi 3, beware that "./runansible" can take 1 to 2.5 hours to compl
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
 
-_Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 experimental recipes:_
+_Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:_
 
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
