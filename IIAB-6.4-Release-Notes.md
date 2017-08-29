@@ -17,7 +17,7 @@ Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2016.
 
 TL;DR!  Try a Quick Install on Raspberry Pi 3:
 
-  curl download.iiab.io/6.4/rpi/load.txt | sudo bash
+     curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
 This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cord.  See http://download.iiab.io/6.4/rpi for even faster options!
 
