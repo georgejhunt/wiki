@@ -15,4 +15,10 @@ Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2016.
 
 ### How do I try it?
 
-Please see http://download.iiab.io/6.4 where you can install onto Raspberry Pi, Ubuntu or CentOS in less than an hour.  Our longer installation instructions [are here](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) for those deviating from our stock (quick install) recommendations.
+TL;DR!  Try a Quick Install on Raspberry Pi 3:
+
+  curl download.iiab.io/6.4/rpi/load.txt | sudo bash
+
+This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cord.  See http://download.iiab.io/6.4/rpi for even faster options!
+
+To install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) full installation instructions, which very quickly get you to the most important part, where you [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)
