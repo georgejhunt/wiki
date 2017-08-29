@@ -24,4 +24,4 @@ http://IIAB.io
 ### Known Issues
 
 * IIAB 6.3 fails to install when [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) contains "osm_install: False".  This is [fixed](https://github.com/iiab/iiab/commit/e426b10ec394a92132af552a8246f2c467c12f07) in [IIAB 6.4](http://wiki.laptop.org/go/IIAB/6.4) pre-releases.  Interim Workaround: please use "osm_install: True" for now, until this is resolved.
-* When [enabling a "Rapid Power Off" button](http://wiki.laptop.org/go/IIAB/FAQ#Is_a_.22Rapid_Power_Off.22_button_possible_for_low-electricity_environments.3F) for low-electricity environments, you need to run "cp /opt/iiab/iiab/roles/httpd/files/html/services/power_off.php /library/www/html/common/services".
+* When [enabling a "Rapid Power Off" button](http://wiki.laptop.org/go/IIAB/FAQ#Is_a_.22Rapid_Power_Off.22_button_possible_for_low-electricity_environments.3F) for low-electricity environments, you need to run "cp /opt/iiab/iiab/roles/httpd/files/html/services/power_off.php /library/www/html/common/services".  This is fixed in [IIAB 6.4 pre-releases](http://download.iiab.io/6.4).
