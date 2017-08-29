@@ -126,7 +126,7 @@ _Similarly, if you want to help test CentOS, please do help us [improve on](http
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
 
-NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Host Name change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
+NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Hostname change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
 
 **Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
@@ -134,7 +134,7 @@ NOTE: After the above "curl" commands, a reboot is generally necessary before II
          git pull
          ./runsansible
 
-Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt-get update` followed by `apt-get upgrade` (or `apt-get dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt upgrade` (or `apt dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 **Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue.**
 
