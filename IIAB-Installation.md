@@ -61,7 +61,7 @@ Here is the complete list of the steps required. Some may already be done.
    1. Log into the machine locally or via ssh.  Escalate to root using "sudo su -" or similar.
    1. Verify your internet connection by typing:
 
-       ping yahoo.com
+       ping mit.edu
    
    1. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
