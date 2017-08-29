@@ -4,7 +4,7 @@ Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2016.
 
 ### What's New?
 
-* Search across ZIM files with an entirely new Kixix engine under the hood!
+* Search across ZIM files with an entirely new Kiwix engine under the hood!
 * Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) guaranteeing a solid LTS (long-term support) foundation for years to come.
 
 ### What's Upgraded?
