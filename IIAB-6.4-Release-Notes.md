@@ -1,6 +1,6 @@
 ### _**DRAFT**_
 
-Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2016.
+Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2017.
 
 ### What's New?
 
