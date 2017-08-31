@@ -6,7 +6,7 @@ Internet-in-a-Box (IIAB) 6.4 is expected approximately September 2017.
 
 * Search across across offline (ZIM) content files with an entirely new Kiwix engine under the hood, _watch out Google here we come :-)_
 * Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) guaranteeing a solid LTS (long-term support) foundation for years to come.
-* A complete house-cleaning after 2 years, moving unmaintained server apps into /opt/iiab/iiab/roles/deprecated so that installs can proceed far more quickly.  See the new [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and the new [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)
+* A complete house-cleaning after 2 years, moving unmaintained server apps into /opt/iiab/iiab/roles/deprecated so that installs can proceed far more quickly.  See the new [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and the new [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 
 ### What's Upgraded?
 
