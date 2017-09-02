@@ -21,6 +21,6 @@ TL;DR!  Try a Quick Install on Raspberry Pi 3:
 
      curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cord.  See http://download.iiab.io/6.4/rpi for even faster options!
+This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cord.  See [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi) for even faster options!
 
 To install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) full installation instructions, which very quickly get you to the most important part, where you [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)
