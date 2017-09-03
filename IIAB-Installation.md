@@ -111,10 +111,13 @@ _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, a
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  Faster 1-line installers are below: pick either one if you want less servers apps &mdash; these typically complete in less than an hour:
+The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  A much faster 1-line installer is below if you want less servers apps &mdash; which typically completes in much less than an hour:
 
-         curl download.iiab.io/6.4/rpi/load-lite.txt | sudo bash
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
+
+Conversely a much larger installation is possible, if you want to experiment with a full suite of servers apps.  If so, be prepared for a multi-hour installation!
+
+         curl download.iiab.io/6.4/rpi/load-fat.txt | sudo bash
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
