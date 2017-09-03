@@ -6,7 +6,8 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 
 * Search across across offline (ZIM) content files with an entirely new Kiwix engine under the hood, _watch out Google here we come :-)_
 * Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) and possibly even Debian 9.2, guaranteeing a solid LTS (long-term support) foundation for years to come.
-* A complete house-cleaning after 2 years, moving unmaintained server apps into /opt/iiab/iiab/roles/deprecated so that installs can proceed far more quickly.  See the new [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and the new [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
+* A complete house-cleaning after 2 years, moving unmaintained server apps into /opt/iiab/iiab/roles/deprecated so that installs can proceed far more quickly.  See the new, much tighter [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
+* Would like your IIAB with... [6](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [12](http://wiki.laptop.org/go/IIAB/local_vars.yml) or [20](http://wiki.laptop.org/go/IIAB/local_vars_big.yml) servers apps?  Now you can choose an app suite &mdash; immediately from the very moment you download &mdash; and let it rip as Internet-in-a-Box fully installs itself!
 
 ### What's Upgraded?
 
