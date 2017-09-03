@@ -332,11 +332,11 @@ If KA Lite videos have been obtained from another install or on some storage med
 
 #### OpenStreetMap
 
-http://OpenStreetMap.org (OSM) is much like Google Maps, but more democratic &mdash; anybody can change it, much like Wikipedia only for maps.
+[OpenStreetMap.org](http://OpenStreetMap.org) (OSM) is much like Google Maps, but more democratic and without advertising &mdash; anybody can change it, much like Wikipedia only for maps.
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at http://unleashkids.org if the levels posted to http://download.iiab.io/content are insufficient.
+Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [http://unleashkids.org](http://unleashkids.org) if the levels posted to [http://download.iiab.io/content](http://download.iiab.io/content) are insufficient.
 
 Either way, the following directories and their contents are needed:
 * /library/knowledge/modules/geonames_index
@@ -344,11 +344,11 @@ Either way, the following directories and their contents are needed:
 
 Implementers can reduce OSM's storage needs by eliminating high-zoom levels within directory openstreetmap, where each zoom level is contained within its own subdirectory.
 
-Example 1: [newer install images](http://tinyurl.com/iiabimages) include layers 0 to 8 (140MB) fully working out-of-the-box, even prior to your customizing your own Internet-in-a-Box server.
+Example 1: newer install images typically include layers 0 to 8 (140MB) fully working out-of-the-box, even prior to your customizing your own Internet-in-a-Box server.
 
-Example 2: osm12.tar.gz from http://download.iiab.io/content includes layers 0 to 12 (8.2GB) showing many towns/rivers/parks worldwide, not just cities/countries/seas.
+Example 2: osm12.tar.gz from [download.iiab.io/content](http://download.iiab.io/content) includes layers 0 to 12 (8.2GB) showing many towns/rivers/parks worldwide, not just cities/countries/seas.
 
-As you can see, each increasing zoom level requires exponentially ever larger amounts of storage!
+As you can see, each increasing zoom level generally requires exponentially ever larger amounts of storage!
 
 _ASIDE: there is a very dedicated group of people coming together to improve the quality, compactness, vividness, searchability (and UX) of OpenStreetMap for the entire developing world in 2017.  Please do make contact with holt @ laptop.org if you too can help here._
 
