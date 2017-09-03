@@ -172,7 +172,7 @@ Instructions for specific platforms follow.  Please also see the README files ac
 
 Raspberry Pi 2 should also work, but is slower, and lacks internal Wi-Fi.
 
-The most recent images (based on Raspian Pixel Lite, or the full Raspbian Pixel including X Windows and desktop apps) can be downloaded from http://download.iiab.io/6.2/rpi
+The most recent images (based on Raspian Pixel Lite, or the full Raspbian Pixel including X Windows and desktop apps) can be downloaded from http://download.iiab.io
 
 There is also a README with instructions.
 
@@ -186,7 +186,7 @@ Please ignore everything down to **WRITING AN IMAGE TO THE SD CARD** (we support
 
 Note that most Intel NUCs (Next Unit of Computing) shipping since since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
 
-Consider a pre-built image that installs via Clonezilla when booted on the target machine, downloadable from [http://download.iiab.io/6.2/x86](http://download.iiab.io/6.2/x86).
+Consider a pre-built x86 image that installs via Clonezilla when booted on the target machine, downloadable from [http://download.iiab.io](http://download.iiab.io).
 
 The image (ending in .img) should be written to a USB stick using the same software as for Raspberry Pi and OLPC XO laptops.
 
