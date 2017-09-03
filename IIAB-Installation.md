@@ -119,7 +119,7 @@ _An even much faster 1-line installer is below, if you want less server apps:_
 
 Conversely a much larger installation is possible, if you want to experiment with a full suite of servers apps.  If so, be prepared for a multi-hour installation:
 
-         curl download.iiab.io/6.4/rpi/load-fat.txt | sudo bash
+         curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
 
 _In any case, please write to bugs @ iiab.io if you find issues, Thank You!!_
 
@@ -136,7 +136,7 @@ NOTE: After the above "curl" commands, a reboot is generally necessary before II
 
 **Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
-         cd /opt/iiab/iiab
+         cd /opt/iiab/iiab/
          git pull
          ./runsansible
 
@@ -177,7 +177,7 @@ Instructions for specific platforms follow.  Please also see the README files ac
 
 Raspberry Pi 2 should also work, but is slower, and lacks internal Wi-Fi.
 
-The most recent images (based on Raspian Pixel Lite, or the full Raspbian Pixel including X Windows and desktop apps) can be downloaded from http://download.iiab.io.
+The most recent images (based on Raspian Pixel Lite, or the full Raspbian Pixel including X Windows and desktop apps) can be downloaded from http://download.iiab.io
 
 There is also a README with instructions.
 
@@ -191,7 +191,7 @@ Please ignore everything down to **WRITING AN IMAGE TO THE SD CARD** (we support
 
 Note that most Intel NUCs (Next Unit of Computing) shipping since since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
 
-Consider a pre-built x86 image that installs via Clonezilla when booted on the target machine, downloadable from http://download.iiab.io.
+Consider a pre-built x86 image that installs via Clonezilla when booted on the target machine, downloadable from http://download.iiab.io
 
 The image (ending in .img) should be written to a USB stick using the same software as for Raspberry Pi and OLPC XO laptops.
 
