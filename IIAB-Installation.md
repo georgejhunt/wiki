@@ -107,17 +107,18 @@ On a Raspberry Pi 3, you can instead run this 1-line installer:
 
          curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
-The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  An even faster 1-line installer is below, if you want less servers apps &mdash; this one can complete in less than an hour:
-
-         curl download.iiab.io/6.3/rpi/load-lite.txt | sudo bash
-
 _If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot:_
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
+The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  Even faster 1-line installers are below, pick either one if you want less servers apps &mdash; these typically complete in less than an hour:
+
+         curl download.iiab.io/6.4/rpi/load-lite.txt | sudo bash
+         curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
+
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
-On a Raspberry Pi 3, beware that "./runansible" can take 1 to 2.5 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Likewise a slow SD card and/or a slow Internet connection will delay your install.
+On a Raspberry Pi 3, beware that "./runansible" can sometimes take as much as ~2 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Likewise a slow SD card and/or a slow Internet connection will delay your install.
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
 
