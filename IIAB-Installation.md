@@ -336,7 +336,7 @@ If KA Lite videos have been obtained from another install or on some storage med
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [http://unleashkids.org](http://unleashkids.org) if the levels posted to [http://download.iiab.io/content](http://download.iiab.io/content) are insufficient.
+Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
 
 Either way, the following directories and their contents are needed:
 * /library/knowledge/modules/geonames_index
