@@ -197,7 +197,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 #### Installation on OLPC XO laptops is not currently supported on release-6.2, due to lack of time to test the following general strategy:
 
 * Install [OLPC OS 13.2.8](http://wiki.laptop.org/go/Release_notes/13.2.8) or similar onto the XO laptop
-* In ``My Settings->Power`` turn off Automatic Power Management
+* In ``My Settings -> Power`` turn off Automatic Power Management
 * Connect all the network interfaces and reboot
 * Install git and Ansible: (for dependencies)
 
@@ -251,7 +251,7 @@ Once the password has been set you should start with the Configure menu item.  T
 1. Select each sub-menu item and enter any desired parameters.  **Help** is available for each screen and parameter.
 1. Click **Save Configuration**
 1. Click **Install Configured Options** 
-1. Monitor the progress of the Configuration job in Utilities->Display Job Status.
+1. Monitor the progress of the Configuration job in Utilities -> Display Job Status.
 1. ***Note*** that after Display Job Status shows "Success", it may be necessary to reboot, to enable all the selected changes.
 
 This job can take a substantial amount of time depending on the capacity of the platform involved and how much of the software was included in the initial image.
@@ -272,7 +272,7 @@ The IIAB installation attempts to determine the network topology based on the nu
 
 ### Enable Services
 
-Services on the IIAB server can be enable by checking a box in the Configure->Enable Services menu item.
+Services on the IIAB server can be enable by checking a box in the Configure -> Enable Services menu item.
 
 ## Add Content
 
