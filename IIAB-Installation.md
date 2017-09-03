@@ -239,7 +239,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 At this point you should be able to connect to [http://box](http://box) from a browser.  In certain cases http://box.lan, http://schoolserver.lan, http://localhost or http://172.18.96.1 may instead be necessary.
 
-To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **iiab-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: [http://FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)
+To begin configuring the server, connect to its Admin Console at [http://box/admin](http://box/admin) (username: **iiab-admin** password: **g0adm1n** -- note the numbers 0, 1).  In general, all default/initial passwords are documented at "What are the default passwords?" within: http://FAQ.IIAB.IO
 
 This permits selection of options, services, languages, etc to permit additional services, and educational resources to be enabled and selected for download.
 
