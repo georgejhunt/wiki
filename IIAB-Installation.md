@@ -65,7 +65,7 @@ Here is the complete list of the steps required. Some may already be done.
    
    1. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
-         apt -y update
+         apt update
          apt -y dist-upgrade
          apt -y clean
 
