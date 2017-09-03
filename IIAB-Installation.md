@@ -109,21 +109,21 @@ On a Raspberry Pi 3, you can instead run this 1-line installer:
 
 This takes about 1.5 hours, if you have a fast Internet connection.
 
-_If you want something faster, and are happy to face pre-release issues (helping with testing ideally!) try the very latest (master branch of Internet-in-a-Box) on Raspbian which completes in about an hour:
+_If you want something faster, and are happy to face pre-release issues (helping with testing ideally!) try the very latest master branch of Internet-in-a-Box on Raspbian, which completes in about an hour:_
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-_An even much faster 1-line installer is below, if you want less servers apps:_
+_An even much faster 1-line installer is below, if you want less server apps:_
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
-Conversely a much larger installation is possible, if you want to experiment with a full suite of servers apps.  If so, be prepared for a multi-hour installation!
+Conversely a much larger installation is possible, if you want to experiment with a full suite of servers apps.  If so, be prepared for a multi-hour installation:
 
          curl download.iiab.io/6.4/rpi/load-fat.txt | sudo bash
 
-_In any case, please write to bugs @ iiab.io if you find issues, Thanks Much!!_
+_In any case, please write to bugs @ iiab.io if you find issues, Thank You!!_
 
-In general beware that "./runansible" runs much more slowly the (1) 1st time you run it (2) if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
+In general, beware that "./runansible" runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.
 
