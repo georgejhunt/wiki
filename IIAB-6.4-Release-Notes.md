@@ -4,14 +4,14 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 
 ### What's New?
 
-* Search across across offline (ZIM) content files with an entirely new Kiwix engine under the hood, _watch out Google here we come :-)_
+* Search across across all your offline (ZIM) content files with an entirely new Kiwix engine under the hood, _watch out Google here we come :-)_
 * Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) and possibly even Debian 9.2, guaranteeing a solid LTS (long-term support) foundation for years to come.
-* A complete house-cleaning after 2 years, moving unmaintained server apps into /opt/iiab/iiab/roles/deprecated so that installs can proceed far more quickly.  See the new, much tighter [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) system-wide defaults.
+* A complete house cleaning after 2 years, moving unmaintained server apps into [/opt/iiab/iiab/roles/deprecated](https://github.com/iiab/iiab/tree/master/roles/deprecated) so that installs can proceed far more quickly.  This also brings new, much tighter [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) system-wide defaults.
 * Would you like your IIAB with... [6](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [12](http://wiki.laptop.org/go/IIAB/local_vars.yml) or [20](http://wiki.laptop.org/go/IIAB/local_vars_big.yml) servers apps?  Now you can choose an app suite &mdash; immediately at the moment you [start downloading](http://download.iiab.io/6.4/rpi/) &mdash; then let it rip as Internet-in-a-Box fully installs itself!
 
 ### What's Upgraded?
 
-* [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded from Version 0.17.0 to [0.17.2](https://github.com/learningequality/ka-lite/releases/tag/v0.17.2) including easy subtitles very popular in developing countries.  Expected: bug-fix Release 0.17.3 expected in September?
+* [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded from Version 0.17.0 to [0.17.2](https://github.com/learningequality/ka-lite/releases/tag/v0.17.2) including easy subtitles very popular in developing countries.  [Also Possible: bug-fix Release [0.17.4](https://github.com/learningequality/ka-lite/milestone/64) in coming weeks/months?]
 * WordPress [expected to be] upgraded to [4.8.2](https://core.trac.wordpress.org/milestone/4.8.2).
 * Nextcloud [expected to be] upgraded to [12.0.2](https://nextcloud.com/changelog/).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) upgraded from 1.12.12 to 2.3.3, bringing [extensive improvements](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md).
@@ -24,6 +24,6 @@ TL;DR!  Try a Quick Install on Raspberry Pi 3:
 
      curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cable.  And see [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi) for other/faster options!
+This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cable.  Also see [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi) for other/faster options!
 
-Finally, to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) full installation instructions, which very quickly get you to the most important part, so you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)
+Finally, to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) full installation instructions &mdash; which very quickly get you to the most important part &mdash; whereupon you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)
