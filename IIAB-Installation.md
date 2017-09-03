@@ -118,7 +118,7 @@ The above installation typically completes within 1.5 hours, if you have a fast 
 
 _Write to bugs @ iiab.io if you find bugs, Thanks!!_
 
-On a Raspberry Pi 3, beware that "./runansible" can sometimes take as much as ~2 hours to complete, particularly the 1st time you run it (or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)  Likewise a slow SD card and/or a slow Internet connection will delay your install.
+On a Raspberry Pi 3, beware that "./runansible" can sometimes take as much as ~2 hours to complete, particularly the 1st time you run it _(or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)_  Likewise a slow SD card and/or a slow Internet connection will delay your install.
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
 
