@@ -107,11 +107,13 @@ On a Raspberry Pi 3, you can instead run this 1-line installer:
 
          curl download.iiab.io/6.3/rpi/load.txt | sudo bash
 
-_If you want the very latest (master branch of Internet-in-a-Box) on Raspbian, and are happy to face pre-release issues (helping with testing ideally!) then give this a shot:_
+This takes about 1.5 hours, if you have a fast Internet connection.
+
+_If you want something faster, and are happy to face pre-release issues (helping with testing ideally!) try the very latest (master branch of Internet-in-a-Box) on Raspbian which completes in about an hour:
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-The above installation typically completes within 1.5 hours, if you have a fast Internet connection.  A much faster 1-line installer is below if you want less servers apps &mdash; which typically completes in much less than an hour:
+_An even much faster 1-line installer is below, if you want less servers apps:_
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
@@ -119,11 +121,11 @@ Conversely a much larger installation is possible, if you want to experiment wit
 
          curl download.iiab.io/6.4/rpi/load-fat.txt | sudo bash
 
-_Write to bugs @ iiab.io if you find bugs, Thanks!!_
+_In any case, please write to bugs @ iiab.io if you find issues, Thanks Much!!_
 
-On a Raspberry Pi 3, beware that "./runansible" can sometimes take as much as ~2 hours to complete, particularly the 1st time you run it _(or longer if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation!)_  Likewise a slow SD card and/or a slow Internet connection will delay your install.
+In general beware that "./runansible" runs much more slowly the (1) 1st time you run it (2) if you permit your CPU to rise above 80C on a hot day, e.g. if your RPi3 case does not offer ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
-Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) generally take about 15 to 25 minutes.
+Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.
 
 _Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:_
 
