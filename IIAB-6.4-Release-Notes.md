@@ -14,7 +14,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded from Version 0.17.0 to [0.17.3](https://github.com/learningequality/ka-lite/releases) including easy subtitles very popular in developing countries.
 * WordPress [expected to be] upgraded to [4.8.2](https://core.trac.wordpress.org/milestone/4.8.2).
 * Nextcloud [expected to be] upgraded to [12.0.2](https://nextcloud.com/changelog/).
-* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) upgraded from 1.12.12 to 2.3.3, bringing [extensive improvements](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md).
+* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) upgraded from 1.12.12 to [2.3.3](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md), bringing extensive improvements.
 * Support [expected] for [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) builds on our earlier support for CentOS 7.3 from December 2016.
 * Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed!
 
