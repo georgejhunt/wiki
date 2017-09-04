@@ -11,7 +11,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 
 ### What's Upgraded?
 
-* [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded from Version 0.17.0 to [0.17.2](https://github.com/learningequality/ka-lite/releases/tag/v0.17.2) including easy subtitles very popular in developing countries.  [Also Possible: bug-fix Release [0.17.4](https://github.com/learningequality/ka-lite/milestone/64) in coming weeks/months?]
+* [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded from Version 0.17.0 to [0.17.2](https://github.com/learningequality/ka-lite/releases/tag/v0.17.2) [expected: [0.17.3](https://github.com/learningequality/ka-lite/releases/tag/v0.17.3) BUGFIX] including easy subtitles very popular in developing countries.
 * WordPress [expected to be] upgraded to [4.8.2](https://core.trac.wordpress.org/milestone/4.8.2).
 * Nextcloud [expected to be] upgraded to [12.0.2](https://nextcloud.com/changelog/).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) upgraded from 1.12.12 to 2.3.3, bringing [extensive improvements](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md).
