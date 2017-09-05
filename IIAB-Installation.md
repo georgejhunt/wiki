@@ -113,7 +113,7 @@ _If you want something faster, and are happy to face pre-release issues (helping
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-_An even much faster 1-line installer is below, if you want [less](http://wiki.laptop.org/go/IIAB/local_vars_min.yml) server apps:_
+_An even much faster 1-line installer is below, if you want [fewer](http://wiki.laptop.org/go/IIAB/local_vars_min.yml) server apps:_
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
