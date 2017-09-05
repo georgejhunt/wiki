@@ -176,9 +176,9 @@ Instructions for specific platforms follow.  Please also see the README files ac
 
 #### Raspberry Pi 3
 
-Raspberry Pi 2 should also work, but is slower, and lacks internal Wi-Fi.
+Raspberry Pi 2 should also work, but is slower, and lacks the all-important internal Wi-Fi!
 
-The most recent images (based on Raspian Pixel Lite, or the full Raspbian Pixel including X Windows and desktop apps) can be downloaded from http://download.iiab.io
+The most recent IIAB for Raspian Lite (or for the full Raspbian with Desktop, including X Windows and desktop apps) can be installed from http://download.iiab.io
 
 There is also a README with instructions.
 
