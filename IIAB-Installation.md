@@ -250,6 +250,8 @@ Please click on the **Help** link to get detailed information on configuration o
 
 The first time you sign into the Admin Console would be the best time to change the password.  Select the Utilities menu option and the first item, change password.  Fill in the form and click Change Password.
 
+Please read about and take seriously [Internet-in-a-Box security practices](http://wiki.iiab.io/Security).
+
 ### Configure Menu
 
 Once the password has been set you should start with the Configure menu item.  The overall process is:
