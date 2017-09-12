@@ -10,12 +10,12 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 * [Raspbian with Desktop (GUI) or Raspbian Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
-* [Debian 8.9](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
+* [Debian 9.1](https://www.debian.org/releases/stretch/) "Stretch" LTS
 * [CentOS 7.4](https://www.centos.org/download/) LTS
 
 The following OS's are theoretically possible, but require extensive babysitting to get right:
 
-* [Debian 9.1](https://www.debian.org/releases/stretch/) "Stretch" LTS
+* [Debian 8.9](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
 _[Contact us if you can help, testing would be greatly appreciated!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)_
