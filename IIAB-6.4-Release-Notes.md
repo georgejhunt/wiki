@@ -16,7 +16,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 * Nextcloud is upgraded to [12.0.2](https://nextcloud.com/changelog/).
 * Sugarizer is upgraded to [0.9](http://lists.sugarlabs.org/archive/iaep/2017-September/020080.html).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.3](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md).
-* Support [expected] for [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) builds on our earlier support for CentOS 7.3 from December 2016.
+* Support for [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) builds on our earlier support for CentOS 7.3 from December 2016.
 * Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed!
 
 ### How do I try it?
