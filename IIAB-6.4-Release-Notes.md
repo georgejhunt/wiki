@@ -27,4 +27,4 @@ TL;DR!  Try a Quick Install on Raspberry Pi 3:
 
 This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cable.  Also see [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi) for other/faster options!
 
-Finally, to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) full installation instructions &mdash; which very quickly get you to the most important part &mdash; whereupon you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)
+Finally, to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important part &mdash; _whereupon you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
