@@ -12,7 +12,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 ### What's Upgraded?
 
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.3](https://github.com/learningequality/ka-lite/releases) including easy subtitles very popular in developing countries.
-* WordPress is upgraded to [4.8.1](https://wordpress.org/news/2017/08/wordpress-4-8-1-maintenance-release/).
+* WordPress is upgraded to [4.8.2](https://wordpress.org/news/2017/09/wordpress-4-8-2-security-and-maintenance-release/).
 * Nextcloud is upgraded to [12.0.2](https://nextcloud.com/changelog/).
 * Sugarizer is upgraded to [0.9](http://lists.sugarlabs.org/archive/iaep/2017-September/020080.html).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.3](https://github.com/Elgg/Elgg/blob/2.3.3/CHANGELOG.md).
