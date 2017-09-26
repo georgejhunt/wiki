@@ -102,22 +102,15 @@ Here is the complete list of the steps required. Some may already be done.
          ./cp-menus
 ```
 
-On a Raspberry Pi 3, you can instead run this 1-line installer:
-
-         curl download.iiab.io/6.3/rpi/load.txt | sudo bash
-
-This takes about 1.5 hours, if you have a fast Internet connection.
-
-_If you want something faster, and are happy to face pre-release issues (helping with testing ideally!) try the very latest master branch of Internet-in-a-Box on Raspbian, which completes in about an hour:_
+On a Raspberry Pi 3, instead run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-_An even much faster 1-line installer is below, if you want [fewer](http://wiki.laptop.org/go/IIAB/local_vars_min.yml) server apps:_
+This takes can take more than an hour, even with a fast Internet connection.  If you want a faster install, which generally completes in less than an hour, try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
-Conversely a much larger installation is possible, if you want to experiment with a [full](http://wiki.laptop.org/go/IIAB/local_vars_big.yml)
-suite of servers apps.  If so, be prepared for a multi-hour installation:
+Conversely a much larger installation is possible, if you want to experiment with a [full](http://wiki.laptop.org/go/IIAB/local_vars_big.yml) suite of ~20 servers apps.  If so, be prepared for a multi-hour installation:
 
          curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
 
