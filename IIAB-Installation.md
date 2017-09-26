@@ -110,7 +110,7 @@ This takes can take more than an hour, even with a fast Internet connection.  If
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
-Conversely a much larger installation is possible, if you want to experiment with a [full](http://wiki.laptop.org/go/IIAB/local_vars_big.yml) suite of ~20 servers apps.  If so, be prepared for a multi-hour installation:
+Conversely a much larger installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).  If so, be prepared for a multi-hour installation:
 
          curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
 
