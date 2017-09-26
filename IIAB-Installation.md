@@ -102,7 +102,7 @@ Here is the complete list of the steps required. Some may already be done.
          ./cp-menus
 ```
 
-On a Raspberry Pi 3, instead run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
+On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
