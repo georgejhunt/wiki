@@ -139,7 +139,7 @@ Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest
 
 You can see the log of the last install by typing:
 
-         cat /opt/iiab/iiab/iiab-install.log
+         more /opt/iiab/iiab/iiab-install.log
 
 **Proceed to [Configure the Server](#configure-the-server).**
 
