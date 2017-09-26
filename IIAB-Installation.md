@@ -59,7 +59,7 @@ Here is the complete list of the steps required. Some may already be done.
 
    1. Install your OS (e.g. [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) (Desktop graphical version or Lite headless version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
    1. Log into the machine locally or via ssh.  Escalate to root using "sudo su -" or similar.
-   1. Verify your internet connection by typing:
+   1. An Ethernet (live Internet) cable is currently REQUIRED during installation!  Verify your internet connection by typing:
 
        ping mit.edu
    
