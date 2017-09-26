@@ -69,7 +69,10 @@ Here is the complete list of the steps required. Some may already be done.
          apt -y dist-upgrade
          apt -y clean
 
-         apt -y install git
+         apt -y install git ansible
+         sed -i 's/StrictVersion/LooseVersion/g' /usr/lib/python2.7/dist-packages/ansible/modules/core/web_infrastructure/htpasswd.py
+         # ABOVE APPLIES TEMPORARY PATCH https://github.com/ansible/ansible/pull/20202
+         # needed by munin until Ansible 2.3.2 or 2.4.0
 
          mkdir -p /opt/iiab
          cd /opt/iiab/
@@ -77,10 +80,6 @@ Here is the complete list of the steps required. Some may already be done.
          git clone https://github.com/iiab/iiab-admin-console --depth 1
          git clone https://github.com/iiab/iiab-menu --depth 1
          git clone https://github.com/iiab/iiab-factory --depth 1
-
-         cd /opt/iiab/iiab/scripts/
-         ./ansible
-         # Installs the correct version of Ansible
 
          cd /opt/iiab/iiab/vars/
          wget http://download.iiab.io/6.4/rpi/local_vars.yml
