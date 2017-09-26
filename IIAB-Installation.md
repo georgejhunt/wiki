@@ -114,7 +114,7 @@ Conversely a much larger installation is possible, if you want to experiment wit
 
          curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
 
-_In any case, please write to bugs @ iiab.io if you find issues, Thank You !_
+_Please browse the above URLs to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !_
 
 In general, beware that "./runansible" runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
@@ -125,7 +125,7 @@ _Similarly, if you want to help test CentOS, please do help us [improve on](http
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
 
-NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Hostname change into effect, etc.  In All Cases: browse the above URLs to inspect and learn from the automated steps of the installation process!
+NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Hostname change into effect, etc.
 
 **Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
