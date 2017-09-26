@@ -72,7 +72,7 @@ Here is the complete list of the steps required. Some may already be done.
          apt -y install git ansible
          sed -i 's/StrictVersion/LooseVersion/g' /usr/lib/python2.7/dist-packages/ansible/modules/core/web_infrastructure/htpasswd.py
          # ABOVE APPLIES TEMPORARY PATCH https://github.com/ansible/ansible/pull/20202
-         # needed by munin until Ansible 2.3.2 or 2.4.0
+         # to Ansible, needed by munin until Ansible 2.3.2 or 2.4.0
 
          mkdir -p /opt/iiab
          cd /opt/iiab/
