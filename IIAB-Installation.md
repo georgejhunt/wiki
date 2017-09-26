@@ -114,7 +114,7 @@ Conversely a much larger installation is possible, if you want to experiment wit
 
          curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
 
-_In any case, please write to bugs @ iiab.io if you find issues, Thank You!!_
+_In any case, please write to bugs @ iiab.io if you find issues, Thank You !_
 
 In general, beware that "./runansible" runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
