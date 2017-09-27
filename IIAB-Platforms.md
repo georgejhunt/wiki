@@ -30,7 +30,7 @@ In practice, IIAB has been tested on the platforms and configurations below.  Fo
 
 Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RAM and a 1TB of internal hard disk, or 200+ GB SSD. Most models have a minimum of four USB ports and some have an internal Wi-Fi adapter.
 
-- Installs with Ubuntu 16.04 LTS, CentOS 7.4 and Debian 9.1 (Debian testing is more thorough as of late 2017)
+- Installs with Ubuntu 16.04 LTS, Debian 9.1 or CentOS 7.4
 
 #### OLPC XO-1.5, XO-1.75, XO-4
 
