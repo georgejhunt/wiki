@@ -68,10 +68,7 @@ Here is the complete list of the steps required. Some may already be done.
          apt -y dist-upgrade
          apt -y clean
 
-         apt -y install git ansible
-         sed -i 's/StrictVersion/LooseVersion/g' /usr/lib/python2.7/dist-packages/ansible/modules/core/web_infrastructure/htpasswd.py
-         # ABOVE APPLIES TEMPORARY PATCH https://github.com/ansible/ansible/pull/20202
-         # to Ansible, needed by munin until Ansible 2.3.2 or 2.4.0
+         apt -y install git
 
          mkdir -p /opt/iiab
          cd /opt/iiab/
@@ -90,15 +87,21 @@ Here is the complete list of the steps required. Some may already be done.
          # NOTE: you can change many/most settings after install too, using the
          # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
 
+         cd /opt/iiab/iiab/scripts/
+         ./ansible
+         # Installs Ansible 2.4.x from PPA
+
          cd /opt/iiab/iiab/
          ./runansible
-         # Try to rerun the above line if it fails?
+         # TRY TO RERUN THE ABOVE LINE IF IT FAILS (due to networking glitches etc?)
 
          cd /opt/iiab/iiab-admin-console/
          ./install
+         # Rebuilds local library.xml in case ZIM files added to /library/zims/content
 
          cd /opt/iiab/iiab-menu/
          ./cp-menus
+         # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
 
 On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
