@@ -97,7 +97,7 @@ Here is the complete list of the steps required. Some may already be done.
 
          cd /opt/iiab/iiab-admin-console/
          ./install
-         # Installs Admin Console and runs iiab-get-kiwix-cat to download Kiwix catalog
+         # Installs Admin Console; runs iiab-get-kiwix-cat to download Kiwix catalog
 
          cd /opt/iiab/iiab-menu/
          ./cp-menus
