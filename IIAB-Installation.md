@@ -97,7 +97,7 @@ Here is the complete list of the steps required. Some may already be done.
 
          cd /opt/iiab/iiab-admin-console/
          ./install
-         # Rebuilds local library.xml in case ZIM files added to /library/zims/content
+         # Installs Admin Console and runs iiab-get-kiwix-cat to download Kiwix catalog
 
          cd /opt/iiab/iiab-menu/
          ./cp-menus
