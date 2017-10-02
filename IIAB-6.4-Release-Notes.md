@@ -26,10 +26,10 @@ TL;DR!  Try a Quick Install on Raspberry Pi 3:
 
      curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-This completes in (about) an hour so long as you're plugged into fast Internet using an actual Ethernet cable.  Also see [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi) for other/faster options!
+This completes in (about) an hour or two so long as you're plugged into fast Internet with an actual Ethernet cable.  See [download.iiab.io/6.4/rpi](http://download.iiab.io/6.4/rpi/README.html) for other/faster options!
 
 Finally, to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important part &mdash; _whereupon you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
 ### Known Issues
 
-* Nextcloud logins take 1-to-2 min on Raspberry Pi 3.
+* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb
