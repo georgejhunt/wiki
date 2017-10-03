@@ -108,7 +108,7 @@ On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
 
-This takes can take more than an hour, even with a fast Internet connection.  If you want a faster install, which generally completes in less than an hour, instead try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+This typically takes less than two hours, with a fast Internet connection.  If you want a faster install, which generally completes in about an hour, instead try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 
          curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
 
