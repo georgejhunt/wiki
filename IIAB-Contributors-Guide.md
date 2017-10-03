@@ -73,6 +73,8 @@ Please consider providing a descriptive title, your operating system information
 Get in touch
 ============
 
-* Join our [mailing list](http://lists.laptop.org/listinfo/server-devel)
-* Join us on IRC: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)
-* Read the [FAQ](http://FAQ.iiab.io).
+* Join our [technology](http://lists.laptop.org/listinfo/server-devel) and [learning design](https://groups.google.com/group/unleashkids) mailing lists
+* Join our [live calls](http://minutes.iiab.io) most Mondays and Thursday
+* Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)
+* Post an idea or question to our [community forums](http://iiab.io/)
+* Read our [Frequently Asked Questions (FAQ)](http://FAQ.iiab.io)
