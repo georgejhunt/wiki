@@ -16,6 +16,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 * Nextcloud is upgraded to [12.0.3](https://nextcloud.com/changelog/).
 * Sugarizer is upgraded to [0.9](http://lists.sugarlabs.org/archive/iaep/2017-September/020080.html).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.4](https://github.com/Elgg/Elgg/blob/2.3.4/CHANGELOG.md).
+* Internet-in-a-Box's own Admin Console (http://box/admin) has been made more resilient.
 * [Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) 2.4.0 (pre-built PPA or rpm) helps future-proof Internet-in-a-Box configuration management.
 * Support for the new [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) sharing the same code base as Red Hat Enterprise Linux 7.4.
 * Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed!
