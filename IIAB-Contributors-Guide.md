@@ -26,9 +26,12 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 ````
 
 At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with  playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
-     1. Bash script ./runansible follows instructions in "iiab.yml" in the root directory.
-     2. Iiab.yml calls 9 aggregate roles (the numbered directories under ./roles/).
-     3. Each aggregate role has a <role>/meta/main.yml which calls the individual named roles.
+
+1. Bash script `./runansible` follows instructions in `iiab.yml` in the root directory.
+
+2. `iiab.yml` calls 9 aggregate roles (the numbered directories under `./roles/`).
+     
+3. Each aggregate role has a `<role>/meta/main.yml` which calls the individual named roles.
 
 Please refer to [architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) page for more information.
 
@@ -88,7 +91,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 
 Learn more by reading this [blog post](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
-7. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
+8. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
 
 
 Debugging
