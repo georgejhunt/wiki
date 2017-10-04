@@ -41,18 +41,71 @@ If you are a developer, please consider [building Internet-in-a-Box from scratch
 
 Please refer to [Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
 
+Setting up development environment
+===================================
+( This section uses experimental development environment for Internet-in-a-Box. It is being developed in this [repository](https://github.com/arky/iiab-dev-mode). )
+
+This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/). You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [Virtualbox](https://www.virtualbox.org/) installed.
+
+## Requirements
+
+ * git
+ * [Vagrant (2.0 or later)](https://www.vagrantup.com/)
+ * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+ * Editor ([Atom](www.atom.io), Emacs, Vi etc)
+
+## Setup Instructions 
+1. Check out repository and its submodules on to your development machine.
+`git clone --recursive git@github.com:arky/iiab-dev-mode.git`
+
+2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to latest master using `git submodule foreach git pull origin master`
+
+3. Setup a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
+
+4. You can now connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
+
+5. You can setup IIAB from the Ansible Playbooks following the [installation wiki page.(https://github.com/iiab/iiab/wiki/IIAB-Installation)
+
+```
+   cd /opt/iiab/iiab/scripts/
+   ./ansible
+
+   cd /opt/iiab/iiab/
+   ./runansible
+
+   cd /opt/iiab/iiab-admin-console/
+   ./install
+
+   cd /opt/iiab/iiab-menu/
+   ./cp-menus
+
+```
+6. Hack away! 
+
+7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and  setting a default git remote push setting with the following command. 
+
+ `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
+
+Learn more by reading this [blog post](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+
+7. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
+
+
 Debugging
 =========
 
 Here are few strategies for debugging problems during the Internet-in-a-Box installation.
 
-* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to 'iiab-install.log' file within /opt/iiab/iiab. (Look through logs to check if preceding line ? contains the error).
+* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to `iiab-install.log` file within `/opt/iiab/iiab`. (Look through logs to check if any preceding line contains the error).
 * When an installation succeeds, the last lines printed on the screen will look like the following (failed=0):
+
+```
     PLAY RECAP *********************************************************************
 127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0   
 
-* Search through the Ansible Playbooks using 'egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>' to find the failed task.
-* You can add additional `debug print statements <http://docs.ansible.com/ansible/latest/debug_module.html>`__ to Ansible Playbooks for debugging the problem.
+```
+* Search through the Ansible Playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>` to find the failed task.
+* You can add additional [debug print statements](http://docs.ansible.com/ansible/latest/debug_module.html) to Ansible Playbooks for debugging the problem.
 * Talk to us or report a bug using the information below.
 
  Please refer to [Ansible Playbook documentation](http://docs.ansible.com/ansible/latest/playbooks.html) for more information.
