@@ -47,7 +47,7 @@ Debugging
 
 Here are few strategies for debugging problems during the Internet-in-a-Box installation.
 
-* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to 'iiab-install.log' file within /opt/iiab/iiab. (Look through logs to check if preceding line ? contains the error )
+* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to 'iiab-install.log' file within /opt/iiab/iiab. (Look through logs to check if preceding line ? contains the error).
 * When an installation succeeds, the last lines printed on the screen will look like the following (failed=0):
     PLAY RECAP *********************************************************************
 127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0   
@@ -61,14 +61,14 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
 Reporting Bugs
 ==============
 
-You can file bug reports on [Github](https://github.com/>).
+You can file bug reports on [GitHub](https://github.com/>).
 
-* Sign up for a [Github](https://github.com/>) account
+* Sign up for a [GitHub](https://github.com/>) account
 * Go to the [issue tracker on GitHub](https://github.com/iiab/iiab/issues>)
-* Search for existing issues using the search field.
-* If you don't find any similar issues. File a new issue.
+* Search for existing issues using the search field
+* If you don't find any similar issues, file a new issue!
 
-Please consider providing a descriptive title, your operating system information, error messages and steps to reproduce the issue.
+Please consider providing a descriptive title, your OS information, error messages and steps to reproduce the issue.
 
 Get in touch
 ============
