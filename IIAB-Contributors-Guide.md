@@ -30,7 +30,7 @@ At runtime, Ansible gathers system information and makes it available (called 'f
      2. Iiab.yml calls 9 aggregate roles (the numbered directories under ./roles/).
      3. Each aggregate role has a <role>/meta/main.yml which calls the individual named roles.
      
-Please refer to [architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture>) and [variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables)page for more information.
+Please refer to [architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture>) and [variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) page for more information.
 
 Installation
 ============
@@ -38,7 +38,7 @@ Installation
 Before you start the installation please refer to the [hardware section of FAQ]( http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F>) page for memory, storage and network requirements for your platform. Also note that downloading content might take a long time on slower Internet
 connections.
 
-If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch>)
+If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
 Please refer to [Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation>) page for more information.
 
@@ -47,7 +47,7 @@ Debugging
 
 Here are few strategies for debugging problems during the Internet-in-a-Box installation.
 
-* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to 'iiab-install.log' file. (Look through logs to check if preceding line ? contains the error )
+* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to 'iiab-install.log' file within /opt/iiab/iiab. (Look through logs to check if preceding line ? contains the error )
 * When an installation succeeds, the last lines printed on the screen will look like the following (failed=0):
     PLAY RECAP *********************************************************************
 127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0   
