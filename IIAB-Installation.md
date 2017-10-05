@@ -62,7 +62,7 @@ Here is the complete list of the steps required. Some may already be done.
 
        ping mit.edu
    1. Escalate to root using "sudo su -" or similar.
-   1. On Raspbian, Ubuntu or Debian (may need a TBA patch under certain conditions in [October 2017](https://github.com/iiab/iiab/issues/375)) doing everything from scratch involves a few simple steps:
+   1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps: _(Debian [requires Ansible 2.4.x](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete)_
 ```
          apt update
          apt -y dist-upgrade
