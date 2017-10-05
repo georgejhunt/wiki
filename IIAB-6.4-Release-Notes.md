@@ -34,5 +34,5 @@ Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Sc
 
 ### Known Issues
 
-* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb
+* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted prior to a cold boot).
 * Debian 9.2 might require a patch in order for software installation to complete, [in certain conditions](https://github.com/iiab/iiab/issues/375).  Watch this space in coming weeks and/or if you're a Debian pro please [contact us](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F), Thanks!
