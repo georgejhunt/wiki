@@ -3,7 +3,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 ### What's New?
 
 * Search across all your offline (ZIM) content files with an entirely new Kiwix engine under the hood, _watch out Google here we come :-)_
-* Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) (and likely soon Debian 9.2) anchoring a solid LTS (long-term support) foundation for years to come.
+* Support for [Raspbian Stretch](https://www.raspberrypi.org/blog/raspbian-stretch/) and [Debian 9.1](https://www.debian.org/News/2017/20170722) (and likely soon Debian 9.2) anchoring a solid LTS (long-term support) foundation for years to come, in addition to support for [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/) and the new [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) sharing the same code base as Red Hat Enterprise Linux 7.4.
 * Would you like your IIAB with... [~6](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12](http://wiki.laptop.org/go/IIAB/local_vars.yml) or [~20](http://wiki.laptop.org/go/IIAB/local_vars_big.yml) servers apps?  Now you can choose an app suite &mdash; immediately at the moment you [start downloading](http://download.iiab.io/6.4/rpi/README.html) &mdash; then let it rip as Internet-in-a-Box fully installs itself.
 * A complete house cleaning after 2 years, deprecating unmaintained server apps so that installs can proceed far more quickly.  This also brings new, much tighter [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) system-wide defaults.
 * A brand new [Contributors Guide](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) for software developers especially, including our new test automation system thanks [Arky](https://github.com/arky) and [George Hunt](https://github.com/georgejhunt/)!
@@ -17,7 +17,6 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1)
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.4](https://github.com/Elgg/Elgg/blob/2.3.4/CHANGELOG.md).
 * Internet-in-a-Box's own Admin Console (http://box/admin) has been made more resilient.
 * [Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) 2.4.0 (pre-built PPA or rpm) helps future-proof Internet-in-a-Box configuration management.
-* Support for the new [CentOS 7.4](https://wiki.centos.org/Manuals/ReleaseNotes/CentOS7.1708) sharing the same code base as Red Hat Enterprise Linux 7.4.
 * Extraneous red warnings during bootup and during the 1st run of Ansible are gone at last!
 * Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed.
 
