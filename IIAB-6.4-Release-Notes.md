@@ -18,7 +18,7 @@ Internet-in-a-Box (IIAB) 6.4 ([GitHub](https://github.com/iiab/iiab/milestone/1?
 * Internet-in-a-Box's own Admin Console (http://box/admin) has been made more resilient.
 * [Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) [2.4.x](http://docs.ansible.com/ansible/latest/roadmap/ROADMAP_2_4.html) (pre-built PPA or rpm) helps future-proof Internet-in-a-Box configuration management.
 * Extraneous red warnings during bootup and during the 1st run of Ansible are gone at last!
-* Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed.
+* Important [Known Issues in IIAB 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes#known-issues) now fixed!
 
 ### How do I try it?
 
