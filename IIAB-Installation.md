@@ -62,7 +62,7 @@ Here is the complete list of the steps required. Some may already be done.
 
        ping mit.edu
    1. Escalate to root using "sudo su -" or similar.
-   1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps: _(Debian [requires Ansible 2.4.x](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete)_
+   1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps: _(Debian [requires Ansible 2.4.x](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete, as such "apt purge ansible" is often required to remove Ansible 2.2.x)_
 ```
          apt update
          apt -y dist-upgrade
