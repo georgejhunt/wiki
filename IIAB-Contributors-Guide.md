@@ -54,7 +54,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 
  * git
  * [Vagrant (2.0 or later)](https://www.vagrantup.com/)
- * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+ * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
  * Editor ([Atom](www.atom.io), Emacs, vi, etc)
 
 ## Setup Instructions 
