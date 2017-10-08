@@ -15,8 +15,8 @@ N.B.: Internet-in-a-Box was formerly known as the OLPC School Server Community E
 See our [FAQ (Frequently Asked Questions)](http://wiki.laptop.org/go/IIAB/FAQ) for more answers arising from our http://IIAB.io forums, towards building your very own powerful digital library!
 
 ## Our Evolution
- * [Release Notes 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes)
- * [Release Notes 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes)
- * [Release Notes 6.2](https://github.com/xsce/xsce/wiki/IIAB-6.2-Release-Notes)
- * [Release Notes 6.1](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.1.md)
- * [Release Notes 6.0](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.0.md)
+ * [Release Notes 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes) &mdash; October 5, 2017
+ * [Release Notes 6.3](https://github.com/iiab/iiab/wiki/IIAB-6.3-Release-Notes) &mdash; July 13, 2017
+ * [Release Notes 6.2](https://github.com/xsce/xsce/wiki/IIAB-6.2-Release-Notes) &mdash; April 19, 2017
+ * [Release Notes 6.1](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.1.md) &mdash; September 22, 2016
+ * [Release Notes 6.0](https://github.com/xsce/xsce/blob/release-6.2/ReleaseNotes6.0.md) &mdash; March 27, 2016
