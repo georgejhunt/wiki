@@ -164,7 +164,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
 
 Naturally, while the everything-from-scratch steps are generic and apply to any platform, short cuts are for a specific platform.
 
-Instructions for specific platforms follow.  Please also see the README files accompanying each download.
+Instructions for specific platforms follow.
 
 #### Raspberry Pi 3
 
@@ -184,7 +184,7 @@ Please ignore everything down to **WRITING AN IMAGE TO THE SD CARD** (we support
 
 Note that most Intel NUCs (Next Unit of Computing) shipping since since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
 
-Consider a pre-built x86 image that installs via Clonezilla when booted on the target machine, downloadable from http://download.iiab.io
+If you are given a pre-built x86 image, it should generally install via Clonezilla when booted on the target machine.
 
 The image (ending in .img) should be written to a USB stick using the same software as for Raspberry Pi and OLPC XO laptops.
 
