@@ -46,16 +46,16 @@ Please refer to [Installation](https://github.com/iiab/iiab/wiki/IIAB-Installati
 
 Setting up development environment
 ===================================
-( This section uses experimental development environment for Internet-in-a-Box. It is being developed in this [repository](https://github.com/arky/iiab-dev-mode). )
+( This section uses experimental development environment for Internet-in-a-Box. It is being developed in the [iiab-dev-mode repository](https://github.com/arky/iiab-dev-mode). )
 
-This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/). You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [Virtualbox](https://www.virtualbox.org/) installed.
+This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/). You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [VirtualBox](https://www.virtualbox.org/) installed.
 
 ## Requirements
 
  * git
  * [Vagrant (2.0 or later)](https://www.vagrantup.com/)
  * [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
- * Editor ([Atom](www.atom.io), Emacs, vi etc)
+ * Editor ([Atom](www.atom.io), Emacs, vi, etc)
 
 ## Setup Instructions 
 1. Check out repository and its submodules on to your development machine.
@@ -85,7 +85,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 ```
 6. Hack away! 
 
-7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and  setting a default git remote push setting with the following command. 
+7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and setting a default git remote push setting with the following command. 
 
  `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
 
@@ -132,4 +132,4 @@ Get in touch
 * Join our [live calls](http://minutes.iiab.io) most Mondays and Thursday
 * Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)
 * Post an idea or question to our [community forums](http://iiab.io/)
-* Read our [Frequently Asked Questions (FAQ)](http://FAQ.iiab.io)
+* Read our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO))
