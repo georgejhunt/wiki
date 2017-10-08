@@ -204,7 +204,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
          ansible --version
 
-* Clone the IIAB git repo, and CD into it:
+* Clone the IIAB git repo, and cd into it:
 
          mkdir -p /opt/iiab
          cd /opt/iiab/
