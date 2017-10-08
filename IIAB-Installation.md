@@ -306,7 +306,7 @@ To download the Khan Academy videos of your choosing, in various languages, use 
 
 Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F).
 
-KA Lite's English exercises (about 800MB) MUST be downloaded and installed, even if you are not using English videos, particularly starting with KA Lite 0.17.0.  Thankfully starting in April 2017, [more polished IIAB 6.2+ install images](http://tinyurl.com/iiabimages) include this essential piece out-of-the-box.
+KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB load scripts on Raspberry Pi](http://download.iiab.io/6.5/rpi) include perform this essential piece for you.
 
 ### Add Content Manually
 
