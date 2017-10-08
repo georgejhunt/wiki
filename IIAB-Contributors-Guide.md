@@ -86,13 +86,12 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 6. Hack away! 
 
 7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and setting a default git remote push setting with the following command. 
-
- `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
-
-Learn more by reading this [blog post](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and [Working with Remotes in Pro Git Book](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+```
+cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git
+```
+Learn more by reading blog post [Different git Push & Pull(fetch) URLs](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and the [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) chapter of Scott Chacon and Ben Straub's "Git Pro" book.
 
 8. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
-
 
 Debugging
 =========
@@ -101,11 +100,9 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
 
 * When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to `iiab-install.log` file within `/opt/iiab/iiab`. (Look through logs to check if any preceding line contains the error).
 * When an installation succeeds, the last lines printed on the screen will look like the following (failed=0):
-
 ```
-    PLAY RECAP *********************************************************************
-127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0   
-
+   PLAY RECAP *********************************************************************
+   127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0
 ```
 * Search through the Ansible playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>` to find the failed task.
 * You can add additional [debug print statements](http://docs.ansible.com/ansible/latest/debug_module.html) to Ansible playbooks for debugging the problem.
