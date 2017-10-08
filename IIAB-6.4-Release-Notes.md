@@ -30,6 +30,10 @@ Be sure your Raspberry Pi 3 is running a recent [Raspbian Stretch](https://www.r
 
 Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important part &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
+### People Who Busted Their Ass
+
+Making This All Possible: [George Hunt](https://github.com/georgejhunt/), [Tim Moody](https://www.youtube.com/watch?v=kHdMC8lhpjM&t=2036s), [Jerry Vonau](https://github.com/jvonau), [Josh Dennis](http://100schools.org/), [Reno McKenzie](http://renomckenzie.com/), [Arky](https://github.com/arky), [Anish Mangal](https://bhagmalpur.wordpress.com/author/anishmangal2002/), [Joshua Kanani](https://www.linkedin.com/in/joshua-kanani-32536a12a), [German Ruiz](https://twitter.com/germanrs), [César Natarén](https://www.linkedin.com/in/nataren), [Curt Thompson](https://www.linkedin.com/in/curt-thompson-1935a165), [Rick Castorani](https://www.seedsforprogress.org/), [Samuel Zidovetzki](http://www.mountsinai.org/profiles/samuel-zidovetzki), [Maria Gonzalez](https://sipa.columbia.edu/news/project-examines-value-new-information-resource-medical-providers-rural-latin-america), [Adam Holt](https://www.socallinuxexpo.org/scale/15x/presentations/internet-box).
+
 ### Known Issues
 
 * USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted prior to a cold boot).
