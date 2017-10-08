@@ -204,15 +204,16 @@ Finally, while these images have been developed on the Intel NUC, they may well 
          cd ansible
          python setup.py install
 
-  Earlier in 2017 Ansible version 2.2.0 had been required, avoiding version 2.2.1 which had issues.  More recently in October 2017, we recommend Ansible 2.4.x instead.  In any case, please verify the version number with:
+  Earlier in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.  More recently in October 2017, we recommend Ansible 2.4.x instead.  In any case, please verify Ansible's version number with:
 
          ansible --version
 
-* Clone the IIAB git repo and cd into it:
+* Clone the IIAB git repo, and CD into it:
 
          mkdir -p /opt/iiab
          cd /opt/iiab/
          git clone --branch release-6.2 --depth 1 https://github.com/iiab/iiab
+         cd /opt/iiab/iiab/
 
 * Verify all the network interfaces are visible and have the correct interface label:
 
@@ -220,7 +221,6 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 * Optionally, verify that all network interfaces are properly autodetected:
 
-         cd /opt/iiab/iiab/
          bash roles/common/library/iiab_facts
 
 * From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted with "./runansible" to complete the install process: (increases size of /tmp so installs will complete successfully)
