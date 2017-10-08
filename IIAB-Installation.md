@@ -83,7 +83,7 @@ Here is the complete list of the steps required. Some may already be done.
          # Above assumes a virgin system (wget WON'T overwrite existing files)
 
          # In general please examine local_vars.yml carefully (and modify as nec)
-         # before running Ansible (below, which can take ~2 hours the first time!)
+         # before running Ansible (below, which can take 1-2 hours the 1st time!)
 
          # NOTE: you can change many/most settings after install too, using the
          # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
@@ -94,11 +94,11 @@ Here is the complete list of the steps required. Some may already be done.
 
          cd /opt/iiab/iiab/
          ./runansible
-         # TRY TO RERUN THE ABOVE LINE IF IT FAILS (due to networking glitches etc?)
+         # TRY TO RERUN THE ABOVE LINE IF IT FAILS (if networking glitches etc?)
 
          cd /opt/iiab/iiab-admin-console/
          ./install
-         # Installs Admin Console; runs iiab-get-kiwix-cat to download Kiwix catalog
+         # Installs Admin Console; runs iiab-get-kiwix-cat to d/l Kiwix catalog
 
          cd /opt/iiab/iiab-menu/
          ./cp-menus
