@@ -68,7 +68,6 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 4. Connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
 
 5. Install IIAB itself from the Ansible playbooks by following [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) instructions:
-
 ```
    cd /opt/iiab/iiab/scripts/
    ./ansible
@@ -81,13 +80,12 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 
    cd /opt/iiab/iiab-menu/
    ./cp-menus
-
 ```
 6. Hack away! 
 
 7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and setting a default git remote push setting with the following command. 
 ```
-cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git
+   cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git
 ```
 Learn more by reading blog post [Different git Push & Pull(fetch) URLs](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and the [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) chapter of Scott Chacon and Ben Straub's "Git Pro" book.
 
