@@ -65,46 +65,45 @@ Here is the complete list of the steps required. Some may already be done.
    1. _[Ansible 2.4.x is required on Debian and recommended on all OS's](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete: run command "ansible --version" to check and if necessary "apt purge ansible" to be sure Ansible 2.2.x is removed, prior to Ansible 2.4.x's installation below._
    1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
 ```
-         apt update
-         apt -y dist-upgrade
-         apt -y clean
+     apt update
+     apt -y dist-upgrade
+     apt -y clean
 
-         apt -y install git
+     apt -y install git
 
-         mkdir -p /opt/iiab
-         cd /opt/iiab/
-         git clone https://github.com/iiab/iiab --depth 1
-         git clone https://github.com/iiab/iiab-admin-console --depth 1
-         git clone https://github.com/iiab/iiab-menu --depth 1
-         git clone https://github.com/iiab/iiab-factory --depth 1
+     mkdir -p /opt/iiab
+     cd /opt/iiab/
+     git clone https://github.com/iiab/iiab --depth 1
+     git clone https://github.com/iiab/iiab-admin-console --depth 1
+     git clone https://github.com/iiab/iiab-menu --depth 1
+     git clone https://github.com/iiab/iiab-factory --depth 1
 
-         cd /opt/iiab/iiab/vars/
-         wget http://download.iiab.io/6.5/rpi/local_vars.yml
-         # Above assumes a virgin system (wget WON'T overwrite existing files)
+     cd /opt/iiab/iiab/vars/
+     wget http://download.iiab.io/6.5/rpi/local_vars.yml
+     # Above assumes a virgin system (wget WON'T overwrite existing files)
 
-         # In general please examine local_vars.yml carefully (and modify as nec)
-         # before running Ansible (below, which can take 1-2 hours the 1st time!)
+     # In general please examine local_vars.yml carefully (and modify as nec)
+     # before running Ansible (below, which can take 1-2 hours the 1st time!)
 
-         # NOTE: you can change many/most settings after install too, using the
-         # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
+     # NOTE: you can change many/most settings after install too, using the
+     # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
 
-         cd /opt/iiab/iiab/scripts/
-         ./ansible
-         # Installs Ansible 2.4.x from PPA
+     cd /opt/iiab/iiab/scripts/
+     ./ansible
+     # Installs Ansible 2.4.x from PPA
 
-         cd /opt/iiab/iiab/
-         ./runansible
-         # TRY TO RERUN THE ABOVE LINE IF IT FAILS (if networking glitches etc?)
+     cd /opt/iiab/iiab/
+     ./runansible
+     # TRY TO RERUN THE ABOVE LINE IF IT FAILS (if networking glitches etc?)
 
-         cd /opt/iiab/iiab-admin-console/
-         ./install
-         # Installs Admin Console; runs iiab-get-kiwix-cat to d/l Kiwix catalog
+     cd /opt/iiab/iiab-admin-console/
+     ./install
+     # Installs Admin Console; runs iiab-get-kiwix-cat to d/l Kiwix catalog
 
-         cd /opt/iiab/iiab-menu/
-         ./cp-menus
-         # Installs Dynamic Menuing for /library/www/html/home/index.html
+     cd /opt/iiab/iiab-menu/
+     ./cp-menus
+     # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-
 On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 
          curl download.iiab.io/6.4/rpi/load.txt | sudo bash
