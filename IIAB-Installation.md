@@ -147,7 +147,7 @@ You can see the log of the last install by typing:
 
 ### Take a Short Cut
 
-This step applies if you've been given a pre-built disk image (ISO file or similar) for a particular configuration and even content (i.e. if everything from the steps listed above has already been completed for you!)
+This step applies if you've been given a pre-built disk image (ISO file or similar) for a particular configuration and even content i.e. if everything from the steps listed above has already been completed for you!
 
 In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine. What happens next depends on the specific file downloaded.
 
