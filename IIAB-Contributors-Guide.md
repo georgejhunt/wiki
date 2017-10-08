@@ -6,7 +6,7 @@ You can install Internet-in-a-Box on most late model desktop and laptop computer
 
 Please refer to [platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) page for more information.
 
-Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [Playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. The Playbooks are divided into hosts, roles and tasks. 
+Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks. 
 
 ````
 ├── roles
@@ -33,7 +33,7 @@ At runtime, Ansible gathers system information and makes it available (called 'f
      
 3. Each aggregate role has a `<role>/meta/main.yml` which calls the individual named roles.
 
-Please refer to [architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) page for more information.
+Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more information.
 
 Installation
 ============
@@ -42,7 +42,7 @@ Before you start the installation please refer to the [hardware section of FAQ](
 
 If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
-Please refer to [Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
+Please refer to the [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
 
 Setting up development environment
 ===================================
@@ -58,16 +58,16 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
  * Editor ([Atom](www.atom.io), Emacs, vi, etc)
 
 ## Setup Instructions 
-1. Check out repository and its submodules on to your development machine.
+1. Check out the repository and its submodules onto your development machine.
 `git clone --recursive git@github.com:arky/iiab-dev-mode.git`
 
 2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to latest master using `git submodule foreach git pull origin master`
 
-3. Setup a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
+3. Set up a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
 
-4. You can now connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
+4. Connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
 
-5. You can setup IIAB from the Ansible Playbooks following the [installation wiki page.(https://github.com/iiab/iiab/wiki/IIAB-Installation)
+5. Install IIAB itself from the Ansible playbooks by following [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) instructions:
 
 ```
    cd /opt/iiab/iiab/scripts/
@@ -107,11 +107,11 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
 127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0   
 
 ```
-* Search through the Ansible Playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>` to find the failed task.
-* You can add additional [debug print statements](http://docs.ansible.com/ansible/latest/debug_module.html) to Ansible Playbooks for debugging the problem.
+* Search through the Ansible playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>` to find the failed task.
+* You can add additional [debug print statements](http://docs.ansible.com/ansible/latest/debug_module.html) to Ansible playbooks for debugging the problem.
 * Talk to us or report a bug using the information below.
 
- Please refer to [Ansible Playbook documentation](http://docs.ansible.com/ansible/latest/playbooks.html) for more information.
+ Please refer to [Ansible playbook documentation](http://docs.ansible.com/ansible/latest/playbooks.html) for more information.
 
 Reporting Bugs
 ==============
