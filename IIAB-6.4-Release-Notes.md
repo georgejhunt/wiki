@@ -38,7 +38,7 @@ _Not just in your community...but by keeping in touch with our global volunteer 
 
 IIAB Development Team: [George Hunt](https://github.com/georgejhunt/), [Tim Moody](https://www.youtube.com/watch?v=kHdMC8lhpjM&t=2036s), [Jerry Vonau](https://github.com/jvonau), [Josh Dennis](http://100schools.org/), [Reno McKenzie](http://renomckenzie.com/), [Arky](https://github.com/arky), [Anish Mangal](https://bhagmalpur.wordpress.com/author/anishmangal2002/), [Joshua Kanani](https://www.linkedin.com/in/joshua-kanani-32536a12a), [German Ruiz](https://twitter.com/germanrs), [César Natarén](https://www.linkedin.com/in/nataren), [Curt Thompson](https://www.linkedin.com/in/curt-thompson-1935a165), [Blondel Mondesir](https://github.com/deldesir), [Rick Castorani](https://www.seedsforprogress.org/), [Samuel Zidovetzki](http://www.mountsinai.org/profiles/samuel-zidovetzki), [Maria Gonzalez](https://sipa.columbia.edu/news/project-examines-value-new-information-resource-medical-providers-rural-latin-america), [Adam Holt](https://www.socallinuxexpo.org/scale/15x/presentations/internet-box).
 
-http://FAQ.IIAB.IO
+Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
