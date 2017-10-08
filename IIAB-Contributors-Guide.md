@@ -7,8 +7,7 @@ You can install Internet-in-a-Box on most late model desktop and laptop computer
 Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
 Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks. 
-
-````
+```
 ├── roles
 │   ├── 1-prep
 │   │   ├─ defaults
@@ -22,9 +21,7 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 │   │   ├── README.rst
 │   │   ├── tasks
 │   │   └── templates
-
-````
-
+```
 At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with  playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
 1. Bash script `./runansible` follows instructions in `iiab.yml` in the root directory.
@@ -84,9 +81,9 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 6. Hack away! 
 
 7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and setting a default git remote push setting with the following command. 
-```
-   cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git
-```
+
+   `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
+
 Learn more by reading blog post [Different git Push & Pull(fetch) URLs](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and the [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) chapter of Scott Chacon and Ben Straub's "Git Pro" book.
 
 8. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
