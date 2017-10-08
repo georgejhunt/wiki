@@ -308,6 +308,8 @@ Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/g
 
 KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB load scripts on Raspberry Pi](http://download.iiab.io/6.5/rpi) include perform this essential piece for you.
 
+See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO).
+
 ### Add Content Manually
 
 #### RACHEL
