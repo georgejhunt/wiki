@@ -195,7 +195,7 @@ Note that these images will write two partitions to a USB stick (thumb drive).  
 
 Finally, while these images have been developed on the Intel NUC, they may well work on other Intel machines too (do let us know!)
 
-#### Installation on OLPC XO laptops is not currently supported on release-6.2, due to lack of time to test the following general strategy:
+#### Installation on OLPC XO laptops is not currently supported on release-6.2+, due to lack of time to test the following general strategy:
 
 * Install [OLPC OS 13.2.8](http://wiki.laptop.org/go/Release_notes/13.2.8) or similar onto the XO laptop
 * In ``My Settings -> Power`` turn off Automatic Power Management
