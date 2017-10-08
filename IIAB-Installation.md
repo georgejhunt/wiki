@@ -38,7 +38,7 @@ This is for people who already know how to do everything in these instructions a
 There are basically two ways to install IIAB software:
 
    1. Do everything from scratch.
-   2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  See our [suggestions on how to create short cut image files](http://tinyurl.com/iiabimages) for yourself or to help others.
+   2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  Here are some [suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
 The **advantage** of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The **disadvantage** is that it is more work.
 
