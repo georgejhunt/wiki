@@ -32,7 +32,13 @@ Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Sc
 
 ### People Who Busted Their Ass
 
-Making This All Possible: [George Hunt](https://github.com/georgejhunt/), [Tim Moody](https://www.youtube.com/watch?v=kHdMC8lhpjM&t=2036s), [Jerry Vonau](https://github.com/jvonau), [Josh Dennis](http://100schools.org/), [Reno McKenzie](http://renomckenzie.com/), [Arky](https://github.com/arky), [Anish Mangal](https://bhagmalpur.wordpress.com/author/anishmangal2002/), [Joshua Kanani](https://www.linkedin.com/in/joshua-kanani-32536a12a), [German Ruiz](https://twitter.com/germanrs), [César Natarén](https://www.linkedin.com/in/nataren), [Curt Thompson](https://www.linkedin.com/in/curt-thompson-1935a165), [Rick Castorani](https://www.seedsforprogress.org/), [Samuel Zidovetzki](http://www.mountsinai.org/profiles/samuel-zidovetzki), [Maria Gonzalez](https://sipa.columbia.edu/news/project-examines-value-new-information-resource-medical-providers-rural-latin-america), [Adam Holt](https://www.socallinuxexpo.org/scale/15x/presentations/internet-box).
+Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria &mdash; to serve One & All.
+
+_Not just in your community...but by keeping in touch with our global volunteer community network each of you are providing the lifeblood "fieldback"...that keeps us motivated and enables Internet-in-a-Box's quality content collaborations across ALL communities!_
+
+IIAB Development Team: [George Hunt](https://github.com/georgejhunt/), [Tim Moody](https://www.youtube.com/watch?v=kHdMC8lhpjM&t=2036s), [Jerry Vonau](https://github.com/jvonau), [Josh Dennis](http://100schools.org/), [Reno McKenzie](http://renomckenzie.com/), [Arky](https://github.com/arky), [Anish Mangal](https://bhagmalpur.wordpress.com/author/anishmangal2002/), [Joshua Kanani](https://www.linkedin.com/in/joshua-kanani-32536a12a), [German Ruiz](https://twitter.com/germanrs), [César Natarén](https://www.linkedin.com/in/nataren), [Curt Thompson](https://www.linkedin.com/in/curt-thompson-1935a165), [Blondel Mondesir](https://github.com/deldesir), [Rick Castorani](https://www.seedsforprogress.org/), [Samuel Zidovetzki](http://www.mountsinai.org/profiles/samuel-zidovetzki), [Maria Gonzalez](https://sipa.columbia.edu/news/project-examines-value-new-information-resource-medical-providers-rural-latin-america), [Adam Holt](https://www.socallinuxexpo.org/scale/15x/presentations/internet-box).
+
+http://FAQ.IIAB.IO
 
 ### Known Issues
 
