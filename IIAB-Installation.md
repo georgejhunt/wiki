@@ -153,8 +153,6 @@ In general the process of using one of these files is to download it to a separa
 
 You will need tools to decompress these files and write them to storage.  On Linux and MacOS these tools will already likely be there. On Windows you will need to download them.
 
-Each set of images linked below has its own README file.
-
 #### Tools
 
 * Linux or MacOS - dd, unzip, xz
@@ -206,17 +204,15 @@ Finally, while these images have been developed on the Intel NUC, they may well 
          cd ansible
          python setup.py install
 
-  **Note**: Ansible version 2.2 is required, but avoid version 2.2.1.0 which has issues. Version 2.2.0.0 is known to work! Verify the version number with:
+  Earlier in 2017 Ansible version 2.2.0 had been required, avoiding version 2.2.1 which had issues.  More recently in October 2017, we recommend Ansible 2.4.x instead.  In any case, please verify the version number with:
 
          ansible --version
 
 * Clone the IIAB git repo and cd into it:
 
-         cd /opt
-         mkdir -p iiab
-         cd iiab
+         mkdir -p /opt/iiab
+         cd /opt/iiab/
          git clone --branch release-6.2 --depth 1 https://github.com/iiab/iiab
-         cd iiab
 
 * Verify all the network interfaces are visible and have the correct interface label:
 
@@ -224,9 +220,10 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 * Optionally, verify that all network interfaces are properly autodetected:
 
+         cd /opt/iiab/iiab/
          bash roles/common/library/iiab_facts
 
-* From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted ./runansible to complete the install process (increases size of /tmp so installs will complete successfully):
+* From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted with "./runansible" to complete the install process: (increases size of /tmp so installs will complete successfully)
 
         ./runansible        (try to rerun this if it fails!)
 
