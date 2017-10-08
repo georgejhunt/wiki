@@ -4,7 +4,7 @@ Internet-in-a-Box runs on various GNU/Linux operating systems such as Fedora, Ub
 
 You can install Internet-in-a-Box on most late model desktop and laptop computers. It also supports Intel NUC, Intel Gigabyte BRIX, OLPC XO-1.5, XO-1.75, XO-4, Raspberry Pi 2 and Raspberry Pi 3. A VirtualBox VM can also used for testing purposes. Using Docker containers however is not recommended as our Ansible provisioning system requires low-level access to the operating system.
 
-Please refer to [platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) page for more information.
+Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
 Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks. 
 
