@@ -37,16 +37,12 @@ This is for people who already know how to do everything in these instructions a
 
 There are basically two ways to install IIAB software:
 
-   1. Do everything from scratch. (Note that IIAB install on [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) is a combination of #1 and #2)
-   2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps. 
+   1. Do everything from scratch.
+   2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  See our [suggestions on how to create short cut image files](http://tinyurl.com/iiabimages) for yourself or to help others.
 
-      See our [suggestions on how to create short cut image files](http://tinyurl.com/iiabimages) for yourself or to help others.
+The **advantage** of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The **disadvantage** is that it is more work.
 
-The **advantage** of doing everything from scratch is that you will get exactly what you want and you will get the latest version
-of the software.  The **disadvantage** is that it is more work.
-
-The **advantage** of a short cut is that it will usually take less time and effort.  The **disadvantage** is that there may not
-be files available for every platform and every configuration and the files may be out of date.
+The **advantage** of a short cut is that it will usually take less time and effort.  The **disadvantage** is that there may not be files available for every platform and every configuration and the files may be out of date.
 
 ### Do Everything from Scratch
 
