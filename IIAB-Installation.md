@@ -58,7 +58,7 @@ Here is the complete list of the steps required. Some may already be done.
 
        ping mit.edu
    1. Escalate to root using "sudo su -" or similar.
-   1. _[Ansible 2.4.x is required on Debian and recommended on all OS's](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete: run command "ansible --version" to check and if necessary "apt purge ansible" to be sure Ansible 2.2.x is removed, prior to Ansible 2.4.x's installation below._
+   1. _[Ansible 2.4.x is required on Debian and recommended on all OS's](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) so that multiple runs of "./runansible" can complete.  Run "ansible --version" to make sure you don't have an older version installed.  If you do, run "apt purge ansible", prior to Ansible 2.4.x's installation below._
    1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
 ```
      apt update
