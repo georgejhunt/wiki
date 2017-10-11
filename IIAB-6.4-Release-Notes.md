@@ -44,6 +44,6 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* Raspbian's python-pip package is suddenly everyone to [comment out both lines in /etc/pip.conf](https://github.com/iiab/iiab/issues/392#issuecomment-335854969) prior to "cd /opt/iiab/iiab" and "./runansible" as of 2017-10-10.  A more permanent fix is imminent, so that the 1-line install/load scripts once again complete as desired.
+* Raspbian's python-pip package is suddenly forcing everyone to [comment out both lines in /etc/pip.conf](https://github.com/iiab/iiab/issues/392#issuecomment-335854969) prior to "cd /opt/iiab/iiab" and "./runansible" as of 2017-10-10.  A more permanent fix is imminent, so that the [1-line install/load scripts](http://download.iiab.io/6.4/rpi/) once again complete as desired.
 * USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted prior to a cold boot).
 * Be sure to set "calibre_install: "False" and "calibre_enabled: False" within [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) before installing IIAB 6.4 on CentOS 7.4.
