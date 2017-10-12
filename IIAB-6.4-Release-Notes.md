@@ -44,5 +44,6 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
+* Sugarizer will fail to install (blocking the installation of Internet-in-a-Box) approximately 10% of the time, as explained in [#193](https://github.com/iiab/iiab/issues/193).  The workaround is to restart "./runansible" (or restart a 1-line installer script on a clean Raspbian microSD, for hands-free installation).
 * USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted just prior to a cold boot).
 * Be sure to set "calibre_install: "False" and "calibre_enabled: False" within [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) before installing IIAB 6.4 on CentOS 7.4.
