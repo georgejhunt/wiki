@@ -6,13 +6,14 @@ You can also read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/II
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for platform-specific information on OS choices and the **partitioning scheme**.
 
-After installation, the Admin Console provides tools for selecting and downloading content. After that is done, you will probably want to provide a [menu or portal](https://github.com/iiab/iiab/wiki/IIAB-Menuing) page for direct access to the selected content.
+After installation, the Admin Console provides tools for selecting server apps and downloading content. After that is done, you will probably want to provide a [friendly home page](https://github.com/iiab/iiab/wiki/IIAB-Menuing) for your community.
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
 
-N.B.: Internet-in-a-Box was formerly known as the OLPC School Server Community Edition (XSCE).
+See our Frequently Asked Questions [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
-See our [FAQ (Frequently Asked Questions)](http://wiki.laptop.org/go/IIAB/FAQ) for more answers arising from our http://IIAB.io forums, towards building your very own powerful digital library!
+_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) from all continents, all countries, and all corners._
+
 
 ## Our Evolution
  * [Release Notes 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes) - October 5, 2017
