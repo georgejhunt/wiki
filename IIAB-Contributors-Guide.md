@@ -105,6 +105,22 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
 
  Please refer to [Ansible playbook documentation](http://docs.ansible.com/ansible/latest/playbooks.html) for more information.
 
+Testing your code with Travis CI
+=================================
+
+To maintain the quality of the Internet-in-a-Box (IIAB) code we use [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure. Travis CI does tests to
+ensure the code syntax is correct and the code is formatted properly using `ansible` syntax checker, `ansible-lint` and `ansible-review` tools. The results of Travis CI Internet-in-a-Box (IIAB) could be seen [here](https://travis-ci.org/iiab/iiab).
+
+Every pull request is automatically tested by Travis CI. The results of these tests are added to the pull request. This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request. 
+
+To test your forked repository of Internet-in-a-Box (IIAB) code. You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
+
+* Login to [Travis-ci.org](https://travis-ci.org) using your Github account.
+* Go to your Travis CI profile page and enable the repository you want to build.
+* The builds will start whenever a new commit is pushed to your repository.
+
+Please refer to [Travis CI documentation](https://docs.travis-ci.com/user/getting-started/) for more information.
+
 Reporting Bugs
 ==============
 
