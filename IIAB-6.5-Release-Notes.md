@@ -4,9 +4,10 @@ Internet-in-a-Box (IIAB) 6.4 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's New?
 
-* Anybody can install Internet-in-a-Box with a regular WiFi connection, without the need for an Ethernet cable or router access (coming soon!)
-* Much improved offline (ZIM) content thanks to a new [Kiwix](http://www.kiwix.org/) engine under the hood, _watch out Google here we come :-)_
-* Test your code contributions/extensions with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci).
+* Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (coming soon!)
+* Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
+* Media-rich and searchable offline (ZIM) content thanks to an even better [Kiwix](http://www.kiwix.org/) engine under the hood, _watch out Google here we come :-)_
+* Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 
 ### What's Upgraded?
 
@@ -14,6 +15,7 @@ Internet-in-a-Box (IIAB) 6.4 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Moodle [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS (coming soon!)
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Far more comprehensive offline docs, available at [http://box/info](http://box/info)
+* Internet-in-a-Box's own Admin Console (http://box/admin) has been made more resilient.
 * Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) now fixed.
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
