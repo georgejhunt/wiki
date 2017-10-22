@@ -15,6 +15,7 @@ Internet-in-a-Box (IIAB) 6.4 ([Wiki](http://wiki.iiab.io/6.4), [GitHub](https://
 * Nextcloud is upgraded to [12.0.3](https://nextcloud.com/changelog/).
 * Sugarizer is upgraded to [0.9](http://lists.sugarlabs.org/archive/iaep/2017-September/020080.html).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.4](https://github.com/Elgg/Elgg/blob/2.3.4/CHANGELOG.md).
+* Moodle is upgraded to [3.1.8](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * Internet-in-a-Box's own Admin Console (http://box/admin) has been made more resilient.
 * [Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) [2.4.x](http://docs.ansible.com/ansible/latest/roadmap/ROADMAP_2_4.html) (pre-built PPA or rpm) helps future-proof Internet-in-a-Box configuration management.
 * Extraneous red warnings during bootup and 1st run of Ansible are...gone at last!
