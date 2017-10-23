@@ -6,7 +6,7 @@ You can install Internet-in-a-Box on most late model desktop and laptop computer
 
 Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
-Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks. 
+Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks.
 ```
 ├── roles
 │   ├── 1-prep
@@ -22,12 +22,12 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 │   │   ├── tasks
 │   │   └── templates
 ```
-At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with  playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
+At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
 1. Bash script `./runansible` follows instructions in `iiab.yml` in the root directory.
 
 2. `iiab.yml` calls 9 aggregate roles (the numbered directories under `./roles/`).
-     
+
 3. Each aggregate role has a `<role>/meta/main.yml` which calls the individual named roles.
 
 Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more information.
@@ -54,7 +54,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
  * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
  * Editor ([Atom](www.atom.io), Emacs, vi, etc)
 
-## Setup Instructions 
+## Setup Instructions
 1. Check out the repository and its submodules onto your development machine.
 `git clone --recursive git@github.com:arky/iiab-dev-mode.git`
 
@@ -78,9 +78,9 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
    cd /opt/iiab/iiab-menu/
    ./cp-menus
 ```
-6. Hack away! 
+6. Hack away!
 
-7. You can commit your local changes to your personal forks of Internet-in-a-Box repos and then send pull request to IIAB project. Once you forked a repo, you change directory into that repo and setting a default git remote push setting with the following command. 
+7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to IIAB project. Once you forked a repository, you change directory into that repository and setting a default git remote push setting with the following command.
 
    `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
 
@@ -111,7 +111,7 @@ Testing your code with Travis CI
 To maintain the quality of the Internet-in-a-Box (IIAB) code we use [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure. Travis CI does tests to
 ensure the code syntax is correct and the code is formatted properly using `ansible` syntax checker, `ansible-lint` and `ansible-review` tools. The results of Travis CI Internet-in-a-Box (IIAB) could be seen [here](https://travis-ci.org/iiab/iiab).
 
-Every pull request is automatically tested by Travis CI. The results of these tests are added to the pull request. This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request. 
+Every pull request is automatically tested by Travis CI. The results of these tests are added to the pull request. This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request.
 
 To test your forked repository of Internet-in-a-Box (IIAB) code. You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
 
@@ -131,7 +131,7 @@ You can file bug reports on [GitHub](https://github.com/):
 * Search for existing issues using the search field
 * If you don't find any similar issues, file a new issue!
 
-Please consider providing a descriptive title, your OS information, error messages and steps to reproduce the issue.
+Please consider providing a descriptive title, your operating system information, error messages and steps to reproduce the issue.
 
 Get in touch
 ============
