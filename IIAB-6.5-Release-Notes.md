@@ -11,6 +11,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's Upgraded?
 
+* Nextcloud [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
 * WordPress [4.9](https://make.wordpress.org/core/tag/4-9/) (coming soon!)
 * Moodle [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS (coming soon!)
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
