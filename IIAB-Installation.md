@@ -86,7 +86,7 @@ Here is the complete list of the steps required. Some may already be done.
 
      cd /opt/iiab/iiab/scripts/
      ./ansible
-     # Installs Ansible 2.4.x from PPA
+     # Installs Ansible 2.4.x+ from PPA
 
      cd /opt/iiab/iiab/
      ./runansible
