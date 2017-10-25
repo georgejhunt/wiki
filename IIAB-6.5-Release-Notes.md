@@ -12,6 +12,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's Upgraded?
 
+* More reliable [1-line installers](http://download.iiab.io/6.5/rpi/), such that almost anybody can pick their favorite suite of Internet-in-a-Box apps at the very moment they begin downloading/installing.
 * Nextcloud [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
 * WordPress [4.9](https://make.wordpress.org/core/tag/4-9/) (coming soon!)
 * Moodle [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS (coming soon!)
