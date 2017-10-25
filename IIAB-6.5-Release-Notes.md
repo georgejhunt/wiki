@@ -8,6 +8,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * Media-rich and searchable offline (ZIM) content thanks to an even better [Kiwix](http://www.kiwix.org/) engine under the hood, _watch out Google here we come :-)_
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
+* Support for large external hard disks, that are typically NTFS-formatted when they are purchased, facilitating rapid installation of offline content.
 
 ### What's Upgraded?
 
