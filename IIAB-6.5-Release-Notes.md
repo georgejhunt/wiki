@@ -13,13 +13,13 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's Upgraded?
 
 * More reliable [1-line installers](http://download.iiab.io/6.5/rpi/), such that almost anybody can pick their favorite suite of Internet-in-a-Box apps at the very moment they begin downloading/installing.
+* Far more comprehensive Offline Docs, available after you install at [http://box/info](http://box/info).
 * Nextcloud [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
 * WordPress [4.9](https://make.wordpress.org/core/tag/4-9/) (coming soon!)
 * Moodle [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS (coming soon!)
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
-* Far more comprehensive Offline Docs, available after you install at [http://box/info](http://box/info).
-* Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & home page management improved ([#384](https://github.com/iiab/iiab/issues/384)) (coming soon!)
-* Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) now fixed.
+* Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & home page management greatly improved ([#384](https://github.com/iiab/iiab/issues/384)) (coming soon!)
+* Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) mostly solved (coming soon!)
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
