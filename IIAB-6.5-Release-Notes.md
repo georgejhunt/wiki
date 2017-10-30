@@ -5,9 +5,9 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's New?
 
 * Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (coming soon!)
+* Installation is far more efficient, dramatically more understandable, and quickly recoverable if Internet is interrupted en route!  Thanks to the new "./iiab-install" and "./runtags" commands, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).  Made possible by Ansible 2.4.1, [#466](https://github.com/iiab/iiab/pull/466) and Jerry Vonau's [#474](https://github.com/iiab/iiab/pull/474).
 * Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * Media-rich and searchable offline (ZIM) content thanks to an even better [Kiwix](http://www.kiwix.org/) engine 0.3.0 under the hood, _watch out Google here we come :-)_
-* Implementers have dramatically more efficient configuration efficient with Ansible and runtags ([#466](https://github.com/iiab/iiab/pull/466)).
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 * Support for large external hard disks, that are typically NTFS-formatted when they are purchased, facilitating rapid installation of offline content.
 
