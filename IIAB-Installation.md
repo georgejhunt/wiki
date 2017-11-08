@@ -89,7 +89,7 @@ Here is the complete list of the steps required. Some may already be done.
      # Installs Ansible 2.4.x+ from PPA
 
      cd /opt/iiab/iiab/
-     ./runansible
+     ./iiab-install
      # TRY TO RERUN THE ABOVE LINE IF IT FAILS (if networking glitches etc?)
 
      cd /opt/iiab/iiab-admin-console/
