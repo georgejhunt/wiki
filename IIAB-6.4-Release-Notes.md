@@ -46,6 +46,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 ### Known Issues
 
 * IIAB 6.4 does not install on Raspbian Stretch With Desktop.  Please instead install on Raspbian Stretch Lite, or try one of our [IIAB 6.5 pre-releases](http://download.iiab.io/6.5/rpi/) which include fix [#399](https://github.com/iiab/iiab/pull/399).
+* OpenStreetMap does not work until you apply [#453](https://github.com/iiab/iiab/pull/453).  Or please try one of our [IIAB 6.5 pre-releases](http://download.iiab.io/6.5/rpi/).
 * Sugarizer will occasionally fail to install (blocking the installation of Internet-in-a-Box) as explained in [#193](https://github.com/iiab/iiab/issues/193).  The workaround is generally to restart "./runansible" &mdash; or safer yet: restart a hands-free installation using one of our [1-line installer scripts](http://download.iiab.io/6.4/rpi/README.html) on a clean OS.
 * Be sure to set "calibre_install: False" and "calibre_enabled: False" within [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) before installing IIAB 6.4 on CentOS 7.4.
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) sometimes takes far too long to login/logout on Raspberry Pi 3 (more than a minute, instead of the usual couple seconds).  If this affects you (typically during the first hours after installation, speeding up later) please help everyone isolate the pattern and root cause, by reviewing & posting to [#401](https://github.com/iiab/iiab/issues/401) so an upstream bug might be filed.
