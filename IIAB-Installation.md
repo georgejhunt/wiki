@@ -102,15 +102,15 @@ Here is the complete list of the steps required. Some may already be done.
 ```
 On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 
-         curl download.iiab.io/6.4/rpi/load.txt | sudo bash
+         curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 
 This typically takes less than two hours, with a fast Internet connection.  If you want a faster install, which generally completes in about an hour, instead try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 
-         curl download.iiab.io/6.4/rpi/load-min.txt | sudo bash
+         curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
 
 Conversely a much larger installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).  If so, be prepared for a multi-hour installation:
 
-         curl download.iiab.io/6.4/rpi/load-big.txt | sudo bash
+         curl download.iiab.io/6.5/rpi/load-big.txt | sudo bash
 
 _Please browse the above URLs to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !_
 
