@@ -114,7 +114,7 @@ Conversely a much larger installation is possible, if you want to experiment wit
 
 _Please browse the above URLs to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !_
 
-In general, beware that "./runansible" runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
+In general, beware that ./iiab-install (formerly "./runansible") runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.
 
@@ -219,9 +219,9 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
          bash roles/common/library/iiab_facts
 
-* From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted with "./runansible" to complete the install process: (increases size of /tmp so installs will complete successfully)
+* From the iiab directory, run initial setup.  The XO will automatically reboot early in the install and must be restarted with "./iiab-install (formerly "./runansible") to complete the install process: (increases size of /tmp so installs will complete successfully)
 
-        ./runansible        (try to rerun this if it fails!)
+        ./iiab-install        (formerly "./runansible", try to rerun this if it fails!)
 
 ## Configure the Server
 
