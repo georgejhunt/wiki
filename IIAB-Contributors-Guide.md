@@ -24,11 +24,11 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 ```
 At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
-1. Bash script `./runansible` follows instructions in `iiab.yml` in the root directory.
+1. Bash script `./iiab-install` (formerly `./runansible`) uses Ansible to run `/opt/iiab/iiab/iiab-stages.yml`
 
-2. `iiab.yml` calls 9 aggregate roles (the numbered directories under `./roles/`).
+2. `iiab-stages.yml` calls 1+9 aggregate roles (the numbered directories under /opt/iiab/iiab/roles).  Within those 9 stages, it avoids repetition after Internet failures by keeping a counter (STAGE) in `/etc/iiab/iiab.env`
 
-3. Each aggregate role has a `<role>/meta/main.yml` which calls the individual named roles.
+3. Each aggregate role has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to call the individual named roles.
 
 Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more information.
 
@@ -70,7 +70,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
    ./ansible
 
    cd /opt/iiab/iiab/
-   ./runansible
+   ./iiab-install
 
    cd /opt/iiab/iiab-admin-console/
    ./install
