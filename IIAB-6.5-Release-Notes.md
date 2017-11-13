@@ -20,7 +20,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * WordPress is upgraded to [4.9](https://make.wordpress.org/core/tag/4-9/) (coming soon!)
 * Moodle is upgraded to [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * phpMyAdmin is upgraded to [4.7.5](https://www.phpmyadmin.net/news/).
-* Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & home page management are greatly improved ([#384](https://github.com/iiab/iiab/issues/384)) (coming soon!)
+* Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & home page management are greatly improved ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).
 * Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) mostly solved (coming soon!)
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
