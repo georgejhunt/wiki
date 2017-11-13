@@ -59,17 +59,19 @@ Here are the main *.yml files stored in /opt/iiab/iiab:
 * iiab-stages.yml - run by ./iiab-install (like iiab.yml but it adds roles/0-init/defaults/main.yml, and removes /etc/iiab/config_vars.yml)
 * iiab-network.yml - run by ./iiab-network using config_vars.yml (just runs networking play)
 * iiab-from-console.yml - run by Admin Console’s “Install Configured Options” using config_vars.yml
-* [Tim Moody might generate others in future, and throw them away]
+* [Tim Moody might generate others on-the-fly in future, then throw them away]
 
 Context: ./runtags, ./runansible, ./install-support, ./iiab-install and ./iiab-network are all located in /opt/iiab/iiab
 
 Related Settings Files in /etc/iiab
 ===================================
 
+Some of the most critical IIAB settings are stored in these 8 files:
+
 * iiab.env - essential variables during installation
 * iiab.env.py, iiab.env.pyc - Python code/class to read iiab.env (basically exports WWWROOT == /library/www/html for iiab-refresh-wiki-docs, make-kiwix-lib)
-* iiab.ini - tracks what’s been installed, with dates, in sequence (state is recorded by ./runansible and ./iiab-install)
-* config_vars.yml - null file must be “{}”, further populated by Admin Console’s “Save Configuration” button.  Used by iiab.yml & iiab-from-console.yml with default_vars.yml & local_vars.yml
+* iiab.ini - tracks what’s been installed, in sequence, with dates (this state is recorded by ./runansible and ./iiab-install)
+* config_vars.yml - null file must be “{}”, further populated by Admin Console’s “Save Configuration” button.  Used by iiab.yml & iiab-from-console.yml with vars/default_vars.yml & vars/local_vars.yml
 * uuid - used by OpenVPN, for future analytics "fieldback", currently not used on RPi Zero W ([#271](https://github.com/iiab/iiab/pull/271))
 * handle - human-readable identifier used by OpenVPN
 * kiwix_catalog.json - downloaded from Kiwix.org when you click “Refresh Kiwix Catalog” in Admin Console
