@@ -69,7 +69,7 @@ Related Settings Files in /etc/iiab
 Some of the most critical IIAB settings are stored in these 8 files:
 
 * iiab.env - essential variables during installation; holds STAGE (counter) for iiab-install's 9 steps in iiab-stages.yml
-* iiab.env.py, iiab.env.pyc - Python code/class to read iiab.env (basically exports WWWROOT == /library/www/html for iiab-refresh-wiki-docs, make-kiwix-lib)
+* iiab.env.py, iiab.env.pyc - Python code/class to read iiab.env (basically exports WWWROOT == /library/www/html for iiab-refresh-wiki-docs, iiab-make-kiwix-lib)
 * iiab.ini - tracks what’s been installed, in sequence, with dates (this state is recorded by ./runansible and ./iiab-install)
 * config_vars.yml - null file must be “{}”, further populated by Admin Console’s “Save Configuration” button.  Used by iiab.yml & iiab-from-console.yml with vars/default_vars.yml & vars/local_vars.yml
 * uuid - used by OpenVPN, for future analytics "fieldback", currently not used on RPi Zero W ([#271](https://github.com/iiab/iiab/pull/271))
