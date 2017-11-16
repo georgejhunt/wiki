@@ -9,8 +9,9 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * These very same [1-line installers](http://download.iiab.io/6.5/rpi/) for Raspberry Pi (Raspbian) now work on Ubuntu 16.04 LTS and Debian 9.x too!
 * Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * Media-rich and searchable offline (ZIM) content thanks to an even better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
+* Support for large disks, SD cards and USB memory sticks directly out-of-the-box (that are typically NTFS-formatted or exFAT-formatted when purchased) facilitating rapid installation of offline content.
+* Experimental support for Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS arriving in April.
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
-* Support for large external hard disks, that are typically NTFS-formatted when they are purchased, facilitating rapid installation of offline content.
 
 ### What's Upgraded?
 
