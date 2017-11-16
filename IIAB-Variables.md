@@ -89,5 +89,5 @@ From lowest precedence to highest:
 * Load default_vars.yml
 * OS-dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
 * Load local_vars.yml
-* Load config_vars.yml
+* Load config_vars.yml (iiab-stages.yml does not use this one)
 * Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))
