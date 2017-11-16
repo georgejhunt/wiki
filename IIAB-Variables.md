@@ -52,7 +52,10 @@ Variables in YML Files
 
 Ansible supports a set_fact command that can be used for variable assignment inside a particular yml file.  By convention these should only be local variables except for the use of this command in computed_vars.yml.
 
-Here are the main *.yml files stored in /opt/iiab/iiab:
+Use of variables in Ansible Playbooks
+=====================================
+
+Here are the main *.yml playbooks stored in /opt/iiab/iiab:
 
 * iiab.yml - used by ./runtags & ./runansible, with config_vars.yml
 * iiab-base.yml - for ./install-support to install OpenVPN (idea: prior to installing IIAB)
