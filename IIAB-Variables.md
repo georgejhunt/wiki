@@ -84,11 +84,10 @@ Order of Execution and Precedence
 
 From lowest precedence to highest:
 
+* Get Ansible facts including local facts
 * Load any vars particular to roles
-* Get ansible facts
 * Load default_vars.yml
 * OS-dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
 * Load local_vars.yml
 * Load config_vars.yml
-* Run local_facts script (part of 1-prep)
 * Run computed_vars.yml (part of 1-prep)
