@@ -87,6 +87,7 @@ From lowest precedence to highest:
 * Load any vars particular to roles
 * Get ansible facts
 * Load default_vars.yml
+* OS dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
 * Load local_vars.yml
 * Load config_vars.yml
 * Run local_facts script (part of 1-prep)
