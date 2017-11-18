@@ -15,7 +15,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's Upgraded?
 
-* Calibre E-Book server upgraded to [3.12+](https://calibre-ebook.com/whats-new) on OS's that support it (Internet-in-a-Box auto-installs the latest, and supports future upgrades, coming soon!)
+* Calibre E-Book server upgraded to [3.12+](https://calibre-ebook.com/whats-new) (Internet-in-a-Box auto-installs the latest, and supports future upgrades, coming soon!)
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
 * WordPress is upgraded to [4.9](https://wordpress.org/news/2017/11/tipton/).
