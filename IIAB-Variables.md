@@ -1,7 +1,7 @@
 Configuration Variables
 =======================
 
-[Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) and the IIAB playbooks use a sequence of operations and a set of conventions to define the variables of differing scope that govern a particular instalation.
+[Ansible](https://en.wikipedia.org/wiki/Ansible_(software)) and the IIAB playbooks use a sequence of operations and a set of conventions to define the variables of differing scope that govern a particular installation.
 
 Facts
 =====
