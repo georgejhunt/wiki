@@ -38,7 +38,7 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 | TCP      | 8010                      | calibre-server (to avoid 8080 conflicts) |
 | TCP      | 8080                      | calibre-server OR idmgr (for legacy XOs) |
 | TCP      | 8089                      | sugarizer                                |
-| TCP      | 27018                     | mongodb                                  |
+| TCP      | 27018                     | mongodb (if used by sugarizer)           |
 
 ### Common Customizations
 
