@@ -26,12 +26,12 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 |:--------:|:-------------------------:|------------------------------------------|
 | TCP      | 22                        | sshd                                     |
 | TCP      | 80                        | web server                               |
-| TCP      | 631                       | CUPS (printing)                          |
+| TCP      | 631                       | cups (printing)                          |
 | TCP      | 873                       | xinetd (xs-rsync, for legacy XOs)        |
 | TCP      | 3000                      | kiwix-serve                              |
 | TCP      | 3128                      | squid / dansguardian                     |
 | TCP      | 3130                      | squid                                    |
-| TCP      | 4369,47893,5280,5222,5223 | ejabberd-xs                              |
+| TCP      | 4369,47893,5280,5222,5223 | ejabberd OR ejabberd-xs                              |
 | TCP      | 8006                      | kalite-serve-fr                          |
 | TCP      | 8007                      | kalite-serve-es                          |
 | TCP      | 8008                      | kalite-serve (English & others)          |
