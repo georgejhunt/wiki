@@ -55,7 +55,7 @@ Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hots
 
 (2) Many of us edit /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) so it contains the following 2 lines:
 
-* services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
+* services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010 or 8080] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
 * iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
 
 Note both above became defaults in mid-2017.  If making changes to local_vars.yml, remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") which can take ~2 hours on RPi3.
