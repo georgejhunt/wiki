@@ -31,11 +31,11 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 | TCP      | 3000                      | kiwix-serve                              |
 | TCP      | 3128                      | squid / dansguardian                     |
 | TCP      | 3130                      | squid                                    |
-| TCP      | 4369,47893,5280,5222,5223 | ejabberd OR ejabberd-xs                              |
+| TCP      | 4369,47893,5280,5222,5223 | ejabberd OR ejabberd-xs                  |
 | TCP      | 8006                      | kalite-serve-fr                          |
 | TCP      | 8007                      | kalite-serve-es                          |
 | TCP      | 8008                      | kalite-serve (English & others)          |
-| TCP      | 8010                      | calibre-server (to avoid 8080 conflicts) |
+| TCP      | 8010                      | calibre-server (if avoiding idmgr/8080)  |
 | TCP      | 8080                      | calibre-server OR idmgr (for legacy XOs) |
 | TCP      | 8089                      | sugarizer                                |
 | TCP      | 27018                     | mongodb (if used by sugarizer)           |
