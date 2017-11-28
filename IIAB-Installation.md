@@ -272,7 +272,11 @@ The IIAB installation attempts to determine the network topology based on the nu
 
 ### Enable Services
 
-Services on the IIAB server can be enable by checking a box in the Configure -> Enable Services menu item.
+Different services (a.k.a. server apps) can be enabled on your IIAB server by checking boxes in http://box/admin -> Configure menu -> Enable Services.
+
+Then click Save Configuration -> Install Configured Options.
+
+Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status.
 
 ## Add Content
 
