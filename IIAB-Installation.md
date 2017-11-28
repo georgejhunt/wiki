@@ -103,11 +103,11 @@ Here is the complete list of the steps required. Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-The above steps happen automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
+The above happens automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 ```
    curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 ```
-_REMINDER: these 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 16.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  The above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+_REMINDER: these 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 16.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  The above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 ```
    curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
 ```
