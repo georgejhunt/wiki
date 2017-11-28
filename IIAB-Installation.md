@@ -238,13 +238,13 @@ This permits selection of options, services, languages, etc to permit additional
 
 Please click on the **Help** link to get detailed information on configuration options.
 
-_If you are new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
+_If you're new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
 
 ### Server Security
 
 The first time you sign into the Admin Console would be the best time to change the password.  Select the Utilities menu option and the first item, change password.  Fill in the form and click Change Password.
 
-Please also read about and take seriously [Internet-in-a-Box security practices](http://wiki.iiab.io/Security).
+_Please also read about and take seriously [Internet-in-a-Box security practices](http://wiki.iiab.io/Security)._
 
 ### Configure Menu
 
@@ -280,7 +280,7 @@ Remember to then click Save Configuration -> Install Configured Options.
 
 Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status -> Refresh Status.
 
-_If you are new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
+_If you're new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
 
 ## Add Content
 
@@ -322,7 +322,7 @@ Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/g
 
 KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB load scripts on Raspberry Pi](http://download.iiab.io/6.5/rpi) include perform this essential piece for you.
 
-See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO).
+_See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)._
 
 ### Add Content Manually
 
