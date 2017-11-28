@@ -23,11 +23,11 @@
 
 ## Overview
 
-Setting up a working IIAB server requires actions grouped into roughly three areas:
+To build an Internet-in-a-Box (IIAB) server, you need 3 steps:
 
-* Install the Software
-* Configure the Server - Set Parameters and Enable Services
-* Add Content
+1. Install the Software
+2. Configure the Server - Set Parameters and Enable Services
+3. Add Content
 
 ## Expert Mode
 
