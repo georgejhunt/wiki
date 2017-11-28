@@ -119,7 +119,7 @@ Please browse the above URLs to inspect and learn from the automated steps of th
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
-**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.**
+**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on Raspberry Pi 3.**
 
 Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:
 ```
@@ -142,7 +142,7 @@ You can see the log of the last install by typing:
 ```
    more /opt/iiab/iiab/iiab-install.log
 ```
-**Proceed to [Configure the Server](#configure-the-server).**
+**Proceed to: [Configure the Server](#configure-the-server)**
 
 ### Take a Short Cut
 
@@ -258,7 +258,7 @@ Once the password has been set you should start with the Configure menu item.  T
 
 This job can take a substantial amount of time depending on the capacity of the platform involved and how much of the software was included in the initial image.
 
-At this point you are ready to proceed to [Add Content](#add-content).
+**Proceed to: [Add Content](#add-content)**
 
 ### Supported Network Modes
 
