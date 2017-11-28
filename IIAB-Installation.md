@@ -62,7 +62,7 @@ Here is the complete list of the steps required. Some may already be done.
 
 5. _**Ansible 2.4.1+ is required on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to Ansible 2.4.x's installation below._
 
-6. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
+6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
    apt update
    apt -y dist-upgrade
@@ -117,7 +117,7 @@ Conversely a much larger but slower installation is possible, if you want to exp
 ```
 Please browse the above URLs to inspect and learn from the automated steps of the installation process, and do write to bugs @ iiab.io if you find issues, Thank You !
 
-**In general, beware that ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
+**In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
 **Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.**
 
