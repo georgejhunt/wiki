@@ -5,7 +5,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's New?
 
 * Completely Overhauled Calibre E-Book server [3.12+](https://calibre-ebook.com/whats-new) on Raspberry Pi!  (Internet-in-a-Box always installs the very latest from Kovid Goyal)
-* Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (coming soon!)
+* Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access _(coming soon!)_
 * Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * [1-line installers](http://download.iiab.io/6.5/rpi/) are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing!  (Implementers please see the new "./iiab-install" and "./runtags" commands, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 * These very same [1-line installers](http://download.iiab.io/6.5/rpi/) for Raspberry Pi (Raspbian) now work on Ubuntu 16.04 LTS and Debian 9.x too, and experimentally on experimentally on Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS arriving in April.
@@ -17,12 +17,12 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
 * Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) supports downloading the new ZIM files (that contain a search index!)  Also supported: ZIM files that are accompanied by an external index, and ZIM files that have no index all.  Fixed: Admin Console's "Services Enabled" checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & the ability to toggle your IIAB home page to WordPress etc ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  _Coming Soon: mouseover/tooltips helping curators and implementers drill down to the very best downloadable ZIM content._
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
-* Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
-* WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/tipton/) (coming soon!)
+* Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) _(coming soon!)_
+* WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/tipton/) _(coming soon!)_
 * Moodle is upgraded to [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * phpMyAdmin is upgraded to [4.7.5](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
-* Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) mostly solved (coming soon!)
+* Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) mostly solved _(coming soon!)_
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
