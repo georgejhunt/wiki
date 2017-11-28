@@ -107,7 +107,7 @@ The above happens automatically if you run this 1-line installer, which includes
 ```
    curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 ```
-_REMINDER: these 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 16.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  The above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+_These 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 16.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 ```
    curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
 ```
