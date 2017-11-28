@@ -14,7 +14,7 @@
     * [Enable Services](#enable-services)
 * [Add Content](#add-content)
     * [ZIM Files](#zim-files)
-    * [RACHEL](#rachel)
+    * [RACHEL Modules](#rachel-modules)
     * [KA Lite (for Khan Academy)](#ka-lite-for-khan-academy)
     * [Copy KA Lite Videos Manually](#copy-ka-lite-videos)
     * [OpenStreetMap](#openstreetmap)
@@ -326,7 +326,7 @@ See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.lapto
 
 ### Add Content Manually
 
-#### RACHEL
+#### RACHEL Modules
 
 Download [RACHEL modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
 
