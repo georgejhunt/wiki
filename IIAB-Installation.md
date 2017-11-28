@@ -26,7 +26,7 @@
 Setting up a working IIAB server requires actions grouped into roughly three areas:
 
 * Install the Software
-* Configure the Server - Enabling Services and Setting Parameters
+* Configure the Server - Enable Services and Set Parameters
 * Add Content
 
 ## Expert Mode
