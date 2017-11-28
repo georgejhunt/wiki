@@ -238,6 +238,8 @@ This permits selection of options, services, languages, etc to permit additional
 
 Please click on the **Help** link to get detailed information on configuration options.
 
+_If you are new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
+
 ### Server Security
 
 The first time you sign into the Admin Console would be the best time to change the password.  Select the Utilities menu option and the first item, change password.  Fill in the form and click Change Password.
@@ -272,11 +274,13 @@ The IIAB installation attempts to determine the network topology based on the nu
 
 ### Enable Services
 
-Different services (a.k.a. server apps) can be enabled on your IIAB server by checking boxes in http://box/admin -> Configure menu -> Enable Services.
+Different services (a.k.a. server apps) can be enabled on your IIAB server by checking boxes in Admin Console (http://box/admin) -> Configure menu -> Enable Services.
 
-Then click Save Configuration -> Install Configured Options.
+Remember to then click Save Configuration -> Install Configured Options.
 
-Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status.
+Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status -> Refresh Status.
+
+_If you are new to the Admin Console, please read "What are the default passwords?" in http://FAQ.IIAB.IO_
 
 ## Add Content
 
