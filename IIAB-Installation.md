@@ -48,18 +48,21 @@ The **advantage** of a short cut is that it will usually take less time and effo
 
 Here is the complete list of the steps required. Some may already be done.
 
-   1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F).
-      See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
+   1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F).  See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
 
       **Traditionally we use Standard partitioning, but increasingly in 2017 LVM partitioning is possible as well. In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
-   1. Install your OS (e.g. [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("Lite" headless version or "With Desktop" graphical version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
-   1. An Ethernet (live Internet) cable is currently **required** during installation!  Log into your machine locally or via ssh.  Verify your internet connection by typing:
+   2. Install your OS (e.g. [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("Lite" headless version or "With Desktop" graphical version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and in our [FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
 
-       ping mit.edu
-   1. Escalate to root using "sudo su -" or similar.
-   1. _**Ansible 2.4.1+ is required on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to Ansible 2.4.x's installation below._
-   1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
+   3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!  In any case, log into your machine with an attached monitor/keyboard or via ssh.  Verify your Internet connection by typing:
+
+      ping mit.edu
+
+   4. Escalate to root using "sudo su -" or similar.
+
+   5. _**Ansible 2.4.1+ is required on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to Ansible 2.4.x's installation below._
+
+   6. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
 ```
      apt update
      apt -y dist-upgrade
