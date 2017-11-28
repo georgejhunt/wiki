@@ -107,7 +107,7 @@ The above steps happen automatically if you run this 1-line installer, which inc
 ```
    curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 ```
-_NOTE: these 1-line installers require Raspbian (on Raspberry Pi 3), Ubuntu 16.04 LTS or Debian 9.x._  The above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+_REMINDER: these 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 16.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  The above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 ```
    curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
 ```
@@ -115,7 +115,7 @@ Conversely a much larger but slower installation is possible, if you want to exp
 ```
    curl download.iiab.io/6.5/rpi/load-big.txt | sudo bash
 ```
-Please browse the above URLs to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
+Please browse the above URLs to inspect and learn from the automated steps of the installation process, and do write to bugs @ iiab.io if you find issues, Thank You !
 
 _In general, beware that ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection._
 
