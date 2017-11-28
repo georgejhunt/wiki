@@ -40,9 +40,9 @@ There are basically two ways to install IIAB software:
    1. Do everything from scratch.  Strongly recommended (since IIAB 6.4 especially) as our new [1-line installer](http://download.iiab.io/6.5/rpi) scripts do essentially everything!
    2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  Here are some [suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
-The **advantage** of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The **disadvantage** is that it is more work.
+The _advantage_ of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The _disadvantage_ is that it is more work.
 
-The **advantage** of a short cut is that it will usually take less time and effort.  The **disadvantage** is that there may not be files available for every platform and every configuration and the files may be out of date.
+The _advantage_ of a short cut is that it will usually take less time and effort.  The _disadvantage_ is that there may not be files available for every platform and every configuration and the files may be out of date.
 
 ### Do Everything from Scratch
 
