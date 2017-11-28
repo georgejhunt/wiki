@@ -58,7 +58,7 @@ Here is the complete list of the steps required. Some may already be done.
 
        ping mit.edu
    1. Escalate to root using "sudo su -" or similar.
-   1. _Ansible 2.4.1+ is required on all OS's so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to Ansible 2.4.x's installation below._
+   1. _**Ansible 2.4.1+ is required on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to Ansible 2.4.x's installation below._
    1. On Raspbian, Ubuntu or Debian doing everything from scratch involves a few simple steps:
 ```
      apt update
@@ -100,21 +100,21 @@ Here is the complete list of the steps required. Some may already be done.
      ./cp-menus
      # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-On a Raspberry Pi 3, instead of the above steps, run this 1-line installer which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
+The above steps happen automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 
          curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 
-This typically takes less than two hours, with a fast Internet connection.  If you want a faster install, which generally completes in about an hour, instead try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+This 1-line installer requires Raspbian (on Raspberry Pi 3), Ubuntu 16.04 LTS or Debian 9.x.  It typically takes less than two hours, with a fast Internet connection.  If you want a faster install, instead try this one with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 
          curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
 
-Conversely a much larger installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).  If so, be prepared for a multi-hour installation:
+Conversely a much larger but slower installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml):
 
          curl download.iiab.io/6.5/rpi/load-big.txt | sudo bash
 
 _Please browse the above URLs to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !_
 
-In general, beware that ./iiab-install (formerly "./runansible") runs much more slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
+In general, beware that ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.
 
 Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.
 
@@ -123,15 +123,15 @@ _Similarly, if you want to help test CentOS, please do help us [improve on](http
          http://download.iiab.io/6.2/x86/centos-load.txt
          https://github.com/iiab/iiab-factory/blob/master/curl-me
 
-NOTE: After the above "curl" commands, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Hostname change into effect, etc.
+As explained in the above "curl" scripts, a reboot is generally necessary before IIAB becomes fully functional, e.g. to put Hostname change into effect, etc.
 
 **Please note that if you need to upgrade from a recent version, and it has been some time since you cloned IIAB, you may want to consider the following instead of a fresh install:** _(upgrades are at your own risk)_
 
          cd /opt/iiab/iiab/
          git pull
-         ./runsansible
+         ./iiab-install --reinstall
 
-Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt upgrade` (or `apt dist-upgrade` for more complete kernel changes) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 **Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue.**
 
