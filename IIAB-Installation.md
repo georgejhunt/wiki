@@ -117,9 +117,9 @@ Conversely a much larger but slower installation is possible, if you want to exp
 ```
 Please browse the above URLs to inspect and learn from the automated steps of the installation process, and do write to bugs @ iiab.io if you find issues, Thank You !
 
-_In general, beware that ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection._
+**In general, beware that ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
-_Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3._
+**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on the Raspberry Pi 3.**
 
 Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:
 ```
@@ -136,7 +136,7 @@ As explained in the above "curl" scripts, a reboot is generally necessary before
 ```
 Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
-**Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue.**
+_Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue._
 
 You can see the log of the last install by typing:
 ```
