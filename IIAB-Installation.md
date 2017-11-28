@@ -15,7 +15,7 @@
 * [Add Content](#add-content)
     * [ZIM Files](#zim-files)
     * [RACHEL](#rachel)
-    * [Khan Academy Lite](#khan-academy-lite)
+    * [KA Lite (for Khan Academy)](#ka-lite-for-khan-academy)
     * [Copy KA Lite Videos Manually](#copy-ka-lite-videos)
     * [OpenStreetMap](#openstreetmap)
     * [Local Content](#local-content)
@@ -156,7 +156,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
 
 * Linux or MacOS - dd, unzip, xz
 
-* Windows - download
+* Windows - download:
     * Win32 Disk Imager from https://sourceforge.net/projects/win32diskimager/
     * 7-Zip from http://www.7-zip.org
     * Optionally FileZilla from https://filezilla-project.org
@@ -175,13 +175,13 @@ There is also a README with instructions.
 
 You can also have a look at:
 
-   https://www.raspberrypi.org/documentation/installation/installing-images/
+       https://www.raspberrypi.org/documentation/installation/installing-images/
 
 Please ignore everything down to **WRITING AN IMAGE TO THE SD CARD** (we support Raspbian but not NOOBS!)
 
 #### Mini PC's like Intel NUC and Gigabyte BRIX
 
-Note that most Intel NUCs (Next Unit of Computing) shipping since since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
+Note that most Intel NUCs (Next Unit of Computing) shipping since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
 
 If you are given a pre-built x86 image, it should generally install via Clonezilla when booted on the target machine.
 
@@ -203,7 +203,9 @@ Finally, while these images have been developed on the Intel NUC, they may well 
          cd ansible
          python setup.py install
 
-  Earlier in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.  More recently in October 2017, we recommend Ansible 2.4.x instead.  In any case, please verify Ansible's version number with:
+  Earlier in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
+
+  _As of October 2017, Ansible 2.4.x is required &mdash; please verify Ansible's version number with:_
 
          ansible --version
 
@@ -247,10 +249,10 @@ Please also read about and take seriously [Internet-in-a-Box security practices]
 Once the password has been set you should start with the Configure menu item.  The overall process is:
 
 1. Select each sub-menu item and enter any desired parameters.  **Help** is available for each screen and parameter.
-1. Click **Save Configuration**
-1. Click **Install Configured Options** 
-1. Monitor the progress of the Configuration job in Utilities -> Display Job Status.
-1. ***Note*** that after Display Job Status shows "Success", it may be necessary to reboot, to enable all the selected changes.
+2. Click **Save Configuration**
+3. Click **Install Configured Options** 
+4. Monitor the progress of the Configuration job in Utilities -> Display Job Status.
+5. ***Note*** that after Display Job Status shows "Success", it may be necessary to reboot, to enable all the selected changes.
 
 This job can take a substantial amount of time depending on the capacity of the platform involved and how much of the software was included in the initial image.
 
@@ -298,11 +300,12 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Refresh ZIMs Installed List**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
-#### Khan Academy Lite
+#### KA Lite (for Khan Academy)
 
 KA Lite is the most popular platform to experience Khan Academy videos, and a huge collection of associated exercises.  Accounts may be created for students and teachers if you choose to use KA Lite's LMS functionality as well, to track your own progress (or others').
 
 To download the Khan Academy videos of your choosing, in various languages, use KA Lite's downloader available in these places:
+
 * Admin Console -> Install Content -> Download Khan Academy Videos -> Launch KA Lite
 * [http://box:8008](http://box:8008) (or [http://box.lan:8008](http://box.lan:8008) on non-standard devices/browsers)
 * [http://172.18.96.1:8008](http://172.18.96.1:8008) on much older devices/browsers
@@ -320,15 +323,15 @@ See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.lapto
 Download [RACHEL modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
 
 After a module has been downloaded successfully (rerun rsync if there are connectivity issues) local/offline users can access it with URL:
-
-      http://box/modules/<module-name>
-
+```
+   http://box/modules/<module-name>
+```
 #### Copy KA Lite Videos
 
 If KA Lite videos have been obtained from another install or on some storage medium they can be copied directly to KA Lite without going through the admin interface.
 
 1. Copy to /library/ka-lite/content/
-1. Issue the command ``systemctl restart kalite-serve`` to restart the server
+2. Issue the command ``systemctl restart kalite-serve`` to restart the server
 
 #### OpenStreetMap
 
@@ -339,6 +342,7 @@ Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offl
 Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
 
 Either way, the following directories and their contents are needed:
+
 * /library/knowledge/modules/geonames_index
 * /library/knowledge/modules/openstreetmap
 
