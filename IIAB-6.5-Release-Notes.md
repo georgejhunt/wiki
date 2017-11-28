@@ -6,15 +6,15 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 * Completely Overhauled Calibre E-Book server [3.12+](https://calibre-ebook.com/whats-new) on Raspberry Pi!  (Internet-in-a-Box always installs the very latest from Kovid Goyal)
 * Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (coming soon!)
+* Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * [1-line installers](http://download.iiab.io/6.5/rpi/) are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing!  (Implementers please see the new "./iiab-install" and "./runtags" commands, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 * These very same [1-line installers](http://download.iiab.io/6.5/rpi/) for Raspberry Pi (Raspbian) now work on Ubuntu 16.04 LTS and Debian 9.x too, and experimentally on experimentally on Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS arriving in April.
-* Media-rich and searchable offline (ZIM) content thanks to an even better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
-* Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations (coming soon!)
 * Support for large disks, SD cards and USB memory sticks directly out-of-the-box (that are typically NTFS-formatted or exFAT-formatted when purchased) facilitating rapid installation of offline content.
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 
 ### What's Upgraded?
 
+* Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
 * Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) supports downloading new ZIM files (that contain a search index!)  Also supported: ZIM files that are accompanied by an external index, and ZIM files that have no index all.  Fixed: Admin Console's "Services Enabled" checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & the ability to toggle your IIAB home page to WordPress etc ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  Coming Soon: mouseover/tooltips helping curators and implementers drill down to the very best downloadable ZIM content.
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) (coming soon!)
