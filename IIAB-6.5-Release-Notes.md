@@ -40,7 +40,7 @@ Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria.  To s
 
 _Not just in your own community &mdash; but by keeping in touch with our global volunteer community network ([http://OFF.NETWORK](http://OFF.NETWORK)) each of you are providing the lifeblood "fieldback" &mdash; that keeps us motivated enabling Internet-in-a-Box's [quality content collaborations](http://boxing.team) across ALL communities!_
 
-<NAMES TO APPEAR HERE!>
+(-: NAMES TO APPEAR HERE :-)
 
 Join our Monday/Thursday calls if you too can help: [MINUTES.IIAB.IO](http://MINUTES.IIAB.IO)
 
