@@ -32,7 +32,7 @@ e.g. kn-wikipedia_kn_medicine.json is a menu item for the medical wiki in the Ka
 
 There is also a menu-def json file named _menudef-template.json which has the various fields with comments.
 
-After cp-menus has run these files will be in **/library/www/html/iiab-menu/menu-defs**
+After cp-menus has run these files will be in **/library/www/html/iiab-menu/menu-files/menu-defs**
 
 There is a separate directory /library/www/html/iiab-menu/local in which locally modified versions of these files may be stored so that they will not be overwritten when cp-menus is run, but will instead be merged in.
 
