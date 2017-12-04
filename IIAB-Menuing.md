@@ -50,7 +50,7 @@ Here is the template as of March 2017:
     "intended_use" : "", // must be one of zim, html, webroot, osm, kalite
     "lang" : "en", // 2 or 3 char code of language of content; may be different from menu item
     "logo_url" : "", // assumed to be relative to /common/images
-    "menu_item_name" : "", // MUST be the name of this file (without .json); is the unique, logical name of this menu item, e.g. en-wikipedia_ar_all, ar-osm, en-hesperian
+    "menu_item_name" : "", // OPTIONAL. If present, this MUST correspond exactly to the name of this file (but without its .json suffix). This is the unique, logical name of this menu item, e.g. en-wikipedia_ar_all, ar-osm, en-hesperian
     "moddir" : "", // for html modules is the directory under /modules
     "start_url" : "" // optional suffix to base href without leading slash
     "zim_name" : "", // generic zim name with out YYYY-MM version suffix
