@@ -53,7 +53,7 @@ Here is the template as of March 2017:
     "menu_item_name" : "", // OPTIONAL. If present, this MUST correspond exactly to the name of this file (but without its .json suffix). This is the unique, logical name of this menu item, e.g. en-wikipedia_ar_all, ar-osm, en-hesperian
     "moddir" : "", // for html modules is the directory under /modules
     "start_url" : "" // optional suffix to base href without leading slash
-    "zim_name" : "", // generic zim name with out YYYY-MM version suffix
+    "zim_name" : "", // generic ZIM name with out YYYY-MM version suffix
     "title" : "", // localized title for link
     "description" : "", // expanded text for link
     "extra_html" : "<menu_item_name>.html", // optional free form html for submenu or other use
