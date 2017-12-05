@@ -16,10 +16,10 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
 * Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) supports downloading the new ZIM files (that contain a search index!)  Also supported: ZIM files that are accompanied by an external index, and ZIM files that have no index all.  Fixed: Admin Console's "Services Enabled" checkboxes ([#378](https://github.com/iiab/iiab/issues/193)) & the ability to toggle your IIAB home page to WordPress etc ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  _Coming Soon: mouseover/tooltips helping curators and implementers drill down to the very best downloadable ZIM content._
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
-* Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones) _(coming soon!)_
+* Nextcloud is upgraded to [12.0.4](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) or [13.0.0](https://github.com/nextcloud/server/milestones).
 * WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
-* phpMyAdmin is upgraded to [4.7.5](https://www.phpmyadmin.net/news/).
+* phpMyAdmin is upgraded to [4.7.6](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
 * Important [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) mostly solved _(coming soon!)_
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
