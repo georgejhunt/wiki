@@ -21,7 +21,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Nextcloud is upgraded to [12.0.4](https://nextcloud.com/blog/nextcloud-12.0.4-is-here-time-to-upgrade/) and [13.0.0](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) is coming soon.
-* WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/tipton/).
+* WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * phpMyAdmin is upgraded to [4.7.6](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
