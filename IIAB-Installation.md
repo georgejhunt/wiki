@@ -60,7 +60,7 @@ Here is the complete list of the steps required. Some may already be done.
 
 3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!
 
-   If you have no choice but to install over Wi-Fi, on Raspbian please use "sudo raspi-config" -> Network Options -> Wi-Fi to set the SSID and passphrase that will get you on the Internet &mdash; then do "sudo reboot" to verify your Internet connection.  REMEMBER: after you are completely done installing Internet-in-a-Box, you will later need to run "sudo iiab-hotspot-on" to convert your Raspberry Pi's internal Wi-Fi to AP mode (i.e. Access Point, so it acts as a knowledge hotspot).  Of course if you do this prematurely, you will need to run "iiab-hotspot-off" to recover your Wi-Fi connection to the Internet.
+   If you have no choice but to install over Wi-Fi, on Raspbian please use "sudo raspi-config" -> Network Options -> Wi-Fi to set the SSID and passphrase that will get you on the Internet (this happens in /etc/wpa_supplicant/wpa_supplicant.conf) then do "sudo reboot" to verify your Internet connection.  REMEMBER: after you are completely done installing Internet-in-a-Box, you will later need to run "sudo iiab-hotspot-on" to convert your Raspberry Pi's internal Wi-Fi to AP mode (i.e. Access Point, so it acts as a knowledge hotspot).  Of course if you do this prematurely, you will need to run "iiab-hotspot-off" to recover your Wi-Fi connection to the Internet.
 
    _No matter what your OS, log into your machine with an attached monitor/keyboard or via ssh.  Before proceeding, verify your Internet connection by typing:_
 ```
