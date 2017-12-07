@@ -58,13 +58,17 @@ Here is the complete list of the steps required. Some may already be done.
 
 2. Install your OS (e.g. [Ubuntu 16.04 LTS](http://releases.ubuntu.com/16.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
 
-3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!  In any case, log into your machine with an attached monitor/keyboard or via ssh.  Verify your Internet connection by typing:
+3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!
+
+   If you have no choice but to install over Wi-Fi, on Raspbian please use "sudo raspi-config" -> Network Options -> Wi-Fi to set the SSID and passphrase that will get you on the Internet &mdash; then do "sudo reboot" to verify your Internet connection.  REMEMBER: after you are completely done installing Internet-in-a-Box, you will later need to run "sudo iiab-hotspot-on" to convert your Raspberry Pi's internal Wi-Fi to AP mode (i.e. Access Point, so it acts as a knowledge hotspot).  Of course if you do this prematurely, you will need to run "iiab-hotspot-off" to recover your Wi-Fi connection to the Internet.
+
+   _No matter what your OS, log into your machine with an attached monitor/keyboard or via ssh.  Before proceeding, verify your Internet connection by typing:_
 ```
    ping mit.edu
 ```
-4. Escalate to root using "sudo su -" or similar.
+4. Escalate to root using "sudo su -" or similar.  If you prefer to use "sudo" for the commands below, that is OK too.
 
-5. _**Ansible 2.4.1+ is required (2.4.2 recommended) on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to /opt/iiab/iiab/scripts/ansible installing Ansible 2.4.x below._
+5. _**Ansible 2.4.1+ is required (2.4.2 recommended) on all OS's** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to running /opt/iiab/iiab/scripts/ansible below, which installs Ansible 2.4.x._
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
