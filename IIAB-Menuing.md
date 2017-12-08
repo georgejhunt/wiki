@@ -60,3 +60,4 @@ Here is the template as of March 2017:
                    // be careful of embedded quotes, brackets or other characters that will break json
     "apk_file" : "<apk file without full path>" // optional
     }
+You may also notice that there are menu definitions with additional properties. These have been taken from RACHEL catalog and are information only fields, not used by the IIAB menuing system.
