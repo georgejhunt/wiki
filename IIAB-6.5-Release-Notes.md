@@ -4,21 +4,21 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's New?
 
-* Completely overhauled Calibre E-Book server [3.13+](https://calibre-ebook.com/whats-new) on Raspberry Pi!  (Internet-in-a-Box installs the very latest from Kovid Goyal)
-* Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access _(coming soon!)_
+* Completely overhauled Calibre E-Book server [3.13+](https://calibre-ebook.com/whats-new) on Raspberry Pi (Internet-in-a-Box installs the very latest from Kovid Goyal!)
+* Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access.
 * Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations _(coming soon!)_
 * Raspbian, Ubuntu 16.04 and Debian 9 support for [1-line installers](http://download.iiab.io/6.5/rpi/) that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20!  (Implementers please try the new "./iiab-install" and "./runtags" commands in /opt/iiab/iiab, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)).
 * Experimental support for Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS arriving in April.
 * Experimental captive portal based on nodogsplash, avoiding URL complications for non-Latin communities especially [#412](https://github.com/iiab/iiab/issues/412) _(coming soon!)_
-* Support for large disks, SD cards and USB memory sticks directly out-of-the-box (that are typically NTFS-formatted or exFAT-formatted when purchased) facilitating rapid installation of offline content.
+* Support for large disks, SD cards and USB memory sticks directly out-of-the-box (that are typically NTFS-formatted or exFAT-formatted when purchased) for rapid installation of offline content.
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 
 ### What's Upgraded?
 
 * Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.3.0+ under the hood, _watch out Google here we come :-)_
 * Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) supports downloading new ZIM files (that contain a search index!)  Also supported: traditional ZIM files that are accompanied by an external index, and ZIM files that happen to have no index all.
-*  Admin Console -> Install Content -> Get ZIM Files from Kiwix is now enhanced by tooltips (small popup windows) helping you drill down to the very best downloadable ZIM content.
-* Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  
+* Admin Console -> Install Content -> Get ZIM Files from Kiwix is now enhanced by tooltips (small popup windows) helping you drill down to the very best downloadable ZIM content.
+* Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Nextcloud is upgraded to [12.0.4](https://nextcloud.com/blog/nextcloud-12.0.4-is-here-time-to-upgrade/) with [13.0.0](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule) expected shortly.
 * WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
