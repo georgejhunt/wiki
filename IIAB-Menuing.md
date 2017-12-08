@@ -61,3 +61,22 @@ Here is the template as of March 2017:
     "apk_file" : "<apk file without full path>" // optional
     }
 You may also notice that there are menu definitions with additional properties. These have been taken from RACHEL catalog and are information only fields, not used by the IIAB menuing system.
+
+## Config File
+
+As of December, 2017 the IIAB menuing system has a configuration file, \<docroot\>/iiab-menu/config.json , with the following properties that are used to compute URLs dynamically:
+
+* kiwixPort          - Port on which kiwix is listening
+* en-kalitePort      - Port on which kalite is listening  
+* es-kalitePort      - Alternate Port for kalite to serve content in Spanish
+* fr-kalitePort      - Alternate Port for kalite to serve content in French
+
+Multiple instances of kalite may be run to separate content by language when not using registered users.
+* calibrePort        - Port on which calibre is listening  
+* apkBaseUrl         - URL where downloadable APKs are stored; used by download phrase in Medical Wikis 
+* apkLocalUrl        - Not used, but serves to preserve the URL in the local server  
+* apkLinkPhrase      - An array with the phrase 'Download the offline app' in various languages  
+* mobilePortraitSize - Font size for mobile devices in portrait orientation
+* poweroffPin        - Not Used
+* poweroffPinHash    - Not Used
+* kiwixUrl           - prefix to URL for ZIM files when running kiwix in proxy mode
