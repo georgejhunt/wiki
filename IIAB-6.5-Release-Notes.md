@@ -27,7 +27,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * WordPress is upgraded to [4.9.1](https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.5](https://github.com/Elgg/Elgg/blob/2.3.5/CHANGELOG.md).
 * Moodle is upgraded to [3.1.9](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
-* phpMyAdmin is upgraded to [4.7.6](https://www.phpmyadmin.net/news/).
+* phpMyAdmin is upgraded to [4.7.7](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
 * Preliminary documentation [published](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) on how to upgrade (or reinstall while offline) your IIAB servers apps.
 * [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) are mostly solved.
