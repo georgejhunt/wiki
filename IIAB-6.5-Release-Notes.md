@@ -11,7 +11,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
 * Support for large disks, SD cards and USB memory sticks directly out-of-the-box (that are typically NTFS-formatted or exFAT-formatted when purchased) for rapid installation of offline content.
 * Experimental support for Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS arriving in April.
-* Compact medical and Wikipedia content in the most popular languages, for smaller/mobile installations _(coming soon!)_
+* Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
 * Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 
 ### What's Upgraded?
