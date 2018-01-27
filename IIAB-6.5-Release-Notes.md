@@ -5,7 +5,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's New?
 
 * Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (after Raspbian/RPi's own [Wi-Fi bugs](https://github.com/iiab/iiab/issues/638) are resolved!)
-* Completely overhauled Calibre E-Book server [3.15+](https://calibre-ebook.com/whats-new) on Raspberry Pi (Internet-in-a-Box installs the very latest from Kovid Goyal!)
+* Completely overhauled Calibre E-Book server [3.16+](https://calibre-ebook.com/whats-new) on Raspberry Pi: allows adding and deleting of books using the web interface (Internet-in-a-Box installs the very latest Calibre from Kovid Goyal).
 * Raspbian, Ubuntu 16.04 and Debian 9 support for [1-line installers](http://download.iiab.io/6.5/rpi/) that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20!  (Implementers please try the new "./iiab-install" and "./runtags" commands in /opt/iiab/iiab, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)).
 * Apache proxy of Kiwix (ZIM file usage) empowering community analytics, viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
