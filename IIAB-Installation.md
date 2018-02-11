@@ -388,4 +388,4 @@ For legacy support of the LibraryBox and PirateBox communities, teachers may als
 
 Bonus: after the lesson, teachers should feel free to remove their USB sticks/drives without warning, as the IIAB server should unmount USB sticks/drives automagically.
 
-See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F)" within our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) for more info.
+See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F)" within our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) and "[usb-lib README](https://github.com/iiab/iiab/blob/master/roles/usb-lib/README.rst)" for more info.
