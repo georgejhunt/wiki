@@ -68,7 +68,7 @@ Here is the complete list of the steps required. Some may already be done.
 ```
 4. Escalate to root using "sudo su -" or similar.  If you prefer to use "sudo" for the commands below, that is OK too.
 
-5. _**Ansible 2.4.1+ is required on all OS's (2.4.2 recommended, avoid 2.4.3 which has [memory issues](https://github.com/iiab/iiab/issues/669))** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to running /opt/iiab/iiab/scripts/ansible below, which installs Ansible 2.4.x._
+5. _**Ansible 2.4.1+ is required on all OS's (2.4.2 recommended, AVOID 2.4.3 which has [memory issues](https://github.com/iiab/iiab/issues/669))** so that ./iiab-install (formerly "./runansible") can run efficiently and incrementally.  Run "ansible --version" to make sure you don't have an older version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, see [#375](https://github.com/iiab/iiab/issues/375#issuecomment-334500152) & [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to running /opt/iiab/iiab/scripts/ansible below, which installs Ansible 2.4.x._
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 ```
