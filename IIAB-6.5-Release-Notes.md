@@ -31,7 +31,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * phpMyAdmin is upgraded to [4.7.7](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
 * Preliminary documentation [published](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) on how to upgrade (or reinstall while offline) your IIAB servers apps a.k.a. IIAB services.
-* [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) are mostly solved.
+* [Known Issues in IIAB 6.4](https://github.com/iiab/iiab/wiki/IIAB-6.4-Release-Notes#known-issues) are largely solved.
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
