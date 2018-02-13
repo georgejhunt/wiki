@@ -142,7 +142,7 @@ Reporting Bugs
 You can file bug reports on [GitHub](https://github.com/):
 
 * Sign up for a [GitHub](https://github.com/) account
-* Go to the [issue tracker on GitHub](https://github.com/iiab/iiab/issues)
+* Go to IIAB's [issue tracker on GitHub](https://github.com/iiab/iiab/issues)
 * Search for existing issues using the search field
 * If you don't find any similar issues, file a new issue!
 
