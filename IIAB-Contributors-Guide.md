@@ -2,11 +2,11 @@ Getting started
 ===============
 Internet-in-a-Box runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian, CentOS and Fedora.
 
-You can install Internet-in-a-Box on most late model desktop and laptop computers. It can run on Intel NUC, Gigabyte BRIX, OLPC XO-1.5, XO-1.75, XO-4, Raspberry Pi 3, Raspberry Pi 2 and Raspberry Pi Zero W. A VirtualBox VM can also be used for testing purposes. Using Docker containers is not recommended however, as our Ansible provisioning system requires low-level access to the operating system.
+You can install Internet-in-a-Box on most late model desktop and laptop computers. It can run on Intel NUC, Gigabyte BRIX, OLPC XO-1.5, XO-1.75, XO-4, Raspberry Pi 3, Raspberry Pi 2 and Raspberry Pi Zero W. A VirtualBox VM can also be used for testing purposes. Using Docker containers is not recommended however, as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
 
 Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
-Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automation tool to deploy and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks.
+Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in YAML format. Playbooks are divided into hosts, roles and tasks.
 ```
 ├── roles
 │   ├── 1-prep
