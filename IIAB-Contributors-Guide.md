@@ -11,12 +11,12 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 ├── roles
 │   ├── 1-prep
 │   │   ├─ defaults
-|   |   |    ├──main.yml (lowest precedence variable definitions, overridden by <repo_root>/vars/default_vars.yml, overridden by ./vars/local_vars.yml.
+|   |   |    ├──main.yml (variables defined at /opt/iiab/iiab/vars/default_vars.yml can be overridden by /opt/iiab/iiab/vars/local_vars.yml)
 │   │   ├── README.rst
 │   │   ├── tasks
-|   |   |    ├──main.yml (specifies the actions to install this role
+|   |   |    ├──main.yml (actions that install this role)
 │   │   └── templates
-|   |   |    ├<(text files where ansible variables are substituted, specified via {% <variable> %} containers-(jinja2 language).
+|   |   |    ├──(text files where Ansible variables are substituted, using jinja2 templating e.g. {% <variable> %})
 │   ├── 2-common
 │   │   ├── README.rst
 │   │   ├── tasks
