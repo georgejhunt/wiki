@@ -50,7 +50,7 @@ Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-A
 Installation
 ============
 
-Before you start the installation please refer to the [hardware section of FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform. Also note that downloading content might take a long time on slower Internet connections.
+Before you start the installation please refer to the [hardware section of our FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform. Also note that downloading content might take a long time on slower Internet connections.
 
 If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
