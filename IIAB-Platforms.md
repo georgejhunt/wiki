@@ -9,7 +9,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Stretch with Desktop (GUI) or Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 2 or 3
-* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS &mdash; and we hope to support Ubuntu 18.04 LTS after it's released [2018-04-26](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule)
+* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS &mdash; we hope to support Ubuntu 18.04 LTS after it's released [2018-04-26](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule)
 * [Debian 9.3](https://www.debian.org/releases/stretch/) "Stretch" LTS
 * [CentOS 7.4](https://www.centos.org/download/) LTS
 
