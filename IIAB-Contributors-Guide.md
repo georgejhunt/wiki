@@ -22,7 +22,7 @@ Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to 
 │   │   ├── tasks
 │   │   └── templates
 ```
-Internet-in-a-Box installation begins with 0-init, followed by Stages 1 to 9, and finally the network stage:
+Specifically, Ansible installs Internet-in-a-Box starting with 0-init, followed by Stages 1 to 9, and finally runs the network stage:
 - [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init)
 - [1-prep](https://github.com/iiab/iiab/tree/master/roles/1-prep)
 - [2-common](https://github.com/iiab/iiab/tree/master/roles/2-common)
@@ -35,15 +35,15 @@ Internet-in-a-Box installation begins with 0-init, followed by Stages 1 to 9, an
 - [9-local-addons](https://github.com/iiab/iiab/tree/master/roles/9-local-addons)
 - [network](https://github.com/iiab/iiab/tree/master/roles/network)
 
-Click on Stages 1 to 9 above for descriptions of their specific purpose.
+Click on Stages 1 to 9 above for descriptions of their specific purposes.
 
-At runtime (when building up your Internet-in-a-Box server) Ansible gathers system information making it available (as 'facts') and combines this with Ansible 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
+At runtime (to build up your Internet-in-a-Box server) Ansible gathers system information making it available (as 'facts') and combines this with Ansible 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
 1. Bash script `./iiab-install` (formerly `./runansible`) uses Ansible to run `/opt/iiab/iiab/iiab-stages.yml`
 
 2. `iiab-stages.yml` calls 9+ aggregate roles (the numbered directories above, stored in /opt/iiab/iiab/roles).  Within the 9 core install stages, it avoids repetition after Internet glitches by keeping a counter (STAGE) in `/etc/iiab/iiab.env`
 
-3. Each aggregate role has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to call the individual named roles.
+3. Each aggregate role has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to invoke all needed roles and tasks.
 
 Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more information.
 
