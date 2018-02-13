@@ -22,11 +22,26 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 │   │   ├── tasks
 │   │   └── templates
 ```
-At runtime, Ansible gathers system information and makes it available (called 'facts') and combines this with playbook defined 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
+Installation begins with 0-init, followed by Stages 1 to 9, and finally the network stage:
+- [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init)
+- [1-prep](https://github.com/iiab/iiab/tree/master/roles/1-prep)
+- [2-common](https://github.com/iiab/iiab/tree/master/roles/2-common)
+- [3-base-server](https://github.com/iiab/iiab/tree/master/roles/3-base-server)
+- [4-server-options](https://github.com/iiab/iiab/tree/master/roles/4-server-options)
+- [5-xo-services](https://github.com/iiab/iiab/tree/master/roles/5-xo-services)
+- [6-generic-apps](https://github.com/iiab/iiab/tree/master/roles/6-generic-apps)
+- [7-edu-apps](https://github.com/iiab/iiab/tree/master/roles/7-edu-apps)
+- [8-mgmt-tools](https://github.com/iiab/iiab/tree/master/roles/8-mgmt-tools)
+- [9-local-addons](https://github.com/iiab/iiab/tree/master/roles/9-local-addons)
+- [network](https://github.com/iiab/iiab/tree/master/roles/network)
+
+Click on Stages 1 to 9 above for descriptions of their specific purpose.
+
+At runtime (when building up your Internet-in-a-Box server) Ansible gathers system information making it available (as 'facts') and combines this with Ansible 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
 1. Bash script `./iiab-install` (formerly `./runansible`) uses Ansible to run `/opt/iiab/iiab/iiab-stages.yml`
 
-2. `iiab-stages.yml` calls 1+9 aggregate roles (the numbered directories under /opt/iiab/iiab/roles).  Within those 9 stages, it avoids repetition after Internet failures by keeping a counter (STAGE) in `/etc/iiab/iiab.env`
+2. `iiab-stages.yml` calls 9+ aggregate roles (the numbered directories above, stored in /opt/iiab/iiab/roles).  Within the 9 core install stages, it avoids repetition after Internet glitches by keeping a counter (STAGE) in `/etc/iiab/iiab.env`
 
 3. Each aggregate role has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to call the individual named roles.
 
@@ -41,9 +56,9 @@ If you are a developer, please consider [building Internet-in-a-Box from scratch
 
 Please refer to the [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
 
-Setting up development environment
-===================================
-( This section uses experimental development environment for Internet-in-a-Box. It is being developed in the [iiab-dev-mode repository](https://github.com/arky/iiab-dev-mode). )
+Setting up a development environment
+=====================================
+( This section uses an experimental development environment for Internet-in-a-Box. It is being developed in the [iiab-dev-mode repository](https://github.com/arky/iiab-dev-mode). )
 
 This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/). You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [VirtualBox](https://www.virtualbox.org/) installed.
 
