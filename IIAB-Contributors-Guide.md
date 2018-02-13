@@ -22,7 +22,7 @@ Internet-in-a-Box uses [Ansible](https://www.ansible.com/) infrastructure automa
 │   │   ├── tasks
 │   │   └── templates
 ```
-Installation begins with 0-init, followed by Stages 1 to 9, and finally the network stage:
+Internet-in-a-Box installation begins with 0-init, followed by Stages 1 to 9, and finally the network stage:
 - [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init)
 - [1-prep](https://github.com/iiab/iiab/tree/master/roles/1-prep)
 - [2-common](https://github.com/iiab/iiab/tree/master/roles/2-common)
