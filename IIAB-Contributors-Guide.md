@@ -6,7 +6,7 @@ You can install Internet-in-a-Box on most late model desktop and laptop computer
 
 Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
-Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) a human readable instruction files in [YAML](http://www.yaml.org/start.html) format. Playbooks are divided into hosts, roles and tasks.
+Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human readable instruction files in [YAML](http://www.yaml.org/start.html) format. Playbooks are divided into hosts, roles and tasks.
 ```
 ├── roles
 │   ├── 1-prep
