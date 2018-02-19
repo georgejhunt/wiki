@@ -63,3 +63,5 @@ Note both above became defaults in mid-2017.  If making changes to local_vars.ym
 Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~20 min on RPi3) in Utilities menu -> Display Job Status.  This is very similar to "./iiab-install --debug".
 
 Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://FAQ.IIAB.IO) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+
+When IIAB is installed on Ubuntu 17.10 and Ubuntu 18.04 (development branch), users migh have difficulties connecting over WIFI to the server. Consider moving contents of /etc/network/interfaces.d/iiab to /etc/network/interfaces to work around this issue.
