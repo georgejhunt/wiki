@@ -65,3 +65,5 @@ Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/m
 Read more about `local_vars.yml` within [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and our [Frequently Asked Questions](http://FAQ.IIAB.IO) under ["What is local_vars.yml and how do I customize it?"](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 
 (3) FEBRUARY 2018 WORKAROUND: When IIAB is installed on Ubuntu 17.10 or (pre-release) Ubuntu 18.04 users might have difficulties connecting over Wi-Fi to the server. As a temporary measure until IIAB supports Ubuntu 18.04 officially later in 2018, consider moving the contents of /etc/network/interfaces.d/iiab to /etc/network/interfaces (issue [#625](https://github.com/iiab/iiab/issues/625)).
+
+**_Please also read "Any other networking tips?" within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)_**
