@@ -9,6 +9,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Raspbian, Ubuntu 16.04 and Debian 9 support for [1-line installers](http://download.iiab.io/6.5/rpi/) that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20!  (Implementers please try the new "./iiab-install" and "./runtags" commands in /opt/iiab/iiab, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)).
 * Automounting of large USB memory sticks, SD cards and portable disks (that are typically exFAT-formatted or NTFS-formatted when purchased).  This makes it easy to (1) install in-field / offline content, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
 * Apache proxy of Kiwix (ZIM file usage) empowering community analytics, viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
+* MediaWiki 1.30.0 is introduced (experimental support!)
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
 * Experimental support for Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS [expected](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule) 2017-04-26.
 * Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
@@ -27,7 +28,6 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4](https://github.com/learningequality/ka-lite/releases) and its install routine greatly streamlined.
 * WordPress is upgraded to [4.9.4](https://wordpress.org/news/2018/02/wordpress-4-9-4-maintenance-release/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.5](https://github.com/Elgg/Elgg/blob/2.3.5/CHANGELOG.md).
-* MediaWiki 1.30.0 is introduced (experimental support!)
 * Moodle is upgraded to [3.1.11](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * DokuWiki is upgraded to [2017-02-19e](https://www.dokuwiki.org/changes#release_2017-02-19e_frusterick_manners).
 * phpMyAdmin is upgraded to [4.7.9](https://www.phpmyadmin.net/news/).
