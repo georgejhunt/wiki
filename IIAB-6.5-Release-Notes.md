@@ -24,7 +24,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).
 * RACHEL modules can now be downloaded/installed directly from [oer2go.org](http://oer2go.org) &mdash; using command line initially _(documentation growing off [#641](https://github.com/iiab/iiab/issues/641))_.
 * Sugarizer [0.9](http://sugarizer.org/)'s installation routine is now faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
-* Nextcloud is upgraded to [13.0.0](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/) (13.0.1 is expected 2018-03-14).
+* Nextcloud is upgraded to [13.0.1](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4](https://github.com/learningequality/ka-lite/releases) and its install routine greatly streamlined.
 * WordPress is upgraded to [4.9.4](https://wordpress.org/news/2018/02/wordpress-4-9-4-maintenance-release/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.5](https://github.com/Elgg/Elgg/blob/2.3.5/CHANGELOG.md).
