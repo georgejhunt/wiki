@@ -11,7 +11,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Apache proxy of Kiwix (ZIM file usage) empowering community analytics, viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml), for document collaboration.
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
-* Experimental support for Ubuntu 17.10, in preparation for Ubuntu 18.04 LTS [expected](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule) 2017-04-26.
+* Experimental support for Ubuntu 17.10 and Ubuntu 18.04 LTS [expected 2017-04-26](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule).
 * Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
 * Code is dramatically more approachable by developers and implementers.  Prototype: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 * IIAB 6.6 Preview: experimental support for WiFi-as-client simultaneous with WiFi-as-hotspot.
