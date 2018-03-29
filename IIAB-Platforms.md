@@ -44,7 +44,7 @@ OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content fo
 
 - Tested with Raspbian especially
 
-(After building your Internet-in-a-Box microSD inside a Raspberry Pi 3 or 3 B+, also consider try testing it within the tiny 512MB Raspberry Pi Zero W, available for [as little as $3.14 at Micro Center](http://www.microcenter.com/product/486575/zero_w) stores in the USA.)
+(After building your Internet-in-a-Box microSD inside a Raspberry Pi 3 or 3 B+, also consider testing it within the amazing/tiny 512MB Raspberry Pi Zero W, available for [as little as $3.14 at Micro Center](http://www.microcenter.com/product/486575/zero_w) stores in the USA.)
 
 #### VirtualBox VM
 
