@@ -28,7 +28,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4](https://github.com/learningequality/ka-lite/releases) and its install routine greatly streamlined.
 * WordPress is upgraded to [4.9.5+](https://wordpress.org/news/) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
-* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.5](https://github.com/Elgg/Elgg/blob/2.3.5/CHANGELOG.md).
+* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
 * Moodle is upgraded to [3.1.11](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS.
 * DokuWiki is upgraded to [2017-02-19e](https://www.dokuwiki.org/changes#release_2017-02-19e_frusterick_manners).
 * phpMyAdmin is upgraded to [4.7.9](https://www.phpmyadmin.net/news/).
