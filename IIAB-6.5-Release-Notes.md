@@ -5,7 +5,6 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's New?
 
 * Anybody can now install Internet-in-a-Box (IIAB) with a regular Wi-Fi connection, without the need for an Ethernet cable or router access (after Raspbian/RPi's own [Wi-Fi bugs](https://github.com/iiab/iiab/issues/638) are resolved!)
-* IIAB 6.6 Preview: experimental support for WiFi-as-client simultaneous with WiFi-as-hotspot.
 * Completely overhauled Calibre E-Book server [3.20+](https://calibre-ebook.com/whats-new) on Raspberry Pi: allows adding, deleting, editing metadata of books using the web interface (Internet-in-a-Box installs the very latest Calibre from Kovid Goyal).
 * Raspbian, Ubuntu 16.04 and Debian 9 support for [1-line installers](http://download.iiab.io/6.5/rpi/) that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20!  (Implementers please try the new "./iiab-install" and "./runtags" commands in /opt/iiab/iiab, working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)).
 * Automounting of large USB memory sticks, SD cards and portable disks (that are typically exFAT-formatted or NTFS-formatted when purchased).  This makes it easy to (1) install in-field / offline content, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
@@ -13,8 +12,9 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) for doc collaboration.
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
 * Experimental support for Ubuntu 17.10 and Ubuntu 18.04 LTS [expected 2017-04-26](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule).
-* Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
 * Code is dramatically more approachable by developers and implementers.  Prototype: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
+* Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
+* IIAB 6.6 Preview: WiFi-as-client simultaneous with WiFi-as-hotspot is coming, experimental support for ./runrole (will replace ./runtags).
 
 ### What's Upgraded?
 
