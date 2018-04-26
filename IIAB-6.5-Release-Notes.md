@@ -32,7 +32,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * DokuWiki is upgraded to [2018-04-22 "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
-* Documentation [published](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) on how to upgrade (or reinstall while offline) your IIAB servers apps a.k.a. IIAB services.
+* Documentation published on [how to upgrade (or reinstall while offline) your IIAB servers apps](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) a.k.a. IIAB services.
 * Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
