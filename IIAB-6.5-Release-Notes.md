@@ -28,8 +28,8 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4+](https://github.com/learningequality/ka-lite/releases) and its install routine greatly streamlined.
 * WordPress is upgraded to [4.9.5+](https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/) (4.9.6 [expected 2018-05-15](https://make.wordpress.org/core/2018/04/21/4-9-6-schedule/)) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.1.11+](https://docs.moodle.org/dev/Category:Moodle_3.1) LTS (3.5 LTS [expected](https://www.moodleworld.com/whats-coming-in-moodle-3-5-the-next-lts-version-of-moodle/) [2018-05-14](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/)).
-* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md) ([2018-04-22 "Greebo"]() anticipated).
-* DokuWiki is upgraded to [2017-02-19e](https://www.dokuwiki.org/changes#release_2017-02-19e_frusterick_manners).
+* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
+* DokuWiki is upgraded to [2017-02-19e](https://www.dokuwiki.org/changes#release_2017-02-19e_frusterick_manners) ([2018-04-22 "Greebo"](https://www.dokuwiki.org/changes) anticipated).
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
 * Documentation [published](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) on how to upgrade (or reinstall while offline) your IIAB servers apps a.k.a. IIAB services.
