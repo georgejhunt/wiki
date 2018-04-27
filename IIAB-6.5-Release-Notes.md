@@ -18,7 +18,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's Upgraded?
 
-* Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.4.0 under the hood, _watch out Google here we come :-)_
+* Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.5.0 under the hood, _watch out Google here we come :-)_
 * Internet-in-a-Box's own Admin Console ([http://box/admin](http://box/admin)) supports downloading new ZIM files (that contain a search index!)  Also supported: traditional ZIM files that are accompanied by an external index, and ZIM files that happen to have no index all.
 * Admin Console -> Install Content -> Get ZIM Files from Kiwix is now enhanced by tooltips (small popup windows) helping you drill down to the very best downloadable ZIM content.
 * Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).
