@@ -1,6 +1,6 @@
 # _**DRAFT**_
 
-Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)) will be release in May 2018.
+Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)) will be released in May 2018.
 
 ### What's New?
 
