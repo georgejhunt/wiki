@@ -36,11 +36,11 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### How do I try it?
 
-TL;DR!  Try our 1-line installer for Raspberry Pi 3:
+TL;DR!  Try our 1-line installer for Raspberry Pi 3: (or 3 B+)
 
      curl download.iiab.io/6.5/rpi/load.txt | sudo bash
 
-Be sure your Raspberry Pi 3 is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content, and is connected to the Internet with an actual Ethernet cable.  Installation usually completes within two hours, if your Internet speed is very fast.  See [download.iiab.io/6.5/rpi](http://download.iiab.io/6.5/rpi/README.html) for other/faster options!
+Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5/rpi](http://download.iiab.io/6.5/rpi/README.html) for other/faster options!
 
 Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important part &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
@@ -58,5 +58,5 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* Nextcloud ([http://box/nextcloud](http://box/nextcloud)) sometimes takes far too long to login/logout on Raspberry Pi 3 (more than a minute, instead of the usual couple seconds).  If this affects you (typically during the first hours after installation, speeding up later) please help everyone isolate the pattern and root cause, by reviewing & posting to [#401](https://github.com/iiab/iiab/issues/401) so an upstream bug might be filed.
-* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted just prior to a cold boot).
+* Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow. [#401](https://github.com/iiab/iiab/issues/401)
+* USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot.
