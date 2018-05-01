@@ -97,7 +97,7 @@ Here is the complete list of the steps required. Some may already be done.
 
    cd /opt/iiab/iiab/scripts/
    ./ansible
-   # Installs latest Ansible from PPA.
+   # Installs latest Ansible from PPA
 
    cd /opt/iiab/iiab/
    ./iiab-install
