@@ -6,7 +6,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 * Anybody can now install Internet-in-a-Box (IIAB) over regular Wi-Fi — or accelerate your install using an Ethernet cable to live Internet.
 * Completely overhauled Calibre E-Book server [3.22.1+](https://calibre-ebook.com/whats-new) allows teachers to add and delete books using the web interface, as well as editing book metadata.
-* [1-line installers](http://download.iiab.io/6.5/rpi/) for Raspbian, Ubuntu 18.04 LTS and Debian 9, that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20 apps!  Implementers please try the new "./iiab-install" and "./runrole" (formerly "./runtags") commands in /opt/iiab/iiab &mdash; working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
+* [1-line installers](http://download.iiab.io/6.5/) for Raspbian, Ubuntu 18.04 LTS and Debian 9, that are far more efficient, and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing, whether you want ~6, ~12 or ~20 apps!  Implementers please try the new "./iiab-install" and "./runrole" (formerly "./runtags") commands in /opt/iiab/iiab &mdash; working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 * Automounting of larger USB memory sticks, SD cards and portable disks (these are typically exFAT-formatted or NTFS-formatted when purchased).  Makes it easy to (1) install in-field / offline content, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
 * Apache proxy of Kiwix empowers community analytics (ZIM file usage) viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) for doc collaboration.
@@ -38,9 +38,9 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 TL;DR!  Try our 1-line installer for Raspberry Pi 3: (or 3 B+)
 
-     curl download.iiab.io/6.5/rpi/load.txt | sudo bash
+     curl download.iiab.io/6.5/load.txt | sudo bash
 
-Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5/rpi](http://download.iiab.io/6.5/rpi/README.html) for other/faster options!
+Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5](http://download.iiab.io/6.5/README.html) for other/faster options!
 
 Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important part &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
