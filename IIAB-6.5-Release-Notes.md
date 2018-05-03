@@ -27,7 +27,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * WordPress is upgraded to [4.9.5+](https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/) ([4.9.6](https://make.wordpress.org/core/tag/4-9-6/) expected 2018-05-15) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.5beta+](https://download.moodle.org/releases/development/) ([3.5 LTS](https://docs.moodle.org/dev/Category:Moodle_3.5) [expected](https://www.moodleworld.com/whats-coming-in-moodle-3-5-the-next-lts-version-of-moodle/) [2018-05-14](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/)).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
-* DokuWiki is upgraded to [2018-04-22 "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
+* DokuWiki is upgraded to [2018-04-22a "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
 * Fixed: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info).
