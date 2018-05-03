@@ -5,13 +5,13 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 ### What's New?
 
 * Anybody can now install Internet-in-a-Box (IIAB) over regular Wi-Fi — or accelerate your install using an Ethernet cable to live Internet.
-* Completely overhauled Calibre E-Book server [3.22.1+](https://calibre-ebook.com/whats-new) allows teachers to add and delete books using the web interface, as well as editing book metadata.
+* Completely overhauled Calibre E-Book server [3.22.1+](https://calibre-ebook.com/whats-new). Allows teachers to add and delete books using the web interface, as well as editing book metadata.
 * [1-line installers](http://download.iiab.io/6.5/) for Raspbian Stretch, Ubuntu 18.04 LTS and Debian 9 are now far more efficient &mdash; and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing: whether you want ~6, ~12 or ~20 apps!  Implementers check out the new "./iiab-install" and "./runrole" (formerly "./runtags") commands in /opt/iiab/iiab &mdash; working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 * Automounting of larger USB memory sticks, SD cards and portable disks (these are typically exFAT-formatted or NTFS-formatted when purchased).  Makes it easy to (1) install in-field / offline content, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
 * Apache proxy of Kiwix empowers community analytics (ZIM file usage) viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) for doc collaboration.
 * Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
-* Code is dramatically more approachable by developers and implementers.  Prototype: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
+* Code is dramatically more approachable by developers and implementers.  Preview: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 * Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
 * IIAB 6.6 Preview: on Raspberry Pis, we hope to support WiFi-as-client *simultaneous* with WiFi-as-hotspot, streamlining updates when your IIAB is in use!
 
