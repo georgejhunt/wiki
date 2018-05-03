@@ -41,7 +41,7 @@ This is for people who already know how to do everything in these instructions a
 
 There are basically two ways to install IIAB software:
 
-   1. Do everything from scratch.  _Strongly recommended (since IIAB 6.4 especially)_ as our new [1-line installer scripts](http://download.iiab.io/6.5/rpi) do essentially everything!
+   1. Do everything from scratch.  _Strongly recommended (since IIAB 6.4 especially)_ as our new [1-line installer scripts](http://download.iiab.io/6.5/) do essentially everything!
    2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  Here are some [suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
 The _advantage_ of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The _disadvantage_ is that it is more work.
@@ -86,7 +86,7 @@ Here is the complete list of the steps required. Some may already be done.
    git clone https://github.com/iiab/iiab-factory --depth 1
 
    cd /opt/iiab/iiab/vars/
-   wget http://download.iiab.io/6.5/rpi/local_vars.yml
+   wget http://download.iiab.io/6.5/local_vars.yml
    # Above assumes a virgin system (wget WON'T overwrite existing files)
 
    # In general please examine local_vars.yml carefully (and modify as nec)
@@ -113,15 +113,15 @@ Here is the complete list of the steps required. Some may already be done.
 ```
 The above happens automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 ```
-   curl download.iiab.io/6.5/rpi/load.txt | sudo bash
+   curl download.iiab.io/6.5/load.txt | sudo bash
 ```
 _These 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 ```
-   curl download.iiab.io/6.5/rpi/load-min.txt | sudo bash
+   curl download.iiab.io/6.5/load-min.txt | sudo bash
 ```
 Conversely a much larger but slower installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml):
 ```
-   curl download.iiab.io/6.5/rpi/load-big.txt | sudo bash
+   curl download.iiab.io/6.5/load-big.txt | sudo bash
 ```
 Please browse the above URLs to inspect and learn from the automated steps of the installation process, and do write to bugs @ iiab.io if you find issues, Thank You !
 
@@ -328,7 +328,7 @@ To download the Khan Academy videos of your choosing, in various languages, use 
 
 Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F).
 
-KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB load scripts on Raspberry Pi](http://download.iiab.io/6.5/rpi) include perform this essential piece for you.
+KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB load scripts on Raspberry Pi](http://download.iiab.io/6.5/) include perform this essential piece for you.
 
 _See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)._
 
