@@ -8,13 +8,13 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F), among these recommended choices:
 
-* [Raspbian Stretch with Desktop (GUI) or Lite (headless)](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 or 3 B+
-* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS &mdash; we hope to support Ubuntu 18.04 LTS after it's released [2018-04-26](https://wiki.ubuntu.com/BionicBeaver/ReleaseSchedule)
+* [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 (or 3 B+)
+* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS, and secondarily [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 9.4](https://www.debian.org/releases/stretch/) "Stretch" LTS
+
+The following OS's are theoretically possible, but may require extensive babysitting to get right:
+
 * [CentOS 7.4](https://www.centos.org/download/) LTS
-
-The following OS's are theoretically possible, but require extensive babysitting to get right:
-
 * [Debian 8.10](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
