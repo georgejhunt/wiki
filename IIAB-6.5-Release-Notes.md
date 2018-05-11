@@ -56,6 +56,6 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* OpenVPN fails on Ubuntu 16.04 LTS, since April ~18th's openssl update. [#767](https://github.com/iiab/iiab/issues/767)
+* Certain advanced features of IIAB's Admin Console may not work, due to our recent move to Ansible 2.5.x (which cannot yet handle "./runtags <role1>,<role2>", as we transition to "./runrole <role>")
 * USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot. [#329](https://github.com/iiab/iiab/issues/329)
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow. [#401](https://github.com/iiab/iiab/issues/401)
