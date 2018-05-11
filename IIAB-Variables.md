@@ -82,12 +82,12 @@ Some of the most critical IIAB settings are stored in these 8 files:
 Order of Execution and Precedence
 =================================
 
-From lowest precedence to highest:
+From highest precedence to lowest:
 
-* Get Ansible facts including local facts
-* Load any vars particular to roles
-* Load default_vars.yml
-* OS-dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
-* Load local_vars.yml
-* Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) does not use this one)
 * Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))
+* Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) does not use this one)
+* Load local_vars.yml
+* OS-dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
+* Load default_vars.yml
+* Load any vars particular to roles
+* Get Ansible facts including local facts
