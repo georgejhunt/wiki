@@ -201,7 +201,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
 #### Installation on OLPC XO laptops is not currently supported on release-6.2+, due to lack of time to test the following general strategy:
 
-* Install [OLPC OS 13.2.8](http://wiki.laptop.org/go/Release_notes/13.2.8) or similar onto the XO laptop
+* Install [OLPC OS 13.2.9](http://wiki.laptop.org/go/Release_notes/13.2.9) or similar onto the XO laptop
 * In ``My Settings -> Power`` turn off Automatic Power Management
 * Connect all the network interfaces and reboot
 * Install git and Ansible: (for dependencies)
@@ -213,7 +213,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
   Earlier in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of October 2017, Ansible 2.4.x is required &mdash; please verify Ansible's version number with:_
+  _As of May 2018, Ansible 2.5.2+ is required &mdash; please verify Ansible's version number with:_
 
          ansible --version
 
