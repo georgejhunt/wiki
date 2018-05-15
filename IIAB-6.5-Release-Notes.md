@@ -10,7 +10,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Automounting of larger USB memory sticks, SD cards and portable disks (these are typically exFAT-formatted or NTFS-formatted when purchased).  Makes it easy to (1) install & redistribute content while offline, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
 * Apache proxy of Kiwix empowers community analytics (ZIM file usage) viewable with AWStats.  [#607](https://github.com/iiab/iiab/issues/607)
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) for doc collaboration.
-* Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially.  [#608](https://github.com/iiab/iiab/issues/608)
+* Experimental Captive Portal based on nodogsplash, reducing users' URL frustrations for non-Latin communities especially.  [#608](https://github.com/iiab/iiab/issues/608)
 * Code is dramatically more approachable by developers and implementers.  Preview: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
 
 ### What's Upgraded?
