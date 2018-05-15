@@ -20,7 +20,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Admin Console -> Install Content -> Get ZIM Files from Kiwix is now enhanced by tooltips (small popup windows) helping you drill down to the very best downloadable ZIM content.
 * RACHEL modules can now be downloaded/installed directly from [oer2go.org](http://oer2go.org) &mdash; using command line initially.  [#641](https://github.com/iiab/iiab/issues/641)
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4+](https://github.com/learningequality/ka-lite/releases) with installation greatly streamlined.
-* Sugarizer [0.9](http://sugarizer.org/) installs faster, uses less space, and is more reliable across all OS's. 
+* Sugarizer [0.9](http://sugarizer.org/) ([1.0](https://github.com/llaske/sugarizer/milestone/3?closed=1) anticipated!) installs faster, uses less space, and is more reliable across all OS's. 
  [#193](https://github.com/iiab/iiab/issues/193)
 * Nextcloud is upgraded to [13.0.2+](https://nextcloud.com/blog/nextcloud-13.0.2-and-12.0.7-available-collabora-online-3.2-is-out/) based on [Nextcloud 13](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
 * WordPress is upgraded to [4.9.5+](https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/) ([4.9.6](https://make.wordpress.org/core/tag/4-9-6/) expected 2018-05-17) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
