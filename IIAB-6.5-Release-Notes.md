@@ -4,16 +4,14 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### What's New?
 
-* Anybody can now install Internet-in-a-Box (IIAB) over regular Wi-Fi.  On Raspberry Pi, run `raspi-config` to connect to your home's Wi-Fi SSID and password prior to installing IIAB.  Then run `iiab-hotspot-on` after IIAB installation is complete!  Or: accelerate your install if you have an Ethernet cable to live Internet (physical cables are almost always more reliable than radio waves).
+* Anybody can now install Internet-in-a-Box (IIAB) over regular Wi-Fi.  On Raspberry Pi, run `raspi-config` to connect to your home's Wi-Fi SSID and password prior to installing IIAB.  Then run `iiab-hotspot-on` after IIAB installation is complete!  Or: accelerate your install if you have an Ethernet cable to live Internet (physical cables are almost always more reliable than radio waves).  IIAB 6.6 Preview: on Raspberry Pis, we hope to support WiFi-as-client *simultaneous* with WiFi-as-hotspot, streamlining updates when your IIAB is in use!
 * [1-line installers](http://download.iiab.io/6.5/) for Raspbian Stretch, Ubuntu 18.04 LTS and Debian 9 are now far more efficient &mdash; and can quickly recover if Internet is interrupted during installation.  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin downloading/installing: whether you want ~6, ~12 or ~20 apps!  Implementers check out the new "./iiab-install" and "./runrole" (formerly "./runtags") commands in /opt/iiab/iiab &mdash; working off our re-organized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) and [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml).
 * Completely overhauled Calibre E-Book server [3.23+](https://calibre-ebook.com/whats-new). Allows teachers to add and delete books using the web interface, as well as editing book metadata.
 * Automounting of larger USB memory sticks, SD cards and portable disks (these are typically exFAT-formatted or NTFS-formatted when purchased).  Makes it easy to (1) install & redistribute content while offline, and (2) [empowers teachers to instantly display their own USB stick content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) to students via http://box/usb
-* Apache proxy of Kiwix empowers community analytics (ZIM file usage) viewable with AWStats _(documentation growing off [#607](https://github.com/iiab/iiab/issues/607))_.
+* Apache proxy of Kiwix empowers community analytics (ZIM file usage) viewable with AWStats.  [#607](https://github.com/iiab/iiab/issues/607)
 * Wikipedia's own MediaWiki 1.30.0 is now part of IIAB, if you enable it in [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) for doc collaboration.
-* Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially _(documentation growing off [#608](https://github.com/iiab/iiab/issues/608))_.
+* Experimental Captive Portal based on nodogsplash, avoiding URL complications for non-Latin communities especially.  [#608](https://github.com/iiab/iiab/issues/608)
 * Code is dramatically more approachable by developers and implementers.  Preview: Test your IIAB code contributions and Ansible playbooks with [Travis CI](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide#testing-your-code-with-travis-ci) continuous integration.
-* Compact medical and Wikipedia content in the most popular languages, for schools, clinics and smaller/mobile installations _(coming soon!)_
-* IIAB 6.6 Preview: on Raspberry Pis, we hope to support WiFi-as-client *simultaneous* with WiFi-as-hotspot, streamlining updates when your IIAB is in use!
 
 ### What's Upgraded?
 
@@ -42,7 +40,7 @@ TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS 
 
 Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5](http://download.iiab.io/6.5/README.html) for other/faster options!
 
-Finally to install onto CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
+Finally try installing onto CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
 ### Credits
 
