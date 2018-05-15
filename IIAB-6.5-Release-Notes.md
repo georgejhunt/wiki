@@ -24,8 +24,8 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4+](https://github.com/learningequality/ka-lite/releases) with installation greatly streamlined.
 * Sugarizer [0.9](http://sugarizer.org/) installs faster, uses less space, and is more reliable across all OS's ([#193](https://github.com/iiab/iiab/issues/193)).
 * Nextcloud is upgraded to [13.0.2+](https://nextcloud.com/blog/nextcloud-13.0.2-and-12.0.7-available-collabora-online-3.2-is-out/) based on [Nextcloud 13](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
-* WordPress is upgraded to [4.9.5+](https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/) ([4.9.6](https://make.wordpress.org/core/tag/4-9-6/) expected 2018-05-15) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
-* Moodle is upgraded to [3.5beta+](https://download.moodle.org/releases/development/) ([3.5 LTS](https://docs.moodle.org/dev/Category:Moodle_3.5) [expected](https://www.moodleworld.com/whats-coming-in-moodle-3-5-the-next-lts-version-of-moodle/) [2018-05-14](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/), [QA Pie Charts](https://tracker.moodle.org/secure/Dashboard.jspa?selectPageId=11454)).
+* WordPress is upgraded to [4.9.5+](https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/) ([4.9.6](https://make.wordpress.org/core/tag/4-9-6/) expected 2018-05-17) based on [4.9](https://wordpress.org/news/2017/11/tipton/).
+* Moodle is upgraded to [3.5beta+](https://download.moodle.org/releases/development/) ([3.5 LTS](https://docs.moodle.org/dev/Category:Moodle_3.5) [expected](https://www.moodleworld.com/whats-coming-in-moodle-3-5-the-next-lts-version-of-moodle/) [2018-05-17](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/), [QA Pie Charts](https://tracker.moodle.org/secure/Dashboard.jspa?selectPageId=11454)).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
 * DokuWiki is upgraded to [2018-04-22a "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
@@ -36,13 +36,13 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### How do I try it?
 
-TL;DR!  Try our 1-line installer for Raspberry Pi 3: (or 3 B+)
+TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS and Debian 9:
 
      curl download.iiab.io/6.5/load.txt | sudo bash
 
 Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5](http://download.iiab.io/6.5/README.html) for other/faster options!
 
-Finally to install onto Ubuntu, Debian or CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
+Finally to install onto CentOS, use our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; which quickly get you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
 ### Credits
 
