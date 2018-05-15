@@ -36,7 +36,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 
 ### How do I try it?
 
-TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS and Debian 9:
+TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9:
 
      curl download.iiab.io/6.5/load.txt | sudo bash
 
