@@ -39,7 +39,7 @@ TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS 
 
      curl download.iiab.io/6.5/load.txt | sudo bash
 
-Be sure your Raspberry Pi is running a recent [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS, has a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  Use an actual Ethernet cable to avoid Wi-Fi glitches.  See [download.iiab.io/6.5](http://download.iiab.io/6.5/README.html) for other/faster options!
+On Raspberry Pi, you'll want the latest [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS (2018-04-18 or higher) with a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  An actual Ethernet cable helps avoid Wi-Fi glitches.  See [download.iiab.io/6.5](http://download.iiab.io/6.5/README.html) for other/faster options!
 
 Finally try installing onto CentOS, using our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; getting you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
