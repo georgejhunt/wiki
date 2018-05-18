@@ -14,7 +14,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
-* [CentOS 7.4](https://www.centos.org/download/) LTS
+* [CentOS 7.5](https://www.centos.org/download/) LTS
 * [Debian 8.10](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
