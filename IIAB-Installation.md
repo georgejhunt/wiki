@@ -14,7 +14,7 @@
     * [Enable Services](#enable-services)
 * [Add Content](#add-content)
     * [ZIM Files](#zim-files)
-    * [RACHEL Modules](#rachel-modules)
+    * [OER2GO (RACHEL) Modules](#oer2go-rachel-modules)
     * [KA Lite (for Khan Academy)](#ka-lite-for-khan-academy)
     * [Copy KA Lite Videos Manually](#copy-ka-lite-videos)
     * [OpenStreetMap](#openstreetmap)
@@ -316,9 +316,9 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Refresh ZIMs Installed List**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
-#### OER2GO(RACHEL) Modules
+#### OER2GO (RACHEL) Modules
 
-RACHEL maintains a large number of Content Packs at http://oer2go.org/.  They include html, pdf, and other web material s in multiple languages.  Download and install these as follows:
+RACHEL maintains a large number of Content Packs at http://oer2go.org.  They include HTML, PDF, and other web materials in multiple languages.  Download and install these as follows:
 
 1. Within Admin Console -> Install Content, hit button **Refresh OER2GO Catalog** to update your list of available modules.
 
@@ -348,7 +348,7 @@ _See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.lapt
 
 ### Add Content Manually
 
-#### RACHEL Modules
+#### OER2GO (RACHEL) Modules
 
 Download [RACHEL modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
 
