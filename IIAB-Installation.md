@@ -72,8 +72,6 @@ Here is the complete list of the steps required. Some may already be done.
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 
-TEST2 (as pandoc scraping to box/info is mangling)
-
 ```
    apt update
    apt -y dist-upgrade
