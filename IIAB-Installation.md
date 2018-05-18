@@ -150,6 +150,7 @@ You can see the log of the last install by typing:
 ```
    more /opt/iiab/iiab/iiab-install.log
 ```
+
 **Proceed to: [Configure the Server](#configure-the-server)**
 
 ### Take a Short Cut
