@@ -71,6 +71,7 @@ Here is the complete list of the steps required. Some may already be done.
 5. _Ansible 2.5.3 or higher is strongly recommended.  Some legacy users of IIAB 6.5 prefer Ansible 2.4.4 or higher.  In any case, run "ansible --version" to make sure you don't have an old/troublesome version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to installing a newer version of Ansible below &mdash; using /opt/iiab/iiab/scripts/ansible (legacy users may prefer /opt/iiab/iiab/scripts/ansible-2.4.x).  CAUTION: [./runtags](https://github.com/iiab/iiab/blob/master/runtags) generally fails with Ansible 2.5.x; please consider [./runrole](https://github.com/iiab/iiab/issues/714) instead._
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
+
 ```
    apt update
    apt -y dist-upgrade
@@ -111,7 +112,6 @@ Here is the complete list of the steps required. Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-
 The above happens automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
 ```
    curl download.iiab.io/6.5/load.txt | sudo bash
