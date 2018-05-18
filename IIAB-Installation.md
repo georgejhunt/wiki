@@ -316,6 +316,20 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Refresh ZIMs Installed List**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
+#### OER2GO(RACHEL) Modules
+
+RACHEL maintains a large number of Content Packs at http://oer2go.org/.  They include html, pdf, and other web material s in multiple languages.  Download and install these as follows:
+
+1. Within Admin Console -> Install Content, hit button **Refresh OER2GO Catalog** to update your list of available modules.
+
+2. Within Install Content, take menu option **Get OER2GO(RACHEL) Modules**.  Before making your selection of modules, use buttons Select Languages -> More Languages to be sure you're viewing all relevant choices, in many more languages than just {English, Spanish, French, Portuguese, Arabic and Hindi}.
+
+3. Carefully finalize your selection of OER2GO modules, among the many choices.  _Avoid downloading/installing more than 10 at once!_
+
+4. Hit button **Install Selected Modules** to begin downloading and installing them onto your server.  _This can take a very long time, during which time your server may appear unresponsive (within the first hour especially) while it's working!_
+
+5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each module spawns 2 jobs which (1) download, then (2) move the pieces into position within /library/www/html/modules.  
+
 #### KA Lite (for Khan Academy)
 
 KA Lite is the most popular platform to experience Khan Academy videos, and a huge collection of associated exercises.  Accounts may be created for students and teachers if you choose to use KA Lite's LMS functionality as well, to track your own progress (or others').
