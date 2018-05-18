@@ -350,7 +350,7 @@ _See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.lapt
 
 #### OER2GO (RACHEL) Modules
 
-Download [RACHEL modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
+Download [OER2GO (RACHEL) modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
 
 After a module has been downloaded successfully (rerun rsync if there are connectivity issues) local/offline users can access it with URL:
 ```
