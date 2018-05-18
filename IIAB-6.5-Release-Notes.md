@@ -24,7 +24,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
  [#193](https://github.com/iiab/iiab/issues/193) [#798](https://github.com/iiab/iiab/issues/798)
 * Nextcloud is upgraded to [13.0.2+](https://nextcloud.com/blog/nextcloud-13.0.2-and-12.0.7-available-collabora-online-3.2-is-out/) based on [Nextcloud 13](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
 * WordPress is upgraded to [4.9.6](https://wordpress.org/news/2018/05/wordpress-4-9-6-privacy-and-maintenance-release/) bringing GDPR privacy compliance, based on [4.9](https://wordpress.org/news/2017/11/tipton/).
-* Moodle is upgraded to [3.5 LTS](https://docs.moodle.org/dev/Moodle_3.5_release_notes) for privacy, better quizzes, speed, messaging integration and modern usability [preview](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/).
+* Moodle is upgraded to [3.5 LTS](https://docs.moodle.org/dev/Moodle_3.5_release_notes) for privacy, better quizzes, speed, messaging integration and modern usability ([preview](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/)).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
 * DokuWiki is upgraded to [2018-04-22a "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
