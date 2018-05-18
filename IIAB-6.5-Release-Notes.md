@@ -28,7 +28,7 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
 * Far more comprehensive Offline Docs, available after you install, at [http://box/info](http://box/info)
 * Instructions published on [how to upgrade (or reinstall while offline) your IIAB server apps](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_or_reinstall_server_apps.3F) a.k.a. IIAB services.
-* Extensive Fixes, just to name a few: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  Please see our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
+* Extensive Fixes, just to name a few: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  See our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
 
