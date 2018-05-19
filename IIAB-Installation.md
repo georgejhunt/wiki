@@ -409,10 +409,10 @@ See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FA
 
 ## Remove Content
 
-IIAB 6.5 introduced this curatorial productivity lifesaver, to free up space on your Internet-in-a-Box, especially useful prior to updating to new content.
+IIAB 6.5 introduced this curatorial productivity tool, to free up space on your Internet-in-a-Box, allowing you to select and remove stale content.  This can be an absolute lifesaver useful prior to updating to new content.
 
 After you log into IIAB's Admin Console (http://box/admin) click Install Content -> Remove Content.  A list will appear showing content packs / modules installed on your IIAB.
 
 Use the checkboxes to select those older/unneeded ZIM files and OER2GO (RACHEL) modules that you want to remove.
 
-Then click Delete Checked Files!
+Then click Delete Checked Files at the top of the page!
