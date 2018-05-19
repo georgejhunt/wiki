@@ -20,6 +20,7 @@
     * [OpenStreetMap](#openstreetmap)
     * [Local Content](#local-content)
     * [External USB/Drive Content](#external-usbdrive-content)
+* [Remove Content](#remove-content)
 
 ## Overview
 
@@ -405,3 +406,13 @@ For legacy support of the LibraryBox and PirateBox communities, teachers may als
 Bonus: after the lesson, teachers should feel free to remove their USB sticks/drives without warning, as the IIAB server should unmount USB sticks/drives automagically.
 
 See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F)" within our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) and "[usb-lib README](https://github.com/iiab/iiab/blob/master/roles/usb-lib/README.rst)" for more info.
+
+## Remove Content
+
+IIAB 6.5 introduced this curatorial productivity lifesaver, to free up space on your Internet-in-a-Box, especially useful prior to updating to new content.
+
+After you log into IIAB's Admin Console (http://box/admin) click Install Content -> Remove Content.  A list will appear showing content packs / modules installed on your IIAB.
+
+Use the checkboxes to select those older/unneeded ZIM files and OER2GO (RACHEL) modules that you want to remove.
+
+Then click Delete Checked Files!
