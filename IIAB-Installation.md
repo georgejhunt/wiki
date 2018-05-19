@@ -317,6 +317,8 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each ZIM spawns 3 jobs which (1) download, (2) unzip, then (3) move the pieces into position within /library/zims/content and /library/zims/index.  In the past, after installing ZIMs, you also needed to run "iiab-make-kiwix-lib; systemctl restart kiwix-serve" &mdash; but this is no longer necessary as of IIAB/XSCE 6.2.
 
+WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Restart Kiwix Server**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
+
 For more detail, click on **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
 
 #### OER2GO (RACHEL) Modules
