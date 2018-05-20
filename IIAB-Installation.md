@@ -319,7 +319,7 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs p
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Restart Kiwix Server**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
-For more detail, click on **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
+Reminder: you can always click **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
 
 #### OER2GO (RACHEL) Modules
 
@@ -335,7 +335,7 @@ RACHEL maintains a large number of Content Packs at http://oer2go.org.  They inc
 
 5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each module spawns 2 jobs which (1) download, then (2) move the pieces into position within /library/www/html/modules.
 
-For more detail, click on **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
+Reminder: you can always click **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
 
 #### KA Lite (for Khan Academy)
 
@@ -421,4 +421,4 @@ Use the checkboxes to select those older-or-unneeded ZIM files and OER2GO (RACHE
 
 Then click **Delete Checked Files** at the top of the page!
 
-For more detail, click on **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
+Reminder: you can always click **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
