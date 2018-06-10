@@ -1,4 +1,4 @@
-Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)) was released on May 24th, 2018.
+Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)) was released on May 24th, 2018 and update on June 10th, 2018.
 
 ### What's New?
 
@@ -18,12 +18,12 @@ Internet-in-a-Box (IIAB) 6.5 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://
 * Media-rich and searchable offline (ZIM) content thanks to an even far better [Kiwix](http://www.kiwix.org/) engine 0.5.0+ (2018-05-24) under the hood, _watch out Google here we come :-)_
 * [KA Lite](http://ka-lite.readthedocs.io/en/latest/installguide/release_notes.html) (LMS for Khan Academy videos & exercises) is upgraded to [0.17.4](https://github.com/learningequality/ka-lite/releases/tag/v0.17.4) with installation greatly streamlined.
 * Sugarizer [0.9](https://groups.google.com/forum/m/#!topic/unleashkids/YzXPMgp28vY) installs faster, uses less space, and is more reliable across all OS's.  Preview: Sugarizer [1.0](https://groups.google.com/forum/m/#!topic/unleashkids/jnJHfjbhPPA) is a major forthcoming upgrade.  [#814](https://github.com/iiab/iiab/pull/814)
-* Nextcloud is upgraded to [13.0.2+](https://nextcloud.com/blog/nextcloud-13.0.2-and-12.0.7-available-collabora-online-3.2-is-out/) based on [Nextcloud 13](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
+* Nextcloud is upgraded to [13.0.3+](https://nextcloud.com/blog/nextcloud-13.0.3-and-12.0.8-available/) based on [Nextcloud 13](https://nextcloud.com/blog/nextcloud-13-brings-secure-file-sync-and-collaboration-to-the-next-level/).
 * WordPress is upgraded to [4.9.6](https://wordpress.org/news/2018/05/wordpress-4-9-6-privacy-and-maintenance-release/) bringing [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) privacy compliance, based on [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.5 LTS](https://docs.moodle.org/dev/Moodle_3.5_release_notes) for privacy, better quizzes, speed, messaging integration and modern usability ([preview](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/), [new features](https://docs.moodle.org/35/en/New_features)).
-* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.6](https://github.com/Elgg/Elgg/blob/2.3.6/CHANGELOG.md).
+* Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.7](https://github.com/Elgg/Elgg/blob/2.3.7/CHANGELOG.md).
 * DokuWiki is upgraded to [2018-04-22a "Greebo"](https://www.dokuwiki.org/changes#release_2018-04-22_release_greebo).
-* phpMyAdmin is upgraded to [4.8.0.1](https://www.phpmyadmin.net/news/).
+* phpMyAdmin is upgraded to [4.8.1](https://www.phpmyadmin.net/news/).
 * Extensive Fixes, just to name a few: Admin Console -> Configure -> Services Enabled's checkboxes ([#378](https://github.com/iiab/iiab/issues/193)).  Fixed: the ability to toggle your IIAB home page to WordPress etc, under Admin Console -> Configure -> Server Portal ([#384](https://github.com/iiab/iiab/issues/384), [#458](https://github.com/iiab/iiab/issues/458)).  See our [changelog](https://github.com/iiab/iiab/milestone/2?closed=1) of accomplishments!
 
 ### How do I try it?
