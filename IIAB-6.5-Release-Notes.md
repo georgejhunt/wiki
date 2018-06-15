@@ -50,3 +50,4 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 * USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot. [#329](https://github.com/iiab/iiab/issues/329)
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow. [#401](https://github.com/iiab/iiab/issues/401)
+* Set a default locale in your OS in /etc/default/locale (also the "locale" command should show the same, e.g. "C.UTF-8" or "en_US.UTF-8") to avoid language restrictions upon re-installing WordPress.
