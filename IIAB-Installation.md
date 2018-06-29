@@ -69,7 +69,7 @@ Here is the complete list of the steps required. Some may already be done.
 ```
 4. **Verify you don't have an old/troublesome version of Ansible installed!**
 
-   _Read ["What is Ansible and what version should I use?"](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) or suffer the consequences :-)_
+   _Read ["What is Ansible and what version should I use?"](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) (or suffer the consequences :-)_
 
    PRO TIP, for those wanting to run a single Ansible playbook or role: [./runtags](https://github.com/iiab/iiab/blob/master/runtags) fails with Ansible 2.5+ (released March 2018) so please use [./runrole](https://github.com/iiab/iiab/issues/714) instead.
 
