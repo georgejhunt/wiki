@@ -1,4 +1,4 @@
-Internet-in-a-Box (IIAB) 6.5 was released on May 24th, 2018 and updated on June 10th, 2018 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)).
+Internet-in-a-Box (IIAB) 6.5 was released on May 24th, 2018 and updated on June 10th and 28th, 2018 ([Wiki](http://wiki.iiab.io/6.5), [GitHub](https://github.com/iiab/iiab/milestone/2)).
 
 ### What's New?
 
