@@ -71,8 +71,6 @@ Here is the complete list of the steps required. Some may already be done.
 
    _Read ["What is Ansible and what version should I use?"](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) (or suffer the consequences :-)_
 
-   PRO TIP, for those wanting to run a single Ansible playbook or role: [./runtags](https://github.com/iiab/iiab/blob/master/runtags) fails with Ansible 2.5+ (released March 2018) so please use [./runrole](https://github.com/iiab/iiab/issues/714) instead.
-
 5. Escalate to root using "sudo su -" or similar.  If you prefer to use "sudo" for the commands below, that is OK too.
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
