@@ -67,9 +67,13 @@ Here is the complete list of the steps required. Some may already be done.
 ```
    ping mit.edu
 ```
-4. Escalate to root using "sudo su -" or similar.  If you prefer to use "sudo" for the commands below, that is OK too.
+4. VERIFY YOU DON'T HAVE AN OLD/TROUBLESOME VERSION OF ANSIBLE INSTALLED!
 
-5. _Ansible 2.6.0 or higher is strongly recommended.  Run "ansible --version" to make sure you don't have an old/troublesome version of Ansible installed.  If you do, run "apt purge ansible" or "pip uninstall ansible" (depending how you originally installed Ansible, [#564](https://github.com/iiab/iiab/issues/564#issuecomment-347264985)) prior to installing a newer version of Ansible below &mdash; using /opt/iiab/iiab/scripts/ansible (legacy users may prefer /opt/iiab/iiab/scripts/ansible-2.5.x).  CAUTION: [./runtags](https://github.com/iiab/iiab/blob/master/runtags) generally fails with Ansible 2.5+ so please consider [./runrole](https://github.com/iiab/iiab/issues/714) instead._
+   _Read ["What is Ansible and what version should I use?"](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) or suffer the consequences :-)_
+
+   PRO TIP, for those wanting to run a single Ansible playbook or role: [./runtags](https://github.com/iiab/iiab/blob/master/runtags) fails with Ansible 2.5+ (released March 2018) so please use [./runrole](https://github.com/iiab/iiab/issues/714) instead.
+
+5. Escalate to root using "sudo su -" or similar.  If you prefer to use "sudo" for the commands below, that is OK too.
 
 6. On Raspbian, Ubuntu or Debian, doing everything from scratch involves a few simple steps:
 
