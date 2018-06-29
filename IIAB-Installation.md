@@ -67,7 +67,7 @@ Here is the complete list of the steps required. Some may already be done.
 ```
    ping mit.edu
 ```
-4. VERIFY YOU DON'T HAVE AN OLD/TROUBLESOME VERSION OF ANSIBLE INSTALLED!
+4. **Verify you don't have an old/troublesome version of Ansible installed!**
 
    _Read ["What is Ansible and what version should I use?"](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) or suffer the consequences :-)_
 
