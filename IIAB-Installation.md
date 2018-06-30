@@ -219,7 +219,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
   Context: early in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of late June 2018, Ansible 2.6.0+ is recommended &mdash; please verify Ansible's version number with:_
+  _As of late June 2018, [Ansible 2.6.0+ was recommended](http://wiki.iiab.io#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
 
          ansible --version
 
@@ -379,7 +379,7 @@ If KA Lite videos have been obtained from another install or on some storage med
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-Currently in 2017, 16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
+16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
 
 Either way, the following directories and their contents are needed:
 
