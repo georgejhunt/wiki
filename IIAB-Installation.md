@@ -219,7 +219,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
   Context: early in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of late June 2018, [Ansible 2.6.0+ was recommended](http://wiki.iiab.io#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
+  _As of late June 2018, [Ansible 2.6.0+ was recommended](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
 
          ansible --version
 
