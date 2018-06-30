@@ -217,9 +217,9 @@ Finally, while these images have been developed on the Intel NUC, they may well 
          cd ansible
          python setup.py install
 
-  Earlier in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
+  Context: early in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of May 2018, Ansible 2.5.2+ is required &mdash; please verify Ansible's version number with:_
+  _As of late June 2018, Ansible 2.6.0+ is recommended &mdash; please verify Ansible's version number with:_
 
          ansible --version
 
