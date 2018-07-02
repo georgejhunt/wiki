@@ -164,19 +164,19 @@ This step applies if you've been given a pre-built disk image (ISO file or simil
 
 In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine.  What happens next depends on the specific file downloaded.
 
-You will need tools to decompress these files and write them to storage.  On Linux and MacOS basic tools (like dd) are already there.  On Windows you will definitely need to download them.
+You will need tools to unpack or decompress these files and then write them to storage.  On Windows you can download the graphical tools listed below.  On Linux and MacOS you also have the option to use powerful command-line tools (like dd) that come with the OS.
 
 #### Tools
-
-* Linux or MacOS
-  * [Etcher](https://etcher.io) - friendly way to burn/flash an image onto a microSD card
-  * [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) - command-line "data duplicator"
-  * tar, unzip, gunzip, bzip2, xz - unpack compressed files & archives
 
 * Windows
   * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) - friendly ways to burn/flash an image onto a microSD card
   * [7-Zip](https://www.7-zip.org) - unpacks compressed files of almost any kind
   * [FileZilla](https://filezilla-project.org) or [WinSCP](https://winscp.net) - if {SCP, FTP, FTPS, SFTP} are needed to download/upload
+
+* MacOS and Linux
+  * [Etcher](https://etcher.io) - friendly way to burn/flash an image onto a microSD card
+  * [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) - command-line "data duplicator"
+  * tar, unzip, gunzip, bzip2, xz - unpack compressed files & archives
 
 Naturally, while the ["Do Everything from Scratch"](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
