@@ -176,7 +176,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
 * Windows
   * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) (friendly ways to burn/flash an image onto a microSD card)
   * [7-Zip](https://www.7-zip.org)
-  * [FileZilla](https://filezilla-project.org) if {FTP, FTPS, SFTP} are needed
+  * [FileZilla](https://filezilla-project.org) or [WinSCP](https://winscp.net) if {SCP, FTP, FTPS, SFTP} are needed
 
 Naturally, while the everything-from-scratch steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
