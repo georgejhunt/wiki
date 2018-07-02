@@ -168,12 +168,12 @@ You will need tools to decompress these files and write them to storage.  On Lin
 
 #### Tools
 
-* Linux or MacOS - [Etcher](https://etcher.io), dd, unzip, xz
+* Linux or MacOS - [Etcher](https://etcher.io) (friendly, works on Windows too!), dd, unzip, xz
 
 * Windows - download:
-    * Win32 Disk Imager from https://sourceforge.net/projects/win32diskimager/
-    * 7-Zip from http://www.7-zip.org
-    * Optionally FileZilla from https://filezilla-project.org
+    * Win32 Disk Imager: https://sourceforge.net/projects/win32diskimager/
+    * 7-Zip: http://www.7-zip.org
+    * FileZilla if {FTP, FTPS, SFTP} are needed: https://filezilla-project.org
 
 Naturally, while the everything-from-scratch steps are generic and apply to any platform, short cuts are for a specific platform.
 
