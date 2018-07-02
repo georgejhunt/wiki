@@ -164,7 +164,7 @@ This step applies if you've been given a pre-built disk image (ISO file or simil
 
 In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine.  What happens next depends on the specific file downloaded.
 
-You will need tools to unpack or decompress these files and then write them to storage.  On Windows you can download the graphical tools listed below.  On Linux and MacOS you also have the option to use powerful command-line tools (like dd) that come with the OS.
+You will need tools to unpack or decompress these files and then burn/flash them to portable media.  On Windows you can download the graphical tools listed below.  On MacOS and Linux you also have the option to use powerful command-line tools (like dd) that come with the OS.
 
 #### Tools
 
