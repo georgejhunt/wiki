@@ -160,20 +160,20 @@ You can see the log of the last install by typing:
 
 ### Take a Short Cut
 
-This step applies if you've been given a pre-built disk image (ISO file or similar) for a particular configuration and even content i.e. if everything from the steps listed above has already been completed for you!
+This step applies if you've been given a pre-built disk image (ISO file or similar) for a particular configuration and even content i.e. if everything from the steps listed above has already been completed for you.
 
-In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine. What happens next depends on the specific file downloaded.
+In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine.  What happens next depends on the specific file downloaded.
 
-You will need tools to decompress these files and write them to storage.  On Linux and MacOS these tools will already likely be there. On Windows you will need to download them.
+You will need tools to decompress these files and write them to storage.  On Linux and MacOS basic tools (like dd) are already there.  On Windows you will definitely need to download them.
 
 #### Tools
 
-* Linux or MacOS - [Etcher](https://etcher.io) (friendly, works on Windows too!), [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/), unzip, xz 
+* Linux or MacOS - [Etcher](https://etcher.io) (friendly, works on Windows too!), [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) (command line "data duplicator"), unzip, gunzip, tar, xz
 
 * Windows - download:
-    * Win32 Disk Imager: https://sourceforge.net/projects/win32diskimager/
-    * 7-Zip: http://www.7-zip.org
-    * FileZilla if {FTP, FTPS, SFTP} are needed: https://filezilla-project.org
+    * [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+    * [7-Zip](https://www.7-zip.org)
+    * [FileZilla](https://filezilla-project.org) if {FTP, FTPS, SFTP} are needed
 
 Naturally, while the everything-from-scratch steps are generic and apply to any platform, short cuts are for a specific platform.
 
