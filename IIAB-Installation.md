@@ -36,7 +36,7 @@ Thank you for taking Digital Libraries seriously for one & all!
 
 ## Expert Mode
 
-This is for people who already know how to do everything in these instructions and enjoy doing them multiple times by missing the nuances that make this install different from things they have done before. **If you are an expert, at least read about [PARTITIONING](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) as so many miss this part.**  Reading about [networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) will probably come in handy as well.
+This is for people who already know how to do everything in these instructions and enjoy doing them multiple times by missing the nuances that make this install different from things they have done before.  **If you are an expert, at least read about [PARTITIONING](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) as so many miss this part.**  Reading about [networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) will probably come in handy as well.
 
 ## Install the Software
 
@@ -51,11 +51,11 @@ The _advantage_ of a short cut is that it will usually take less time and effort
 
 ### Do Everything from Scratch
 
-Here is the complete list of the steps required. Some may already be done.
+Here is the complete list of the steps required.  Some may already be done.
 
 1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F).  See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
 
-   **Traditionally we use Standard partitioning, but increasingly since 2017 LVM partitioning is possible as well. In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
+   **Traditionally we use Standard partitioning, but increasingly since 2017 LVM partitioning is possible as well.  In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
 2. Install your OS (e.g. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
 
@@ -149,7 +149,7 @@ As explained in the above "curl" scripts, a reboot is generally necessary before
 ```
 Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
-_Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one. The server may also disconnect during the install in which case you will need to reconnect in order to continue._
+_Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one.  The server may also disconnect during the install in which case you will need to reconnect in order to continue._
 
 You can see the log of the last install by typing:
 ```
@@ -175,9 +175,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
     * [7-Zip](https://www.7-zip.org)
     * [FileZilla](https://filezilla-project.org) if {FTP, FTPS, SFTP} are needed
 
-Naturally, while the everything-from-scratch steps are generic and apply to any platform, short cuts are for a specific platform.
-
-Instructions for specific platforms follow.
+Naturally, while the everything-from-scratch steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
 #### Raspberry Pi 3 (or 3 B+)
 
@@ -195,7 +193,7 @@ Please ignore everything down to **WRITING AN IMAGE TO THE SD CARD** (we support
 
 #### Mini PC's like Intel NUC and Gigabyte BRIX
 
-Note that most Intel NUCs (Next Unit of Computing) shipping since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum. Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable! Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
+Note that most Intel NUCs (Next Unit of Computing) shipping since 2015, including the 5th and 6th generation Intel NUC's, have a soldered-in Wi-Fi chip limited to 12 clients maximum.  Its competitor the Gigabyte BRIX suffers from the same limitation out of the box (factory units arrive with an Intel Wi-Fi module) but thankfully this Wi-Fi module is removable!  Specifically, the Gigabyte BRIX's Wi-Fi socket has been tested to accept less-constrained Wi-Fi cards, such as Atheros modules available for less than $10.
 
 If you are given a pre-built x86 image, it should generally install via Clonezilla when booted on the target machine.
 
@@ -282,9 +280,9 @@ Operator can select one of [three modes of operation](https://github.com/iiab/ii
    * **Gateway** - Does dhcpd (IP addresses), name lookup (DNS), firewall, local web page cache for faster retrieval the second time, content filtering to reduce porn (DansGuardian), and site "whitelists" if wanted.
    * **LAN Controller** (Local Area Network) - In this mode, the server configures clients with IP addresses (dhcpd - dynamic host configuration protocol), name resolution (defines "box" and "schoolserver" for all clients, etc).
 
-Based upon selection of the above mode in the Admin Console, the IIAB software will attempt to set up network connections. If "Appliance" mode is wanted, the network adapter will be set up. If "Gateway" is selected, and one of the adapters discovers that it is connected to a source of IP addresses, that adapter will be the internet, and the other the Wi-Fi connector. If "LAN Controller" is selected, any adapter found will be act as server to any clients that might ask to connect.
+Based upon selection of the above mode in the Admin Console, the IIAB software will attempt to set up network connections.  If "Appliance" mode is wanted, the network adapter will be set up. If "Gateway" is selected, and one of the adapters discovers that it is connected to a source of IP addresses, that adapter will be the internet, and the other the Wi-Fi connector.  If "LAN Controller" is selected, any adapter found will be act as server to any clients that might ask to connect.
 
-The IIAB installation attempts to determine the network topology based on the number and types of connections it discovers. In general, it looks to see if there is a connection to a gateway and whether other wireless or wired connections are present.
+The IIAB installation attempts to determine the network topology based on the number and types of connections it discovers.  In general, it looks to see if there is a connection to a gateway and whether other wireless or wired connections are present.
 
 ### Enable Services
 
@@ -398,7 +396,7 @@ _ASIDE: there is a very dedicated group of people coming together to improve the
 
 #### Local Content
 
-Schools/Clinics often have custom learning materials they want "permanently" shared with everyone on site. Such PDF's, DOC files, videos, images, audio recordings and HTML (etc!) can be copied to `/library/www/html/local_content` so that users can browse it, with a URL like [http://box/usb](http://box/usb) or [http://box.lan/usb](http://box.lan/usb)
+Schools/Clinics often have custom learning materials they want "permanently" shared with everyone on site.  Such PDF's, DOC files, videos, images, audio recordings and HTML (etc!) can be copied to `/library/www/html/local_content` so that users can browse it, with a URL like [http://box/usb](http://box/usb) or [http://box.lan/usb](http://box.lan/usb)
 
 #### External USB/Drive Content
 
