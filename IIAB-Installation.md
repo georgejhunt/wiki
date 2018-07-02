@@ -169,14 +169,14 @@ You will need tools to decompress these files and write them to storage.  On Lin
 #### Tools
 
 * Linux or MacOS
-  * [Etcher](https://etcher.io) (friendly way to burn/flash an image onto a microSD card)
-  * [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) (command line "data duplicator")
-  * unzip, gunzip, tar, xz
+  * [Etcher](https://etcher.io) - friendly way to burn/flash an image onto a microSD card
+  * [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) - command-line "data duplicator"
+  * tar, unzip, gunzip, bzip2, xz - unpack compressed files & archives
 
 * Windows
-  * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) (friendly ways to burn/flash an image onto a microSD card)
-  * [7-Zip](https://www.7-zip.org)
-  * [FileZilla](https://filezilla-project.org) or [WinSCP](https://winscp.net) if {SCP, FTP, FTPS, SFTP} are needed
+  * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) - friendly ways to burn/flash an image onto a microSD card
+  * [7-Zip](https://www.7-zip.org) - unpacks compressed files of almost any kind
+  * [FileZilla](https://filezilla-project.org) or [WinSCP](https://winscp.net) - if {SCP, FTP, FTPS, SFTP} are needed to download/upload
 
 Naturally, while the everything-from-scratch steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
