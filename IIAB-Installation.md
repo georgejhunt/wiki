@@ -168,7 +168,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
 
 #### Tools
 
-* Linux or MacOS - dd, unzip, xz
+* Linux or MacOS - [Etcher](https://etcher.io), dd, unzip, xz
 
 * Windows - download:
     * Win32 Disk Imager from https://sourceforge.net/projects/win32diskimager/
