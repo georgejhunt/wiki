@@ -169,12 +169,12 @@ You will need tools to decompress these files and write them to storage.  On Lin
 #### Tools
 
 * Linux or MacOS
-  * [Etcher](https://etcher.io) (friendly, works on Windows too!)
+  * [Etcher](https://etcher.io) (friendly way to burn/flash an image onto a microSD card)
   * [dd](https://www.linuxnix.com/what-you-should-know-about-linux-dd-command/) (command line "data duplicator")
   * unzip, gunzip, tar, xz
 
-* Windows - download:
-  * [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+* Windows
+  * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) (friendly ways to burn/flash an image onto a microSD card)
   * [7-Zip](https://www.7-zip.org)
   * [FileZilla](https://filezilla-project.org) if {FTP, FTPS, SFTP} are needed
 
