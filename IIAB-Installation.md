@@ -178,7 +178,7 @@ You will need tools to decompress these files and write them to storage.  On Lin
   * [7-Zip](https://www.7-zip.org) - unpacks compressed files of almost any kind
   * [FileZilla](https://filezilla-project.org) or [WinSCP](https://winscp.net) - if {SCP, FTP, FTPS, SFTP} are needed to download/upload
 
-Naturally, while the everything-from-scratch steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
+Naturally, while the ["Do Everything from Scratch"](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
 #### Raspberry Pi 3 (or 3 B+)
 
