@@ -13,7 +13,7 @@ Variable Files
 
 The vars directory holds two files, default_vars.yml and local_vars.yml.  The former holds the default values for a number of global variables for the installation.  The latter allows deployments to override these values.  These parameters are either ones that a deployment may wish to override, such as iiab_domain, or global constants.
 
-The inital local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/release-6.2/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
+The inital local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /opt/iiab/iiab/vars/[local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
 
 Variables Set in the Admin Console
 ==================================
