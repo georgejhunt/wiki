@@ -57,7 +57,7 @@ Here is the complete list of the steps required.  Some may already be done.
 
    **Traditionally we use Standard partitioning, but increasingly since 2017 LVM partitioning is possible as well.  In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
-2. Install your OS (e.g. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
+2. Install your OS (e.g. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3 (or 3 B+), install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
 
 3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!
 
@@ -120,7 +120,7 @@ The above happens automatically if you run this 1-line installer, which includes
 ```
    curl download.iiab.io/6.6/load.txt | sudo bash
 ```
-_These 1-line installers require the latest Raspbian OS (on Raspberry Pi 3), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
+_These 1-line installers require the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
 ```
    curl download.iiab.io/6.6/load-min.txt | sudo bash
 ```
@@ -132,7 +132,7 @@ Please browse the above URLs (that end in .txt) to inspect and learn from the au
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
-**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on Raspberry Pi 3.**
+**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on Raspberry Pi 3 and 3 B+.**
 
 Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:
 ```
