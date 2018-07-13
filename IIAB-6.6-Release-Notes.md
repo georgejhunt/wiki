@@ -1,6 +1,6 @@
 ### _**DRAFT**_
 
-Internet-in-a-Box (IIAB) 6.6 incorporates an extensive amount of teacher feedback from IIAB 6.5, and will be released on in July or August ([Wiki](http://wiki.iiab.io/6.6), [GitHub](https://github.com/iiab/iiab/milestone/3)) in service of DIY digital libraries everywhere.
+Internet-in-a-Box (IIAB) 6.6 incorporates an extensive amount of teacher feedback from [IIAB 6.5](https://github.com/iiab/iiab/wiki/IIAB-6.5-Release-Notes), and will be released on in July or August ([Wiki](http://wiki.iiab.io/6.6), [GitHub](https://github.com/iiab/iiab/milestone/3)) in service of DIY digital libraries everywhere.
 
 FOCUS: testers’ + teachers’ + (field) techs’ immediate needs (<a href=https://github.com/iiab/iiab/pull/840>checklist</a>).
 
