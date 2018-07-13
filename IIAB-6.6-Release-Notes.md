@@ -17,7 +17,7 @@ _TODAY: Consider installing a <a href=http://download.iiab.io/6.6>pre-release of
 * PREVIEW: Copy Internet-in-a-Box Content Packs to (and from) USB sticks and portable disks.  Not yet landed but coming soon in IIAB 6.6 or 6.7:  [#828](https://github.com/iiab/iiab/issues/828).  If a teacher's own ZIM files on a USB stick can be hot-plugged into Internet-in-a-Box, that will be considered too:  [#857](https://github.com/iiab/iiab/issues/857)
 * PREVIEW: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Not yet landed but coming soon in IIAB 6.6 or 6.7:  [#697](https://github.com/iiab/iiab/pull/748) [#748](https://github.com/iiab/iiab/pull/748)
 * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 6.7 or 7.0:  [#796](https://github.com/iiab/iiab/pull/796)
-* FUTURE: 1-line installers for IIAB that pre-populate [local_vars.yml](wiki.iiab.io/local_vars.yml) and auto-reboot intelligently.  Coming soon in IIAB 6.7 or 7.0:  [#872](https://github.com/iiab/iiab/issues/872)
+* FUTURE: 1-line installers for IIAB that pre-populate [local_vars.yml](wiki.iiab.io/local_vars.yml), auto-reboot intelligently, and automate the torrenting+installing of KA Lite compressed videos (etc) in 7 languages.  Coming soon in IIAB 6.7 or 7.0:  [#872](https://github.com/iiab/iiab/issues/872) [#884](https://github.com/iiab/iiab/issues/884)
 
 ### What's Upgraded?
 
