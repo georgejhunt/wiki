@@ -30,6 +30,7 @@ The ip address of the WAN device will normally be assigned by whatever device ma
 | TCP      | 8006                      | kalite-serve-fr                          |
 | TCP      | 8007                      | kalite-serve-es                          |
 | TCP      | 8008                      | kalite-serve (English & others)          |
+| TCP      | 8009                      | kolibri                                  |
 | TCP      | 8010                      | calibre-server (if avoiding idmgr/8080)  |
 | TCP      | 8080                      | calibre-server OR idmgr (for legacy XOs) |
 | TCP      | 8089                      | sugarizer                                |
