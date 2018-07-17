@@ -10,7 +10,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3 (or 3 B+)
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS, and secondarily [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
-* [Debian 9.4](https://www.debian.org/releases/stretch/) "Stretch" LTS
+* [Debian 9.5](https://www.debian.org/releases/stretch/) "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
