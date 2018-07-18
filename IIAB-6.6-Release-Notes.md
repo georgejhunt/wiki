@@ -35,7 +35,7 @@ _TODAY: Consider installing a <a href=http://download.iiab.io/6.6>pre-release of
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.7](https://github.com/Elgg/Elgg/blob/2.3.7/CHANGELOG.md).
 * phpMyAdmin is upgraded to [4.8.2](https://www.phpmyadmin.net/news/).
 * More comprehensive Offline Docs, onboard your Internet-in-a-Box and available to all in the field, at [http://box/info](http://box/info) &mdash; including instructions on [how to upgrade (or reinstall while offline) your IIAB server apps](http://FAQ.IIAB.IO#Can_I_upgrade_or_reinstall_server_apps.3F) a.k.a. IIAB services.
-
+* IIAB's [Ansible playbooks](https://github.com/iiab/iiab/tree/master/roles) are far more readable, with modern indentation, instead of cramming too many things into 1 line.
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/3?closed=1) of accomplishments!
 
 ### How do I try it?
