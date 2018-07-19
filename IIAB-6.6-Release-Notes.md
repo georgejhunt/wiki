@@ -60,7 +60,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* Short/memorizable URL's like http://box/kolibri and http://box/sugarizer are currently broken.  Use [http://box:8009](http://box:8009) and [http://box:8089](http://box:8089) in the interim: [#898](https://github.com/iiab/iiab/issues/898) [#913](https://github.com/iiab/iiab/issues/913)
+* Short/memorizable URL's like http://box/kolibri and http://box/sugarizer are currently broken.  Use [http://box:8009](http://box:8009) and [http://box:8089](http://box:8089) in the interim: [#923](https://github.com/iiab/iiab/issues/923)
 * Wi-Fi hotspot can fail after about an hour, if Ethernet is also plugged in:  [#823](https://github.com/iiab/iiab/issues/823#issuecomment-405988436)
 * USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://FAQ.IIAB.IO#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot: [#329](https://github.com/iiab/iiab/issues/329)
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow: [#401](https://github.com/iiab/iiab/issues/401)
