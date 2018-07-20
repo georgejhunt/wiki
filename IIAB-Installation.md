@@ -89,6 +89,7 @@ Here is the complete list of the steps required.  Some may already be done.
    git clone https://github.com/iiab/iiab-menu --depth 1
    git clone https://github.com/iiab/iiab-factory --depth 1
 
+   mkdir -p /etc/iiab/
    cd /opt/iiab/iiab/vars/
    # cp local_vars_min.yml /etc/iiab/local_vars.yml
    cp local_vars_medium.yml /etc/iiab/local_vars.yml
@@ -120,7 +121,7 @@ The above happens automatically if you run our 1-line installer, which allows yo
 ```
    curl download.iiab.io/6.6/install.txt | sudo bash
 ```
-_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, stick with MIN-sized of MEDIUM-sized.  Conversely a much larger but slower installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
+_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, stick with MIN-sized of MEDIUM-sized.  Conversely a much larger but slower installation is possible, if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
 
 Please browse the above URLs (that ends in .txt) to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
