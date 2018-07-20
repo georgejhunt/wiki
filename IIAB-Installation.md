@@ -90,9 +90,9 @@ Here is the complete list of the steps required.  Some may already be done.
    git clone https://github.com/iiab/iiab-factory --depth 1
 
    cd /opt/iiab/iiab/vars/
-   # cp local_vars_min.yml local_vars.yml
-   cp local_vars_medium.yml local_vars.yml
-   # cp local_vars_big.yml local_vars.yml
+   # cp local_vars_min.yml /etc/iiab/local_vars.yml
+   cp local_vars_medium.yml /etc/iiab/local_vars.yml
+   # cp local_vars_big.yml /etc/iiab/local_vars.yml
 
    # In general please examine local_vars.yml carefully (and modify as nec)
    # before running Ansible (below, which can take 1-2 hours the 1st time!)
@@ -116,19 +116,13 @@ Here is the complete list of the steps required.  Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-The above happens automatically if you run this 1-line installer, which includes [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml):
+The above happens automatically if you run our 1-line installer, which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
 ```
-   curl download.iiab.io/6.6/load.txt | sudo bash
+   curl download.iiab.io/6.6/install.txt | sudo bash
 ```
-_These 1-line installers require the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster installer, instead try this one below, with just [~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml):
-```
-   curl download.iiab.io/6.6/load-min.txt | sudo bash
-```
-Conversely a much larger but slower installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml):
-```
-   curl download.iiab.io/6.6/load-big.txt | sudo bash
-```
-Please browse the above URLs (that end in .txt) to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
+_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take 2 hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want a faster install, stick with MIN-sized of MEDIUM-sized.  Conversely a much larger but slower installation is possible, if you want to experiment with a more full suite of [~20 servers apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
+
+Please browse the above URLs (that ends in .txt) to inspect and learn from the automated steps of the installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
@@ -147,7 +141,7 @@ As explained in the above "curl" scripts, a reboot is generally necessary before
    git pull
    ./iiab-install --reinstall
 ```
-Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also recommended: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) and then rebooting &mdash; per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 _Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one.  The server may also disconnect during the install in which case you will need to reconnect in order to continue._
 
