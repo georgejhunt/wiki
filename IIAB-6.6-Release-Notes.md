@@ -42,9 +42,9 @@ _TODAY: Consider installing a <a href=http://download.iiab.io/6.6>pre-release of
 
 TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9:
 
-     curl download.iiab.io/6.6/load.txt | sudo bash
+     curl download.iiab.io/6.6/install.txt | sudo bash
 
-On Raspberry Pi, you'll want the latest [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS (2018-06-27 or higher) installed onto a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  An actual Ethernet cable helps avoid Wi-Fi glitches!  See [download.iiab.io/6.6](http://download.iiab.io/6.6/README.html) for other/faster options.
+On Raspberry Pi, you'll want the latest [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS (2018-06-27 or higher) installed onto a microSD card large enough for content.  Installation usually completes within two hours, if your Internet speed is very fast.  An actual Ethernet cable helps avoid Wi-Fi glitches!  See [download.iiab.io/6.6](http://download.iiab.io/6.6/README.html) for speed and security tips to hit the ground running.
 
 Finally if you are adventurous, try installing onto CentOS, using our [Do Everything from Scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) install instructions &mdash; getting you to the most important step &mdash; _where you can [add content!](https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content)_
 
