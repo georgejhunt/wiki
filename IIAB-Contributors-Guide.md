@@ -1,5 +1,6 @@
 Getting started
 ===============
+
 Internet-in-a-Box runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian, CentOS and Fedora.
 
 You can install Internet-in-a-Box on most late model desktop and laptop computers. It can run on Intel NUC, Gigabyte BRIX, OLPC XO-1.5, XO-1.75, XO-4, Raspberry Pi 3, Raspberry Pi 2 and Raspberry Pi Zero W. A VirtualBox VM can also be used for testing purposes. Using Docker containers is not recommended however, as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
@@ -11,12 +12,12 @@ Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to 
 ├── roles
 │   ├── 1-prep
 │   │   ├─ defaults
-|   |   |    ├──main.yml (variables defined at /opt/iiab/iiab/vars/default_vars.yml can be overridden by /opt/iiab/iiab/vars/local_vars.yml)
+|   |   |    ├──main.yml (variables defined at /opt/iiab/iiab/vars/default_vars.yml can be overridden by /etc/iiab/iiab/local_vars.yml)
 │   │   ├── README.rst
 │   │   ├── tasks
 |   |   |    ├──main.yml (actions that install this role)
 │   │   └── templates
-|   |   |    ├──(text files where Ansible variables are substituted, using jinja2 templating e.g. {% <variable> %})
+|   |   |    ├──<text files where Ansible variables are substituted, using jinja2 templating e.g. {% <variable> %}>
 │   ├── 2-common
 │   │   ├── README.rst
 │   │   ├── tasks
@@ -50,17 +51,18 @@ Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-A
 Installation
 ============
 
-Before you start the installation please refer to the [hardware section of our FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform. Also note that downloading content might take a long time on slower Internet connections.
+Before you start the installation please refer to the [hardware section of our FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform.  Also note that downloading content might take a long time on slower Internet connections.
 
 If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
 Please refer to the [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
 
 Setting up a development environment
-=====================================
-( This section uses an experimental development environment for Internet-in-a-Box. It is being developed in the [iiab-dev-mode repository](https://github.com/arky/iiab-dev-mode). )
+====================================
 
-This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/). You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [VirtualBox](https://www.virtualbox.org/) installed.
+(This section uses an experimental development environment for Internet-in-a-Box.  It is being developed in the [iiab-dev-mode repository](https://github.com/arky/iiab-dev-mode).)
+
+This section provide a quick setup of Internet-in-a-Box (IIAB) development environment using [Vagrant](https://www.vagrantup.com/).  You will need a computer with [virtualization enabled](https://www.virtualbox.org/manual/UserManual.html) and git, Vagrant (2.0 or later) and [VirtualBox](https://www.virtualbox.org/) installed.
 
 ## Requirements
 
@@ -70,14 +72,15 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
  * Editor ([Atom](www.atom.io), Emacs, vi, etc)
 
 ## Setup Instructions
+
 1. Check out the repository and its submodules onto your development machine.
 `git clone --recursive git@github.com:arky/iiab-dev-mode.git`
 
 2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to latest master using `git submodule foreach git pull origin master`
 
-3. Set up a vagrant machine with `vagrant up` and provision it with `vagrant provision`. Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
+3. Set up a vagrant machine with `vagrant up` and provision it with `vagrant provision`.  Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
 
-4. Connect to your vagrant machine with `vagrant ssh`. All your local development files available as shared folder in `/opt/iiab` directory.
+4. Connect to your vagrant machine with `vagrant ssh`.  All your local development files available as shared folder in `/opt/iiab` directory.
 
 5. Install IIAB itself from the Ansible playbooks by following [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) instructions:
 ```
@@ -95,7 +98,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 ```
 6. Hack away!
 
-7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to IIAB project. Once you forked a repository, you change directory into that repository and setting a default git remote push setting with the following command.
+7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to IIAB project.  Once you forked a repository, you change directory into that repository and setting a default git remote push setting with the following command.
 
    `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
 
@@ -108,7 +111,7 @@ Debugging
 
 Here are few strategies for debugging problems during the Internet-in-a-Box installation.
 
-* When a installation task fails, Ansible halts printing out a descriptive error message to the screen. This error information is also written to `iiab-install.log` file within `/opt/iiab/iiab`. (Look through logs to check if any preceding line contains the error).
+* When a installation task fails, Ansible halts printing out a descriptive error message to the screen.  This error information is also written to `iiab-install.log` file within `/opt/iiab/iiab`.  (Look through logs to check if any preceding line contains the error).
 * When an installation succeeds, the last lines printed on the screen will look like the following (failed=0):
 ```
    PLAY RECAP *********************************************************************
@@ -121,14 +124,13 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
  Please refer to [Ansible playbook documentation](http://docs.ansible.com/ansible/latest/playbooks.html) for more information.
 
 Testing your code with Travis CI
-=================================
+================================
 
-To maintain the quality of the Internet-in-a-Box (IIAB) code we use [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure. Travis CI does tests to
-ensure the code syntax is correct and the code is formatted properly using `ansible` syntax checker, `ansible-lint` and `ansible-review` tools. The results of Travis CI Internet-in-a-Box (IIAB) could be seen [here](https://travis-ci.org/iiab/iiab).
+To maintain the quality of the Internet-in-a-Box (IIAB) code we use [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure.  Travis CI does tests to ensure the code syntax is correct and the code is formatted properly using `ansible` syntax checker, `ansible-lint` and `ansible-review` tools.  The results of Travis CI Internet-in-a-Box (IIAB) could be seen [here](https://travis-ci.org/iiab/iiab).
 
-Every pull request is automatically tested by Travis CI. The results of these tests are added to the pull request. This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request.
+Every pull request is automatically tested by Travis CI.  The results of these tests are added to the pull request.  This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request.
 
-To test your forked repository of Internet-in-a-Box (IIAB) code. You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
+To test your forked repository of Internet-in-a-Box (IIAB) code.  You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
 
 * Login to [Travis-ci.org](https://travis-ci.org) using your Github account.
 * Go to your Travis CI profile page and enable the repository you want to build.
