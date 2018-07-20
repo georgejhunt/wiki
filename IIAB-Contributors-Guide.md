@@ -3,11 +3,13 @@ Getting started
 
 Internet-in-a-Box runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian, CentOS and Fedora.
 
-You can install Internet-in-a-Box on most late model desktop and laptop computers. It can run on Intel NUC, Gigabyte BRIX, OLPC XO-1.5, XO-1.75, XO-4, Raspberry Pi 3, Raspberry Pi 2 and Raspberry Pi Zero W. A VirtualBox VM can also be used for testing purposes. Using Docker containers is not recommended however, as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
+You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3 (or 3 B+).  Example PC's include Intel NUC and Gigabyte BRIX.  Partial support is also available on OLPC laptops like the XO-1.5, XO-1.75 and XO-4.  A VirtualBox VM can also be used for testing purposes.  Using Docker containers however is not recommended as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
+
+Finally, running Internet-in-a-Box on the Raspberry Pi Zero W is also possible, if you transfer a working IIAB (microSD card) that was built up inside a Raspberry Pi 3 (or 3 B+).
 
 Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
 
-Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages. Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human readable instruction files in [YAML](http://www.yaml.org/start.html) format. Playbooks are divided into hosts, roles and tasks.
+Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages.  Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human-readable instruction files in [YAML](http://www.yaml.org/start.html) format.  Playbooks are divided into hosts, roles and tasks.
 ```
 ├── roles
 │   ├── 1-prep
@@ -40,11 +42,11 @@ Click on Stages 1 to 9 above for descriptions of their specific purposes.
 
 At runtime (to build up your Internet-in-a-Box server) Ansible gathers system information making it available (as 'facts') and combines this with Ansible 'variables' to guide the installation process. The execution follows a sequence of cascading steps:
 
-1. Bash script `./iiab-install` (formerly `./runansible`) uses Ansible to run `/opt/iiab/iiab/iiab-stages.yml`
+1. Bash script `./iiab-install` uses Ansible to run `/opt/iiab/iiab/iiab-stages.yml`
 
-2. `iiab-stages.yml` calls 9+ aggregate roles (the numbered directories above, stored in /opt/iiab/iiab/roles).  Within the 9 core install stages, it avoids repetition after Internet glitches by keeping a counter (STAGE) in `/etc/iiab/iiab.env`
+2. `iiab-stages.yml` calls 9+ aggregate roles (AKA stages, these are the numbered directories above, in /opt/iiab/iiab/roles) and then the network role.  It avoids repeating any of these 9 core install stages (in case of Internet glitches etc) by keeping a counter ("STAGE") in `/etc/iiab/iiab.env`  (Aside: the network role can also later be run using `./iiab-network`)
 
-3. Each aggregate role has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to invoke all needed roles and tasks.
+3. Each aggregate role AKA stage has a `<role>/tasks/main.yml` (formerly `<role>/meta/main.yml`) to invoke all needed roles and tasks.
 
 Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more information.
 
@@ -53,7 +55,9 @@ Installation
 
 Before you start the installation please refer to the [hardware section of our FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform.  Also note that downloading content might take a long time on slower Internet connections.
 
-If you are a developer, please consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
+Most all implementers should use IIAB's 1-line installer at http://download.iiab.io (click on the version number, e.g. [6.6](http://download.iiab.io/6.6/)).
+
+If you are a developer, consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
 Please refer to the [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
 
@@ -76,7 +80,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 1. Check out the repository and its submodules onto your development machine.
 `git clone --recursive git@github.com:arky/iiab-dev-mode.git`
 
-2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to latest master using `git submodule foreach git pull origin master`
+2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to the latest master using `git submodule foreach git pull origin master`
 
 3. Set up a vagrant machine with `vagrant up` and provision it with `vagrant provision`.  Please select the available bridge network interface (wlan0 or eth0) that connects your host machine to the Internet.
 
@@ -98,11 +102,11 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 ```
 6. Hack away!
 
-7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to IIAB project.  Once you forked a repository, you change directory into that repository and setting a default git remote push setting with the following command.
+7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to the IIAB project.  Once you've forked a repository, you change directory into that repository and set a default git remote push setting with the following command:
 
    `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
 
-	Learn more by reading blog post [Different git Push & Pull(fetch) URLs](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and the [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) chapter of Scott Chacon and Ben Straub's "Git Pro" book.
+	Learn more by reading the blog post [Different git Push & Pull(fetch) URLs](http://blog.yuriy.tymch.uk/2012/05/different-git-push-pullfetch-urls.html) and the [Git Basics - Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) chapter of Scott Chacon and Ben Straub's "Git Pro" book.
 
 8. Once you are done, you can stop your vagrant machine with `vagrant halt` or remove it completely with `vagrant destroy`.
 
@@ -128,7 +132,7 @@ Testing your code with Travis CI
 
 To maintain the quality of the Internet-in-a-Box (IIAB) code we use [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure.  Travis CI does tests to ensure the code syntax is correct and the code is formatted properly using `ansible` syntax checker, `ansible-lint` and `ansible-review` tools.  The results of Travis CI Internet-in-a-Box (IIAB) could be seen [here](https://travis-ci.org/iiab/iiab).
 
-Every pull request is automatically tested by Travis CI.  The results of these tests are added to the pull request.  This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request.
+Every pull request [was] automatically tested by Travis CI.  The results of these tests [were] added to the pull request.  This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request [this approach is currently on hold as of July 2018 &mdash; if it's tuned up this or any similar CI/CD alternatives would be welcome!]
 
 To test your forked repository of Internet-in-a-Box (IIAB) code.  You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
 
@@ -157,4 +161,4 @@ Get in touch
 * Join our [live calls](http://minutes.iiab.io) most Mondays and Thursday
 * Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)
 * Post an idea or question to our [community forums](http://iiab.io/)
-* Read our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO))
+* Read ["What are the best places for community support?"](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) within our Frequently Asked Questions  ([FAQ.IIAB.IO](http://FAQ.IIAB.IO))
