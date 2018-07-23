@@ -67,7 +67,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 * Short/memorizable URL's like http://box/kolibri and http://box/sugarizer are currently broken.  Use [http://box:8009](http://box:8009) and [http://box:8089](http://box:8089) in the interim: [#923](https://github.com/iiab/iiab/issues/923)
 * Raspberry Pi's internal Wi-Fi hotspot can sometimes fail within an hour of booting, if Ethernet is also plugged in:  [#926](https://github.com/iiab/iiab/issues/926)
-* Calibre 3.27.1 (like 3.24.x and 3.25) prevent IIAB microSD's from booting in Raspberry Pi Zero W.  Those who rely on RPi Zero W need to turn off Calibre's installation in /etc/iiab/local_vars.yml for now.  [#952](https://github.com/iiab/iiab/issues/952)
+* Calibre 3.27.1 (like 3.24.x and 3.25) prevent IIAB microSD's from booting in Raspberry Pi Zero W.  Those who rely on RPi Zero W need to turn off Calibre's installation in /etc/iiab/local_vars.yml during installation of IIAB for now.  [#952](https://github.com/iiab/iiab/issues/952)
 * USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://FAQ.IIAB.IO#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot: [#329](https://github.com/iiab/iiab/issues/329)
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow: [#401](https://github.com/iiab/iiab/issues/401)
 * Set a default locale in your OS in /etc/default/locale (also the "locale" command should show the same, e.g. "C.UTF-8" or "en_US.UTF-8") to avoid language restrictions upon re-installing WordPress.
