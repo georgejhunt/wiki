@@ -117,7 +117,7 @@ Here is the complete list of the steps required.  Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-The above happens automatically if you run our 1-line installer, which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
+The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.6/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
 ```
    curl download.iiab.io/6.6/install.txt | sudo bash
 ```
