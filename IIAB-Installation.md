@@ -40,14 +40,13 @@ This is for people who already know how to do everything in these instructions a
 
 ## Install the Software
 
-There are basically two ways to install IIAB software:
+There are basically three ways to install IIAB software:
 
-   1. Do everything from scratch.  _Strongly recommended (since IIAB 6.4 especially)_ as our new [1-line installer scripts](http://download.iiab.io/6.6/) do essentially everything!
-   2. Take a short cut by getting files from someone else who did everything from scratch or at least some of the steps.  Here are some [suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
+   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/6.6/) which does essentially everything!_
+   2. Do everything from scratch, manually, following the instructions below.
+   3. Take a short cut if you have access to an "image" files from someone else who did everything from scratch, or at least some of the steps.  Here are some [older suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
-The _advantage_ of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  The _disadvantage_ is that it is more work.
-
-The _advantage_ of a short cut is that it will usually take less time and effort.  The _disadvantage_ is that there may not be files available for every platform and every configuration and the files may be out of date.
+The _advantage_ of doing everything from scratch is that you will get exactly what you want and you will get the latest version of the software.  (The _disadvantage_ is that it's more work!)
 
 ### Do Everything from Scratch
 
