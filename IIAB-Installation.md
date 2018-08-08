@@ -303,7 +303,7 @@ To begin, [log in](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passw
 
 #### ZIM Files
 
-ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs prepared by http://kiwix.org.  They include Wikipedia, Wiktionary, TED Talks, and many other educational/reference materials in multiple languages.  Download and install these as follows:
+ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs, generally prepared by http://kiwix.org.  They include Wikipedia, Wiktionary, TED Talks, and many other educational/reference materials in multiple languages.  Download and install these as follows:
 
 1. Within Admin Console -> Install Content, hit button **Refresh Kiwix Catalog** to update your list of available ZIMs with the very latest from Kiwix.org.
 
