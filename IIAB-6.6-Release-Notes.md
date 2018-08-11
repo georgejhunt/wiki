@@ -66,9 +66,9 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 ### Known Issues
 
 * Short/memorizable URL's like http://box/kolibri and http://box/sugarizer are currently broken.  Use [http://box:8009](http://box:8009) and [http://box:8089](http://box:8089) in the interim:  [#923](https://github.com/iiab/iiab/issues/923)
-* Raspberry Pi's internal Wi-Fi hotspot sometimes fails to provide IP addresses, when Ethernet ISN'T plugged in: 
+* Raspberry Pi's internal Wi-Fi hotspot very occasionally fails to provide IP addresses, when Ethernet ISN'T plugged in? 
  [#989](https://github.com/iiab/iiab/issues/989)
-* Raspberry Pi's internal Wi-Fi hotspot sometimes fails within an hour of booting, when Ethernet IS plugged in:  [#926](https://github.com/iiab/iiab/issues/926)
+* Raspberry Pi's internal Wi-Fi hotspot very occasionally fails within an hour of booting, when Ethernet IS plugged in?  [#926](https://github.com/iiab/iiab/issues/926)
 * Calibre 3.27.1 (like 3.24.x and 3.25) had prevented IIAB microSD's from booting in Raspberry Pi Zero W.  If this recurs in a future version of Calibre, those who rely on RPi Zero W would need to turn off Calibre's installation in /etc/iiab/local_vars.yml during installation of IIAB:  [#952](https://github.com/iiab/iiab/issues/952)
 * USB memory sticks may need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://FAQ.IIAB.IO#Can_teachers_display_their_own_content.3F) appears at http://box/usb e.g. if stick was inserted just prior to a cold boot:  [#329](https://github.com/iiab/iiab/issues/329)
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) logins/logouts are much faster but remain slow:  [#401](https://github.com/iiab/iiab/issues/401)
