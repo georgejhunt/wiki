@@ -9,11 +9,11 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
-* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS, and secondarily [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
+* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
 * [Debian 9.5](https://www.debian.org/releases/stretch/) "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
-
+* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) used by developers
 * [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
