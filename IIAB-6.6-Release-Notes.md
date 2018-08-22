@@ -40,7 +40,7 @@ _TODAY: Consider installing a <a href=http://download.iiab.io/6.6>pre-release of
 * WordPress is upgraded to [4.9.8](https://wordpress.org/news/2018/08/wordpress-4-9-8-maintenance-release/) including “Try Gutenberg” visual/block editor preview.  Reinforces [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) privacy compliance, based on WordPress [4.9](https://wordpress.org/news/2017/11/tipton/).
 * Moodle is upgraded to [3.5.1+ LTS](https://docs.moodle.org/dev/Moodle_3.5.1_release_notes) based on [3.5 LTS](https://docs.moodle.org/dev/Moodle_3.5_release_notes) for privacy, better quizzes, speed, messaging integration and modern usability ([preview](https://www.moodlenews.com/2018/privacy-better-quizzes-faster-and-modern-the-latest-scoop-on-moodle-3-5/), [new features](https://docs.moodle.org/35/en/New_features)).
 * Offline Social Network [Elgg](http://learn.elgg.org/en/2.3/) is upgraded to [2.3.8](https://github.com/Elgg/Elgg/blob/2.3.8/CHANGELOG.md).
-* phpMyAdmin is upgraded to [4.8.2](https://www.phpmyadmin.net/news/).
+* phpMyAdmin is upgraded to [4.8.3](https://www.phpmyadmin.net/news/).
 * More comprehensive Offline Docs, onboard your Internet-in-a-Box and available to all in the field, at [http://box/info](http://box/info) &mdash; including instructions on [how to upgrade (or reinstall while offline) your IIAB server apps](http://FAQ.IIAB.IO#Can_I_upgrade_or_reinstall_server_apps.3F) a.k.a. IIAB services.
 * IIAB's [Ansible playbooks](https://github.com/iiab/iiab/tree/master/roles) are far more readable, with modern indentation, instead of cramming too many things into 1 line.
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/3?closed=1) of accomplishments!
