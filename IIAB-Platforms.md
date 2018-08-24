@@ -32,7 +32,7 @@ In practice, IIAB has been tested on the platforms and configurations below.  Fo
 
 Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RAM and a 1TB of internal hard disk, or 200+ GB SSD. Most models have a minimum of four USB ports and some have an internal Wi-Fi adapter.
 
-- Installs with Ubuntu 18.04 LTS, Debian 9.4 or CentOS 7.4
+- Installs with Ubuntu 18.04 LTS, Debian 9.5 or CentOS 7.5
 
 #### OLPC XO-1.5, XO-1.75, XO-4
 
@@ -50,7 +50,7 @@ OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content fo
 
 #### VirtualBox VM
 
-Virtual machines with varying configurations, especially Debian and CentOS 7, are often used for testing or proof of concept.
+Virtual machines with varying configurations, especially Debian and CentOS 7, are often used for testing or proof-of-concept.
 
 #### Other Recent Intel/AMD Computers
 
