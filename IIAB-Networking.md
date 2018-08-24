@@ -48,7 +48,7 @@ If "./iiab-install" has already completed, just run the following commands to (r
 cd /opt/iiab/iiab/
 ./iiab-network     (or "./runtags network")
 ```
-Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}. So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.  More details at: https://github.com/iiab/iiab/pull/531#issuecomment-344963643
+Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}. So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.  More details at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
 
 (2) Many of us edit /etc/iiab/[local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) so it contains the following 2 lines:
 
