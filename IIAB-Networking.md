@@ -46,7 +46,7 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 If "./iiab-install" has already completed, just run the following commands to (re)configure networking:
 ```
 cd /opt/iiab/iiab/
-./iiab-network     (or "./runtags network")
+./iiab-network     (or "./runrole network")
 ```
 Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}. So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.  More details at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
 
