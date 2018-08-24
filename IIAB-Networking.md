@@ -13,7 +13,7 @@ defaults to "Gateway" mode. You need to make some adjustments to be able to use
 
 ### IP Addresses
 
-The ip address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices and always has the ip address 172.18.96.1, a legacy of the practice established by OLPC. Remember, as some are confused by this, that 172.18.96.1 is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
+The IP address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices and always has the IP address 172.18.96.1, a legacy of the practice established by OLPC.  Remember, as some are confused by this, that 172.18.96.1 (AKA box.lan, or simply box) is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
 
 ### List of open ports / services
 
