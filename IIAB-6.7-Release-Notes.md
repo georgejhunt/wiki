@@ -18,9 +18,9 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * FUTURE: 1-line installer for IIAB should pre-populate [local_vars.yml](wiki.iiab.io/local_vars.yml), auto-reboot intelligently, and automate the torrenting+installing of KA Lite compressed videos (etc) in 7 languages.  Coming soon in IIAB 6.7 or 7.0:  [#872](https://github.com/iiab/iiab/issues/872), [#884](https://github.com/iiab/iiab/issues/884)
   * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 6.7 or 7.0:  [#796](https://github.com/iiab/iiab/issues/796)
   * FUTURE: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Coming soon in IIAB 6.7 or 7.0:  [PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)
-* Nextcloud is upgraded to [Nextcloud 14](https://nextcloud.com/blog/).
-* WordPress is upgraded to [WordPress 5.x](https://wordpress.org/news/).
-* Moodle is upgraded to [3.5.2+ LTS](https://docs.moodle.org/dev/Releases).
+* WordPress is upgraded to [WordPress 5.0+](https://wordpress.org/news/) ETA October 2018.
+* Nextcloud is upgraded to [Nextcloud 14](https://nextcloud.com/blog/) ETA 2018-09-06.
+* Moodle is upgraded to [3.5.2+ LTS](https://docs.moodle.org/dev/Releases) ETA 2018-09-10.
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
