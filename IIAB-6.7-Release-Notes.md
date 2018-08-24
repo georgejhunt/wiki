@@ -14,13 +14,13 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 ### What's Upgraded? (TENTATIVE)
 
 * Internet-in-a-Box's [1-line installer](http://download.iiab.io/6.6/) for Raspbian Stretch, Ubuntu 18.04 LTS and Debian 9 is ruggedized and more efficient (and can quickly recover if Internet is interrupted during your IIAB installation).  Pick your favorite suite of Internet-in-a-Box apps the very moment you begin: whether you want ~6, ~12 or ~20 apps!  Implementers please read http://FAQ.IIAB.IO to get to know [/etc/iiab/local_vars.yml](http://wiki.iiab.io/local_vars.yml) — as well as the "[./runrole](https://github.com/iiab/iiab/blob/master/runrole)" command within IIAB's main directory (/opt/iiab/iiab).
-  * FUTURE: [Ansible 2.7.x](https://github.com/ansible/ansible/blob/stable-2.7/changelogs/CHANGELOG-v2.7.rst) helps future-proof Internet-in-a-Box configuration management.
+  * FUTURE: [Ansible 2.7](https://docs.ansible.com/ansible/devel/roadmap/ROADMAP_2_7.html) ([changelog](https://github.com/ansible/ansible/blob/stable-2.7/changelogs/CHANGELOG-v2.7.rst)) helps future-proof Internet-in-a-Box configuration management (ETA 2018-10-04)
   * FUTURE: 1-line installer for IIAB should pre-populate [local_vars.yml](wiki.iiab.io/local_vars.yml), auto-reboot intelligently, and automate the torrenting+installing of KA Lite compressed videos (etc) in 7 languages.  Coming soon in IIAB 6.7 or 7.0:  [#872](https://github.com/iiab/iiab/issues/872), [#884](https://github.com/iiab/iiab/issues/884)
   * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 6.7 or 7.0:  [#796](https://github.com/iiab/iiab/issues/796)
   * FUTURE: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Coming soon in IIAB 6.7 or 7.0:  [PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)
-* WordPress is upgraded to [WordPress 5.0+](https://wordpress.org/news/) ETA October 2018.
-* Nextcloud is upgraded to [Nextcloud 14](https://nextcloud.com/blog/) ETA 2018-09-06.
-* Moodle is upgraded to [3.5.2+ LTS](https://docs.moodle.org/dev/Releases) ETA 2018-09-10.
+* WordPress is upgraded to [WordPress 5.0+](https://wordpress.org/news/) (ETA October 2018)
+* Nextcloud is upgraded to [Nextcloud 14](https://nextcloud.com/blog/) (ETA 2018-09-06)
+* Moodle is upgraded to [3.5.2+ LTS](https://docs.moodle.org/dev/Releases) (ETA 2018-09-10)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
