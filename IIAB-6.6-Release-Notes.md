@@ -62,7 +62,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* RACHEL's OER2GO catalog does not show sample modules and cannot be refreshed due to regression(s) on their server: [#853](https://github.com/iiab/iiab/issues/853#issuecomment-412202168)
+* RACHEL's OER2GO catalog does not show sample modules and cannot be refreshed due to regression(s) on their server.  This should not stop you from downloading RACHEL/OER2GO modules using the built in (older) catalog however:  [#853](https://github.com/iiab/iiab/issues/853#issuecomment-412202168)
 * Some short/memorizable URL's like http://box/kolibri do not yet work.  Use [http://box:8009](http://box:8009) in the interim:  [#923](https://github.com/iiab/iiab/issues/923)
 * Raspberry Pi's internal Wi-Fi hotspot very occasionally fails to provide IP addresses, when Ethernet ISN'T plugged in? 
  [#989](https://github.com/iiab/iiab/issues/989)
