@@ -82,12 +82,13 @@ Some of the most critical IIAB settings are stored in these 8 files:
 Order of Execution and Precedence
 =================================
 
-From highest precedence to lowest:
+In order of execution, i.e. lowest precedence to highest:
 
-* Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))
-* Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) does not use this one)
-* Load local_vars.yml
-* OS-dependent variables i.e. {{ ansible_local.local_facts.os_ver }}.yml
-* Load default_vars.yml
-* Load any vars particular to roles
-* Get Ansible facts including local facts
+* Get Ansible facts including [local facts](https://github.com/iiab/iiab/blob/master/scripts/local_facts.fact)
+* Load any vars particular to [roles](https://github.com/iiab/iiab/tree/master/roles)
+* Load [roles/0-init/defaults/main.yml](https://github.com/iiab/iiab/blob/master/roles/0-init/defaults/main.yml) ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) uses this one, BUT [run-one-role.yml](https://github.com/iiab/iiab/blob/master/run-one-role.yml) and [iiab-from-console.yml](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) do not)
+* Load [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)
+* Load OS-dependent variables i.e. [/opt/iiab/iiab/vars](https://github.com/iiab/iiab/tree/master/vars)/{{ ansible_local.local_facts.os_ver }}.yml
+* Load [local_vars.yml](http://wiki.iiab.io/local_vars.yml)
+* Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) doesn't use this one, BUT [run-one-role.yml](https://github.com/iiab/iiab/blob/master/run-one-role.yml) and [iiab-from-console.yml](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) do)
+* <strike>Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))</strike>
