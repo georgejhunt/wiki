@@ -13,7 +13,7 @@ Variable Files
 
 The vars directory holds two files, default_vars.yml and local_vars.yml.  The former holds the default values for a number of global variables for the installation.  The latter allows deployments to override these values.  These parameters are either ones that a deployment may wish to override, such as iiab_domain, or global constants.
 
-The initial local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /etc/iiab/[local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
+The initial local_vars.yml file comes from the git repo but is marked not tracked on the first run, so edits will not be lost, and is copied to /etc/iiab/[local_vars.yml](http://FAQ.IIAB.IO#What_is_local_vars.yml_and_how_do_I_customize_it.3F) where it may be edited.  Changes should not be made to [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml) as they could be overwritten by a subsequent pull from the git repository.
 
 Variables Set in the Admin Console
 ==================================
@@ -71,12 +71,13 @@ Related Settings Files in /etc/iiab
 
 Some of the most critical IIAB settings are stored in these 8 files:
 
+* [local_vars.yml](http://wiki.iiab.io/local_vars.yml) - customize this file so that iiab-install correctly installs all your IIAB services/apps
 * iiab.env - essential variables during installation; holds STAGE (counter) for iiab-install's 9 steps in iiab-stages.yml
 * iiab.env.py, iiab.env.pyc - Python code/class to read iiab.env (basically exports WWWROOT == /library/www/html for iiab-refresh-wiki-docs, iiab-make-kiwix-lib)
-* iiab.ini - tracks what’s been installed, in sequence, with dates (this state is recorded by ./runansible and ./iiab-install)
+* iiab.ini - tracks what’s been installed, in sequence, with dates (this state is recorded by ./runrole and ./iiab-install)
 * config_vars.yml - null file must be “{}”, further populated by Admin Console’s “Save Configuration” button.  Used by iiab.yml & iiab-from-console.yml with vars/default_vars.yml & /etc/iiab/local_vars.yml
 * uuid - used by OpenVPN, for future analytics "fieldback", currently not used on RPi Zero W ([#271](https://github.com/iiab/iiab/pull/271))
-* handle - human-readable identifier used by OpenVPN
+* openvpn_handle - human-readable machine identifier used by OpenVPN
 * kiwix_catalog.json - downloaded from Kiwix.org when you click “Refresh Kiwix Catalog” in Admin Console
 
 Order of Execution and Precedence
