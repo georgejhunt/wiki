@@ -79,6 +79,8 @@ Here is the complete list of the steps required.  Some may already be done.
    apt -y dist-upgrade
    apt -y clean
 
+   reboot
+
    apt -y install git
 
    mkdir -p /opt/iiab
@@ -94,8 +96,8 @@ Here is the complete list of the steps required.  Some may already be done.
    cp local_vars_medium.yml /etc/iiab/local_vars.yml
    # cp local_vars_big.yml /etc/iiab/local_vars.yml
 
-   # In general please examine local_vars.yml carefully (and modify as nec)
-   # before running Ansible (below, which can take 1-2 hours the 1st time!)
+   # PLEASE EXAMINE local_vars.yml CAREFULLY (AND MODIFY AS NEC)
+   # *BEFORE* RUNNING ./iiab-install (BELOW) CAN TAKE 1-2 HOURS!
 
    # NOTE: you can change many/most settings after install too, using the
    # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
@@ -116,7 +118,7 @@ Here is the complete list of the steps required.  Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.6/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
+STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.6/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
 ```
    curl download.iiab.io/6.6/install.txt | sudo bash
 ```
