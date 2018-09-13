@@ -42,7 +42,7 @@ This is for people who already know how to do everything in these instructions a
 
 There are basically three ways to install IIAB software:
 
-   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/6.6/) which does essentially everything!_
+   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/6.7/) which does essentially everything!_
    2. Do everything from scratch, manually, following the instructions below.
    3. Take a short cut if you have access to an "image" files from someone else who did everything from scratch, or at least some of the steps.  Here are some [older suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
@@ -118,13 +118,13 @@ Here is the complete list of the steps required.  Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.6/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
+STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.7/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.iiab.io/local_vars_min.yml), [~12 server apps](http://wiki.iiab.io/local_vars.yml), or [~20 server apps](http://wiki.iiab.io/local_vars_big.yml))
 ```
-   curl download.iiab.io/6.6/install.txt | sudo bash
+   curl download.iiab.io/6.7/install.txt | sudo bash
 ```
-_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
+_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.iiab.io/local_vars_big.yml).
 
-Finally, please browse [http://download.iiab.io/6.6/install.txt](http://download.iiab.io/6.6/install.txt) to inspect and learn from the automated steps of the Bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
+Finally, please browse [http://download.iiab.io/6.7/install.txt](http://download.iiab.io/6.7/install.txt) to inspect and learn from the automated steps of the Bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
@@ -143,7 +143,7 @@ As explained in the above "curl" script, a reboot is generally necessary before 
    git pull
    ./iiab-install --reinstall
 ```
-Also At Your Own Risk: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) and then rebooting &mdash; per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also At Your Own Risk: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) and then rebooting &mdash; per the recommendations at http://wiki.iiab.io/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 _Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one.  The server may also disconnect during the install in which case you will need to reconnect in order to continue._
 
@@ -202,7 +202,7 @@ Note that these images will write two partitions to a USB stick (thumb drive).  
 
 Finally, while these images have been developed on the Intel NUC, they may well work on other Intel machines too (do let us know!)
 
-#### Installation on OLPC XO laptops is not currently supported on release-6.2+, due to lack of time to test the following general strategy:
+#### Installation on OLPC XO laptops is not fully supported with release-6.2+, due to lack of time to test the following general strategy:
 
 * Install [OLPC OS 13.2.9](http://wiki.laptop.org/go/Release_notes/13.2.9) or similar onto the XO laptop
 * In ``My Settings -> Power`` turn off Automatic Power Management
@@ -216,7 +216,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
   Context: early in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of late June 2018, [Ansible 2.6.0+ was recommended](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
+  _As of late September 2018, [Ansible 2.6.4+ was recommended](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
 
          ansible --version
 
@@ -315,7 +315,7 @@ ZIM files (ZIMs) are compressed and indexed (rapidly searchable) Content Packs, 
 
 4. Hit button **Install Selected ZIMs** to begin downloading and installing them onto your server.  _This can take a very long time, during which time your server may appear unresponsive (within the first hour especially) while it's working!_
 
-5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each ZIM spawns 3 jobs which (1) download, (2) unzip, then (3) move the pieces into position within /library/zims/content and /library/zims/index.  In the past, after installing ZIMs, you also needed to run "iiab-make-kiwix-lib; systemctl restart kiwix-serve" &mdash; but this is no longer necessary as of IIAB/XSCE 6.2.
+5. Monitor progress within Admin Console -> Utilities -> **Display Job Status**.  Each ZIM spawns 3 jobs which (1) download, (2) unzip, then (3) move the pieces into position within /library/zims/content and /library/zims/index.  In the past, after installing ZIMs, you also needed to run "iiab-make-kiwix-lib; systemctl restart kiwix-serve" &mdash; but this is no longer necessary since IIAB/XSCE 6.2.
 
 WARNING: there are certain situations (particularly if you've removed a ZIM from /library/zims, e.g. to clean house or when a malformed ZIM failed to install its index) where you need to run Admin Console -> Install Content -> **Restart Kiwix Server**.  This will fix the listing within the above "Get ZIM Files from Kiwix" downloader, so it correctly shows which ZIMs you truly have installed (and which others are truly downloadable!)
 
