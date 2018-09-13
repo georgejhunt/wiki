@@ -1,8 +1,8 @@
 ### _**DRAFT**_
 
-Internet-in-a-Box (IIAB) 6.7 will build on [IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes), to be released around October/November ([Wiki](http://wiki.iiab.io/6.7), [GitHub](https://github.com/iiab/iiab/milestone/4)) in service of DIY digital libraries everywhere.
+Internet-in-a-Box (IIAB) 6.7 will build on [IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes), to be released around November 2018 ([Wiki](http://wiki.iiab.io/6.7), [GitHub](https://github.com/iiab/iiab/milestone/4)) in service of DIY digital libraries everywhere.
 
-Consider installing a pre-release today, from <a href=http://download.iiab.io/6.7>download.iiab.io/6.7</a> !
+Consider installing a pre-release today, from <a href=http://download.iiab.io/6.7/>download.iiab.io/6.7</a> !
 
 ### What's New? (TENTATIVE)
 
