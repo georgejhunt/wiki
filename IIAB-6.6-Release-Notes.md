@@ -1,9 +1,5 @@
 Internet-in-a-Box (IIAB) 6.6 incorporates an extensive amount of teacher feedback from [IIAB 6.5](https://github.com/iiab/iiab/wiki/IIAB-6.5-Release-Notes), and was released September 12, 2018 ([Wiki](http://wiki.iiab.io/6.6), [GitHub](https://github.com/iiab/iiab/milestone/3)) in service of DIY digital libraries everywhere.
 
-FOCUS: Teachers’ + (field) Techs’ + Testers’ immediate needs (<a href=https://github.com/iiab/iiab/pull/840>checklist</a>).
-
-CLARIF: Larger architectural improvements were deferred to [IIAB 6.7](http://wiki.iiab.io/6.7) and [IIAB 7.0](https://github.com/iiab/iiab/milestone/5).
-
 _Consider installing <a href=http://download.iiab.io/6.6>IIAB 6.6</a> today!_
 
 ### What's New?
