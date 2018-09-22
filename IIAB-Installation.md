@@ -96,8 +96,8 @@ Here is the complete list of the steps required.  Some may already be done.
    cp local_vars_medium.yml /etc/iiab/local_vars.yml
    # cp local_vars_big.yml /etc/iiab/local_vars.yml
 
-   # PLEASE EXAMINE local_vars.yml CAREFULLY (AND MODIFY AS NEC)
-   # *BEFORE* RUNNING ./iiab-install (BELOW) CAN TAKE 1-2 HOURS!
+   # PLEASE EXAMINE local_vars.yml CAREFULLY (AND MODIFY AS NEC) *BEFORE*
+   # RUNNING ./iiab-install (BELOW) AS THIS CAN TAKE A COUPLE HOURS!
 
    # NOTE: you can change many/most settings after install too, using the
    # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
