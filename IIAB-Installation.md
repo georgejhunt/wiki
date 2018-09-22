@@ -118,13 +118,13 @@ Here is the complete list of the steps required.  Some may already be done.
    ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.7/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.iiab.io/local_vars_min.yml), [~12 server apps](http://wiki.iiab.io/local_vars.yml), or [~20 server apps](http://wiki.iiab.io/local_vars_big.yml))
+STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.7/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
 ```
    curl download.iiab.io/6.7/install.txt | sudo bash
 ```
-_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.iiab.io/local_vars_big.yml).
+_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
 
-Finally, please browse [http://download.iiab.io/6.7/install.txt](http://download.iiab.io/6.7/install.txt) to inspect and learn from the automated steps of the Bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
+Finally, please browse [http://download.iiab.io/6.7/install.txt](http://download.iiab.io/6.7/install.txt) to inspect and learn from the automated steps of the bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
@@ -143,7 +143,7 @@ As explained in the above "curl" script, a reboot is generally necessary before 
    git pull
    ./iiab-install --reinstall
 ```
-Also At Your Own Risk: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) and then rebooting &mdash; per the recommendations at http://wiki.iiab.io/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
+Also At Your Own Risk: On Raspbian, Ubuntu or Debian, download and install the latest security/package revisions by running `apt update` followed by `apt dist-upgrade` (might upgrade your kernel) and then rebooting &mdash; per the recommendations at http://wiki.laptop.org/go/IIAB/Security (on CentOS, run `yum update` and on more recent versions of Fedora run `dnf upgrade`).
 
 _Please note that if SELinux was enabled it will be disabled and the server will reboot at the end of the install.  In that case the server may get a new IP address, usually one higher than the previous one.  The server may also disconnect during the install in which case you will need to reconnect in order to continue._
 
@@ -255,7 +255,7 @@ _If you're new to the Admin Console, please read "What are the default passwords
 
 The first time you sign into the Admin Console would be the best time to change the password.  Select the Utilities menu option and the first item, change password.  Fill in the form and click Change Password.
 
-_Please also read about and take seriously [Internet-in-a-Box security practices](http://wiki.iiab.io/Security)._
+_Please also read about and take seriously [Internet-in-a-Box security practices](http://wiki.laptop.org/go/IIAB/Security)._
 
 ### Configure Menu
 
