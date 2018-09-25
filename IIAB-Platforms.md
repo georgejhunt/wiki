@@ -13,8 +13,8 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 * [Debian 9.5](https://www.debian.org/releases/stretch/) "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
-* [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases ([daily ISO](http://cdimage.debian.org/cdimage/daily-builds/daily/current/amd64/iso-cd/))
-* [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) for developers ([daily ISO](http://cdimage.debian.org/cdimage/daily-builds/sid_d-i/current/amd64/iso-cd/))
+* [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
+* [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) for developers ([quasi-daily ISO](https://cdimage.debian.org/mirror/cdimage/daily-builds/sid_d-i/arch-latest/amd64/))
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [CentOS 7.5](https://www.centos.org/download/) LTS
