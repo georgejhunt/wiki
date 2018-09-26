@@ -20,7 +20,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 6.7 or 7.0:  [#796](https://github.com/iiab/iiab/issues/796)
   * FUTURE: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Coming soon in IIAB 6.7 or 7.0:  [PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)
 * WordPress is upgraded to [WordPress 4.9.9](https://make.wordpress.org/core/tag/4-9-9/) (ETA [2018-11-05](https://make.wordpress.org/core/2018/09/12/wordpress-4-9-9-minor-release-roadmap/))
-* Nextcloud is upgraded to [Nextcloud 15](https://nextcloud.com/blog/) (ETA [2018-12-06](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule))
+* Nextcloud is upgraded to the [latest Nextcloud 14](https://nextcloud.com/changelog/#latest14) ([blog](https://nextcloud.com/blog/)) &mdash; or possibly [Nextcloud 15](https://github.com/nextcloud/server/milestone/48) (ETA [2018-12-06](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?
 * Moodle is upgraded to [3.5.3+ LTS](https://docs.moodle.org/dev/Releases) (ETA [2018-11-12](https://docs.moodle.org/dev/Releases))
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
