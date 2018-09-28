@@ -6,7 +6,7 @@ Install a **minimal** 64-bit OS in all cases, OLPC laptops notwithstanding!
 
 Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) below.
 
-[FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ) documents [OS implementation trends](http://wiki.laptop.org/go/IIAB/FAQ#What_OS_should_I_use.3F), among these recommended choices:
+[FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS _(WARNING: some versions of Ubuntu Server 18.04.1 have a [very serious bug](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes#known-issues))_
@@ -20,13 +20,13 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [CentOS 7.5](https://www.centos.org/download/) LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
-_[Contact us if you can help, testing would be greatly appreciated!](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F)_
+_[Contact us if you can help, testing would be greatly appreciated!](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F)_
 
 ## Hardware Platforms
 
 Theoretically IIAB should run on any machine that can run Debian 9 or CentOS 7, and close derivatives.
 
-In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) within our [FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ).
+In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) within our [FAQ.IIAB.IO](http://FAQ.IIAB.IO).
 
 #### Intel NUC and Gigabyte BRIX
 
