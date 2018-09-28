@@ -52,7 +52,7 @@ The _advantage_ of doing everything from scratch is that you will get exactly wh
 
 Here is the complete list of the steps required.  Some may already be done.
 
-1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F).  See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
+1. Assemble your hardware with your chosen amount of [RAM, storage, and network devices](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F).  See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) for the **partitioning scheme** and [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) overview.
 
    **Traditionally we use Standard partitioning, but increasingly since 2017 LVM partitioning is possible as well.  In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
@@ -301,7 +301,7 @@ WARNING: some of these Content Packs are quite large and you should pay attentio
 
 ### Add with Admin Console
 
-To begin, [log in](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F) to the Admin Console (http://box.lan/admin), take the **Install Content** menu item, and view relevant **Help**.
+To begin, [log in](http://FAQ.IIAB.IO#What_are_the_default_passwords.3F) to the Admin Console (http://box.lan/admin), take the **Install Content** menu item, and view relevant **Help**.
 
 #### ZIM Files
 
@@ -347,11 +347,11 @@ To download the Khan Academy videos of your choosing, in various languages, use 
 * [http://box:8008](http://box:8008) (or [http://box.lan:8008](http://box.lan:8008) on non-standard devices/browsers)
 * [http://172.18.96.1:8008](http://172.18.96.1:8008) on much older devices/browsers
 
-Username/password is Admin/changeme [upon installation](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_default_passwords.3F).
+Username/password is Admin/changeme [upon installation](http://FAQ.IIAB.IO#What_are_the_default_passwords.3F).
 
 KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB install/load scripts on Raspberry Pi](http://download.iiab.io/6.6/) install this essential piece for you.
 
-_See also ["KA Lite Administration: What tips & tricks exist?"](http://wiki.laptop.org/go/IIAB/FAQ#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)._
+_See also ["KA Lite Administration: What tips & tricks exist?"](http://FAQ.IIAB.IO#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)._
 
 ### Add Content Manually
 
@@ -376,7 +376,7 @@ If KA Lite videos have been obtained from another install or on some storage med
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://wiki.laptop.org/go/IIAB/FAQ#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
+16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://FAQ.IIAB.IO#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
 
 Either way, the following directories and their contents are needed:
 
@@ -409,7 +409,7 @@ For legacy support of the LibraryBox and PirateBox communities, teachers may als
 
 Bonus: after the lesson, teachers should feel free to remove their USB sticks/drives without warning, as the IIAB server should unmount USB sticks/drives automagically.
 
-See "[Can teachers display their own content?](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F)" within our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) and "[usb-lib README](https://github.com/iiab/iiab/blob/master/roles/usb-lib/README.rst)" for more info.
+See "[Can teachers display their own content?](http://FAQ.IIAB.IO#Can_teachers_display_their_own_content.3F)" within our Frequently Asked Questions ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) and "[usb-lib README](https://github.com/iiab/iiab/blob/master/roles/usb-lib/README.rst)" for more info.
 
 ## Remove Content
 
