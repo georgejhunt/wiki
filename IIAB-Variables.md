@@ -71,7 +71,7 @@ Related Settings Files in /etc/iiab
 
 Some of the most critical IIAB settings are stored in these 8 files:
 
-* [local_vars.yml](http://wiki.iiab.io/local_vars.yml) - customize this file so that iiab-install correctly installs all your IIAB services/apps
+* [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) - customize this file so that iiab-install correctly installs all your IIAB services/apps
 * iiab.env - essential variables during installation; holds STAGE (counter) for iiab-install's 9 steps in iiab-stages.yml
 * iiab.env.py, iiab.env.pyc - Python code/class to read iiab.env (basically exports WWWROOT == /library/www/html for iiab-refresh-wiki-docs, iiab-make-kiwix-lib)
 * iiab.ini - tracks what’s been installed, in sequence, with dates (this state is recorded by ./runrole and ./iiab-install)
@@ -90,6 +90,6 @@ In order of execution, i.e. lowest precedence to highest:
 * Load [roles/0-init/defaults/main.yml](https://github.com/iiab/iiab/blob/master/roles/0-init/defaults/main.yml) ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) uses this one, BUT [run-one-role.yml](https://github.com/iiab/iiab/blob/master/run-one-role.yml) and [iiab-from-console.yml](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) do not)
 * Load [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml)
 * Load OS-dependent variables i.e. [/opt/iiab/iiab/vars](https://github.com/iiab/iiab/tree/master/vars)/{{ ansible_local.local_facts.os_ver }}.yml
-* Load [local_vars.yml](http://wiki.iiab.io/local_vars.yml)
+* Load [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml)
 * Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) doesn't use this one, BUT [run-one-role.yml](https://github.com/iiab/iiab/blob/master/run-one-role.yml) and [iiab-from-console.yml](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) do)
 * <strike>Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))</strike>
