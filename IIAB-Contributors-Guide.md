@@ -53,7 +53,7 @@ Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-A
 Installation
 ============
 
-Before you start the installation please refer to the [hardware section of our FAQ](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform.  Also note that downloading content might take a long time on slower Internet connections.
+Before you start the installation please refer to the [hardware section of our FAQ](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform.  Also note that downloading content might take a long time on slower Internet connections.
 
 Most all implementers should use IIAB's 1-line installer at http://download.iiab.io (click on the version number, e.g. [6.6](http://download.iiab.io/6.6/)).
 
