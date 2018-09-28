@@ -1,4 +1,4 @@
-Internet-in-a-Box (IIAB) 6.4 ([Wiki](http://wiki.iiab.io/6.4), [GitHub](https://github.com/iiab/iiab/milestone/1?closed=1)) was released on October 5th 2017.
+Internet-in-a-Box (IIAB) 6.4 ([Wiki](http://wiki.laptop.org/go/IIAB/6.4), [GitHub](https://github.com/iiab/iiab/milestone/1?closed=1)) was released on October 5th 2017.
 
 ### What's New?
 
@@ -50,4 +50,4 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 * Sugarizer will occasionally fail to install (blocking the installation of Internet-in-a-Box) as explained in [#193](https://github.com/iiab/iiab/issues/193).  The workaround is generally to restart "./runansible" &mdash; or safer yet: restart a hands-free installation using one of our [1-line installer scripts](http://download.iiab.io/6.4/rpi/README.html) on a clean OS.
 * Be sure to set "calibre_install: False" and "calibre_enabled: False" within [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) before installing IIAB 6.4 on CentOS 7.4.
 * Nextcloud ([http://box/nextcloud](http://box/nextcloud)) sometimes takes far too long to login/logout on Raspberry Pi 3 (more than a minute, instead of the usual couple seconds).  If this affects you (typically during the first hours after installation, speeding up later) please help everyone isolate the pattern and root cause, by reviewing & posting to [#401](https://github.com/iiab/iiab/issues/401) so an upstream bug might be filed.
-* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://wiki.laptop.org/go/IIAB/FAQ#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted just prior to a cold boot).
+* USB memory sticks sometimes need to be [removed and re-inserted](https://github.com/iiab/iiab/issues/329#issuecomment-333330362) into your Internet-in-a-Box before [Teacher Content](http://FAQ.IIAB.IO#Can_teachers_display_their_own_content.3F) appears at http://box/usb (if stick was inserted just prior to a cold boot).
