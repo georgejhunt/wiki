@@ -78,7 +78,7 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 ## Setup Instructions
 
 1. Check out the repository and its submodules onto your development machine.
-`git clone --recursive git@github.com:arky/iiab-dev-mode.git`
+`git clone --recursive https://github.com/arky/iiab-dev-mode.git`
 
 2. Change directory into 'iiab-dev-mode' with `cd iiab-dev-mode`. You can update all the submodules to the latest master using `git submodule foreach git pull origin master`
 
