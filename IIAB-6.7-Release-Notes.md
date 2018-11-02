@@ -22,8 +22,9 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * FUTURE: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Coming soon in IIAB 6.7 or 7.0:  [PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)
 * Kolibri is upgraded to [Kolibri 0.10.3](https://github.com/learningequality/kolibri/milestone/30?closed=1) and soon [Kolibri 0.11](https://github.com/learningequality/kolibri/milestone/22) ?  [#1110](https://github.com/iiab/iiab/issues/1110)
 * Calibre is upgraded to [Calibre 3.33.1](https://calibre-ebook.com/whats-new)
-* Calibre-Web support via http://box/books is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
-* WordPress is upgraded to [WordPress 4.9.9](https://make.wordpress.org/core/tag/4-9-9/) (ETA [2018-11-05](https://make.wordpress.org/core/2018/09/12/wordpress-4-9-9-minor-release-roadmap/)) or [WordPress 5.0](https://make.wordpress.org/core/tag/5-0/)  [#986](https://github.com/iiab/iiab/issues/986), [#1181](https://github.com/iiab/iiab/issues/1181)
+* Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
+* WordPress is upgraded to [WordPress 4.9.9](https://make.wordpress.org/core/tag/4-9-9/) (ETA [2018-11-05](https://make.wordpress.org/core/2018/09/12/wordpress-4-9-9-minor-release-roadmap/)) and/or soon likely [WordPress 5.0](https://make.wordpress.org/core/tag/5-0/)  [#986](https://github.com/iiab/iiab/issues/986), [#1181](https://github.com/iiab/iiab/issues/1181)
+* Kiwix is upgraded to 0.7.0  [#1276](https://github.com/iiab/iiab/pull/1276)
 * Nextcloud is upgraded to the [latest Nextcloud 14](https://nextcloud.com/changelog/#latest14) ([blog](https://nextcloud.com/blog/)) &mdash; or possibly [Nextcloud 15](https://github.com/nextcloud/server/milestone/48) (ETA [2018-12-06](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?  [#1048](https://github.com/iiab/iiab/issues/1048)
 * Moodle is upgraded to [3.5.3+ LTS](https://docs.moodle.org/dev/Releases) (ETA [2018-11-12](https://docs.moodle.org/dev/Releases)) ?  [#1131](https://github.com/iiab/iiab/issues/1131)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
