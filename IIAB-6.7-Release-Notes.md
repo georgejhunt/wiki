@@ -26,7 +26,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * WordPress is upgraded to [WordPress 4.9.9](https://make.wordpress.org/core/tag/4-9-9/) (ETA [2018-11-05](https://make.wordpress.org/core/2018/09/12/wordpress-4-9-9-minor-release-roadmap/)) or more likely [WordPress 5.0](https://make.wordpress.org/core/tag/5-0/) (ETA [2018-11-19](https://make.wordpress.org/core/2018/10/31/wordpress-5-0-schedule-updates/)) ?  [#986](https://github.com/iiab/iiab/issues/986), [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to 0.7.0  [#1276](https://github.com/iiab/iiab/pull/1276)
 * Nextcloud is upgraded to the [latest Nextcloud 14](https://nextcloud.com/changelog/#latest14) ([blog](https://nextcloud.com/blog/)) &mdash; or possibly [Nextcloud 15](https://github.com/nextcloud/server/milestone/48) (ETA [2018-12-06](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?  [#1048](https://github.com/iiab/iiab/issues/1048)
-* Moodle is upgraded to [3.5.3+ LTS](https://docs.moodle.org/dev/Releases) (ETA [2018-11-12](https://docs.moodle.org/dev/Releases)) ?  [#1131](https://github.com/iiab/iiab/issues/1131)
+* Moodle is upgraded to [3.5.3+ LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29) (ETA [2018-11-12](https://docs.moodle.org/dev/Releases)) ?  [#1131](https://github.com/iiab/iiab/issues/1131)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
