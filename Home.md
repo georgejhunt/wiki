@@ -10,7 +10,7 @@ After installation, the Admin Console provides tools for selecting server apps a
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
 
-See our Frequently Asked Questions [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
+See our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
 _N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) from all continents, all countries, and all corners._
 
