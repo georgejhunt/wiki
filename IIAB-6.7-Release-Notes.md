@@ -21,7 +21,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 6.7 or 7.0:  [#796](https://github.com/iiab/iiab/issues/796)
   * FUTURE: Your Raspberry Pi's onboard Wi-Fi hotspot can be used to simultaneously get updates from the Internet.  Coming soon in IIAB 6.7 or 7.0:  [PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)
 * Kolibri is upgraded to [Kolibri 0.10.3](https://github.com/learningequality/kolibri/milestone/30?closed=1) and soon [Kolibri 0.11.0](https://github.com/learningequality/kolibri/milestone/22) ?  [#1110](https://github.com/iiab/iiab/issues/1110)
-* Calibre is upgraded to [Calibre 3.33.1](https://calibre-ebook.com/whats-new)
+* Calibre is upgraded to [Calibre 3.34.0](https://calibre-ebook.com/whats-new)
 * Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
 * WordPress is upgraded to [WordPress 4.9.9](https://make.wordpress.org/core/tag/4-9-9/) (ETA [2018-11-05](https://make.wordpress.org/core/2018/09/12/wordpress-4-9-9-minor-release-roadmap/)) or more likely [WordPress 5.0](https://make.wordpress.org/core/tag/5-0/) (ETA [2018-11-19](https://make.wordpress.org/core/2018/10/31/wordpress-5-0-schedule-updates/)) ?  [#986](https://github.com/iiab/iiab/issues/986), [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to 0.7.0  [#1276](https://github.com/iiab/iiab/pull/1276)
