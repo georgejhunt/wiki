@@ -27,7 +27,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * Kiwix is upgraded to 0.7.0  [#1276](https://github.com/iiab/iiab/pull/1276)
 * Nextcloud is upgraded to the [latest Nextcloud 14](https://nextcloud.com/changelog/#latest14) ([blog](https://nextcloud.com/blog/)) &mdash; or possibly [Nextcloud 15](https://github.com/nextcloud/server/milestone/48) (ETA [2018-12-06](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?  [#1048](https://github.com/iiab/iiab/issues/1048)
 * Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes) (https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)  [#1131](https://github.com/iiab/iiab/issues/1131)
-* Elgg is upgraded to [https://github.com/Elgg/Elgg/blob/2.3.9/CHANGELOG.md#239--2018-11-14 2.3.9]
+* Elgg is upgraded to [2.3.9](https://github.com/Elgg/Elgg/blob/2.3.9/CHANGELOG.md#239--2018-11-14)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
