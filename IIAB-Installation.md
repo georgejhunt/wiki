@@ -87,7 +87,6 @@ Here is the complete list of the steps required.  Some may already be done.
    cd /opt/iiab/
    git clone https://github.com/iiab/iiab --depth 1
    git clone https://github.com/iiab/iiab-admin-console --depth 1
-   git clone https://github.com/iiab/iiab-menu --depth 1
    git clone https://github.com/iiab/iiab-factory --depth 1
 
    mkdir -p /etc/iiab/
