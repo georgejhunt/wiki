@@ -25,7 +25,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
 * WordPress is upgraded to the brand new [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to 0.8.0  [#1297](https://github.com/iiab/iiab/pull/1297)
-* Nextcloud is upgraded to the [latest Nextcloud 14](https://nextcloud.com/changelog/#latest14) ([blog](https://nextcloud.com/blog/)) &mdash; or possibly [Nextcloud 15](https://github.com/nextcloud/server/milestone/48) (ETA [2018-12-10](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?  [#1048](https://github.com/iiab/iiab/issues/1048)
+* Nextcloud is upgraded to the [latest Nextcloud 15](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) ETA [2018-12-10](https://github.com/nextcloud/server/wiki/Maintenance-and-Release-Schedule)) ?  [#1048](https://github.com/iiab/iiab/issues/1048)
 * Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes) (https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)  [#1131](https://github.com/iiab/iiab/issues/1131)
 * Elgg is upgraded to [2.3.9](https://github.com/Elgg/Elgg/blob/2.3.9/CHANGELOG.md#239--2018-11-14)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
