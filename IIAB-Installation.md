@@ -113,9 +113,6 @@ Here is the complete list of the steps required.  Some may already be done.
    cd /opt/iiab/iiab-admin-console/
    ./install
    # Installs Admin Console; runs iiab-get-kiwix-cat to d/l Kiwix catalog
-
-   cd /opt/iiab/iiab-menu/
-   ./cp-menus
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
 STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.7/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
