@@ -34,7 +34,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 
 TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9/10:
 
-     curl download.iiab.io/6.7/install.txt | sudo bash
+     curl download.iiab.io/install.txt | sudo bash
 
 On Raspberry Pi, you'll want the latest [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS (2018-10-09 or higher) installed onto a microSD card large enough for all your content.  Installation usually completes within two hours, if your Internet speed is very fast.  An actual Ethernet cable greatly helps avoid Wi-Fi glitches!  See [download.iiab.io/6.7](http://download.iiab.io/6.7/) for speed and security tips to hit the ground running.
 
