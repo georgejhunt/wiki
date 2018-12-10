@@ -42,7 +42,7 @@ This is for people who already know how to do everything in these instructions a
 
 There are basically three ways to install IIAB software:
 
-   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/6.7/) which does essentially everything!_
+   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/) which does essentially everything!_
    2. Do everything from scratch, manually, following the instructions below.
    3. Take a short cut if you have access to an "image" files from someone else who did everything from scratch, or at least some of the steps.  Here are some [older suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
@@ -114,13 +114,13 @@ Here is the complete list of the steps required.  Some may already be done.
    # Installs Admin Console; runs iiab-get-kiwix-cat to d/l Kiwix catalog
    # Installs Dynamic Menuing for /library/www/html/home/index.html
 ```
-STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/6.7/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
+STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line installer](http://download.iiab.io/), which allows you to choose a preset number of server apps: ([~6 server apps](http://wiki.laptop.org/go/IIAB/local_vars_min.yml), [~12 server apps](http://wiki.laptop.org/go/IIAB/local_vars.yml), or [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml))
 ```
-   curl download.iiab.io/6.7/install.txt | sudo bash
+   curl d.iiab.io/install.txt | sudo bash
 ```
 _This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).
 
-Finally, please browse [http://download.iiab.io/6.7/install.txt](http://download.iiab.io/6.7/install.txt) to inspect and learn from the automated steps of the bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
+Finally, please browse our [install script](https://github.com/iiab/iiab-factory/blob/master/iiab) to inspect and learn from the automated steps of the bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
 **In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
@@ -345,7 +345,7 @@ To download the Khan Academy videos of your choosing, in various languages, use 
 
 Username/password is Admin/changeme [upon installation](http://FAQ.IIAB.IO#What_are_the_default_passwords.3F).
 
-KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully our [IIAB install/load scripts on Raspberry Pi](http://download.iiab.io/6.6/) install this essential piece for you.
+KA Lite's English exercises and subtitles (about 1 GB) MUST be downloaded and installed, even if you are not using English videos, starting with KA Lite 0.17.0 early in 2017.  Thankfully IIAB's [1-line install script](http://download.iiab.io/) installs this essential piece for you.
 
 _See also ["KA Lite Administration: What tips & tricks exist?"](http://FAQ.IIAB.IO#KA_Lite_Administration:_What_tips_.26_tricks_exist.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)._
 
