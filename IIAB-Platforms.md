@@ -17,7 +17,7 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) for developers ([quasi-daily ISO](https://cdimage.debian.org/mirror/cdimage/daily-builds/sid_d-i/arch-latest/amd64/) seems to be the testing branch, not actually Sid/unstable branch)
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
-* [CentOS 7.5](https://www.centos.org/download/) LTS
+* [CentOS 7.6](https://www.centos.org/download/) LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
 _[Contact us if you can help, testing would be greatly appreciated!](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F)_
