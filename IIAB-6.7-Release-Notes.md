@@ -23,7 +23,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * Kolibri is upgraded to [0.11.0](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([documentation](https://kolibri.readthedocs.io/en/latest/manage.html)) [#1110](https://github.com/iiab/iiab/issues/1110)
 * Calibre is upgraded to [3.35](https://calibre-ebook.com/whats-new)
 * Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
-* WordPress is upgraded to the brand new [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
+* WordPress is upgraded to [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to 0.8.0  [#1297](https://github.com/iiab/iiab/pull/1297)
 * Nextcloud is upgraded to [Nextcloud 15](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/))  [#1048](https://github.com/iiab/iiab/issues/1048)
 * Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes) (https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)  [#1131](https://github.com/iiab/iiab/issues/1131)
