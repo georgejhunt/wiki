@@ -126,7 +126,7 @@ Finally, please browse our [install script](https://github.com/iiab/iiab-factory
 
 **Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on Raspberry Pi 3 and 3 B+.**
 
-Similarly, if you want to help test CentOS, please do help us [improve on](https://github.com/iiab/iiab/issues/89) these 2 much older recipes from earlier in 2017:
+Similarly, if you want to help test CentOS, you might consider [improving on](https://github.com/iiab/iiab/issues/89) these 2 older recipes from 2017:
 ```
    http://download.iiab.io/6.2/x86/centos-load.txt
    https://github.com/iiab/iiab-factory/blob/master/curl-me
