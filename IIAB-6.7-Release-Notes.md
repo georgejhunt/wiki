@@ -26,7 +26,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * WordPress is upgraded to [5.0.2](https://wordpress.org/news/2018/12/wordpress-5-0-2-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to [0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)  [#1297](https://github.com/iiab/iiab/pull/1297)
 * Nextcloud is upgraded to [Nextcloud 15](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/))  [#1048](https://github.com/iiab/iiab/issues/1048)
-* Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes) (https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)  [#1131](https://github.com/iiab/iiab/issues/1131)
+* Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes), 3.5.4 LTS expected ["2019-01-08"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296)
 * Elgg is upgraded to [2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
