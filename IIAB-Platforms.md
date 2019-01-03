@@ -18,14 +18,16 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
   * Download and create a USB install disk (USB drive >= 4GB will suffice initially) for Ubermix 4.x: http://ubermix.org/files.html
   * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand. 
-  * Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html. In order to adjust the partition sizes, select Option 2: "Advanced image", which allows an installer to designate the size of the base system and user changes partitions at install time. 
-    * You will be prompted to manually enter in partition sizes. For an 80GB hard drive, enter 12GB for the Base Partition Size and 50GB for the User Changes partition. IIAB content will be stored in the User Changes partition. You can adjust the partition sizes as necessary based on your hard drive size and content size needs. 
+  * Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html
+    * Adjust partition sizes, by selecting Option 2: "Advanced image", setting a larger size for the Default System partition (/dev/ext2) and/or User Changes partition (/dev/ext3). You will be prompted to manually enter in partition sizes.
+      * e.g. for an 80GB hard drive, consider 12GB (default) for the Default System partition and 50GB for the User Changes partition (IF /library IIAB content will be stored in the User Changes partition, wiped during factory reset reverts). You can adjust the partition sizes as necessary based on your hard drive size and content size needs.
+      * e.g. consider reversing this: 50GB for the Default System partition and 12GB for the User Changes partition (IF /library IIAB content will be stored in the Default System partition, to protect it from factory reset reverts).
     * Ubermix will install in ~5 or so minutes.
   * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
-  * Now you need to turn UFS off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
+  * Now you need to turn aufs (UnionFS) off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
   * Congratulations, you are now ready to install IIAB.
-  * Install Curl manually (sudo apt install curl in the Terminal app).
-  * Follow the standard IIAB installation instructions to proceed. 
+  * Install curl, by manually running: sudo apt install curl
+  * Run IIAB's 1-line installer: http://d.iiab.io/6.7
 * [CentOS 7.6](https://www.centos.org/download/) LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
