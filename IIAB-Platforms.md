@@ -24,11 +24,11 @@ The following OS's are theoretically possible, but may require extensive babysit
       * e.g. consider reversing this: 50GB for the Default System partition and 12GB for the User Changes partition (IF /library IIAB content will be stored in the Default System partition, to protect it from factory reset reverts).
     * Ubermix will install in ~5 or so minutes.
   * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
-  * Now you need to turn aufs (UnionFS) off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
+  * Turn off aufs (UnionFS). Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
   * Congratulations, you are now ready to install IIAB.
   * Install curl, by manually running: sudo apt install curl
   * Run IIAB's 1-line installer: http://d.iiab.io/6.7
-  * Turn aufs back on.
+  * Turn aufs (UnionFS) back on.
   * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
 * [CentOS 7.6](https://www.centos.org/download/) LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
