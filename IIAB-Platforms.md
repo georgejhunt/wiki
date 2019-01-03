@@ -19,7 +19,7 @@ The following OS's are theoretically possible, but may require extensive babysit
   * Download and create a USB install disk (USB drive >= 4GB will suffice initially) for Ubermix 4.x: http://ubermix.org/files.html
   * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand. 
   * Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html. In order to adjust the partition sizes, select Option 2: "Advanced image", which allows an installer to designate the size of the base system and user changes partitions at install time. 
-    * You will be prompted to manually enter in partition sizes. For an 80GB hard drive, enter 15GB for the Base Partition Size and 50GB for the User Changes partition. IIAB content will be stored in the User Changes partition. You can adjust the partition sizes based as necessary based on your hard drive size and content size needs. 
+    * You will be prompted to manually enter in partition sizes. For an 80GB hard drive, enter 12GB for the Base Partition Size and 50GB for the User Changes partition. IIAB content will be stored in the User Changes partition. You can adjust the partition sizes as necessary based on your hard drive size and content size needs. 
     * Ubermix will install in ~5 or so minutes.
   * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
   * Now you need to turn UFS off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
