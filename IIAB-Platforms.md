@@ -16,16 +16,16 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
 * [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) for developers ([quasi-daily ISO](https://cdimage.debian.org/mirror/cdimage/daily-builds/sid_d-i/arch-latest/amd64/) seems to be the testing branch, not actually Sid/unstable branch)
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
-** Download and create a USB install disk (USB drive >= 4GB will suffice initially) for Ubermix 4.x: http://ubermix.org/files.html
-** Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand. 
-** Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html. In order to adjust the partition sizes, select Option 2: "Advanced image", which allows an installer to designate the size of the base system and user changes partitions at install time. 
-*** You will be prompted to manually enter in partition sizes. For an 80GB hard drive, enter 15GB for the Base Partition Size and 50GB for the User Changes partition. IIAB content will be stored in the User Changes partition. You can adjust the partition sizes based as necessary based on your hard drive size and content size needs. 
-*** Ubermix will install in ~5 or so minutes.
-** Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
-** Now you need to turn UFS off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html
-** Congratulations, you are now ready to install IIAB
-** Install Curl manually (sudo apt install curl)
-** Follow the standard IIAB installation instructions to proceed. 
+  * Download and create a USB install disk (USB drive >= 4GB will suffice initially) for Ubermix 4.x: http://ubermix.org/files.html
+  * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand. 
+  * Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html. In order to adjust the partition sizes, select Option 2: "Advanced image", which allows an installer to designate the size of the base system and user changes partitions at install time. 
+    * You will be prompted to manually enter in partition sizes. For an 80GB hard drive, enter 15GB for the Base Partition Size and 50GB for the User Changes partition. IIAB content will be stored in the User Changes partition. You can adjust the partition sizes based as necessary based on your hard drive size and content size needs. 
+    * Ubermix will install in ~5 or so minutes.
+  * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
+  * Now you need to turn UFS off. Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
+  * Congratulations, you are now ready to install IIAB.
+  * Install Curl manually (sudo apt install curl in the Terminal app).
+  * Follow the standard IIAB installation instructions to proceed. 
 * [CentOS 7.6](https://www.centos.org/download/) LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
