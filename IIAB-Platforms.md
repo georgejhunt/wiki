@@ -83,7 +83,7 @@ On a 1TB disk, we recommend the following 2-to-4 partitions, such as: (tradition
 * / - 50 GB
 * /library - the remainder (optional partition, can protect your content during major upgrades)
 
-For smaller disks and SD cards we recommend reducing (or eliminating) the swap partition, and avoiding the separate /library partition altogether.
+_On smaller disks and SD cards we recommend reducing (or eliminating) the swap partition, and avoiding the separate /library partition altogether._
 
 ## Network Adapters
 
