@@ -75,7 +75,7 @@ A number of users have successfully deployed IIAB on late model desktop and lapt
 
 Disable UEFI in your computer's BIOS if possible!
 
-It's critical to avoid a large /home partition, so there's room for all your content (in /library).  Pay close attention while installing your OS (Ubuntu, Debian etc).  You should remove (or dramatically shrink) this /home partition, if your Linux distro insists on creating one.
+It's critical to avoid a large /home partition, so there's room to add content (in /library).  Pay close attention while installing your OS (Ubuntu, Debian etc).  You should remove (or dramatically shrink) this /home partition, if your Linux distro insists on creating one.
 
 On a 1TB disk, we recommend the following 2-to-4 partitions, such as: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
 * /boot - 500 MB
