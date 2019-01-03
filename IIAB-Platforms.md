@@ -73,17 +73,17 @@ A number of users have successfully deployed IIAB on late model desktop and lapt
 
 ## Disk Partitioning
 
-Disable UEFI if possible!
+Disable UEFI in your computer's BIOS if possible!
 
-It's critical avoid a large /home partition, so there is room for all your content (in /library).  Pay close attention when installing your OS (Ubuntu, Debian etc).  You should remove (or at the very least dramatically shrink) this /home partition, if your Linux distro insists on creating one.
+It's critical avoid a large /home partition, so there's room for all your content (in /library).  Pay close attention while installing your OS (Ubuntu, Debian etc).  You should remove (or dramatically shrink) this /home partition, if your Linux distro insists on creating one.
 
 On a 1TB disk, we recommend the following 2-to-4 partitions, such as: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
 * /boot - 500 MB
-* swap - 2 GB (should correspond to RAM, or twice RAM)
+* swap - 2 GB (optional partition, set this to your RAM size, or create a swap file if you prefer)
 * / - 50 GB
-* /library - the remainder (if you want your content protected on a separate partition)
+* /library - the remainder (optional partition, can protect your content during major upgrades)
 
-For smaller disks and SD cards we recommend not creating a separate /library partition and reducing (or eliminating) the swap partition.  Creating a swap file (instead of a swap partition) is another reasonable option.
+For smaller disks and SD cards we recommend reducing (or eliminating) the swap partition, and avoiding the separate /library partition altogether.
 
 ## Network Adapters
 
