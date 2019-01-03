@@ -73,15 +73,17 @@ A number of users have successfully deployed IIAB on late model desktop and lapt
 
 ## Disk Partitioning
 
-For large disks we recommend the following partitions: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
+Disable UEFI if possible!
+
+It's critical avoid a large /home partition, so there is room for all your content (in /library).  Pay close attention when installing your OS (Ubuntu, Debian etc).  You should remove (or at the very least dramatically shrink) this /home partition, if your Linux distro insists on creating one.
+
+On a 1TB disk, we recommend the following 2-to-4 partitions, such as: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
 * /boot - 500 MB
-* swap - 2 GB
+* swap - 2 GB (should correspond to RAM, or twice RAM)
 * / - 50 GB
-* /library - the remainder
+* /library - the remainder (if you want your content protected on a separate partition)
 
-For smaller disks and SD cards we recommend not creating a separate /library partition and reducing (or eliminating) swap.
-
-Please note that installers for Fedora and CentOS often put the remaining disk space into /home.  You will need to remove this partition and create /library.  This can be done through the graphical installer that comes with Fedora.
+For smaller disks and SD cards we recommend not creating a separate /library partition and reducing (or eliminating) the swap partition.  Creating a swap file (instead of a swap partition) is another reasonable option.
 
 ## Network Adapters
 
