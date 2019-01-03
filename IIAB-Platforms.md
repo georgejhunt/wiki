@@ -16,9 +16,9 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
 * [Debian "Sid"](https://wiki.debian.org/InstallFAQ#Q._How_do_I_install_.22unstable.22_.28.22sid.22.29.3F) for developers ([quasi-daily ISO](https://cdimage.debian.org/mirror/cdimage/daily-builds/sid_d-i/arch-latest/amd64/) seems to be the testing branch, not actually Sid/unstable branch)
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
-  * Download and create a USB install disk (USB drive >= 4GB will suffice initially) for Ubermix 4.x: http://ubermix.org/files.html
+  * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
   * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand. 
-  * Use the USB install disk to do an ADVANCED install Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html
+  * Use your Ubermix USB install stick to do an ADVANCED install of Ubermix 4.x on your designated computer following the instructions under "Installing on your System" here: http://ubermix.org/download.html
     * Adjust partition sizes, by selecting Option 2: "Advanced image", setting a larger size for the Default System partition (/dev/ext2) and/or User Changes partition (/dev/ext3). You will be prompted to manually enter in partition sizes.
       * e.g. for an 80GB hard drive, consider 12GB (default) for the Default System partition and 50GB for the User Changes partition (IF /library IIAB content will be stored in the User Changes partition, wiped during factory reset reverts). You can adjust the partition sizes as necessary based on your hard drive size and content size needs.
       * e.g. consider reversing this: 50GB for the Default System partition and 12GB for the User Changes partition (IF /library IIAB content will be stored in the Default System partition, to protect it from factory reset reverts).
@@ -28,6 +28,8 @@ The following OS's are theoretically possible, but may require extensive babysit
   * Congratulations, you are now ready to install IIAB.
   * Install curl, by manually running: sudo apt install curl
   * Run IIAB's 1-line installer: http://d.iiab.io/6.7
+  * Turn aufs back on.
+  * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
 * [CentOS 7.6](https://www.centos.org/download/) LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
