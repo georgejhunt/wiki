@@ -21,7 +21,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * Experimental support for [Debian 10 "Buster"](https://www.debian.org/devel/debian-installer/) is included, in advance of Debian 10's release in 2019.  Support for [Debian "Sid"](http://cdimage.debian.org/cdimage/daily-builds/sid_d-i/current/amd64/iso-cd/) (AKA Debian's "unstable" bleeding-edge branch) is also improving.
   * [Ansible 2.7](https://docs.ansible.com/ansible/devel/porting_guides/porting_guide_2.7.html) for Internet-in-a-Box configuration management, explaining its steps during IIAB installation.  [#1271](https://github.com/iiab/iiab/pull/1271)
 * Kolibri is upgraded to [0.11.0](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([documentation](https://kolibri.readthedocs.io/en/latest/manage.html)) [#1110](https://github.com/iiab/iiab/issues/1110)
-* Calibre is upgraded to [3.36](https://calibre-ebook.com/whats-new)
+* Calibre is upgraded to [3.37](https://calibre-ebook.com/whats-new)
 * Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
 * WordPress is upgraded to [5.0.2](https://wordpress.org/news/2018/12/wordpress-5-0-2-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
 * Kiwix is upgraded to [0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)  [#1297](https://github.com/iiab/iiab/pull/1297)
