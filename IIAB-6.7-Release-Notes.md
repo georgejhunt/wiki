@@ -23,10 +23,10 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * Kolibri is upgraded to [0.11.0](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([documentation](https://kolibri.readthedocs.io/en/latest/manage.html)) [#1110](https://github.com/iiab/iiab/issues/1110)
 * Calibre is upgraded to [3.37](https://calibre-ebook.com/whats-new)
 * Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
-* WordPress is upgraded to [5.0.2](https://wordpress.org/news/2018/12/wordpress-5-0-2-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1181](https://github.com/iiab/iiab/issues/1181)
+* WordPress is upgraded to [5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) expected "2019-01-09", building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/) ([technical details](https://make.wordpress.org/core/tag/5-0/))  [#1359](https://github.com/iiab/iiab/issues/1359)
 * Kiwix is upgraded to [0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)  [#1297](https://github.com/iiab/iiab/pull/1297)
 * Nextcloud is upgraded to [Nextcloud 15](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/))  [#1048](https://github.com/iiab/iiab/issues/1048)
-* Moodle is upgraded to [3.5.3 LTS](https://docs.moodle.org/dev/Moodle_3.5.3_release_notes), 3.5.4 LTS expected ["2019-01-08"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296)
+* Moodle is upgraded to [3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) expected ["2019-01-08"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296)
 * Elgg is upgraded to [2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
