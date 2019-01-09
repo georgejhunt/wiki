@@ -7,7 +7,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 ### What's New? (TENTATIVE)
 
 * Copy Internet-in-a-Box Content Packs to (and from) USB sticks and portable disks.  If teachers' own ZIM files on a USB stick can be hot-plugged into Internet-in-a-Box, that might be supported in future too.  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
-* [Lokole](https://ascoderu.ca/) 0.1.26 email for rural communities, students and teachers.  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
+* [Lokole 0.1.26](https://ascoderu.ca/) email for rural communities, students and teachers.  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
 * Experimental Captive Portal for new users who have trouble typing in http://box, http://box.lan and http://172.18.96.1 &mdash; to help get everyone started right away &mdash; even if they are not familiar with Latin-based keyboards.  Includes [dnsmasq](https://github.com/iiab/iiab/blob/master/vars/local_vars_medium.yml#L51-L60) by default, to improve DNS and DHCP, instead of named/BIND and dhcpd.  Please help us test this on different smartphones!  Implementer docs emerging off:  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
 * FUTURE: Node-RED & Mosquitto (MQTT) support for IoT (Internet of Things) electronics projects.  Coming soon in IIAB 7.0?  <sub><sub>[PR #854](https://github.com/iiab/iiab/pull/854)</sub></sub>
 * FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  Coming soon in IIAB 7.0?  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
