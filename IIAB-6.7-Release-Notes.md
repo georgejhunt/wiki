@@ -20,15 +20,16 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
   * This 1-line installer allows setting of passwords for pi and iiab-admin, rapid selection of MIN-sized, MEDIUM-sized or BIG-sized [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml), and automatic installation of apt-based OS updates.  Future: auto-reboot(s) could be made even more intelligent, better integration/automation of the torrenting+installing of KA Lite compressed videos (etc) across 7 languages.  Coming soon in IIAB 6.7 or 7.0:  [#872](https://github.com/iiab/iiab/issues/872), [#884](https://github.com/iiab/iiab/issues/884), [#1028](https://github.com/iiab/iiab/issues/1028), [#1189](https://github.com/iiab/iiab/issues/1189)
   * Experimental support for [Debian 10 "Buster"](https://www.debian.org/devel/debian-installer/) is included, in advance of Debian 10's release in 2019.  Support for [Debian "Sid"](http://cdimage.debian.org/cdimage/daily-builds/sid_d-i/current/amd64/iso-cd/) (AKA Debian's "unstable" bleeding-edge branch) is also improving.
   * [Ansible 2.7](https://docs.ansible.com/ansible/devel/porting_guides/porting_guide_2.7.html) for Internet-in-a-Box configuration management, explaining its steps during IIAB installation.  [#1271](https://github.com/iiab/iiab/pull/1271)
-* Kolibri is upgraded to [0.11.0](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([documentation](https://kolibri.readthedocs.io/en/latest/manage.html)) [#1110](https://github.com/iiab/iiab/issues/1110)
-* Calibre is upgraded to [3.37](https://calibre-ebook.com/whats-new)  [#1359](https://github.com/iiab/iiab/issues/1359)
-* Calibre-Web (http://box/books) is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213)
-* WordPress is upgraded to [5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/)  [#1360](https://github.com/iiab/iiab/issues/1360)
-* Kiwix is upgraded to [0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)  [PR #1297](https://github.com/iiab/iiab/pull/1297)
-* Nextcloud is upgraded to [Nextcloud 15.0.1](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) expected ["2019-01-10"](https://github.com/iiab/iiab/issues/1361)
-* Moodle is upgraded to [3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) expected ["2019-01-14"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296)
-* MediaWiki is upgraded to [1.32.0](https://lists.wikimedia.org/pipermail/mediawiki-announce/2019-January/thread.html) expected ["Jan 7th-11th, 2019"](https://github.com/iiab/iiab/issues/1358)
-* Elgg is upgraded to [2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md)  [PR #1342](https://github.com/iiab/iiab/pull/1342)
+* Kolibri is upgraded to [0.11.0](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([documentation](https://kolibri.readthedocs.io/en/latest/manage.html))  [#1110](https://github.com/iiab/iiab/issues/1110) with URL _box:8009_
+* Calibre is upgraded to [3.37](https://calibre-ebook.com/whats-new)  [#1359](https://github.com/iiab/iiab/issues/1359) 
+with URL _box:8080_
+* Calibre-Web is reinforced  [#1213](https://github.com/iiab/iiab/pull/1213) with URL _box/books_
+* WordPress is upgraded to [5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/)  [#1360](https://github.com/iiab/iiab/issues/1360) with URL _box/wordpress_
+* Kiwix is upgraded to [0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)  [PR #1297](https://github.com/iiab/iiab/pull/1297) with URL _box/kiwix_
+* Nextcloud is upgraded to [Nextcloud 15.0.1](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) expected ["2019-01-10"](https://github.com/iiab/iiab/issues/1361) with URL _box/nextcloud_
+* Moodle is upgraded to [3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) expected ["2019-01-14"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296) with URL _box/moodle_
+* MediaWiki is upgraded to [1.32.0](https://lists.wikimedia.org/pipermail/mediawiki-announce/2019-January/thread.html) expected ["Jan 7th-11th, 2019"](https://github.com/iiab/iiab/issues/1358) with URL _box/mediawiki_
+* Elgg is upgraded to [2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md)  [PR #1342](https://github.com/iiab/iiab/pull/1342) with URL _box/elgg_
 * phpMyAdmin is upgraded to [4.8.4](https://github.com/iiab/iiab/pull/1365)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
