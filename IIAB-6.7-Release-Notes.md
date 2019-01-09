@@ -29,6 +29,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * Moodle is upgraded to [3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) expected ["2019-01-14"](https://github.com/iiab/iiab/issues/1296) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29))  [#1296](https://github.com/iiab/iiab/issues/1296)
 * MediaWiki is upgraded to [1.32.0](https://lists.wikimedia.org/pipermail/mediawiki-announce/2019-January/thread.html) expected ["Jan 7th-11th, 2019"](https://github.com/iiab/iiab/issues/1358)
 * Elgg is upgraded to [2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md)  [PR #1342](https://github.com/iiab/iiab/pull/1342)
+* phpMyAdmin is upgraded to [4.8.4](https://github.com/iiab/iiab/pull/1365)
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
