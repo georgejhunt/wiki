@@ -54,4 +54,4 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* ?
+* [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) fails if IIAB was installed on other OS's than Raspbian (as of 2019-01-10).
