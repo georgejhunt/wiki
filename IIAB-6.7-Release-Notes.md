@@ -27,7 +27,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * [Kiwix 0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) with URL _box/kiwix_  <sub><sub>[PR #1297](https://github.com/iiab/iiab/pull/1297)</sub></sub>
 * [Nextcloud 15.0.1](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1361](https://github.com/iiab/iiab/issues/1361)</sub></sub>
 * [Moodle 3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) expected "2019-01-14" (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)) with URL _box/moodle_  <sub><sub>[#1296](https://github.com/iiab/iiab/issues/1296)</sub></sub>
-* [MediaWiki 1.32.0](https://lists.wikimedia.org/pipermail/mediawiki-announce/2019-January/thread.html) expected "Jan 7th-11th, 2019" with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
+* [MediaWiki 1.32.0](https://www.mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
 * [Elgg 2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1342](https://github.com/iiab/iiab/pull/1342)</sub></sub>
 * [phpMyAdmin 4.8.4](https://www.phpmyadmin.net/)  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
