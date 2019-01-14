@@ -93,4 +93,4 @@ Multiple instances of kalite may be run to separate content by language when not
 8) Verbosity for desktop and mobile layouts can be configured.
 9) There is a choice of header font for desktop and mobile layouts.
 
-While using IIAB's Admin Console, please also click on "Help" in the top-right.
+While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right.
