@@ -23,10 +23,10 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * [Kolibri 0.11.1](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba) ([docs](https://kolibri.readthedocs.io/en/latest/manage.html)) with URL _box:8009_  <sub><sub>[#1110](https://github.com/iiab/iiab/issues/1110)</sub></sub>
 * [Calibre 3.37](https://calibre-ebook.com/whats-new) with URL _box:8080_  <sub><sub>[#1359](https://github.com/iiab/iiab/issues/1359)</sub></sub>
 * [Calibre-Web](https://github.com/janeczku/calibre-web#about) with URL _box/books_  <sub><sub>[#1213](https://github.com/iiab/iiab/pull/1213)</sub></sub>
-* [WordPress 5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/) with URL _box/wordpress_  <sub><sub>[#1360](https://github.com/iiab/iiab/issues/1360)</sub></sub>
+* [WordPress 5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/), with URL _box/wordpress_  <sub><sub>[#1360](https://github.com/iiab/iiab/issues/1360)</sub></sub>
 * [Kiwix 0.8.0-2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) with URL _box/kiwix_  <sub><sub>[PR #1297](https://github.com/iiab/iiab/pull/1297)</sub></sub>
 * [Nextcloud 15.0.2](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1361](https://github.com/iiab/iiab/issues/1361)</sub></sub>
-* [Moodle 3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) (building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29)) with URL _box/moodle_  <sub><sub>[#1296](https://github.com/iiab/iiab/issues/1296)</sub></sub>
+* [Moodle 3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29), with URL _box/moodle_  <sub><sub>[#1296](https://github.com/iiab/iiab/issues/1296)</sub></sub>
 * [MediaWiki 1.32.0](https://www.mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
 * [DokuWiki 2018-04-22b](https://www.dokuwiki.org/changes) with URL _box/wiki_  <sub><sub>[PR #1388](https://github.com/iiab/iiab/pull/1388)</sub></sub>
 * [Elgg 2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1342](https://github.com/iiab/iiab/pull/1342)</sub></sub>
