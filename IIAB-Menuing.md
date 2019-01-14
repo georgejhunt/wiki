@@ -80,3 +80,15 @@ Multiple instances of kalite may be run to separate content by language when not
 * poweroffPin        - Not Used
 * poweroffPinHash    - Not Used
 * kiwixUrl           - prefix to URL for ZIM files when running kiwix in proxy mode
+
+## 2019 Additions
+
+1) Drag & Drop your favorite Content Packs into position at http://box to create the best visual menu for your school or medical clinic's Internet-in-a-Box. 
+2) Services installed are automatically added to the menu during Ansible run for Admin Console.
+3) Downloaded ZIM files and OER2GO modules are automatically added to the menu.
+4) Draft menu item definitions are generated if they don't exist.
+5) Additional substitution variables are now available ##SIZE##, Articles: ##ARTICLE_COUNT##, Media: ##MEDIA_COUNT##, Tags; [##tags##], Language: ##language##, Date: ##zim_date##"
+6) Cross-ZIM search can be enabled for the menu.
+7) Menu supports filtering by language.
+8) Verbosity for desktop and mobile layouts can be configured.
+9) There is a choice of header font for desktop and mobile layouts.
