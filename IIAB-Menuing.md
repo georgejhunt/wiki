@@ -83,6 +83,8 @@ Multiple instances of kalite may be run to separate content by language when not
 
 ## 2019 Additions
 
+Log in to IIAB's Admin Console (http://box/admin, passwords are in http://FAQ.IIAB.IO) then click "Content Menus" on top:
+
 1) Drag & Drop your favorite Content Packs into position at http://box to create the best visual menu for your school or medical clinic's Internet-in-a-Box. 
 2) Services installed are automatically added to the menu during Ansible run for Admin Console.
 3) Downloaded ZIM files and OER2GO modules are automatically added to the menu.
