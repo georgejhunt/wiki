@@ -14,15 +14,15 @@ Any one of these can be selected using the Admin Console option Configure->Serve
 
 ## Dynamic Menuing instead of hand coding index.html
 
-Dynamic Menuing (introduced with IIAB/XSCE 6.1, improved with IIAB/XSCE 6.2) allows you to rapidly rearrange the presentation of all your Content Packs &mdash; so they appear as your school/library/clinic community wants &mdash; when users browse [http://box](http://box).  Dynamic Menuing uses JavaScript to auto-generate this menu of Content Packs, based on an array of menu items.
+Dynamic Menuing (introduced with IIAB/XSCE 6.1, improved with IIAB/XSCE 6.2) allows you to rapidly rearrange the presentation of all your Content Packs &mdash; so they appear as your school/library/clinic community wants &mdash; when users browse [http://box](http://box).  Dynamic Menuing uses JavaScript to auto-generate this menu of Content Packs, based on an array of menu items and other properties.
 
-The menu is determined by an array at the top of index.html, which is expected to be /library/www/html/home/index.html, but can be anywhere and can be named anything (e.g. /test/medlib.html).
+As of 2019 the menu is defined by a file menu.json located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in /library/www/html/home, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
 
 Bonus: if users prefer http://box.lan, http://172.18.96.1 or [http://hogwarts](http://hogwarts) (or any other base URL that works, as your network topology evolves) then important ports like kiwix-serve's 3000 and KA Lite's 8008 continue to work, as they are updated live by JavaScript inside the HTML, e.g. to [http://hogwarts:3000](http://hogwarts:3000) and [http://hogwarts:8008](http://hogwarts:8008)
 
-The source for the menuing system is in a git repo named [iiab-menu](https://github.com/tim-moody/iiab-menu) (in future at [github.com/iiab/iiab-menu](https://github.com/iiab/iiab-menu)), which must be cloned to /opt/iiab-menu (most [downloadable images](http://download.iiab.io) have this already done). That repo contains a script **cp-menus** to install the requisite files and dependencies. There are several sample menus that can be copied as is to /library/www/html/home/index.html if you are using the /home home page redirect selection.
+As of 2019 the source for the menuing system is part of the git repo for the Admin Console, named [iiab-admin-console](https://github.com/iiab/iiab-admin-console) and is installed when the install script for Admin Console is run. There are several sample menus that can be copied as is to /library/www/html/home if you are using the /home home page redirect selection.
 
-## Menu Definitions
+## Menu Item Definitions
 
 A menu item definition consists of a json and an optional html fragment file, which more or less follow the RACHEL conventions on naming modules:
 
@@ -32,9 +32,9 @@ e.g. kn-wikipedia_kn_medicine.json is a menu item for the medical wiki in the Ka
 
 There is also a menu-def json file named _menudef-template.json which has the various fields with comments.
 
-After cp-menus has run these files will be in **/library/www/html/iiab-menu/menu-files/menu-defs**
+After installation these files will be in **/library/www/html/js-menu/menu-files/menu-defs**
 
-There is a separate directory /library/www/html/iiab-menu/local in which locally modified versions of these files may be stored so that they will not be overwritten when cp-menus is run, but will instead be merged in.
+There is a separate directory /library/www/html/js-menu/local in which locally modified versions of these files may be stored so that they will not be overwritten when cp-menus is run, but will instead be merged in.
 
 **Please note** that this is a work in progress with new menu definitions being added as deployments need them.
 
@@ -64,7 +64,7 @@ You may also notice that there are menu definitions with additional properties. 
 
 ## Config File
 
-As of December, 2017 the IIAB menuing system has a configuration file, \<docroot\>/iiab-menu/config.json , with the following properties that are used to compute URLs dynamically:
+As of December, 2017 the IIAB menuing system has a configuration file, \<docroot\>/js-menu/config.json , with the following properties that are used to compute URLs dynamically:
 
 * kiwixPort          - Port on which kiwix is listening
 * en-kalitePort      - Port on which kalite is listening  
