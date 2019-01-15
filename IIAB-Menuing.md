@@ -95,4 +95,4 @@ Log in to IIAB's Admin Console (http://box/admin, passwords are in http://FAQ.II
 8) Verbosity for desktop and mobile layouts can be configured.
 9) There is a choice of header font for desktop and mobile layouts.
 
-While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right.
+While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right, a copy of which is here: https://github.com/iiab/iiab-admin-console/blob/master/roles/console/files/help/ContentMenus.rst
