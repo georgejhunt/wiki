@@ -23,6 +23,8 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 | TCP      | 80                        | web server                               |
 | TCP      | 631                       | cups (printing)                          |
 | TCP      | 873                       | xinetd (xs-rsync, for legacy XOs)        |
+| TCP      | 1880                      | nodered                                  |
+| TCP      | 1883                      | mosquitto                                |
 | TCP      | 3000                      | kiwix-serve                              |
 | TCP      | 3128                      | squid / dansguardian                     |
 | TCP      | 3130                      | squid                                    |
