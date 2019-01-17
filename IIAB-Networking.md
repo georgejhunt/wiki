@@ -51,10 +51,10 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
     systemctl status dnsmasq
 
 CLARIFICATION:
-1) iiab-dnsmasq is _disabled_ when IIAB is in Appliance mode.
-2) iiab-dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
+2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
 
-NOTE: While LAN clients use iiab-dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
+NOTE: While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
 
     systemctl status dhcpcd              # e.g. on Raspbian
     systemctl status systemd-resolved    # e.g. on Ubuntu & Debian (formerly used ifupdown)
