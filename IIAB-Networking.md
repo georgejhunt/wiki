@@ -42,19 +42,22 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 
 ### DNS
 
-DNS (name resolution) is generally provided by the dnsmasq service, unless you override that in favor of named (BIND) in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+DNS (name resolution) for LAN clients is generally provided by the dnsmasq service, unless you override that in favor of named (BIND) in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 
-However some Linux distributions do not function well with dnsmasq's default service(*) so please check all 3 services below (after installing IIAB) to be sure:
+However some Linux distributions do not function well with dnsmasq's default service(*) so monitor IIAB's own dnsmasq service as follows: _(after IIAB install's complete!)_
 
-    systemctl status dnsmasq
-    systemctl status iiab-dnsmasq        # e.g. on Ubuntu 18.04
-    systemctl status systemd-resolved    # e.g. on Ubuntu 18.04
+    systemctl status iiab-dnsmasq
 
-(*) In these cases the OS's stock dnsmasq service needs to be disabled, as its systemd unit file has timing issues.  As such IIAB uses the `iiab-dnsmasq` service instead &mdash; to start dnsmasq at the correct time during boot.
+(*) IIAB's installer disables the OS's stock dnsmasq service across the board, as several of these systemd unit file have a timing problem.  As such IIAB uses the `iiab-dnsmasq` service instead &mdash; to start dnsmasq at the correct time during boot.
 
-CLARIFICATIONS:
-1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
-2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+CLARIFICATION:
+1) iiab-dnsmasq is _disabled_ when IIAB is in Appliance mode.
+2) iiab-dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+
+NOTE: While LAN clients use iiab-dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
+
+    systemctl status dhcpcd              # e.g. on Raspbian
+    systemctl status systemd-resolved    # e.g. on Ubuntu 18.04 and some Debians (which formerly used ifupdown)
 
 ### Common Customizations
 
