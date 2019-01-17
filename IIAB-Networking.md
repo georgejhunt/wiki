@@ -40,6 +40,16 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 | TCP      | 9091, 51413               | transmission (bittorrent downloader)     |
 | TCP      | 27018                     | mongodb (if used by sugarizer)           |
 
+### DNS
+
+DNS is generally provided by the dnsmasq service, unless you override that in favor of named (BIND) in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+
+However some Linux distributions do not function well with dnsmasq's default service, so please check all 3 services below (after installing IIAB) to be sure:
+
+    systemctl status dnsmasq
+    systemctl status iiab-dnsmasq        # e.g. on Raspbian
+    systemctl status systemd-resolved    # e.g. on Ubuntu 18.04+
+
 ### Common Customizations
 
 (1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into /etc/iiab/local_vars.yml to ask IIAB not to use the wlan0 interface:
