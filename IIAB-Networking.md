@@ -54,7 +54,7 @@ However some Linux distributions do not function well with dnsmasq's default ser
 
 CLARIFICATIONS:
 1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
-2) dnsmasq _provides both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
 
 ### Common Customizations
 
