@@ -56,7 +56,7 @@ CLARIFICATIONS:
 
 ### Common Customizations
 
-(1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into /etc/iiab/local_vars.yml to ask IIAB not to use the wlan0 interface:
+(1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to use the wlan0 interface:
 
 * reserved_wifi: wlan0
 
@@ -67,12 +67,12 @@ cd /opt/iiab/iiab/
 ```
 Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}. So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.  More details at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
 
-(2) Many of us edit /etc/iiab/[local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml) so it contains the following 2 lines:
+(2) Many of us edit [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) so it contains the following 2 lines:
 
 * services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010 or 8080] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
 * iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
 
-Note both above became defaults in mid-2017.  If making changes to local_vars.yml, remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") &mdash; which can take one or more hours on Raspberry Pi 3 &mdash; if this is your 1st time running the (Ansible-based) install process.
+Note both above became defaults in mid-2017.  If making changes to [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F), remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") &mdash; which can take one or more hours on Raspberry Pi 3 &mdash; if this is your 1st time running the (Ansible-based) install process.
 
 Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~20 min on RPi3) in Utilities menu -> Display Job Status.  This is very similar to "./iiab-install --debug".
 
