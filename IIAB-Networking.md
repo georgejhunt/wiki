@@ -44,9 +44,9 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 
 DNS (name resolution) for LAN clients is generally provided by the `dnsmasq` service, unless you override that in favor of named (BIND) in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 
-However some Linux distributions do not function well with dnsmasq's default service(*) so the service is launched using IIAB's own iiab-dnsmasq service.  So IIAB's installer disables the OS's stock dnsmasq service across all distros to be safe, as several of these systemd unit files have a timing problem.  As such IIAB uses the `iiab-dnsmasq` service instead &mdash; to start dnsmasq at the correct time during boot.
+However some Linux distributions do not function well with dnsmasq's default service.  Several of these systemd unit files have a timing problem.  As a result, IIAB uses the `iiab-dnsmasq` service instead &mdash; to start dnsmasq at the correct time during boot.  IIAB disables the OS's stock dnsmasq unit file across all distros to be safe.
 
-_Finally **after** IIAB install's complete, you can monitor dnsmasq as follows:_
+_Finally **after** your IIAB install is complete, you can monitor dnsmasq as follows:_
 
     systemctl status dnsmasq
 
