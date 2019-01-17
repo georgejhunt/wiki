@@ -50,6 +50,10 @@ However some Linux distributions do not function well with dnsmasq's default ser
     systemctl status iiab-dnsmasq        # e.g. on Raspbian
     systemctl status systemd-resolved    # e.g. on Ubuntu 18.04+
 
+CLARIFICATIONS:
+1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
+2) dnsmasq _provides both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+
 ### Common Customizations
 
 (1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into /etc/iiab/local_vars.yml to ask IIAB not to use the wlan0 interface:
