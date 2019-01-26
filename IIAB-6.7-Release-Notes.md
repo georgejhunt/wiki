@@ -32,7 +32,7 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * [MediaWiki 1.32.0](https://www.mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
 * [DokuWiki 2018-04-22b](https://www.dokuwiki.org/changes) with URL _box/wiki_  <sub><sub>[PR #1388](https://github.com/iiab/iiab/pull/1388)</sub></sub>
 * [Elgg 2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1342](https://github.com/iiab/iiab/pull/1342)</sub></sub>
-* [phpMyAdmin 4.8.4](https://www.phpmyadmin.net/)  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
+* [phpMyAdmin 4.8.5](https://www.phpmyadmin.net/)  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
