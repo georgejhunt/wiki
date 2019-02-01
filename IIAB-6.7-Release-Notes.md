@@ -58,4 +58,4 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 ### Known Issues
 
 * [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) fails if IIAB is installed on OS's other than Raspbian.  <sub><sub>[#1366](https://github.com/iiab/iiab/issues/1366)</sub></sub>
-* If installing IIAB onto Debian 10 ("Buster") pre-releases, here are a few manual steps that may be required: <sub><sub>[#1387](https://github.com/iiab/iiab/issues/1387)</sub></sub>
+* If installing IIAB onto Debian 10 ("Buster") pre-releases, a few [manual steps](https://github.com/iiab/iiab/issues/1387) may be required.  <sub><sub>[#1387](https://github.com/iiab/iiab/issues/1387)</sub></sub>
