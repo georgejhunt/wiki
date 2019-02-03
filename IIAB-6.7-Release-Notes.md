@@ -1,6 +1,6 @@
 ### _**DRAFT**_
 
-Internet-in-a-Box (IIAB) 6.7 will build on [IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes), to be released in January 2019 ([Wiki](http://wiki.laptop.org/go/IIAB/6.7), [GitHub](https://github.com/iiab/iiab/milestone/4)) in service of DIY digital libraries everywhere.
+Internet-in-a-Box (IIAB) 6.7 will build on [IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes), to be released in February 2019 ([Wiki](http://wiki.laptop.org/go/IIAB/6.7), [GitHub](https://github.com/iiab/iiab/milestone/4)) in service of DIY digital libraries everywhere.
 
 Consider installing a pre-release today, from <a href=http://download.iiab.io/6.7/>download.iiab.io/6.7</a> !
 
@@ -32,7 +32,9 @@ Consider installing a pre-release today, from <a href=http://download.iiab.io/6.
 * [MediaWiki 1.32.0](https://www.mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
 * [DokuWiki 2018-04-22b](https://www.dokuwiki.org/changes) with URL _box/wiki_  <sub><sub>[PR #1388](https://github.com/iiab/iiab/pull/1388)</sub></sub>
 * [Elgg 2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1342](https://github.com/iiab/iiab/pull/1342)</sub></sub>
-* [phpMyAdmin 4.8.5](https://www.phpmyadmin.net/)  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
+* [phpMyAdmin 4.8.5](https://www.phpmyadmin.net/) for remote administration of MySQL  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
+* [Node.js 10.x LTS](https://technology.condenast.com/story/10-for-10-a-scenic-tour-of-nodejs-10-lts) for Asterisk/FreePBX (COMING SOON), Node-RED & Sugarizer  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
+* [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
 ### How do I try it?
