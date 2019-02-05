@@ -49,7 +49,7 @@ Finally if you're adventurous, try installing onto [another Linux](https://githu
 
 ### Credits
 
-Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria.  To serve One & All.  Building on this software and designs contributed by [CONTRIBUTOR NAMES GO HERE] &mdash; among many others!
+Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria.  To serve One & All.  Building on this software and designs contributed by T.K. Kang, Eric Nitschke, Joshua Kanani, Josh Dennis, Arky R., Matt Johnson, James Heilman, Reno McKenzie, Anish Mangal, Avni Khatri, Blondel Mondésir, George Hunt, Tim Moody, Jerry Vonau, Adam Holt &mdash; among many others!
 
 _Not just in your own community &mdash; but by keeping in touch with our global volunteer community network ([http://OFF.NETWORK](http://OFF.NETWORK)) each of you are providing the lifeblood "fieldback" &mdash; that keeps us motivated enabling Internet-in-a-Box's quality content collaborations across ALL communities!_
 
