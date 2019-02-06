@@ -17,6 +17,8 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 
 ### List of open ports / services
 
+The list below are the ports configured by default. Please note that many can be overridden when installing.
+
 |Protocol  | Port                      |Service                                  |
 |:--------:|:-------------------------:|-----------------------------------------|
 | TCP      | 22                        | sshd                                    |
