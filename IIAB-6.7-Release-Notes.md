@@ -13,7 +13,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [Mosquitto (MQTT)](https://github.com/iiab/iiab/tree/master/roles/mosquitto) & [Node-RED](https://github.com/iiab/iiab/tree/master/roles/nodered) support for IoT (Internet of Things) electronics projects.  <sub><sub>[PR #1398](https://github.com/iiab/iiab/pull/1398)</sub></sub>
 * FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  Coming soon in IIAB 7.0?  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
 * FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 7.0?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
-* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ to get updates from the Internet.  Coming soon in IIAB 7.0?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  Coming soon in IIAB 7.0?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 
 ### What's Upgraded? (TENTATIVE)
 
