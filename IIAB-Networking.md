@@ -39,7 +39,7 @@ Ports below are configured by default. Please note that many can be overridden w
 | TCP      | 8080                          | calibre-serve OR idmgr (for legacy XOs) |
 | TCP      | 8083                          | calibre-web                             |
 | TCP      | 8089                          | sugarizer                               |
-| TCP      | 9091, 51413                   | transmission (bittorrent downloader)    |
+| TCP      | 9091, 51413                   | transmission (BitTorrent downloader)    |
 | TCP      | 27018                         | mongodb (if used by Sugarizer)          |
 | UDP      | 30000                         | minetest (open source Minecraft clone)  |
 
