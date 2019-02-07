@@ -11,11 +11,11 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * Experimental Captive Portal for new users who have trouble typing in http://box, http://box.lan and http://172.18.96.1 &mdash; to help everyone get started right away &mdash; even if they're not familiar with Latin-based keyboards.  Includes [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) by default, to improve DNS and DHCP, instead of named/BIND and dhcpd.  Please [help us test this](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) on different smartphones!  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
 * [Lokole 0.1.36](https://github.com/iiab/iiab/tree/master/roles/lokole) email for rural communities, students and teachers.  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
 * [Mosquitto (MQTT)](https://github.com/iiab/iiab/tree/master/roles/mosquitto) & [Node-RED](https://github.com/iiab/iiab/tree/master/roles/nodered) support for IoT (Internet of Things) electronics projects.  <sub><sub>[PR #1398](https://github.com/iiab/iiab/pull/1398)</sub></sub>
-* FUTURE: Asterisk & FreePBX for rural telephony, _Coming Soon!_  <sub><sun>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sun>
-* FUTURE: Minetest is an open source clone of [Minecraft](https://en.wikipedia.org/wiki/Minecraft), the creative/explorational building blocks game, _Coming Soon!_  <sub><sun>[PR #1454](https://github.com/iiab/iiab/pull/1454)</sub></sun>
-* FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  Coming soon in IIAB 7.0?  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
-* FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  Coming soon in IIAB 7.0?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
-* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  Coming soon in IIAB 7.0?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+* FUTURE: Asterisk & FreePBX for rural telephony.  _Coming Soon!_  <sub><sun>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sun>
+* FUTURE: Minetest is an open source clone of [Minecraft](https://en.wikipedia.org/wiki/Minecraft), the creative/explorational building blocks game.  _Coming Soon!_  <sub><sun>[PR #1454](https://github.com/iiab/iiab/pull/1454)</sub></sun>
+* FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming soon in IIAB 7.0?_  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
+* FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming soon in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming soon in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 
 ### What's Upgraded? (TENTATIVE)
 
