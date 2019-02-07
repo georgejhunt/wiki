@@ -29,7 +29,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [Calibre-Web](https://github.com/janeczku/calibre-web#about) ([docs](https://github.com/iiab/iiab/tree/master/roles/calibre-web)) with URL _box/books_  <sub><sub>[#1213](https://github.com/iiab/iiab/pull/1213)</sub></sub>
 * [Sugarizer 1.1.0](https://sugarizer.org) with URL _box/sugarizer_  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * [WordPress 5.0.3](https://wordpress.org/news/2019/01/wordpress-5-0-3-maintenance-release/) building on the major changes introduced by [5.0](https://wordpress.org/news/2018/12/bebo/), with URL _box/wordpress_  <sub><sub>[#1360](https://github.com/iiab/iiab/issues/1360)</sub></sub>
-* [Nextcloud 15.0.2](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1361](https://github.com/iiab/iiab/issues/1361)</sub></sub>
+* [Nextcloud 15.0.4](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1361](https://github.com/iiab/iiab/issues/1361)</sub></sub>
 * [Moodle 3.5.4 LTS](https://docs.moodle.org/dev/Moodle_3.5.4_release_notes) building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29), with URL _box/moodle_  <sub><sub>[#1296](https://github.com/iiab/iiab/issues/1296)</sub></sub>
 * [MediaWiki 1.32.0](https://www.mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_  <sub><sub>[#1358](https://github.com/iiab/iiab/issues/1358)</sub></sub>
 * [DokuWiki 2018-04-22b](https://www.dokuwiki.org/changes) with URL _box/wiki_  <sub><sub>[PR #1388](https://github.com/iiab/iiab/pull/1388)</sub></sub>
