@@ -59,8 +59,8 @@ CLARIFICATION:
 
 NOTE: While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
 
-    systemctl status dhcpcd              # e.g. on Raspbian
-    systemctl status systemd-resolved    # e.g. on Ubuntu & Debian (formerly used ifupdown)
+    systemctl status dhcpcd              # e.g. on Raspbian & Debian
+    systemctl status systemd-resolved    # e.g. on Ubuntu (see also netplan.io, replacing ifupdown)
 
 ### Common Customizations
 
