@@ -17,7 +17,11 @@ The IP address of the WAN device will normally be assigned by whatever device ma
 
 ### List of open ports / services
 
-Ports below are configured by default. Please note that many can be overridden when installing.
+Many of the port numbers below can be changed when installing IIAB.  If you need to do this, look over the default ports in [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml), and then override those that are necessary within [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
+
+IIAB's firewall (iptables) opens most but not all of these ports on the WAN side, when `services_externally_visible: True` which is the default.  Regardless, these ports are generally open on the LAN side.
+
+Finally, you can modify the [iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) command (which is run by [./iiab-network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme)) if absolutely necessary.
 
 |Protocol  | Port                          |Service                                  |
 |:--------:|:-----------------------------:|-----------------------------------------|
@@ -31,6 +35,7 @@ Ports below are configured by default. Please note that many can be overridden w
 | TCP      | 3128                          | squid / dansguardian                    |
 | TCP      | 3130                          | squid                                   |
 | TCP      | 4369, 5222, 5223, 5280, 47893 | ejabberd OR ejabberd-xs                 |
+| TCP      | 5060, 5161, 10000-20000       | pbx (Asterisk & FreePBX)                |
 | TCP      | 8006                          | kalite-serve-fr                         |
 | TCP      | 8007                          | kalite-serve-es                         |
 | TCP      | 8008                          | kalite-serve (English & others)         |
