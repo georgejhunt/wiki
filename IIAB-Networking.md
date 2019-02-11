@@ -2,9 +2,10 @@
 
 IIAB has [three possible modes of operation](https://github.com/iiab/iiab/wiki/IIAB-Installation#supported-network-modes):
 
-* **Appliance** - allows your server to behave like any other computer in the network, exposing the configured services. Can have a single network interface. 
-* **Gateway** - allows for creating a local area network, including dhcpd, content filtering using Squid, DansGuardian and traffic shaping. Requires two or more network interfaces.
-* **LAN Controller** - allows for creating a local area network, only configures DNS and dhcpd services. Can have a single network interface.
+* **Appliance** - allows your server to behave like any other computer in the network, exposing the configured services. 
+ Can have a single network interface (we refer to this as the 'WAN', whether or not it can reach the Internet).
+* **Gateway** - allows for creating a local area network, including dhcpd, content filtering using Squid, DansGuardian and traffic shaping.  Requires two or more network interfaces ('WAN' side and 'LAN' side).
+* **LAN Controller** - allows for creating a local area network, only configures DNS and dhcpd services.  Can have a single network interface (we refer to this as the 'LAN').
 
 The install by default finds the WAN device, defaulting to the "Appliance" mode.
 The install will try to find other devices for use with the LAN and if found
