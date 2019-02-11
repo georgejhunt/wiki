@@ -37,11 +37,11 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
-### Coming Later (TENTATIVE)
+### What's Coming Later? (TENTATIVE)
 
-* FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming in IIAB 7.0?_  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
-* FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
-* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+* OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming in IIAB 7.0?_  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
+* Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+* Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 
 ### How do I try it?
 
