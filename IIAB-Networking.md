@@ -35,7 +35,7 @@ Finally, you can modify the [iiab-gen-iptables](https://github.com/iiab/iiab/blo
 | TCP      | 3128                          | squid / dansguardian                    |
 | TCP      | 3130                          | squid                                   |
 | TCP      | 4369, 5222, 5223, 5280, 47893 | ejabberd OR ejabberd-xs                 |
-| TCP      | 5060, 5161, 10000-20000       | pbx (Asterisk & FreePBX)                |
+| TCP      | 5060, 5160, 5161, 10000-20000 | pbx (Asterisk & FreePBX)                |
 | TCP      | 8006                          | kalite-serve-fr                         |
 | TCP      | 8007                          | kalite-serve-es                         |
 | TCP      | 8008                          | kalite-serve (English & others)         |
