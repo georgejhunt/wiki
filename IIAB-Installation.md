@@ -272,10 +272,10 @@ This job can take a substantial amount of time depending on the capacity of the 
 Operator can select one of [three modes of operation](https://github.com/iiab/iiab/wiki/IIAB-Networking):
 
    * **Appliance** - No firewall, no dhpcd, no DNS, just a contributor to an already existing network.
-   * **Gateway** - Does dhcpd (IP addresses), name lookup (DNS), firewall, local web page cache for faster retrieval the second time, content filtering to reduce porn (DansGuardian), and site "whitelists" if wanted.
-   * **LAN Controller** (Local Area Network) - In this mode, the server configures clients with IP addresses (dhcpd - dynamic host configuration protocol), name resolution (defines "box" and "schoolserver" for all clients, etc).
+   * **Gateway** - Issues IP addresses (dhcpd or similar), name lookup (DNS), firewall, local web page cache for faster retrieval the second time, content filtering to reduce porn (DansGuardian), and site "whitelists" if wanted.
+   * **LAN Controller** (Local Area Network) - In this mode, the server configures clients with IP addresses (e.g. dhcpd - dynamic host configuration protocol), name resolution (defines "box" and "schoolserver" for all clients, etc).
 
-Based upon selection of the above mode in the Admin Console, the IIAB software will attempt to set up network connections.  If "Appliance" mode is wanted, the network adapter will be set up. If "Gateway" is selected, and one of the adapters discovers that it is connected to a source of IP addresses, that adapter will be the internet, and the other the Wi-Fi connector.  If "LAN Controller" is selected, any adapter found will be act as server to any clients that might ask to connect.
+Based upon selection of the above mode in the Admin Console, IIAB's [network role](https://github.com/iiab/iiab/tree/master/roles/network) will attempt to set up network connections.  If "Appliance" mode is wanted, the network adapter will be set up. If "Gateway" is selected, and one of the adapters discovers that it is connected to a source of IP addresses, that adapter will be the internet, and the other the Wi-Fi connector.  If "LAN Controller" is selected, any adapter found will be act as server to any clients that might ask to connect.
 
 The IIAB installation attempts to determine the network topology based on the number and types of connections it discovers.  In general, it looks to see if there is a connection to a gateway and whether other wireless or wired connections are present.
 
