@@ -9,13 +9,11 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * Drag & Drop your favorite Content Packs into position to create the best visual menu for your school or medical clinic's Internet-in-a-Box.  [Screencast videos](http://d.iiab.io/content/videos/) are emerging alongside written [documentation](https://github.com/iiab/iiab/wiki/IIAB-Menuing#2019-additions) to help you DIY your own Internet-in-a-Box digital library.  <sub><sub>[#1393](https://github.com/iiab/iiab/issues/1393)</sub></sub>
 * Copy Internet-in-a-Box Content Packs to (and from) USB sticks and portable disks.  If teachers' own ZIM files on a USB stick can be hot-plugged into Internet-in-a-Box, that might be supported in future too.  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
 * Experimental Captive Portal for new users who have trouble typing in http://box, http://box.lan and http://172.18.96.1 &mdash; to help everyone get started right away &mdash; even if they're not familiar with Latin-based keyboards.  Includes [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) by default, to improve DNS and DHCP, instead of named/BIND and dhcpd.  Please [help us test this](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) on different smartphones!  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
-* [Asterisk & FreePBX](https://github.com/iiab/iiab/tree/master/roles/pbx#pbx-readme) for Voice over IP and rural telephony.  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
+* [Asterisk & FreePBX](https://github.com/iiab/iiab/tree/master/roles/pbx#pbx-readme) for Voice over IP and rural telephony.  Works on Ubuntu 18.04 and Debian 9 Stretch.  Raspberry Pi support is desired but not ready as of February 2019.  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
 * [Lokole 0.1.36](https://github.com/iiab/iiab/tree/master/roles/lokole) email for rural communities, students and teachers, with URL _box/lokole_  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
 * [Minetest](https://github.com/iiab/iiab/tree/master/roles/minetest#minetest-readme) is a [Minecraft](https://en.wikipedia.org/wiki/Minecraft)-inspired creative/explorational building blocks game, including multiplayer server and additional mods.  <sub><sub>[PR #1471](https://github.com/iiab/iiab/pull/1471)</sub></sub>
 * [Mosquitto (MQTT)](https://github.com/iiab/iiab/tree/master/roles/mosquitto#mosquitto-readme) & [Node-RED](https://github.com/iiab/iiab/tree/master/roles/nodered#nodered-readme) support for IoT (Internet of Things) electronics projects, with URL _box/nodered_  <sub><sub>[PR #1398](https://github.com/iiab/iiab/pull/1398)</sub></sub>
-* FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming in IIAB 7.0?_  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
-* FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
-* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+* _A brand-new [visual table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) helping guide your choice of what services (IIAB Apps) to install!_
 
 ### What's Upgraded? (TENTATIVE)
 
@@ -38,6 +36,12 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [Node.js 10.x LTS](https://technology.condenast.com/story/10-for-10-a-scenic-tour-of-nodejs-10-lts) for Asterisk/FreePBX (COMING SOON), Node-RED & Sugarizer  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
+
+### Coming Later (TENTATIVE)
+
+* FUTURE: OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming in IIAB 7.0?_  <sub><sub>[#1170](https://github.com/iiab/iiab/issues/1170)</sub></sub>
+* FUTURE: Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+* FUTURE: Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 
 ### How do I try it?
 
