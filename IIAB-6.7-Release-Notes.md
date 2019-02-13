@@ -33,7 +33,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [DokuWiki 2018-04-22b](https://www.dokuwiki.org/changes) with URL _box/wiki_  <sub><sub>[PR #1388](https://github.com/iiab/iiab/pull/1388)</sub></sub>
 * [Elgg 2.3.10](https://github.com/Elgg/Elgg/blob/2.3.10/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1342](https://github.com/iiab/iiab/pull/1342)</sub></sub>
 * [phpMyAdmin 4.8.5](https://www.phpmyadmin.net/) for remote administration of MySQL  <sub><sub>[#1365](https://github.com/iiab/iiab/pull/1365)</sub></sub>
-* [Node.js 10.x LTS](https://technology.condenast.com/story/10-for-10-a-scenic-tour-of-nodejs-10-lts) for Asterisk/FreePBX (COMING SOON), Node-RED & Sugarizer  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
+* [Node.js 10.x LTS](https://technology.condenast.com/story/10-for-10-a-scenic-tour-of-nodejs-10-lts) for Asterisk/FreePBX, Node-RED & Sugarizer  <sub><sub>[PR #1405](https://github.com/iiab/iiab/pull/1405)</sub></sub>
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
