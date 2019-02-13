@@ -10,7 +10,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS _(WARNING: some versions of Ubuntu Server 18.04.1 from 2018-07-25 / 2018-07-26 contained a [very serious bug](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes#known-issues))_
-* [Debian 9.7](https://www.debian.org/releases/stretch/) "Stretch" LTS
+* [Debian 9.8](https://www.debian.org/releases/stretch/) "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 * [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" prereleases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
