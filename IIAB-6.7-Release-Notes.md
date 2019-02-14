@@ -65,7 +65,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) currently doesn't work if IIAB is installed on OS's other than Raspbian.  <sub><sub>[#1366](https://github.com/iiab/iiab/issues/1366)</sub></sub>
+* [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) currently doesn't work if IIAB is installed on OS's other than Raspbian.  Worse, it night not work at all if Ethernet cable is removed.  <sub><sub>[#1366](https://github.com/iiab/iiab/issues/1366)</sub></sub> <sub><sub>[#1504](https://github.com/iiab/iiab/issues/1504)</sub></sub>
 * If installing IIAB on Debian 10 ("Buster") pre-releases, a few [manual steps](https://github.com/iiab/iiab/issues/1387) may be required.  <sub><sub>[#1387](https://github.com/iiab/iiab/issues/1387)</sub></sub>
 * dnsmasq does not start reliably on Ubuntu 16.04 &mdash; please use [Ubuntu 18.04](https://github.com/iiab/iiab/wiki/IIAB-Platforms#operating-systems) instead.  <sub><sub>[#1469](https://github.com/iiab/iiab/issues/1469)</sub></sub>
 * Kolibri's systemd service sometimes times out (fails to start) during the 1st reboot of IIAB, on Ubuntu 18.04 and possible other OS's too.  As of 2019-02-11, the workaround is to run "systemctl start kolibri" &mdash; or simply to reboot.  <sub><sub>[#1489](https://github.com/iiab/iiab/issues/1489)</sub></sub>
