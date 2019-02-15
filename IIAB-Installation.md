@@ -295,7 +295,7 @@ _If you're new to the Admin Console, please read "What are the default passwords
 
 Since IIAB/XSCE 6.0, many kinds of content (but not all) can be downloaded and installed through your Internet-in-a-Box server's Admin Console (http://box.lan/admin).
 
-**Please watch the videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .WebMD](http://d.iiab.io/content/videos)) to get up to speed with downloading & installing content to your IIAB!**
+**Please watch the videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .webm](http://d.iiab.io/content/videos)) to get up to speed with downloading & installing content to your IIAB!**
 
 WARNING: some of these Content Packs are quite large and you should pay attention to the space available and space required displayed on each screen.  Note that space calculations may not reflect multiple types of downloads happening simultaneously.
 
