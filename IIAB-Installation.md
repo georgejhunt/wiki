@@ -376,7 +376,11 @@ If KA Lite videos have been obtained from another install or on some storage med
 
 Internet-in-a-Box enables OSM to be viewable, zoomable and searchable while offline.
 
-16 levels of zoom are possible, from level 0 to 15.  This is about 110GB total, so you may need to [mail order a physical drive](http://FAQ.IIAB.IO#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) from the volunteers at [unleashkids.org](http://unleashkids.org) if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient.
+NEW WAY 2018: Please read "How do I add zoomable maps for my region?" at http://FAQ.IIAB.IO to install compact vector-based maps that include the full detail for your region.
+
+NEW WAY 2017: Consider downloading 10-layer http://oer2go.org/viewmod/en-worldmap-10 (10.7GB) to /library/www/html/modules in a pinch &mdash; this 1-step install is the faster way if you're running our of time.
+
+OLD WAY: 16 levels of zoom are possible, from level 0 to 15 using the bitmap (raster) tiles generating by IIAB starting in 2013.  This is about 110GB total, so you may need to [obtain a physical drive](http://FAQ.IIAB.IO#What_can_I_do_with_E-books_and_Internet-in-a-Box.3F) by working with volunteers at [unleashkids.org](http://unleashkids.org) e.g. if the levels posted to [download.iiab.io/content](http://download.iiab.io/content) are insufficient for your needs.
 
 Either way, the following directories and their contents are needed:
 
