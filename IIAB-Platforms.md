@@ -9,7 +9,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
-* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS _(WARNING: some versions of Ubuntu Server 18.04.1 from 2018-07-25 / 2018-07-26 contained a [very serious bug](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes#known-issues))_
+* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
 * [Debian 9.8](https://www.debian.org/releases/stretch/) [[2019-02-16](https://lists.debian.org/debian-stable-announce/2019/02/msg00000.html)] "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
