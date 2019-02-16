@@ -13,7 +13,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [Lokole 0.1.36](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) email for rural communities, students and teachers, with URL _box/lokole_  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
 * [Minetest](https://github.com/iiab/iiab/tree/master/roles/minetest#minetest-readme) is a [Minecraft](https://en.wikipedia.org/wiki/Minecraft)-inspired creative/explorational building blocks game, including multiplayer server and additional mods.  <sub><sub>[PR #1471](https://github.com/iiab/iiab/pull/1471)</sub></sub>
 * [Mosquitto 1.4+ (MQTT)](https://github.com/iiab/iiab/tree/master/roles/mosquitto#mosquitto-readme) & [Node-RED 0.19.5](https://github.com/iiab/iiab/tree/master/roles/nodered#nodered-readme) support for IoT (Internet of Things) electronics projects, with URL _box/nodered_  <sub><sub>[PR #1398](https://github.com/iiab/iiab/pull/1398)</sub></sub>
-* _A brand-new [visual table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) helping guide your choice of what services (IIAB Apps) to install!_
+* _A brand-new [visual table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) helping guide your choice of what services (IIAB Apps) to install.
 
 ### What's Upgraded? (TENTATIVE)
 
