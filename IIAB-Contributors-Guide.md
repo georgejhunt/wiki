@@ -1,15 +1,15 @@
 Getting started
 ===============
 
-Internet-in-a-Box runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian, CentOS and Fedora.
+Internet-in-a-Box (IIAB) runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian &mdash; and also also on CentOS, Fedora and Ubermix if you [invest the effort](https://github.com/iiab/iiab/wiki/IIAB-Platforms#operating-systems)!
 
 You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3 (or 3 B+).  Example PC's include Intel NUC and Gigabyte BRIX.  Partial support is also available on OLPC laptops like the XO-1.5, XO-1.75 and XO-4.  A VirtualBox VM can also be used for testing purposes.  Using Docker containers however is not recommended as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
 
 Finally, running Internet-in-a-Box on the Raspberry Pi Zero W is also possible, if you transfer a working IIAB (microSD card) that was built up inside a Raspberry Pi 3 (or 3 B+).
 
-Please refer to [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more information.
+Please see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) at http://FAQ.IIAB.IO
 
-Internet-in-a-Box uses Ansible (acquired by Red Hat in October 2015, similar to Puppet) to install and configure all software packages.  Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human-readable instruction files in [YAML](http://www.yaml.org/start.html) format.  Playbooks are divided into hosts, roles and tasks.
+Internet-in-a-Box uses Ansible (similar to Puppet, but acquired by Red Hat in October 2015) to install and configure all software packages.  Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human-readable instruction files in [YAML](http://www.yaml.org/start.html) format.  Playbooks are divided into hosts, roles and tasks.
 ```
 ├── roles
 │   ├── 1-prep
@@ -55,11 +55,11 @@ Installation
 
 Before you start the installation please refer to the [hardware section of our FAQ](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) page for memory, storage and network requirements for your platform.  Also note that downloading content might take a long time on slower Internet connections.
 
-Most all implementers should use IIAB's 1-line installer at http://download.iiab.io (click on the version number, e.g. [6.6](http://download.iiab.io/6.6/)).
+Most all implementers should use IIAB's 1-line installer at http://download.iiab.io where you can click on the version number, e.g. [6.7](http://download.iiab.io/6.7/).
 
 If you are a developer, consider [building Internet-in-a-Box from scratch](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch).
 
-Please refer to the [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) page for more information.
+_For more info, please see [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) and the growing collection of HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .webm](http://d.iiab.io/content/videos))._
 
 Setting up a development environment
 ====================================
@@ -157,8 +157,7 @@ Please consider providing a descriptive title, your operating system information
 Get in touch
 ============
 
-* Join our [technology](http://lists.laptop.org/listinfo/server-devel) and [learning design](https://groups.google.com/group/unleashkids) mailing lists
-* Join our [live calls](http://minutes.iiab.io) most Mondays and Thursday
-* Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)
-* Post an idea or question to our [community forums](http://iiab.io/)
+* Join our [technology](http://lists.laptop.org/listinfo/server-devel) and [learning/design](https://groups.google.com/group/unleashkids) mailing lists
+* Join our [live calls](http://minutes.iiab.io) most every Thursday
+* Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)<!--* Post an idea or question to our [community forums](http://iiab.io/)-->
 * Read ["What are the best places for community support?"](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) within our Frequently Asked Questions  ([FAQ.IIAB.IO](http://FAQ.IIAB.IO))
