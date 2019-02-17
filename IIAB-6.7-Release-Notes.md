@@ -13,7 +13,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [Lokole 0.1.36](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) email for rural communities, students and teachers, with URL _box/lokole_  <sub><sub>[PR #1305](https://github.com/iiab/iiab/pull/1305)</sub></sub>
 * [Minetest](https://github.com/iiab/iiab/tree/master/roles/minetest#minetest-readme) is a [Minecraft](https://en.wikipedia.org/wiki/Minecraft)-inspired creative/explorational building blocks game, including multiplayer server and additional mods.  <sub><sub>[PR #1471](https://github.com/iiab/iiab/pull/1471)</sub></sub>
 * [Mosquitto 1.4+ (MQTT)](https://github.com/iiab/iiab/tree/master/roles/mosquitto#mosquitto-readme) & [Node-RED 0.19.5](https://github.com/iiab/iiab/tree/master/roles/nodered#nodered-readme) support for IoT (Internet of Things) electronics projects, with URL _box/nodered_  <sub><sub>[PR #1398](https://github.com/iiab/iiab/pull/1398)</sub></sub>
-* _A brand-new [visual table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) helping guide your choice of what services (IIAB Apps) to install.
+* _A brand-new [visual table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) helping guide your choice of what services (IIAB Apps) to install._
 
 ### What's Upgraded? (TENTATIVE)
 
@@ -40,7 +40,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 ### What's Coming Later? (TENTATIVE)
 
 * OpenStreetMap improvements for implementers customizing regional Map Packs.  _Coming in IIAB 7.0?_  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
-* Easily edit Content Pack descriptions & logos, for your community's main page http://box  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
+* Easily editable Content Pack descriptions & logos, for your community's main page http://box  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
 * Rapid networking & configuration changes that can't wait ~20min for Ansible.  _Coming in IIAB 7.0?_  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
 * Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be used to simultaneously broadcast _and_ get updates from the Internet.  _Coming in IIAB 7.0?_  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
