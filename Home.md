@@ -1,6 +1,6 @@
 ## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
-[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on several ways of installing the server.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
+[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) details several ways of installing Internet-in-a-Box.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
 Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) for a high-level system view.
 
@@ -10,9 +10,9 @@ After installation, IIAB's Admin Console (http://box/admin) provides tools for s
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
 
-Finally, see our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
+Finally, see our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
-_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._
+_NOTE: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._
 
 
 ## Our Evolution
