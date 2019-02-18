@@ -1,18 +1,18 @@
 ## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
-[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on installing the server, in several ways.  Please also see our growing collection of [HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g).
+[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on installing the server, in several ways.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
 You can also read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture).
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for platform-specific information on OS choices and the **partitioning scheme**.
 
-After installation, the Admin Console provides tools for selecting server apps and downloading content. After that is done, you will probably want to provide a [friendly home page](https://github.com/iiab/iiab/wiki/IIAB-Menuing) for your community.
+After installation, IIAB's Admin Console (http://box/admin) provides tools for selecting server apps, downloading content and setting up a friendly home page (http://box) for your community.
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies and TCP/UDP ports.
 
 See our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
-_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) from all continents, all countries, and all corners._
+_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) from all corners of the planet._
 
 
 ## Our Evolution
