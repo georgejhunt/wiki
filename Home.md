@@ -2,7 +2,7 @@
 
 [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on several ways of installing the server.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
-Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture).
+Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) for a high-level system view.
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS and hardware choices, as well as the **partitioning scheme**.
 
