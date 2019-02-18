@@ -1,8 +1,6 @@
 ## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
-[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on several ways of installing the server.  
-
-Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
+[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on several ways of installing the server.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
 Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture).
 
