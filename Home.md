@@ -12,7 +12,7 @@ After installation, IIAB's Admin Console (http://box/admin) provides tools for s
 
 See our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
-_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](https://github.com/iiab/iiab/wiki/IIAB-Contributors-Guide) from all corners of the planet._
+_N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._
 
 
 ## Our Evolution
