@@ -28,7 +28,7 @@ The following OS's are theoretically possible, but may require extensive babysit
   * Turn off aufs (UnionFS). Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
   * Congratulations, you are now ready to install IIAB.
   * Install curl, by manually running: sudo apt install curl
-  * Run IIAB's 1-line installer: http://d.iiab.io/6.7
+  * Run IIAB's 1-line installer: http://d.iiab.io
   * Turn aufs (UnionFS) back on.
   * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
 * [CentOS 7.6](https://www.centos.org/download/) LTS
