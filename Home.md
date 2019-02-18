@@ -1,16 +1,18 @@
 ## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
-[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on installing the server, in several ways.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
+[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) has detailed information on several ways of installing the server.  
 
-You can also read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture).
+Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
+
+Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture).
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS and hardware choices, as well as the **partitioning scheme**.
 
-After installation, IIAB's Admin Console (http://box/admin) provides tools for selecting server apps, downloading content and setting up a friendly home page (http://box) for your community.
+After installation, IIAB's Admin Console (http://box/admin) provides tools for selecting server apps, downloading content and arranging a friendly home page (http://box) for your community.
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
 
-See our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
+Finally, see our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
 _N.B.: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._
 
