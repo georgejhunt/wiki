@@ -40,7 +40,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 ### What's Coming Later? (TENTATIVE)
 
 * OpenStreetMap improvements for implementers customizing regional Map Packs.  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
-* Easily editable Content Pack descriptions & logos, for your community's main page http://box  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
+* Easily editable Content Pack descriptions & logos, for your community's main page (http://box).  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
 * Rapid networking & configuration changes that can't wait ~20min for Ansible.  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
 * Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be made to broadcast _and_ (simultaneously) get updates from the Internet.  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
