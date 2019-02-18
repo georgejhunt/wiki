@@ -40,7 +40,8 @@ _[Contact us if you can help, testing would be greatly appreciated!](http://FAQ.
 
 ## Hardware Platforms
 
-Theoretically IIAB should run on any machine that can run Debian 9 or CentOS 7, and close derivatives.
+Theoretically IIAB should run on any machine that can run Ubuntu, Debian or close derivatives (like Raspbian, Ubermix, etc). 
+ CentOS 7 and Fedora are not as well supported, as of February 2019.
 
 In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) within our [FAQ.IIAB.IO](http://FAQ.IIAB.IO).
 
