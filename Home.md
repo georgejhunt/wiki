@@ -8,7 +8,7 @@ See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS an
 
 After installation, IIAB's Admin Console (http://box/admin) provides tools for selecting server apps, downloading content and setting up a friendly home page (http://box) for your community.
 
-[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, DNS and TCP/UDP ports.
+[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
 
 See our **Frequently Asked Questions** [FAQ.IIAB.IO](http://FAQ.IIAB.IO) for more answers, towards building your very own powerful digital library!
 
