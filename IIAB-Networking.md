@@ -22,7 +22,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 
 IIAB's firewall (iptables) opens most but not all of these ports on the WAN side, when `services_externally_visible: True` which is the default.  Regardless, these ports are generally open on the LAN side.
 
-Finally, you can modify the [iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) command (which is run by [./iiab-network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme)) if absolutely necessary.
+If necessary, you can modify the [iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) command (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, which can be run with "cd /opt/iiab/iiab" and then "[./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network)").
 
 |Protocol  | Port                          |Service                                  |
 |:--------:|:-----------------------------:|-----------------------------------------|
