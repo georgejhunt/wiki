@@ -6,13 +6,13 @@ Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architectu
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS and hardware choices, as well as the **partitioning scheme**.
 
-After installation, IIAB's Admin Console (http://box/admin) provides tools for selecting server apps, downloading content and arranging a friendly home page (http://box) for your community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
-
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
+
+After installing IIAB, use the Admin Console (http://box/admin) to refine server apps, download content and arrange a friendly home page (http://box) for your community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
 
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
-_NOTE: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._
+_NOTE: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://wiki.laptop.org/go/IIAB/FAQ#How_can_I_help.3F) from all corners of the planet._
 
 
 ## Our Evolution
