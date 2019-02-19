@@ -7,7 +7,7 @@ You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3 (or 3
 
 Finally, running Internet-in-a-Box on the Raspberry Pi Zero W is also possible, if you transfer a working IIAB (microSD card) that was built up inside a Raspberry Pi 3 (or 3 B+).
 
-Please see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) at http://FAQ.IIAB.IO
+Please see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) at [FAQ.IIAB.IO](http://FAQ.IIAB.IO) and the HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g).
 
 Internet-in-a-Box uses Ansible (similar to Puppet, but acquired by Red Hat in October 2015) to install and configure all software packages.  Ansible uses [playbooks](http://docs.ansible.com/ansible/latest/playbooks.html) as human-readable instruction files in [YAML](http://www.yaml.org/start.html) format.  Playbooks are divided into hosts, roles and tasks.
 ```
