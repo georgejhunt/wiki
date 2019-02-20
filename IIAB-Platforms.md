@@ -40,22 +40,21 @@ _[Contact us if you can help, testing would be greatly appreciated!](http://FAQ.
 
 ## Hardware Platforms
 
-Theoretically IIAB should run on any machine that can run Ubuntu, Debian or close derivatives (like Raspbian, Ubermix, etc). 
- CentOS 7 and Fedora are not as well supported, as of February 2019.
+Theoretically IIAB should run on any machine that can run Ubuntu, Debian or close derivatives (like Raspbian, Ubermix, etc).  CentOS 7 and Fedora are not nearly as well supported, as of February 2019 ([#1434](https://github.com/iiab/iiab/issues/1434)).
 
-In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) within our [FAQ.IIAB.IO](http://FAQ.IIAB.IO).
+In practice, IIAB has been tested on the platforms and configurations below.  For more detail, see ["What hardware should I use?"](http://FAQ.IIAB.IO#What_hardware_should_I_use.3F) within [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 #### Intel NUC and Gigabyte BRIX
 
-Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RAM and a 1TB of internal hard disk, or 200+ GB SSD. Most models have a minimum of four USB ports and some have an internal Wi-Fi adapter.
+Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RAM and a 1TB internal hard disk, or 200+ GB SSD.  Most models have a minimum of four USB ports and some have an internal Wi-Fi adapter.
 
-- Installs with Ubuntu 18.04 LTS, Debian 9.5 or CentOS 7.5
+- Install Ubuntu 18.04 LTS, Debian 9.8 <!--or CentOS 7.6-->
 
 #### OLPC XO-1.5, XO-1.75, XO-4
 
 OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content found on machines with more storage or with an external hard drive.
 
-- Only Fedora 18 has been tested, arising from OLPC OS
+- Only Fedora 18 has been tested, arising from [OLPC OS](http://wiki.laptop.org/go/Releases)
 
 #### Raspberry Pi 3 or 3 B+
 
