@@ -1,6 +1,6 @@
 # Internet-in-a-Box (IIAB) Menuing
 
-Please see "[How do I customize my Internet-in-a-Box home page?](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F)" within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) which links to several videos, to help you quickly arrange the content and apps on your community's IIAB home page, using our new drag-and-drop interface.
+Please see "[How do I customize my Internet-in-a-Box home page?](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F)" within [FAQ.IIAB.IO](http://FAQ.IIAB.IO) which links to several videos, to help you quickly arrange the content and apps/services on your community's IIAB home page, using our new drag-and-drop interface.
 
 ## Overview
 
