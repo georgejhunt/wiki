@@ -21,7 +21,7 @@ _Consider installing <a href=http://download.iiab.io/6.7>IIAB 6.7</a> today!_
   * [Ansible 2.7](https://docs.ansible.com/ansible/devel/porting_guides/porting_guide_2.7.html) for IIAB configuration management, better explaining IIAB installation steps.  <sub><sub>[#1271](https://github.com/iiab/iiab/pull/1271)</sub></sub>
 * [Kolibri 0.11.1](https://github.com/iiab/iiab/tree/master/roles/kolibri) ([release notes](https://medium.com/kolibri-releases/kolibri-v0-11-is-here-1ba5c878c6ba), [docs](https://kolibri.readthedocs.io/en/latest/manage.html)) with URL _box/kolibri_  <sub><sub>[#1110](https://github.com/iiab/iiab/issues/1110)</sub></sub>
 * [Kiwix 0.9.0](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) with URL _box/kiwix_  <sub><sub>[PR #1433](https://github.com/iiab/iiab/pull/1433)</sub></sub>
-* [Calibre 3.39.1](https://calibre-ebook.com/whats-new) with URL _box:8080_  <sub><sub>[#1413](https://github.com/iiab/iiab/issues/1413)</sub></sub>
+* [Calibre 3.39.1](https://calibre-ebook.com/whats-new) with URL _box:8080_  <sub><sub>[#1444](https://github.com/iiab/iiab/issues/1444)</sub></sub>
 * [Calibre-Web](https://github.com/janeczku/calibre-web#about) ([docs](https://github.com/iiab/iiab/tree/master/roles/calibre-web)) with URL _box/books_  <sub><sub>[#1213](https://github.com/iiab/iiab/pull/1213)</sub></sub>
 * [Sugarizer 1.1.0](https://sugarizer.org) with URL _box/sugarizer_  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * [WordPress 5.1](https://wordpress.org/news/2019/02/betty/) builds on the new block editor introduced by [5.0](https://wordpress.org/news/2018/12/bebo/), with URL _box/wordpress_  <sub><sub>[#1360](https://github.com/iiab/iiab/issues/1360)</sub></sub>
