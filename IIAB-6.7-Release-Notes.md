@@ -37,7 +37,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi for Sugarizer  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
-### What's Plausible in Future Versions?
+### What's might future versions bring?
 
 * OpenStreetMap improvements for implementers needing vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F).  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 * Easily editable Content Pack descriptions & logos, for your community's main page (http://box).  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
@@ -48,7 +48,7 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 
 ### How do I try it?
 
-TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9/10.  IIAB's 1-line installer lets you quickly choose (MIN-sized, MEDIUM-sized or BIG-sized) how much to install:
+TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9/10.  IIAB's 1-line installer lets you [quickly choose](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) how much to install: (MIN-sized, MEDIUM-sized or BIG-sized)
 
      curl d.iiab.io/install.txt | sudo bash
 
