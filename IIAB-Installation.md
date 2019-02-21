@@ -14,7 +14,7 @@
     * [Enable Services](#enable-services)
 * [Add Content](#add-content)
     * [ZIM Files](#zim-files)
-    * [OER2GO (RACHEL) Modules](#oer2go-rachel-modules)
+    * [OER2Go (RACHEL) Modules](#oer2go-rachel-modules)
     * [KA Lite (for Khan Academy)](#ka-lite-for-khan-academy)
     * [Copy KA Lite Videos Manually](#copy-ka-lite-videos)
     * [OpenStreetMap](#openstreetmap)
@@ -293,9 +293,9 @@ _If you're new to the Admin Console, please read "What are the default passwords
 
 ## Add Content
 
-Since IIAB/XSCE 6.0, many kinds of content (but not all) can be downloaded and installed through your Internet-in-a-Box server's Admin Console (http://box.lan/admin).
+**Please see "[How do I customize my Internet-in-a-Box home page?](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F)" at http://FAQ.IIAB.IO and watch the HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .webm](http://d.iiab.io/content/videos)) to get moving downloading & arranging content on your IIAB!**
 
-**Please watch the HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .webm](http://d.iiab.io/content/videos)) to get up to speed with downloading & installing content to your IIAB!**
+Since IIAB/XSCE 6.0, many kinds of content (but not all) can be downloaded and installed through your Internet-in-a-Box server's Admin Console (http://box.lan/admin).
 
 WARNING: some of these Content Packs are quite large and you should pay attention to the space available and space required displayed on each screen.  Note that space calculations may not reflect multiple types of downloads happening simultaneously.
 
@@ -321,15 +321,15 @@ WARNING: there are certain situations (particularly if you've removed a ZIM from
 
 Reminder: you can always click **Help** near the top-right on any page within IIAB's Admin Console, then click on help section **Install Content**.
 
-#### OER2GO (RACHEL) Modules
+#### OER2Go (RACHEL) Modules
 
 RACHEL maintains a large number of Content Packs at http://oer2go.org.  They include HTML, PDF, and other web materials in multiple languages.  Download and install these as follows:
 
-1. Within Admin Console -> Install Content, hit button **Refresh OER2GO Catalog** to update your list of available modules.
+1. Within Admin Console -> Install Content, hit button **Refresh OER2Go Catalog** to update your list of available modules.
 
-2. Within Install Content, take menu option **Get OER2GO(RACHEL) Modules**.  Before making your selection of modules, use buttons Select Languages -> More Languages to be sure you're viewing all relevant choices, in many more languages than just {English, Spanish, French, Portuguese, Arabic and Hindi}.
+2. Within Install Content, take menu option **Get OER2Go(RACHEL) Modules**.  Before making your selection of modules, use buttons Select Languages -> More Languages to be sure you're viewing all relevant choices, in many more languages than just {English, Spanish, French, Portuguese, Arabic and Hindi}.
 
-3. Carefully finalize your selection of OER2GO modules, among the many choices.  _Avoid downloading/installing more than 10 at once!_
+3. Carefully finalize your selection of OER2Go modules, among the many choices.  _Avoid downloading/installing more than 10 at once!_
 
 4. Hit button **Install Selected Modules** to begin downloading and installing them onto your server.  _This can take a very long time, during which time your server may appear unresponsive (within the first hour especially) while it's working!_
 
@@ -355,9 +355,9 @@ _See also ["KA Lite Administration: What tips & tricks exist?"](http://FAQ.IIAB.
 
 ### Add Content Manually
 
-#### OER2GO (RACHEL) Modules
+#### OER2Go (RACHEL) Modules
 
-Download [OER2GO (RACHEL) modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
+Download [OER2Go (RACHEL) modules](http://dev.worldpossible.org/cgi/rachelmods.pl) manually using rsync, to `/library/www/html/modules`
 
 After a module has been downloaded successfully (rerun rsync if there are connectivity issues) local/offline users can access it with URL:
 ```
@@ -421,7 +421,7 @@ IIAB 6.5 introduced this curatorial productivity tool, to free up space on your 
 
 After you log into IIAB's Admin Console (http://box/admin) click **Install Content**, then **Remove Content**.  A list will appear showing content packs / modules installed on your IIAB.
 
-Use the checkboxes to select those older-or-unneeded ZIM files and OER2GO (RACHEL) modules that you want to remove.
+Use the checkboxes to select those older-or-unneeded ZIM files and OER2Go (RACHEL) modules that you want to remove.
 
 Then click **Delete Checked Files** at the top of the page!
 
