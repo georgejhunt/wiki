@@ -37,13 +37,14 @@ _Consider installing a pre-release today, from <a href=http://download.iiab.io/6
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi for Sugarizer  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
-### What's Coming Later? (TENTATIVE)
+### What's Plausible in Future Versions?
 
 * OpenStreetMap improvements for implementers needing vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F).  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 * Easily editable Content Pack descriptions & logos, for your community's main page (http://box).  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
 * Rapid networking & configuration changes that can't wait ~20min for Ansible.  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
 * Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be made to broadcast _and_ (simultaneously) get updates from the Internet.  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+* Please help us make this happen by reviewing the [IIAB 7.0 Milestone](https://github.com/iiab/iiab/milestone/5).
 
 ### How do I try it?
 
