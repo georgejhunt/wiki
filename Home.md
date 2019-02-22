@@ -8,7 +8,7 @@ See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS an
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
 
-After installing IIAB, use the Admin Console (http://box/admin) to refine server apps, download content and arrange a friendly home page (http://box) for your community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
+After installing IIAB, use the Admin Console (http://box/admin) to refine server apps, download content and arrange a friendly home page (http://box) for your entire community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
 
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
