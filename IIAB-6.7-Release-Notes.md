@@ -1,8 +1,10 @@
-Internet-in-a-Box (IIAB) 6.7 was released February 21, 2019, in service of DIY digital libraries everywhere, allowing you to quickly craft a digital library for your own community.
+Internet-in-a-Box (IIAB) 6.7 was released February 21, 2019, in service of DIY digital libraries everywhere.
+
+You can now bring the Internet's crown jewels (Wikipedia, Khan Academy, zoomable OpenStreetMap, E-Books, etc) to your own "offline" community for free.
 
 Our free and open source ["knowledge hotspot"](http://internet-in-a-box.org) is now used in schools, libraries and medical clinics in more than 20 countries.
 
-Consider installing Internet-in-a-Box (IIAB) 6.7 today &mdash; its [1-line installer](http://download.iiab.io/6.7) with new drag-and-drop curation (of high-quality, free Content Packs) now makes it easy!
+Consider installing Internet-in-a-Box (IIAB) 6.7 today &mdash; its [1-line installer](http://download.iiab.io/6.7) with new drag-and-drop curation now makes it easy!
 
 ### What's New?
 
