@@ -12,7 +12,7 @@ After installing IIAB, use the Admin Console (http://box/admin) to refine server
 
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
-_NOTE: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that greatly [welcomes contributors](http://wiki.laptop.org/go/IIAB/FAQ#How_can_I_help.3F) from all corners of the planet._
+_NOTE: Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that [greatly welcomes contributors](http://wiki.laptop.org/go/IIAB/FAQ#How_can_I_help.3F) from all corners of the planet._
 
 
 ## Our Evolution
