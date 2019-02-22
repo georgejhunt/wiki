@@ -1,10 +1,15 @@
-Internet-in-a-Box (IIAB) 6.7 was released February 21, 2019, in service of DIY digital libraries everywhere.
+Internet-in-a-Box (IIAB) 6.7 was released February 21, 2019.
 
-You can now bring the Internet's crown jewels (Wikipedia, Khan Academy, zoomable OpenStreetMap, E-Books, etc) to your own "offline" community for free.
+Use it to steal the [Internet's crown jewels](http://internet-in-a-box.org/#quality-content) and craft your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, or any old laptop.
 
-Our free and open source ["knowledge hotspot"](http://internet-in-a-box.org) is now used in schools, libraries and medical clinics in more than 20 countries.
+Our [HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) show you how to customize your Internet-in-a-Box "knowledge hotspot" — for your school, your clinic, your library, your region — or your very own family.
 
-Consider installing Internet-in-a-Box (IIAB) 6.7 today &mdash; its [1-line installer](http://download.iiab.io/6.7) with new drag-and-drop curation now makes it easy!
+Install Internet-in-a-Box (IIAB) 6.7 using its [1-line installer](http://download.iiab.io/6.7) to transform an old laptop into a "learning palace" for a developing world school, that urgently needs this today!
+
+Then **drag-and-drop** the very best of the World's Free Knowledge (Wikipedia, thousands of Khan Academy videos, zoomable OpenStreetMap, E-Books, WordPress journaling, Toys from Trash electronics projects, ETC) for those who are burning for learning — but just happen to be offline.
+
+_The crown jewels are all free, liberated — and open source too! 
+ Internet-in-a-Box is now used in schools, libraries and medical clinics in more than 20 countries.  Why not DIY your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, starting today?_
 
 ### What's New?
 
