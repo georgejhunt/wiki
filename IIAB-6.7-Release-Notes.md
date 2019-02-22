@@ -2,7 +2,7 @@ Internet-in-a-Box (IIAB) 6.7 was released February 21, 2019.
 
 Use it to "steal" the [Internet's crown jewels](http://internet-in-a-box.org/#quality-content) and craft your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, or any old laptop.
 
-Our [HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) show you how to customize your Internet-in-a-Box "knowledge hotspot" — for your school, your clinic, your library, your region — or your very own family.
+Our [HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) show you how to customize your Internet-in-a-Box "knowledge hotspot" — for your school, your clinic, your library, your entire region — or your very own family.
 
 Install Internet-in-a-Box (IIAB) 6.7 using its [1-line installer](http://download.iiab.io/6.7) to transform an old laptop into a "learning palace" for a developing world school, that urgently needs this today!
 
