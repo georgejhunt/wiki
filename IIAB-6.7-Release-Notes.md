@@ -51,7 +51,7 @@ Consider installing Internet-in-a-Box (IIAB) 6.7 today &mdash; its [1-line insta
 
 TL;DR!  Try our 1-line installer for Raspberry Pi 3 (or 3 B+), Ubuntu 18.04 LTS or Debian 9/10.  IIAB's 1-line installer lets you [quickly choose](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) how much to install: (MIN-sized, MEDIUM-sized or BIG-sized)
 
-     curl d.iiab.io/install.txt | sudo bash
+     curl d.iiab.io/6.7/install.txt | sudo bash
 
 On Raspberry Pi, you'll want the latest [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) OS (2018-11-13 or higher) installed onto a microSD card large enough for all your content.  Installation usually completes within 1-to-3 hours, if your Internet speed is fast.  An actual Ethernet cable greatly helps avoid Wi-Fi glitches!  See [download.iiab.io](http://download.iiab.io/) for speed and security tips to hit the ground running.
 
