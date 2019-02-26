@@ -361,7 +361,7 @@ Download [OER2Go (RACHEL) modules](http://dev.worldpossible.org/cgi/rachelmods.p
 
 After a module has been downloaded successfully (rerun rsync if there are connectivity issues) local/offline users can access it with URL:
 ```
-   http://box/modules/<module-name>
+   http://box.lan/modules/<module-name>
 ```
 #### Copy KA Lite Videos
 
@@ -407,7 +407,7 @@ For spontaneous (ad hoc) access to materials and teacher content (handouts, less
 
 * usb
 
-...which will appear under URL [http://box/usb](http://box/usb) when teachers' sticks/drives are plugged into the server's USB ports.  Warning: some older phones/devices may require you to type in [http://box.lan/usb](http://box.lan/usb) or http://172.18.96.1/usb
+...which will appear under URL [http://box/usb](http://box/usb) or [http://box.lan/usb](http://box.lan/usb) when teachers' sticks/drives are plugged into the server's USB ports.  Warning: some older phones/devices may require you to type in [http://box.lan/usb](http://box.lan/usb) or http://172.18.96.1/usb
 
 For legacy support of the LibraryBox and PirateBox communities, teachers may also place shareable content in folder names {share, Share, Pirateshare/Share} on their USB sticks/drives.
 
