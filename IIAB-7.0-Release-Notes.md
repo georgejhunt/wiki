@@ -4,7 +4,7 @@
 
 See our Frequently Asked Questions ([FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)) and consider installing a pre-release today: **[download.iiab.io](http://download.iiab.io)**
 
-Please [join us in making this happen](http://internet-in-a-box.org/pages/contributing.html), Thank You!
+Please [join us in making this major release happen](http://internet-in-a-box.org/pages/contributing.html), Thank You!
 
 ### About
 
