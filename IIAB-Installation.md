@@ -101,7 +101,7 @@ Here is the complete list of the steps required.  Some may already be done.
    # RUNNING ./iiab-install (BELOW) AS THIS CAN TAKE A COUPLE HOURS!
 
    # NOTE: you can change many/most settings after install too, using the
-   # Admin Console (http://box/admin) as documented at: http://FAQ.IIAB.IO
+   # Admin Console (http://box.lan/admin) as documented at: http://FAQ.IIAB.IO
 
    cd /opt/iiab/iiab/scripts/
    ./ansible
@@ -419,7 +419,7 @@ See "[Can teachers display their own content?](http://FAQ.IIAB.IO#Can_teachers_d
 
 IIAB 6.5 introduced this curatorial productivity tool, to free up space on your Internet-in-a-Box, allowing you to select and remove stale content.  This can be an absolute lifesaver prior to updating to new content.
 
-After you log into IIAB's Admin Console (http://box/admin) click **Install Content**, then **Remove Content**.  A list will appear showing content packs / modules installed on your IIAB.
+After you log into IIAB's Admin Console (http://box.lan/admin) click **Install Content**, then **Remove Content**.  A list will appear showing content packs / modules installed on your IIAB.
 
 Use the checkboxes to select those older-or-unneeded ZIM files and OER2Go (RACHEL) modules that you want to remove.
 
