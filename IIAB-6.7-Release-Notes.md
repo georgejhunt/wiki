@@ -48,12 +48,13 @@ _The crown jewels are all free, liberated — and open source too!
 
 * OpenStreetMap improvements for implementers needing vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F).  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 * Easily editable descriptions & logos on your community's IIAB home page (http://box).  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
-* Stronger [WordPress integration with IIAB](http://wiki.laptop.org/go/IIAB/FAQ#WordPress_.26_Moodle_Administration:_What_tips_.26_tricks_exist.3F) in general, and its home page descriptions & logos.
-* Teachers' own ZIM files on a USB stick might be hot-pluggable into Internet-in-a-Box.  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
+  * Stronger [WordPress integration with IIAB](http://wiki.laptop.org/go/IIAB/FAQ#WordPress_.26_Moodle_Administration:_What_tips_.26_tricks_exist.3F) in general, and its home page descriptions & logos?
+  * Teachers' own ZIM files on a USB stick might be hot-pluggable into Internet-in-a-Box?  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
-* Rapid networking & configuration changes that can't wait ~20min for Ansible, starting with `iiab-hotspot-on` and `iiab-hotspot-off`.  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+  * Check your WhatsApp-or-similar messaging, and interact with IIAB videos at the same time?  <sub><sub>[#255](https://github.com/iiab/iiab/issues/255)</sub></sub>
 * Install IIAB over WiFi without confusion, whether Ethernet is also plugged in or not.  <sub><sub>[#1520](https://github.com/iiab/iiab/issues/1520)</sub></sub>
-* Your Raspberry Pi's (built-in) Wi-Fi knowledge hotspot can be made to broadcast _and_ (simultaneously) get updates from the Internet?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+  * Rapid networking & config changes that can't wait ~20min for Ansible, starting with `iiab-hotspot-on` | `iiab-hotspot-off`?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+  * Your Raspberry Pi's (built-in) Wi-Fi hotspot can broadcast _and_ (simultaneously) get updates from the Internet?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 * Please help us make [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) happen, reviewing the tasks in its [GitHub Milestone](https://github.com/iiab/iiab/milestone/5)!
 
 ### How do I try it?
