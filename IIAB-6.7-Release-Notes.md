@@ -48,7 +48,7 @@ _The crown jewels are all free, liberated — and open source too!
 
 * OpenStreetMap improvements for implementers needing vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F).  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 * Easily editable descriptions & logos on your community's IIAB home page (http://box).  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
-  * Stronger [WordPress integration](http://wiki.laptop.org/go/IIAB/FAQ#WordPress_.26_Moodle_Administration:_What_tips_.26_tricks_exist.3F) with above descriptions/logos, and [Calibre-Web](https://github.com/iiab/iiab/tree/master/roles/calibre-web#calibre-web-readme)?
+  * Stronger [WordPress integration](http://wiki.laptop.org/go/IIAB/FAQ#WordPress_.26_Moodle_Administration:_What_tips_.26_tricks_exist.3F) with above descriptions/logos and [Calibre-Web](https://github.com/iiab/iiab/tree/master/roles/calibre-web#calibre-web-readme)?
   * Teachers' own ZIM files on a USB stick might be hot-pluggable into Internet-in-a-Box?  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
   * Check your WhatsApp/similar messaging AND interact w/ IIAB at the same time?  <sub><sub>[#255](https://github.com/iiab/iiab/issues/255)</sub></sub>
