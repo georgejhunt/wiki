@@ -50,9 +50,9 @@ _The crown jewels are all free, liberated — and open source too!
 2. Easily editable descriptions & logos on your community's IIAB home page (http://box)?  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
    1. Stronger [WordPress integration](http://wiki.laptop.org/go/IIAB/FAQ#WordPress_.26_Moodle_Administration:_What_tips_.26_tricks_exist.3F) with above descriptions/logos and [Calibre-Web](https://github.com/iiab/iiab/tree/master/roles/calibre-web#calibre-web-readme)?
    2. Teachers' own ZIM files on a USB stick might be hot-pluggable into IIAB?  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
-3. Install IIAB over WiFi without confusion, whether Ethernet is also plugged in or not?  <sub><sub>[#1520](https://github.com/iiab/iiab/issues/1520)</sub></sub> <sub><sub>[#1536](https://github.com/iiab/iiab/issues/1536)</sub></sub>
+3. Install IIAB over Wi-Fi without confusion, whether Ethernet is also plugged in or not?  <sub><sub>[#1520](https://github.com/iiab/iiab/issues/1520)</sub></sub> <sub><sub>[#1536](https://github.com/iiab/iiab/issues/1536)</sub></sub>
    1. Rapid networking & config changes that can't wait 20-30min for Ansible, starting with `iiab-hotspot-on` | `iiab-hotspot-off` in Admin Console?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
-   2. Your Raspberry Pi's (built-in) Wi-Fi hotspot can broadcast _and_ (simultaneously) get updates from the Internet?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
+   2. Raspberry Pi's (built-in) hotspot can broadcast _and_ (simultaneously) download updates?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 4. Captive Portal UX improvements, that work on many more smartphones?  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
    1. Check your WhatsApp/similar messaging AND interact w/ IIAB at the same time?  <sub><sub>[#255](https://github.com/iiab/iiab/issues/255)</sub></sub>
 
