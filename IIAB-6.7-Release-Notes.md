@@ -55,7 +55,8 @@ _The crown jewels are all free, liberated — and open source too!
    2. Your Raspberry Pi's (built-in) Wi-Fi hotspot can broadcast _and_ (simultaneously) get updates from the Internet?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 4. Captive Portal UX improvements, that work on many more smartphones?  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
    1. Check your WhatsApp/similar messaging AND interact w/ IIAB at the same time?  <sub><sub>[#255](https://github.com/iiab/iiab/issues/255)</sub></sub>
-5. Please help us make [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) happen, reviewing the tasks in its [GitHub Milestone](https://github.com/iiab/iiab/milestone/5)!
+
+Please [join us](http://internet-in-a-box.org/pages/contributing.html) in making this [major release](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) happen, Thank You!
 
 ### How do I try it?
 
