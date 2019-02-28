@@ -10,6 +10,6 @@ Please [join us in making this major release happen](http://internet-in-a-box.or
 
 Internet-in-a-Box brings the Internet's crown jewels and the very best of the World’s Free Knowledge (Wikipedia, Khan Academy, OpenStreetMap, E-Books, etc) to those who are burning for learning — but just happen to be offline.
 
-Use <b>drag-and-drop</b> to customize this "knowledge hotspot" with local gems too — tailored to the needs of your school, your library, your region and/or your very own family!
+Use <b>drag-and-drop</b> to customize this "learning hotspot" with local gems too — tailored to the needs of your school, your library, your prison, your region and/or your very own family!
 
 Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) with a $35 Raspberry Pi computer, starting today?
