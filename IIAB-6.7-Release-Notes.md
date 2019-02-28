@@ -53,7 +53,7 @@ _The crown jewels are all free, liberated — and open source too!
 * Captive Portal improvements, that work on more/different smartphones.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182)</sub></sub>
   * Check your WhatsApp/similar messaging AND interact w/ IIAB at the same time?  <sub><sub>[#255](https://github.com/iiab/iiab/issues/255)</sub></sub>
 * Install IIAB over WiFi without confusion, whether Ethernet is also plugged in or not.  <sub><sub>[#1520](https://github.com/iiab/iiab/issues/1520)</sub></sub> <sub><sub>[#1536](https://github.com/iiab/iiab/issues/1536)</sub></sub>
-  * Rapid networking & config changes that can't wait ~20min for Ansible, starting with `iiab-hotspot-on` | `iiab-hotspot-off`?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
+  * Rapid networking & config changes that can't wait 20-30min for Ansible, starting with `iiab-hotspot-on` | `iiab-hotspot-off`?  <sub><sub>[#796](https://github.com/iiab/iiab/issues/796)</sub></sub>
   * Your Raspberry Pi's (built-in) Wi-Fi hotspot can broadcast _and_ (simultaneously) get updates from the Internet?  <sub><sub>[PR #697](https://github.com/iiab/iiab/pull/697), [PR #748](https://github.com/iiab/iiab/pull/748)</sub></sub>
 * Please help us make [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) happen, reviewing the tasks in its [GitHub Milestone](https://github.com/iiab/iiab/milestone/5)!
 
