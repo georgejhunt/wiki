@@ -44,7 +44,7 @@ _The crown jewels are all free, liberated — and open source too!
 * [MongoDB 3.0.14+](https://www.mongodb.com/mongodb-3.0) on Raspberry Pi for Sugarizer  <sub><sub>[PR #1430](https://github.com/iiab/iiab/pull/1430)</sub></sub>
 * Extensive Fixes.  See our [changelog](https://github.com/iiab/iiab/milestone/4?closed=1) of accomplishments!
 
-### What's might future versions bring?
+### What might future versions bring?
 
 1. OpenStreetMap: vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F) that are easily installable?  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 2. Easily editable descriptions & logos on your community's IIAB home page (http://box)?  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
