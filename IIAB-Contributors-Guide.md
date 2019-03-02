@@ -135,13 +135,13 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
 Testing your code with Travis CI
 ================================
 
-To maintain the quality of the Internet-in-a-Box (IIAB) code, we use the [Travis Continuous Integration (CI)](https://travis-ci.org) build infrastructure.  Travis CI uses the Ansible syntax checker to ensure that the code has valid syntax and proper formatting.
+To maintain the quality of the Internet-in-a-Box (IIAB) code, we use the [Travis Continuous Integration (CI)](https://travis-ci.com) build infrastructure.  Travis CI uses the Ansible syntax checker to ensure that the code has valid syntax and proper formatting.
 
-Every pull request [was] automatically tested by Travis CI.  The results of these tests [were] added to the pull request.  This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request. You can [could] see information about every Travis CI build pipeline for the IIAB main repository on [this page](https://travis-ci.org/iiab/iiab). [this approach is currently on hold as of July 2018 &mdash; if it's tuned up this or any similar CI/CD alternatives would be welcome!]
+Every pull request is automatically tested by Travis CI.  The results of these tests are added to the pull request.  This aids Internet-in-a-Box (IIAB) developers in reviewing the quality of the code in a pull request. You can see information about every Travis CI build pipeline for the IIAB main repository on [this page](https://travis-ci.com/iiab/iiab).
 
-To test your forked repository of Internet-in-a-Box (IIAB) code.  You have to enable automatic build tests in your [Travis-ci.org](https://travis-ci.org) profile page.
+To test your forked repository of Internet-in-a-Box (IIAB) code.  You have to enable automatic build tests in your [Travis-CI.com](https://travis-ci.com) profile page.
 
-* Login to [Travis-ci.org](https://travis-ci.org) using your GitHub account.
+* Login to [Travis-CI.com](https://travis-ci.com) using your GitHub account.
 * Go to your Travis CI profile page and enable the repository you want to build.
 * The builds will start whenever a new commit is pushed to your repository.
 
