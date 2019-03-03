@@ -46,7 +46,7 @@ _The crown jewels are all free, liberated — and open source too!
 
 ### What might future versions bring?
 
-1. OpenStreetMap: vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F) that are easily installable?  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
+1. OpenStreetMap: more vivid [regional Map Packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F) that are easily installable?  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
 2. Easily editable descriptions & logos on your community's IIAB home page (http://box)?  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
    1. Sneakernet-of-Alexandria copying of Content Packs on normal FAT32/exFAT USB sticks and Android?  <sub><sub>[#1538](https://github.com/iiab/iiab/issues/1538)</sub></sub> <sub><sub>[#1541](https://github.com/iiab/iiab/issues/1541)</sub></sub>
    2. Teachers' own ZIM files on a USB stick might be hot-pluggable into IIAB?  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
