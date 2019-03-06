@@ -13,3 +13,14 @@ Internet-in-a-Box brings the [Internet's crown jewels](http://internet-in-a-box.
 Use <b>drag-and-drop</b> to customize this "learning hotspot" with local gems too — tailored to the needs of your school, your library, your prison, your region and/or your very own family!
 
 Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) with a $35 Raspberry Pi computer, starting today?
+
+### What's New?
+
+TBA!
+
+### What's Upgraded?
+
+* [Kolibri 0.12.0](https://github.com/iiab/iiab/tree/master/roles/kolibri) ([release notes](https://medium.com/kolibri-releases), [docs](https://kolibri.readthedocs.io/en/latest/manage.html)) with URL _box/kolibri_  <sub><sub>[#1545](https://github.com/iiab/iiab/issues/1545)</sub></sub>
+* [Kiwix 1.0.0](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ETA early/mid-March 2019, with URL _box/kiwix_  <sub><sub>[PR #1522](https://github.com/iiab/iiab/pull/1522)</sub></sub>
+* [Nextcloud 15.0.5](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1468](https://github.com/iiab/iiab/issues/1468)</sub></sub>
+* [Moodle 3.5.5 LTS](https://docs.moodle.org/dev/Moodle_3.5.5_release_notes) building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29) ETA early/mid-March 2019, with URL _box/moodle_  <sub><sub>[#1528](https://github.com/iiab/iiab/issues/1528)</sub></sub>
