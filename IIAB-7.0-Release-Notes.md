@@ -21,7 +21,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's New?
 
-TBA!
+* [Gitea 1.7.3](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) lightweight self-hosted "GitHub", with URL _box/gitea_  <sub><sub>[PR #1242](https://github.com/iiab/iiab/pull/1242)</sub></sub>
 
 ### What's Upgraded?
 
