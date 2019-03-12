@@ -31,3 +31,4 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Moodle 3.5.5 LTS](https://docs.moodle.org/dev/Moodle_3.5.5_release_notes) building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29), with URL _box/moodle_  <sub><sub>[#1528](https://github.com/iiab/iiab/issues/1528)</sub></sub>
 * [WordPress 5.1.1](https://wordpress.org/news/) ETA 2019-03-12, with URL _box/wordpress_  <sub><sub>[PR #1535](https://github.com/iiab/iiab/pull/1535)</sub></sub>
 * [Kiwix 1.0.0](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ETA early/mid-March 2019, with URL _box/kiwix_  <sub><sub>[PR #1522](https://github.com/iiab/iiab/pull/1522)</sub></sub>
+* [Calibre 3.40.1](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
