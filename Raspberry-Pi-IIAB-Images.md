@@ -41,3 +41,7 @@ A demo of this image is available at [Nigeria Demo](http://medbox.iiab.me/medbox
 ### [Medical Internet in a Box Uganda Beta 2.2 (16G)](https://archive.org/details/iiab-6.4-180313-medbox-beta2.2-uganda-16G-g3ea4256.img)
 
 A demo of this image is available at [Uganda Demo](http://medbox.iiab.me/medbox-ug/)
+
+### [Medical Internet in a Box Beta 3.0 Spanish (32G)](https://archive.org/details/iiab-6.4-180907-medbox-beta3.0-es-32G-g3ea4256.img)
+
+This is an older version of Internet in a Box based on IIAB 6.4
