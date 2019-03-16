@@ -24,4 +24,20 @@ Each of the links below gives a description and torrent and download links for t
 
 ## Specific Curations
 
+IIAB is deployed in a number of different countries and languages and also for a variety of audiences. Below is a selection of curations for specific environments.
 
+### [Medical Internet in a Box Beta 3.6 Content Ready](https://archive.org/details/iiab-6.7-190314-medical-beta3.6-content-ready-ga0c8314.img)
+
+This is also a **'Content Ready'** image but with services selected for Medical users.
+
+### [Medical Internet in a Box South Asia Beta 2.2 (32G)](https://archive.org/details/iiab-6.4-180305-medbox-beta2.2-SAsia-32G-g3ea4256.img)
+
+A demo of this image is available at [South Asia Demo](http://medbox.iiab.me/s-asia/).
+
+### [Medical Internet in a Box Beta 3.1 for Nigeria 16G](https://archive.org/details/iiab-6.6-181112-medical-beta3.1-nigeria-16G-g6653593.img)
+
+A demo of this image is available at [Nigeria Demo](http://medbox.iiab.me/medbox-ng/).
+
+### [Medical Internet in a Box Uganda Beta 2.2 (16G)](https://archive.org/details/iiab-6.4-180313-medbox-beta2.2-uganda-16G-g3ea4256.img)
+
+A demo of this image is available at [Uganda Demo](http://medbox.iiab.me/medbox-ug/)
