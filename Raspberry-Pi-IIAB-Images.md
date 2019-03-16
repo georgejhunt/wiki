@@ -2,7 +2,7 @@
 
 Author: Tim Moody; Last Updated: Mar 16, 2019
 
-You can find a growing number of prebuilt IIAB images on the [Internet Archive](https://archive.org/details/internetinabox). This page provides a select few to help navigate through the Internet Archive site. The images divide into two broad categories, **Generic** and **Specific Curations**.
+You can find a growing number of **prebuilt** IIAB images on the [Internet Archive](https://archive.org/details/internetinabox). This page provides a select few to help navigate through the Internet Archive site. The images divide into two broad categories, **Generic** and **Specific Curations**.
 
 ## Generic IIAB Images
 
