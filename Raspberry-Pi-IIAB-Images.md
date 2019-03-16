@@ -12,9 +12,9 @@ These images are all **'Content Ready'**, that is they have a given set of servi
 * IIAB 6.7 with current fixes
 * raspbian version 11-18
 
-The three images,** min**, **medium**, and **big** are described in the [FAQ: What services (IIAB apps) are suggested during installation?](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)
+The three images, **min**, **medium**, and **big** are described in the [FAQ: What services (IIAB apps) are suggested during installation?](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)
 
-Each of the links below gives a description and torrent and download links for the particular image.
+Each of the links below gives a description and both torrent and download links for the particular image.
 
 [Internet in a Box 6.7 Minimum Content Ready](https://archive.org/details/iiab-6.7-190315-min-content-ready-ga0c8314.img)
 
