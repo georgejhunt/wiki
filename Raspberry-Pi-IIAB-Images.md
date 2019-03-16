@@ -18,7 +18,7 @@ Each of the links below gives a description and torrent and download links for t
 
 [Internet in a Box 6.7 Minimum Content Ready](https://archive.org/details/iiab-6.7-190315-min-content-ready-ga0c8314.img)
 
-[Internet in a Box 6.7 Medium Content Ready](https://archive.org/details/iiab-6.7-190315-mediumn-content-ready-ga0c8314.img)
+[Internet in a Box 6.7 Medium Content Ready](https://archive.org/details/iiab-6.7-190315-medium-content-ready-ga0c8314.img)
 
 [Internet in a Box 6.7 Big Content Ready](https://archive.org/details/iiab-6.7-190315-big-content-ready-ga0c8314.img)
 
