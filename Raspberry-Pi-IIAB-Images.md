@@ -10,7 +10,7 @@ The generic images are simply prebuilt versions of what you could build yourself
 
 These images are all **'Content Ready'**, that is they have a given set of services installed but no ZIMS, or OER2Go modules, or any other content and are based on 
 * IIAB 6.7 with current fixes
-* raspbian version 11-18
+* Raspbian Lite 2018-11-13
 
 The three images, **min**, **medium**, and **big** are described in the [FAQ: What services (IIAB apps) are suggested during installation?](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)
 
