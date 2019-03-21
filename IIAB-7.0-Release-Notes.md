@@ -38,4 +38,4 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### Known Issues
 
-* Sugarizer requires MongoDB which is no longer available on several Linux OS's like Debian 10, due to licensing issues.  <sub><sub>[PR #1437](https://github.com/iiab/iiab/issues/1437)</sub></sub>
+* Sugarizer requires MongoDB which is no longer available on several Linux OS's like Debian 10 Buster, due to licensing issues.  <sub><sub>[PR #1437](https://github.com/iiab/iiab/issues/1437)</sub></sub>
