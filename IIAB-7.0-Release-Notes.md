@@ -35,3 +35,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Kiwix 1.1.0](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) with URL _box/kiwix_  <sub><sub>[PR #1522](https://github.com/iiab/iiab/pull/1522)</sub></sub>
 * [Calibre-Web](https://github.com/janeczku/calibre-web) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub>
 * [Calibre 3.40.1](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
+
+### Known Issues
+
+* Sugarizer requires MongoDB which is no longer available on several Linux OS's like Debian 10, due to licensing issues.  <sub><sub>[PR #1437](https://github.com/iiab/iiab/issues/1437)</sub></sub>
