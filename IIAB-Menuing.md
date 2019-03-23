@@ -18,7 +18,7 @@ Any one of these can be selected using the Admin Console option Configure->Serve
 
 Dynamic Menuing (introduced with IIAB/XSCE 6.1, improved with IIAB/XSCE 6.2) allows you to rapidly rearrange the presentation of all your Content Packs &mdash; so they appear as your school/library/clinic community wants &mdash; when users browse [http://box](http://box).  Dynamic Menuing uses JavaScript to auto-generate this menu of Content Packs, based on an array of menu items and other properties.
 
-As of 2019 the menu is defined by a file menu.json located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in /library/www/html/home, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
+As of 2019 the menu is defined by a file menu.json located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in /library/www/html/home, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
 
 Bonus: if users prefer http://box.lan, http://172.18.96.1 or [http://hogwarts](http://hogwarts) (or any other base URL that works, as your network topology evolves) then important ports like kiwix-serve's 3000 and KA Lite's 8008 continue to work, as they are updated live by JavaScript inside the HTML, e.g. to [http://hogwarts:3000](http://hogwarts:3000) and [http://hogwarts:8008](http://hogwarts:8008)
 
@@ -85,7 +85,7 @@ Multiple instances of kalite may be run to separate content by language when not
 
 ## 2019 Additions
 
-Log in to IIAB's Admin Console (http://box/admin, passwords are in http://FAQ.IIAB.IO) then click "Content Menus" on top:
+Log in to IIAB's Admin Console (http://box.lan/admin, passwords are in http://FAQ.IIAB.IO) then click "Content Menus" on top:
 
 1) Drag & Drop your favorite Content Packs into position at http://box to create the best visual menu for your school or medical clinic's Internet-in-a-Box. 
 2) Services installed are automatically added to the menu during Ansible run for Admin Console.
@@ -97,5 +97,5 @@ Log in to IIAB's Admin Console (http://box/admin, passwords are in http://FAQ.II
 8) Verbosity for desktop and mobile layouts can be configured.
 9) There is a choice of header font for desktop and mobile layouts.
 
-While using IIAB's Admin Console (http://box/admin) please also click on "Help" in the top-right, a copy of which is here:  
+While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right, a copy of which is here:  
 https://github.com/iiab/iiab-admin-console/blob/master/roles/console/files/help/ContentMenus.rst
