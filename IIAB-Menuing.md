@@ -44,25 +44,25 @@ There is a separate directory /library/www/html/js-menu/local in which locally m
 
 The html fragments are mostly extracted from RACHEL and are all \<ul\>\</ul\> structures, but they can be created manually as long as they don't break Ajax.  The php href code was replaced with ##HREF-BASE## when the file was extracted from rachel-index.php and is dynamically rewritten with the appropriate href at run time.
 
-## Menu Definition Template
+## Menu Item Definition Fields
 
-Here is the template as of March 2017:
+As of mid 2019 Menu Item Definition files have the following fields:
 
-    {
-    "intended_use" : "", // must be one of zim, html, webroot, osm, kalite
-    "lang" : "en", // 2 or 3 char code of language of content; may be different from menu item
-    "logo_url" : "", // assumed to be relative to /common/images
-    "menu_item_name" : "", // OPTIONAL. If present, this MUST correspond exactly to the name of this file (but without its .json suffix). This is the unique, logical name of this menu item, e.g. en-wikipedia_ar_all, ar-osm, en-hesperian
-    "moddir" : "", // for html modules is the directory under /modules
-    "start_url" : "" // optional suffix to base href without leading slash
-    "zim_name" : "", // generic ZIM name with out YYYY-MM version suffix
-    "title" : "", // localized title for link
-    "description" : "", // expanded text for link
-    "extra_html" : "<menu_item_name>.html", // optional free form html for submenu or other use
-                   // be careful of embedded quotes, brackets or other characters that will break json
-    "apk_file" : "<apk file without full path>" // optional
-    }
-You may also notice that there are menu definitions with additional properties. These have been taken from RACHEL catalog and are information only fields, not used by the IIAB menuing system.
+* intended_use - may be one of zim, html, webroot, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
+* lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
+* logo_url - an image file in /library/www/html/js-menu/menu-files/images
+* moddir - the name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
+* zim_name - the generic name of a Kiwix zim, such as wikipedia_en_all_novid
+* start_url -optional url for link to be added to the computed link, used mostly when a module has no index.html
+* title - ocalized title for link
+* description - expanded text for link
+* extra_description - more expanded text for link
+* extra_html - nominally <menu_item_name>.html, an optional free form html for a submenu
+               be careful of embedded quotes, brackets or other characters that will break json
+* footnote - catalog entry type information such as number of pdfs or size
+* apk_file - this is no longer used; use the download type for downloading apks and other files
+
+You may also notice that there are menu definitions with additional properties. These have been taken from RACHEL catalog and are information only fields, not used by the IIAB menuing system. They will be removed over time.
 
 ## Config File
 
