@@ -22,7 +22,8 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What's New?
 
 * [Gitea 1.7.5](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) lightweight self-hosted "GitHub", with URL _box/gitea_  <sub><sub>[PR #1242](https://github.com/iiab/iiab/pull/1242)</sub></sub>
-* [Magrit 0.8.10](http://magrit.cnrs.fr/) for civic/local mapmaking (ETA April 2019) with URL _map/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
+* [Magrit 0.8.10](http://magrit.cnrs.fr/) for civic/local mapmaking (ETA April/May 2019) with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
+* [Internet Archive Decentralized Web](https://dweb.archive.org/) integration (ETA April/May 2019)  with URL _box:4244_ ?  <sub><sub>[PR #1576](https://github.com/iiab/iiab/pull/1576)</sub></sub>
 * Please see ["What might future versions bring?"](https://github.com/iiab/iiab/wiki/IIAB-6.7-Release-Notes#what-might-future-versions-bring)
 
 ### What's Upgraded?
