@@ -17,7 +17,7 @@ The following OS's are theoretically possible, but may require extensive babysit
   * Install Tips: _PR [#1387](https://github.com/iiab/iiab/pull/1387)_
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Ubuntu 19.04](http://cdimage.ubuntu.com/daily-live/current/) Disco Dingo pre-releases; final release expected 2019-04-18
-  * Install Tips: _PR [#1585](https://github.com/iiab/iiab/pull/1585)_
+  * Install Tips: _PR [#1586](https://github.com/iiab/iiab/pull/1586)_
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
   * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
   * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand.
