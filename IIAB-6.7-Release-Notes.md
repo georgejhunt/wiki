@@ -48,7 +48,7 @@ _The crown jewels are all free, liberated — and open source too!
 
 1. OpenStreetMap: more vivid [regional map packs](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_add_zoomable_maps_for_my_region.3F) that are easily installable?  <sub><sub>[#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)</sub></sub>
    1. Local map visualizations with [Magrit](https://github.com/riatelab/magrit) for thematic layers/customizations?  <sub><sub>[#1568](https://github.com/iiab/iiab/issues/1568)</sub></sub>
-   2. Local map editing integrating output from [Mapeo](https://www.digital-democracy.org/mapeo/) on Windows/Mac?
+   2. Local map editing integrating output from [Mapeo](https://www.digital-democracy.org/mapeo/) on Windows/Mac?  <sub><sub>[#1590](https://github.com/iiab/iiab/issues/1590)</sub></sub>
 2. Easily editable descriptions & logos on your community's IIAB home page (http://box)?  <sub><sub>[#1002](https://github.com/iiab/iiab/issues/1002#issuecomment-462183401)</sub></sub>
    1. Sneakernet-of-Alexandria copying of Content Packs on normal FAT32/exFAT USB sticks?  And also Android?  <sub><sub>[#1538](https://github.com/iiab/iiab/issues/1538)</sub></sub> <sub><sub>[#1541](https://github.com/iiab/iiab/issues/1541)</sub></sub>
    2. Teachers' own ZIM files on a USB stick might be hot-pluggable into IIAB?  <sub><sub>[#828](https://github.com/iiab/iiab/issues/828)</sub></sub>
