@@ -92,4 +92,4 @@ In order of execution, i.e. lowest precedence to highest:
 * Load OS-dependent variables i.e. [/opt/iiab/iiab/vars](https://github.com/iiab/iiab/tree/master/vars)/{{ ansible_local.local_facts.os_ver }}.yml
 * Load [local_vars.yml](http://wiki.laptop.org/go/IIAB/local_vars.yml)
 * Load config_vars.yml ([iiab-stages.yml](https://github.com/iiab/iiab/blob/master/iiab-stages.yml) doesn't use this one, BUT [run-one-role.yml](https://github.com/iiab/iiab/blob/master/run-one-role.yml) and [iiab-from-console.yml](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) do)
-* <strike>Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))</strike>
+* <strike>Run computed_vars.yml (part of [0-init](https://github.com/iiab/iiab/tree/master/roles/0-init))</strike> [appears obsolete as of 2019?]
