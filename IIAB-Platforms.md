@@ -14,9 +14,9 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
-  * Install Tips: _PR [#1586](https://github.com/iiab/iiab/pull/1586)_
+  * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
 * [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" pre-releases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
-  * Install Tips: _PR [#1387](https://github.com/iiab/iiab/pull/1387)_
+  * Install Tips: _[#1387](https://github.com/iiab/iiab/issues/1387)_
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
   * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
