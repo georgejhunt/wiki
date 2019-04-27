@@ -10,7 +10,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 * [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
-* [Debian 9.8](https://www.debian.org/releases/stretch/) (9.9 expected [2019-04-27](https://lists.debian.org/debian-stable-announce/2019/04/msg00000.html)) "Stretch" LTS
+* [Debian 9.9](https://www.debian.org/releases/stretch/) "Stretch" LTS
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
