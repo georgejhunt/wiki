@@ -48,7 +48,7 @@ The html fragments are mostly extracted from RACHEL and are all \<ul\>\</ul\> st
 
 As of mid 2019 Menu Item Definition files have the following fields:
 
-* intended_use - may be one of zim, html, webroot, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
+* intended_use - may be one of zim, html, webroot, external, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
 * lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
 * logo_url - an image file in /library/www/html/js-menu/menu-files/images
 * moddir - the name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
