@@ -30,7 +30,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's Upgraded?
 
-* Internet-in-a-Box installation (http://d.iiab.io) is much more self-explanatory!  <sub><sub>[#1583](https://github.com/iiab/iiab/issues/1583)</sub></sub>
+* Internet-in-a-Box installation (http://download.iiab.io) is much more self-explanatory!  <sub><sub>[#1583](https://github.com/iiab/iiab/issues/1583)</sub></sub>
 * [Kolibri 0.12.2 -> 0.12.3](https://github.com/iiab/iiab/tree/master/roles/kolibri) ETA early/mid-May, (<!--[Announcement](https://medium.com/kolibri-releases), -->[Release Notes](https://github.com/learningequality/kolibri/blob/v0.12.0/CHANGELOG.rst#0120), [Changelog](https://github.com/learningequality/kolibri/releases), [User Guide](https://kolibri.readthedocs.io/)) with new Physics/Chemistry LibreTexts, and URL _box/kolibri_  <sub><sub>[#1545](https://github.com/iiab/iiab/issues/1545)</sub></sub>
 * [Nextcloud 15](https://nextcloud.com/changelog/#latest15) ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1614](https://github.com/iiab/iiab/pull/1614)</sub></sub>
 * [Lokole 0.1.41](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) email for rural communities, students and teachers, with URL _box/lokole_
