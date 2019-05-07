@@ -35,7 +35,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Nextcloud 15.0.7 -> 15.0.8](https://nextcloud.com/changelog/#latest15) ETA 2019-05-16, see [blog](https://nextcloud.com/blog/), with URL _box/nextcloud_  <sub><sub>[#1614](https://github.com/iiab/iiab/pull/1614)</sub></sub>
 * [Lokole 0.1.41](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) email for rural communities, students and teachers, with URL _box/lokole_
 * [Moodle 3.5.5 -> 3.5.6 LTS](https://docs.moodle.org/dev/Moodle_3.5.6_release_notes) ETA 2019-05-13, building on [3.5 LTS](https://docs.moodle.org/dev/Releases#Moodle_3.5_.28LTS.29), with URL _box/moodle_  <sub><sub>[#1528](https://github.com/iiab/iiab/issues/1528)</sub></sub>
-* [WordPress 5.2](https://wordpress.org/news/) with URL _box/wordpress_  <sub><sub>[PR #1535](https://github.com/iiab/iiab/pull/1535)</sub></sub>
+* [WordPress 5.2](https://wordpress.org/news/2019/05/jaco/) with URL _box/wordpress_  <sub><sub>[PR #1535](https://github.com/iiab/iiab/pull/1535)</sub></sub>
 * [Kiwix 1.2.0 -> 1.2.2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ETA May, with URL _box/kiwix_  <sub><sub>[PR #1598](https://github.com/iiab/iiab/pull/1598)</sub></sub>
 * [Calibre-Web](https://github.com/janeczku/calibre-web) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's, with URL _box/books_  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub>  &mdash; on hold awaiting a bug fix for Raspbian as of May  <sub><sub>[PR #1628](https://github.com/iiab/iiab/pull/1628)</sub></sub>
 * [Calibre 3.42](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
