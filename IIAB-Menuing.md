@@ -46,7 +46,7 @@ The html fragments are mostly extracted from RACHEL and are all \<ul\>\</ul\> st
 
 ## Menu Item Definition Fields
 
-As of mid 2019 Menu Item Definition files have the following fields:
+As of mid-2019 Menu Item Definition files have the following fields:
 
 * intended_use - may be one of zim, html, webroot, external, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
 * lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
