@@ -40,7 +40,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Kiwix 1.2.0 -> 1.2.2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ETA May, with URL _box/kiwix_  <sub><sub>[PR #1598](https://github.com/iiab/iiab/pull/1598)</sub></sub>
 * [Calibre-Web](https://github.com/janeczku/calibre-web) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's, with URL _box/books_  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub>  &mdash; on hold awaiting a bug fix for Raspbian as of May  <sub><sub>[PR #1628](https://github.com/iiab/iiab/pull/1628)</sub></sub>
 * [Calibre 3.42](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
-* [Sugarizer Server 1.1.0](https://github.com/llaske/sugarizer-server/commits/dev) ETA late May, with URL http://box/sugarizer  <sub><sub>[#1449](https://github.com/iiab/iiab/issues/1449)</sub></sub>
+* [Sugarizer Server 1.1.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL http://box/sugarizer  <sub><sub>[PR #1657](https://github.com/iiab/iiab/pull/1657)</sub></sub>
 * [MediaWiki 1.32.1](https://mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_
 * [Elgg 2.3.12 LTS](https://github.com/Elgg/Elgg/blob/2.3.11/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1607](https://github.com/iiab/iiab/pull/1607)</sub></sub>
 
