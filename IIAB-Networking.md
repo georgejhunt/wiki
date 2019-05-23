@@ -16,13 +16,9 @@ defaults to "Gateway" mode. You need to make some adjustments to be able to use
 
 The IP address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices and always has the IP address 172.18.96.1, a legacy of the practice established by OLPC.  Remember, as some are confused by this, that 172.18.96.1 (AKA box.lan, or simply box) is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
 
-### List of open ports / services
+### List of Ports / Services
 
 Many of the port numbers below can be changed when installing IIAB.  If you need to do this, look over the default ports in [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml), and then override those that are necessary within [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
-
-IIAB's firewall (iptables) opens most but not all of these ports on the WAN side, when `services_externally_visible: True` which is the default.  Regardless, these ports are generally open on the LAN side.
-
-If necessary, you can modify the [iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) command (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, which can be run with "cd /opt/iiab/iiab" and then either "./runrole network" or "[./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network)").
 
 |Protocol  | Port                          |Service                                  |
 |:--------:|:-----------------------------:|-----------------------------------------|
@@ -49,6 +45,21 @@ If necessary, you can modify the [iiab-gen-iptables](https://github.com/iiab/iia
 | TCP      | 9091, 51413                   | transmission (BitTorrent downloader)    |
 | TCP      | 27018                         | mongodb (if used by Sugarizer)          |
 | UDP      | 30000                         | minetest (open source Minecraft clone)  |
+
+### Firewall (iptables)
+
+On the LAN side, all ports except for [databases ports](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L101-L113) are generally open.
+
+On the WAN side, "campus access" to [~10 common IIAB services](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L137-L158) like Kiwix (3000), KA Lite (8008) and Calibre (8010 or 8080) is enabled by default.  Override this default by uncommented **just one** of the following in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) :
+
+    #ports_externally_visible: 0    # none
+    #ports_externally_visible: 1    # ssh only
+    #ports_externally_visible: 2    # ssh + http-or-https (for Admin Console's box.lan/admin too)
+    ports_externally_visible: 3     # ssh + http-or-https + common IIAB services  <--  THIS IS THE DEFAULT
+    #ports_externally_visible: 4    # ssh + http-or-https + common IIAB services + Samba
+    #ports_externally_visible: 5    # all but databases
+
+If necessary, you can further customize your iptables firewall by modifying [/opt/iiab/iiab/roles/network/templates/gateway/iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, this is the template for the /usr/bin/iiab-gen-iptables command).  Then you'd need to run `cd /opt/iiab/iiab` followed by either `./runrole network` or "[./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network)".
 
 ### DNS
 
@@ -85,7 +96,7 @@ Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hots
 
 (2) Many of us edit [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) so it contains the following 2 lines:
 
-* services_externally_visible: True &nbsp; &nbsp; (Opens ports over WAN/Ethernet for kiwix-serve [3000], KA Lite [8008] and calibre-server [8010 or 8080] as campuses/SOHO/families often need. See the "services_externally_visible" section of [xs-gen-iptables](https://github.com/iiab/iiab/tree/master/roles/network/templates/gateway/xs-gen-iptables) if more ports are needed.)
+* ports_externally_visible: 3 (read [above](#firewall-iptables) to modify your firewall for different kinds of campuses/SOHO/families)
 * iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
 
 Note both above became defaults in mid-2017.  If making changes to [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F), remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") &mdash; which can take one or more hours on Raspberry Pi 3 &mdash; if this is your 1st time running the (Ansible-based) install process.
