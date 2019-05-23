@@ -55,7 +55,7 @@ On the WAN side, "campus access" to [~10 common IIAB services](https://github.co
     #ports_externally_visible: 0    # none
     #ports_externally_visible: 1    # ssh only
     #ports_externally_visible: 2    # ssh + http-or-https (for Admin Console's box.lan/admin too)
-    ports_externally_visible: 3     # ssh + http-or-https + common IIAB services  <--  THIS IS THE DEFAULT
+    ports_externally_visible: 3     # ssh + http-or-https + common IIAB services  <--  DEFAULT
     #ports_externally_visible: 4    # ssh + http-or-https + common IIAB services + Samba
     #ports_externally_visible: 5    # all but databases
 
