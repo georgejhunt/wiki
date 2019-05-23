@@ -65,7 +65,7 @@ If necessary, you can further customize your iptables firewall by modifying [/op
 
 DNS (name resolution) for LAN clients is generally provided by the `dnsmasq` service, unless you override that in favor of named (BIND) in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 
-However some Linux distributions do not function well with dnsmasq's default service.  Several of these systemd unit files have a timing problem.  As a result, IIAB uses the `iiab-dnsmasq` service instead &mdash; to start dnsmasq at the correct time during boot.  IIAB disables the OS's stock dnsmasq unit file across all distros to be safe.
+However some Linux distributions do not function well with dnsmasq's default service.  Several of these systemd unit files have a timing problem.  As a result, IIAB uses the [iiab-dnsmasq](https://github.com/iiab/iiab/blob/master/roles/network/tasks/enable_services.yml#L51-L73) service instead &mdash; to start dnsmasq at the correct time during boot.  IIAB disables the OS's stock dnsmasq unit file across all distros to be safe.
 
 _Finally **after** your IIAB install is complete, you can monitor dnsmasq as follows:_
 
