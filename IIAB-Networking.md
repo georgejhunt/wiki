@@ -73,19 +73,20 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
     systemctl status dnsmasq
 
-CLARIFICATION:
+#### CLARIFICATIONS:
+
 1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
 2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
-
-NOTE: While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
-
-    systemctl status dhcpcd              # e.g. on Raspbian
-    systemctl status systemd-networkd    # e.g. on Debian 9 Stretch
-    systemctl status systemd-resolved    # e.g. on Debian 10 Buster, Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
+3) While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
+```
+systemctl status dhcpcd              # e.g. on Raspbian
+systemctl status systemd-networkd    # e.g. on Debian 9 Stretch
+systemctl status systemd-resolved    # e.g. on Debian 10 Buster, Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
+```
 
 ### Common Customizations
 
-(1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
+(1) If your Internet-in-a-Box (IIAB) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
 
     reserved_wifi: wlan0
 
