@@ -59,9 +59,9 @@ On the WAN side, "campus access" to [~10 common IIAB services](https://github.co
     #ports_externally_visible: 4 # ssh + http-or-https + common IIAB services + Samba
     #ports_externally_visible: 5 # all but databases
 
-If your IIAB is already installed, run "cd /opt/iiab/iiab" followed by "./runrole network" or "./iiab-network" &mdash; to put the firewall change into effect.
+If your IIAB is already installed, run `cd /opt/iiab/iiab` followed by either `./runrole network` or [./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network) &mdash; to put the firewall change into effect.
 
-If necessary, you can further customize your iptables firewall by modifying [/opt/iiab/iiab/roles/network/templates/gateway/iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, this is the template for the /usr/bin/iiab-gen-iptables command).  Then you'd need to run `cd /opt/iiab/iiab` followed by either `./runrole network` or "[./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network)".
+If necessary, you can further customize your iptables firewall by modifying [/opt/iiab/iiab/roles/network/templates/gateway/iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, this is the template for the /usr/bin/iiab-gen-iptables command).  As above, you'd then need to run `cd /opt/iiab/iiab` followed by either `./runrole network` or [./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network).
 
 ### DNS
 
