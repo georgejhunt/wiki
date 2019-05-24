@@ -50,7 +50,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 
 On the LAN side, all ports except for [databases ports](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L104-L116) are generally open.
 
-On the WAN side, "campus access" to [~10 common IIAB services](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L140-L161) like Kiwix (3000), KA Lite (8008) and Calibre (8010 or 8080) is enabled by default.  Override this default by uncommented **just one** of the following in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) :
+On the WAN side, "campus access" to [~10 common IIAB services](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L140-L161) like Kiwix (3000), KA Lite (8008) and Calibre (8010 or 8080) is enabled by default.  Override this default by uncommenting **just one** of the following in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F):
 
     #ports_externally_visible: 0 # none
     #ports_externally_visible: 1 # ssh only
@@ -58,6 +58,8 @@ On the WAN side, "campus access" to [~10 common IIAB services](https://github.co
     ports_externally_visible: 3  # ssh + http-or-https + common IIAB services  <--  DEFAULT
     #ports_externally_visible: 4 # ssh + http-or-https + common IIAB services + Samba
     #ports_externally_visible: 5 # all but databases
+
+If your IIAB is already installed, run "cd /opt/iiab/iiab" followed by "./runrole network" or "./iiab-network" to put the firewall change into effect.
 
 If necessary, you can further customize your iptables firewall by modifying [/opt/iiab/iiab/roles/network/templates/gateway/iiab-gen-iptables](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables) (part of Ansible's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role, this is the template for the /usr/bin/iiab-gen-iptables command).  Then you'd need to run `cd /opt/iiab/iiab` followed by either `./runrole network` or "[./iiab-network](https://github.com/iiab/iiab/blob/master/iiab-network)".
 
