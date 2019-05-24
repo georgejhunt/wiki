@@ -48,9 +48,9 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 
 ### Firewall (iptables)
 
-On the LAN side, all ports except for [databases ports](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L101-L113) are generally open.
+On the LAN side, all ports except for [databases ports](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L104-L116) are generally open.
 
-On the WAN side, "campus access" to [~10 common IIAB services](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L137-L158) like Kiwix (3000), KA Lite (8008) and Calibre (8010 or 8080) is enabled by default.  Override this default by uncommented **just one** of the following in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) :
+On the WAN side, "campus access" to [~10 common IIAB services](https://github.com/iiab/iiab/blob/master/roles/network/templates/gateway/iiab-gen-iptables#L140-L161) like Kiwix (3000), KA Lite (8008) and Calibre (8010 or 8080) is enabled by default.  Override this default by uncommented **just one** of the following in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) :
 
     #ports_externally_visible: 0    # none
     #ports_externally_visible: 1    # ssh only
