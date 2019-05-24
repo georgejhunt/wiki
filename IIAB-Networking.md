@@ -83,23 +83,25 @@ NOTE: While LAN clients use dnsmasq, IIAB boxes use one of the following to get 
 
 ### Common Customizations
 
-(1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to use the wlan0 interface:
+(1) If your IIAB (Internet-in-a-Box) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
 
-* reserved_wifi: wlan0
+    reserved_wifi: wlan0
 
-If "./iiab-install" has already completed, just run the following commands to (re)configure networking:
+If "./iiab-install" has already completed, then run the following commands to (re)configure networking:
 ```
 cd /opt/iiab/iiab/
 ./iiab-network     (or "./runrole network")
 ```
-Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}. So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.  More details at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
+Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hotspot, e.g. IIAB would normally use wlan1 anyway, if it found both {wlan0, wlan1}.  So in this case "reserved_wifi: wlan0" just avoids ambiguity, explicitly confirming that wlan0 should remain unused by IIAB.
 
-(2) Many of us edit [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) so it contains the following 2 lines:
+You'd typically do this to force wlan0 onto the WAN-side (e.g. for possible Internet access, or other purposes) of your IIAB.  Guaranteeing that your wlan1 becomes the "learning hotspot" Wi-Fi access point on the LAN-side &mdash; i.e. under the bridge (br0) &mdash; as shown by running `brctl show`.  Background at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
 
-* ports_externally_visible: 3 (read [above](#firewall-iptables) to modify your firewall for different kinds of campuses/SOHO/families)
-* iiab_gateway_enabled: False &nbsp; &nbsp; (Blocks all users connecting over LAN/Wi-Fi from reaching the Internet, while still permitting them access to local content)
+(2) These 2 lines are important defaults in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) originating from mid-2017:
 
-Note both above became defaults in mid-2017.  If making changes to [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F), remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") &mdash; which can take one or more hours on Raspberry Pi 3 &mdash; if this is your 1st time running the (Ansible-based) install process.
+* ports_externally_visible: 3 &nbsp; &nbsp; &nbsp; &nbsp; (read [above](#firewall-iptables) to modify your firewall settings for different kinds of campuses/SOHO/families)
+* iiab_gateway_enabled: False &nbsp; &nbsp; (blocks LAN-side users from reaching the Internet, while permitting them access to IIAB/local content)
+
+If making changes to [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F), remember the general rule is to then run "cd /opt/iiab/iiab" followed by "./iiab-install --reinstall" (formerly "./runansible") &mdash; which can take one or more hours on Raspberry Pi 3 &mdash; if IIAB's (Ansible-based) install process wasn't yet run.
 
 Or, the essential [1+6 "post-install" roles](https://github.com/iiab/iiab/blob/master/iiab-from-console.yml) of Ansible's 9 overall roles can be run **far faster** from Admin Console ([http://box/admin](http://box/admin)) -> Configure menu -> Install Configured Options button. Then monitor the progress (~20 min on RPi3) in Utilities menu -> Display Job Status.  This is very similar to "./iiab-install --debug".
 
