@@ -83,6 +83,7 @@ systemctl status dhcpcd              # e.g. on Raspbian
 systemctl status systemd-networkd    # e.g. on Debian 9 Stretch
 systemctl status systemd-resolved    # e.g. on Debian 10 Buster, Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
 ```
+4) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
 
 ### Common Customizations
 
