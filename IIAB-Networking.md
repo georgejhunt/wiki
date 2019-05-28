@@ -86,7 +86,9 @@ systemctl status systemd-resolved    # e.g. on Debian 10 Buster, Ubuntu 18.04 (s
 
 ### Common Customizations
 
-(1) If your Internet-in-a-Box (IIAB) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
+(1) If you you want to hard-code a Fixed IP Address for the WAN-side of your IIAB, please see "How do I set a static IP Address?" at http://FAQ.IIAB.IO
+
+(2) If your Internet-in-a-Box (IIAB) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
 
     reserved_wifi: wlan0
 
@@ -99,7 +101,7 @@ Context: IIAB code defaults to the highest numbered when setting up a Wi-Fi hots
 
 You'd typically do this to force wlan0 onto the WAN-side (e.g. for possible Internet access, or other purposes) of your IIAB.  Guaranteeing that your wlan1 becomes the "learning hotspot" Wi-Fi access point on the LAN-side &mdash; i.e. under the bridge (br0) &mdash; as shown by running `brctl show`.  Background at: [#531](https://github.com/iiab/iiab/pull/531#issuecomment-344963643)
 
-(2) These 2 lines are important defaults in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) originating from mid-2017:
+(3) These 2 lines are important defaults in [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) originating from mid-2017:
 
 * ports_externally_visible: 3 &nbsp; &nbsp; &nbsp; &nbsp; (read [above](#firewall-iptables) to modify your firewall settings for different kinds of campuses/SOHO/families)
 * iiab_gateway_enabled: False &nbsp; &nbsp; (blocks LAN-side users from reaching the Internet, while permitting them access to IIAB/local content)
