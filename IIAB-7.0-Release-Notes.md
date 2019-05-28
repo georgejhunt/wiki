@@ -41,7 +41,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [WordPress 5.2.1](https://wordpress.org/news/2019/05/wordpress-5-2-1-maintenance-release/) based on [5.2](https://wordpress.org/news/2019/05/jaco/) with URL _box/wordpress_  <sub><sub>[PR #1535](https://github.com/iiab/iiab/pull/1535)</sub></sub>
 * [Kiwix 1.2.1 -> 1.2.2](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ETA May or June 2019?  With URL _box/kiwix_  <sub><sub>[PR #1610](https://github.com/iiab/iiab/issues/1610)</sub></sub>
 * [Calibre-Web 0.62+](https://github.com/janeczku/calibre-web) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's, with URL _box/books_  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub> <sub><sub>[PR #1628](https://github.com/iiab/iiab/pull/1628)</sub></sub>
-* [Calibre 3.42](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
+* [Calibre 3.43](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
 * [Sugarizer Server 1.1.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1657](https://github.com/iiab/iiab/pull/1657)</sub></sub>
 * [MediaWiki 1.32.1](https://mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_
 * [Elgg 2.3.12 LTS](https://github.com/Elgg/Elgg/blob/2.3.11/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1607](https://github.com/iiab/iiab/pull/1607)</sub></sub>
