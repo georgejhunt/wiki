@@ -24,8 +24,8 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 |:--------:|:-----------------------------:|-----------------------------------------|
 | TCP      | 22                            | sshd                                    |
 | TCP      | 80                            | web server                              |
-| UDP      | 137, 138                      | samba (optional)                        |
-| TCP      | 139, 445                      | samba (optional)                        |
+| UDP      | 137, 138                      | samba                                   |
+| TCP      | 139, 445                      | samba                                   |
 | TCP      | 631                           | cups (printing)                         |
 | TCP      | 873                           | xinetd (xs-rsync, for legacy XOs)       |
 | TCP      | 1880                          | nodered                                 |
