@@ -31,6 +31,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 | TCP      | 3000                          | kiwix-serve                             |
 | TCP      | 3128                          | squid / dansguardian                    |
 | TCP      | 3130                          | squid                                   |
+| TCP      | 4244                          | internetarchive                         |
 | TCP      | 4369, 5222, 5223, 5280, 47893 | ejabberd OR ejabberd-xs                 |
 | TCP      | 5060, 5160, 5161, 10000-20000 | pbx (Asterisk & FreePBX)                |
 | UDP      | 5353                          | avahi, mDNS, bonjour                    |
