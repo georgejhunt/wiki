@@ -12,11 +12,13 @@ The install will try to find other devices for use with the LAN and if found
 defaults to "Gateway" mode. You need to make some adjustments to be able to use
 "LAN Controller" as it will use all available [network interfaces](https://github.com/iiab/iiab/wiki/IIAB-Platforms#network-adapters).
 
-### IP Addresses
+### Know Your Topology (and IP Addresses)
 
-The IP address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices and always has the IP address 172.18.96.1, a legacy of the practice established by OLPC.  Remember, as some are confused by this, that 172.18.96.1 (AKA box.lan, or simply box) is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
+The IP address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices, and always has the IP address 172.18.96.1, a legacy of the practice established by OLPC.  Remember, as some are confused by this, that 172.18.96.1 (AKA box.lan, or simply box) is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
 
-If you're going to use a wired Ethernet as LAN (i.e. slave to the bridge) it needs to be connected during IIAB's install.  Likewise if your wired Ethernet LAN is not connected during boot, you may experience a 2 min delay similar to [#1634](https://github.com/iiab/iiab/pull/1634).
+WARNING: before running IIAB's [network](https://github.com/iiab/iiab/tree/master/roles/network#network-readme) role (which is part of installing IIAB) you need to connect your routers / access points per their final "in-field" configuration, and ensure they're all turned on!
+
+EXAMPLE: If you're going to use a wired Ethernet on the LAN-side (i.e. as a slave to the br0 bridge, for client devices) it needs to be connected during IIAB's install.  ADDITIONAL WARNING: if that wired Ethernet LAN is not connected during boot, you may experience a 2-minute delay similar to [#1634](https://github.com/iiab/iiab/pull/1634) after IIAB is installed.
 
 ### List of Ports / Services
 
