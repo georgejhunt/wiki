@@ -16,6 +16,8 @@ defaults to "Gateway" mode. You need to make some adjustments to be able to use
 
 The IP address of the WAN device will normally be assigned by whatever device manages your network, though it is possible to set a fixed address.  The LAN in both Gateway and LAN Controller modes is a bridge with one or more devices and always has the IP address 172.18.96.1, a legacy of the practice established by OLPC.  Remember, as some are confused by this, that 172.18.96.1 (AKA box.lan, or simply box) is not visible on the WAN, but only on the LAN, and will be used by all devices in the bridge whether wireless or wired.
 
+If you're going to use a wired Ethernet as LAN (i.e. slave to the bridge) it needs to be connected during IIAB's install.  Likewise if your wired Ethernet LAN is not connected during boot, you may experience a 2 min delay similar to https://github.com/iiab/iiab/pull/1634
+
 ### List of Ports / Services
 
 Many of the port numbers below can be changed when installing IIAB.  If you need to do this, look over the default ports in [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml), and then override those that are necessary within [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
