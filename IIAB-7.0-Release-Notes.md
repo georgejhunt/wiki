@@ -47,7 +47,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What might future versions bring?
 
 * New commands like `iiab-diagnostics` can speed up remote support by 10X in many situations, ETA June 2019.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
-* Bluetooth for the Internet-in-a-Box operator especially!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
+* Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 
 ### Known Issues
