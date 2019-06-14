@@ -32,7 +32,6 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * Internet-in-a-Box installation (http://download.iiab.io) is much more self-explanatory, hiding the details of [Ansible 2.8](https://docs.ansible.com/ansible/devel/porting_guides/porting_guide_2.8.html) so implementers can focus on [content curation](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) instead!  <sub><sub>[#1028](https://github.com/iiab/iiab/issues/1028)</sub></sub>
   * Fix your Internet-in-a-Box's date and time automatically, when a nearby smartphone visits your IIAB home page (http://box).  <sub><sub>[#1680](https://github.com/iiab/iiab/issues/1680)</sub></sub>
   * Your IIAB's firewall (iptables) and remote connections (OpenVPN) are much easier to set up.  <sub><sub>[PR #1654](https://github.com/iiab/iiab/pull/1654)</sub></sub> <sub><sub>[PR #1677](https://github.com/iiab/iiab/pull/1677)</sub></sub>
-  * New commands like `iiab-diagnostics` can speed up remote support by 10X in many situations, ETA June 2019.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
 * [Kolibri 0.12.3](https://github.com/iiab/iiab/tree/master/roles/kolibri) (<!--[Announcement](https://medium.com/kolibri-releases), -->[Release Notes](https://github.com/learningequality/kolibri/blob/v0.12.0/CHANGELOG.rst#0120), [Changelog](https://github.com/learningequality/kolibri/releases), [User Guide](https://kolibri.readthedocs.io/)) with new Physics/Chemistry LibreTexts, and URL _box/kolibri_  <sub><sub>[#1545](https://github.com/iiab/iiab/issues/1545)</sub></sub> <sub><sub>[#1608](https://github.com/iiab/iiab/issues/1608)</sub></sub>
 * [Nextcloud 15.0.8+](https://nextcloud.com/changelog/#latest15) or [Nextcloud 16.0.1+](https://nextcloud.com/changelog/#latest16) if your GNU/Linux OS is recent enough to support PHP 7.1+, with 15.0.9 and 16.0.2 expected late June ([blog](https://nextcloud.com/blog/)) with URL _box/nextcloud_  <sub><sub>[#1614](https://github.com/iiab/iiab/pull/1614)</sub></sub> <sub><sub>[PR #1667](https://github.com/iiab/iiab/pull/1667)</sub></sub>
 * [Lokole 0.4.2](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
@@ -47,6 +46,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What might future versions bring?
 
+* New commands like `iiab-diagnostics` can speed up remote support by 10X in many situations, ETA June 2019.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
 * Bluetooth for the Internet-in-a-Box operator especially!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 
