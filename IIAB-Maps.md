@@ -9,8 +9,11 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 - Zoomable, detailed maps (14 levels of vector zoom, works well up to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
 - OpenStreetMap content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
-- Self-contained IIAB Map Packs (about 4-to-23 GB each) offering complete continents, Central America, or the Middle East
-  - Or the entire World now fits within 53 GB!
+- Self-contained IIAB Map Packs (about 4-to-23 GB each) are now packaged up and available for:
+  - Major Continents
+  - The Middle East
+  - Central America & the Caribbean
+  - The Entire World, which now fits within ~53 GB
 
 Live Demo: http://iiab.me/maps
 
