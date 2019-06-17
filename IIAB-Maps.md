@@ -74,7 +74,7 @@ _INVITATION: If you can help ongoing efforts to polish maps for children in offl
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
-- Description of Map Packs (on your IIAB Home Pack) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
+- Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) something!
 
