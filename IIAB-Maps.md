@@ -13,7 +13,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Or the entire World now fits within 53 GB!
 - Live Demo: http://iiab.me/maps
 
-How do I install these IIAB Maps?  Read on!
+Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri and Mir Rodríguez Lombardo who made this possible!
 
 ## How do I install an IIAB Map Pack for my region?
 
