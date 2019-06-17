@@ -1,0 +1,88 @@
+# Internet-in-a-Box (IIAB) Maps
+
+## _DRAFT_
+
+[Internet-in-a-Box](http://Internet-in-a-Box.org) (IIAB) provides offline Map Packs that are like Google Maps but better, for schools especially, as they work offline and avoid all the advertising.
+
+These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, including satellite photos:
+
+- Zoomable, detailed maps (14 levels of vector zoom, works well up to 18 levels of zoom)
+- Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
+- OpenStreetMap content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- Self-contained IIAB Map Packs (about 4-to-23 GB each) offering complete continents, Central America, or the Middle East
+  - Or the entire World now fits within 53 GB!
+- Live Demo: http://iiab.me/maps
+
+How do I install these IIAB Maps?  Read on!
+
+## How do I install an IIAB Map Pack for my region?
+
+1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
+
+2. Use its Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click Install Content (on top) > Get Map Region (on the left).
+
+3. Pick a checkbox on the left to download, unpack and install the Map Region (Map Pack) you want.  As you hover (mouse over) the choices on the left, colorful bounding boxes light up on the world map on the right &mdash; to help you choose the Map Pack most suitable for your region:
+
+   - As of June 2019 you can choose among the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
+
+4. After making your choice, kick off your Map Pack download/installation using the 'Install Selected Region' button.
+
+   - Please be patient as this can sometimes take a few hours, depending on your Internet connection etc!  You can monitor the progress by clicking Utilities (on top) > Display Job Status (on the left).
+
+   - Here's a working example/sample of IIAB maps in action, so you know how they'll appear after your chosen Map Pack installs itself: http://iiab.me/maps
+
+5. Once your Map Pack is installed, try it at http://box/maps &mdash; and also look over your new IIAB home page (typically http://box, or http://172.18.96.1, or http://box.local) where a new Content Pack should appear, briefly describing the Map Pack you installed &mdash; for students and teachers to click on!
+
+_Thank for your help evolving this into a continuously more friendly community product!_
+
+_Usability Engineering begins here &mdash; thanks all who can assist &mdash; improving this for schools worldwide._
+
+_Internet-in-a-Box a volunteer community that greatly welcomes your [suggestions and contributions](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) !_
+
+### How do I upgrade an IIAB Map Pack?
+
+In the weeks/months after installing your a IIAB Map Pack, you might have noticed that a new one was published, by perusing these "map catalog" links showing the latest available:
+
+- https://archive.org/search.php?query=osm-vector&sort=-publicdate
+- http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
+- https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json (out of date?)
+
+Just for now (as of June 2019, IIAB 7.0) the process of upgrading to the latest IIAB Map Pack needs to be done manually:
+
+1. Back up your IIAB using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
+2. Delete your existing/installed Map Pack from `/library/www/osm-vector-maps` &mdash; e.g. a directory like en-osm-omt_africa_2017-07-03_v0.2 (containing about many gigabytes)
+3. Use a text editor like nano to remove the deleted Map Pack's stanza from `/library/www/html/common/assets/vector-map-idx.json`
+4. Run this 7-line recipe to upgrade all your IIAB software:
+```
+sudo su -
+
+cd /opt/iiab/iiab
+git pull
+./iiab-install --reinstall    # takes about 20+ min (or run "./runrole osm-vector-maps" which is faster)
+
+cd /opt/iiab/iiab-admin-console
+git pull
+./install                     # takes about 3-5 min
+```
+5. Follow the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region
+6. Clean up or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (http://box) as necessary.
+
+### What might future IIAB Maps bring?
+
+- Description of Map Packs (on your IIAB Home Pack) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
+- http://box/maps/maplist/ shows a visual catalog of what maps were available (around the time your IIAB was originally installed...but perhaps it should show more?)
+- https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
+- ...
+
+### Software (Source Code)
+
+- https://github.com/iiab/maps
+
+### Links & Advanced Topics
+
+- [FAQ.IIAB.IO](http://FAQ.IIAB.IO) > ["How do I add zoomable maps for my region?"](http://FAQ.IIAB.IO#How_do_I_add_zoomable_maps_for_my_region.3F)
+- History And Architecture: https://github.com/iiab/maps/blob/master/docs/README.md
+- "Make your own IIAB Map Pack" notes are emerging: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
+- Original Design 1: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
+- Original Design 2: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
+- Other docs about IIAB Map: https://github.com/iiab/iiab/issues/1710
