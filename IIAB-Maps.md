@@ -17,8 +17,6 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 
 Live Demo: http://iiab.me/maps
 
-Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who made this all possible!
-
 ## How do I install an IIAB Map Pack for my region?
 
 1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
@@ -77,6 +75,8 @@ _Thanks for your help evolving this into a continuously more friendly community 
 - Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) something!
+
+Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who made this all possible so far!
 
 ## Software (Source Code)
 
