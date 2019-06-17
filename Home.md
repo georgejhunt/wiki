@@ -10,6 +10,8 @@ See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS an
 
 After installing IIAB, use the Admin Console (http://box.lan/admin) to refine server apps, download content and arrange a friendly home page (http://box.lan) for your entire community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
 
+Most IIAB implementers will also want to install [IIAB Maps](https://github.com/iiab/iiab/wiki/IIAB-Maps) as suited to their region of continent.
+
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
 **_Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that [greatly welcomes contributors](http://wiki.laptop.org/go/IIAB/FAQ#How_can_I_help.3F) from all corners of the planet._**
