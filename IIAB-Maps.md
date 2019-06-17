@@ -47,7 +47,9 @@ In the weeks/months after installing your IIAB Map Pack, you might notice that a
 Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Map Pack needs to be done manually:
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
+
 2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a sub-directory named something like `en-osm-omt_africa_2017-07-03_v0.2` &mdash; that should contain many gigabytes.
+
 3. Use a text editor like `nano` to remove the deleted Map Pack's stanza (all 8 lines of it) from:
 
     `/library/www/html/common/assets/vector-map-idx.json`
@@ -66,8 +68,9 @@ Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Ma
     ./install                     # takes about 3-5 min
     ```
 
-5. Follow the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region
-6. Clean up or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (http://box) as necessary.
+5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region
+
+6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary.
 
 ## What might future IIAB Maps bring?
 
