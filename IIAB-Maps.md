@@ -33,12 +33,6 @@ How do I install these IIAB Maps?  Read on!
 
 5. Once your Map Pack is installed, try it at http://box/maps &mdash; and also look over your new IIAB home page (typically http://box, or http://172.18.96.1, or http://box.local) where a new Content Pack should appear, briefly describing the Map Pack you installed &mdash; for students and teachers to click on!
 
-_Thank for your help evolving this into a continuously more friendly community product!_
-
-_Usability Engineering begins here &mdash; thanks all who can assist &mdash; improving this for schools worldwide._
-
-_Internet-in-a-Box a volunteer community that greatly welcomes your [suggestions and contributions](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) !_
-
 ## How do I upgrade an IIAB Map Pack?
 
 In the weeks/months after installing your a IIAB Map Pack, you might have noticed that a new one was published, by perusing these "map catalog" links showing the latest available:
@@ -71,9 +65,13 @@ Just for now (as of June 2019, IIAB 7.0) the process of upgrading to the latest 
 
 ## What might future IIAB Maps bring?
 
-- Description of Map Packs (on your IIAB Home Pack) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
-- http://box/maps/maplist/ shows a visual catalog of what maps were available (around the time your IIAB was originally installed...but perhaps it should show more?)
+_INVITATION: If you can help ongoing efforts to polish maps for children in offline schools in all countries, directly contributing to [beautifying OpenStreetMap (VIDEO)](https://youtu.be/HJub6U_U7Mg) thereby bringing Earth to life for all, Thank You!  Read more at ([#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)) and please do [get in touch](#What_are_the_best_places_for_community_support.3F) to learn more!_
+
+_Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
+
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
+- Description of Map Packs (on your IIAB Home Pack) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
+- http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) something!
 
 ## Software (Source Code)
