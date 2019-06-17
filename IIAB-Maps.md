@@ -13,7 +13,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Major Continents
   - The Middle East
   - Central America & the Caribbean
-  - The Entire World, which now fits within ~53 GB
+  - The Entire World (which now fits within ~53 GB!)
 
 Live Demo: http://iiab.me/maps
 
