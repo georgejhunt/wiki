@@ -45,7 +45,7 @@ In the weeks/months after installing your IIAB Map Pack, you might have noticed 
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json (out of date?)
 
-Just for now (as of June 2019, IIAB 7.0) the process of upgrading to the latest IIAB Map Pack needs to be done manually:
+Just for now (as of June 2019, for IIAB 7.0) the process of upgrading to the latest IIAB Map Pack needs to be done manually:
 
 1. Back up your IIAB using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 2. Delete your existing/installed Map Pack from `/library/www/osm-vector-maps` &mdash; e.g. a directory like en-osm-omt_africa_2017-07-03_v0.2 (containing about many gigabytes)
