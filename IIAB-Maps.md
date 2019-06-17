@@ -37,14 +37,14 @@ Live Demo: http://iiab.me/maps
 
 ## How do I upgrade an IIAB Map Pack?
 
-In the weeks/months after installing your IIAB Map Pack, you might notice that a new Map Pack is published, if you monitor these "map catalog" links showing the latest available, and that you want to try it out:
+In the weeks/months after installing your IIAB Map Pack, you might notice that a new Map Pack is published, e.g. if you monitor these "map catalog" links showing the latest available:
 
 - https://archive.org/search.php?query=osm-vector&sort=-publicdate
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
 - https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(out of date?)_
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(out of date?)_
 
-Just for now (as of June 2019, for IIAB 7.0) this process of upgrading an IIAB Map Pack needs to be done manually:
+Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Map Pack needs to be done manually:
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a directory like en-osm-omt_africa_2017-07-03_v0.2 that typically contains many gigabytes
