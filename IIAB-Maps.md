@@ -41,6 +41,7 @@ In the weeks/months after installing your IIAB Map Pack, you might have noticed 
 
 - https://archive.org/search.php?query=osm-vector&sort=-publicdate
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
+- https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(out of date?)_
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(out of date?)_
 
 Just for now (as of June 2019, for IIAB 7.0) the process of upgrading to the latest IIAB Map Pack needs to be done manually:
