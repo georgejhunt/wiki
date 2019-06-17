@@ -25,7 +25,7 @@ Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir R
 
    - As of June 2019 you can choose among the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
 
-4. After making your choice, kick off your Map Pack download/installation using the 'Install Selected Region' button.
+4. After making your choice, kick off your Map Pack download/installation using the 'Install Selected Region' button:
 
    - Please be patient as this can sometimes take a few hours, depending on your Internet connection etc!  You can monitor the progress by clicking Utilities (on top) > Display Job Status (on the left).
 
@@ -35,7 +35,7 @@ Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir R
 
 ## How do I upgrade an IIAB Map Pack?
 
-In the weeks/months after installing your a IIAB Map Pack, you might have noticed that a new one was published, by perusing these "map catalog" links showing the latest available:
+In the weeks/months after installing your IIAB Map Pack, you might have noticed that a new one was published, by perusing these "map catalog" links showing the latest available:
 
 - https://archive.org/search.php?query=osm-vector&sort=-publicdate
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
