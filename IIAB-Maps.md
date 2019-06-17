@@ -47,7 +47,7 @@ In the weeks/months after installing your IIAB Map Pack, you might have noticed 
 
 Just for now (as of June 2019, for IIAB 7.0) the process of upgrading to the latest IIAB Map Pack needs to be done manually:
 
-1. Back up your IIAB using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
+1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a directory like en-osm-omt_africa_2017-07-03_v0.2 that typically contains many gigabytes
 3. Use a text editor like nano to remove the deleted Map Pack's stanza from `/library/www/html/common/assets/vector-map-idx.json`
 4. Run this 7-line recipe to upgrade all your IIAB software:
