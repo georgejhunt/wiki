@@ -39,7 +39,7 @@ _Usability Engineering begins here &mdash; thanks all who can assist &mdash; imp
 
 _Internet-in-a-Box a volunteer community that greatly welcomes your [suggestions and contributions](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) !_
 
-### How do I upgrade an IIAB Map Pack?
+## How do I upgrade an IIAB Map Pack?
 
 In the weeks/months after installing your a IIAB Map Pack, you might have noticed that a new one was published, by perusing these "map catalog" links showing the latest available:
 
@@ -53,36 +53,38 @@ Just for now (as of June 2019, IIAB 7.0) the process of upgrading to the latest 
 2. Delete your existing/installed Map Pack from `/library/www/osm-vector-maps` &mdash; e.g. a directory like en-osm-omt_africa_2017-07-03_v0.2 (containing about many gigabytes)
 3. Use a text editor like nano to remove the deleted Map Pack's stanza from `/library/www/html/common/assets/vector-map-idx.json`
 4. Run this 7-line recipe to upgrade all your IIAB software:
-```
-sudo su -
 
-cd /opt/iiab/iiab
-git pull
-./iiab-install --reinstall    # takes about 20+ min (or run "./runrole osm-vector-maps" which is faster)
+    ```
+    sudo su -
 
-cd /opt/iiab/iiab-admin-console
-git pull
-./install                     # takes about 3-5 min
-```
+    cd /opt/iiab/iiab
+    git pull
+    ./iiab-install --reinstall    # takes about 20+ min (or run "./runrole osm-vector-maps" which is faster)
+
+    cd /opt/iiab/iiab-admin-console
+    git pull
+    ./install                     # takes about 3-5 min
+    ```
+
 5. Follow the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region
 6. Clean up or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (http://box) as necessary.
 
-### What might future IIAB Maps bring?
+## What might future IIAB Maps bring?
 
 - Description of Map Packs (on your IIAB Home Pack) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
 - http://box/maps/maplist/ shows a visual catalog of what maps were available (around the time your IIAB was originally installed...but perhaps it should show more?)
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
-- ...
+- Please [suggest](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) something!
 
-### Software (Source Code)
+## Software (Source Code)
 
 - https://github.com/iiab/maps
 
-### Links & Advanced Topics
+## Links & Advanced Topics
 
 - [FAQ.IIAB.IO](http://FAQ.IIAB.IO) > ["How do I add zoomable maps for my region?"](http://FAQ.IIAB.IO#How_do_I_add_zoomable_maps_for_my_region.3F)
 - History And Architecture: https://github.com/iiab/maps/blob/master/docs/README.md
 - "Make your own IIAB Map Pack" notes are emerging: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
 - Original Design 1: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
 - Original Design 2: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
-- Other docs about IIAB Map: https://github.com/iiab/iiab/issues/1710
+- Other docs about IIAB Maps: https://github.com/iiab/iiab/issues/1710
