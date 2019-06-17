@@ -4,14 +4,15 @@
 
 [Internet-in-a-Box](http://Internet-in-a-Box.org) (IIAB) provides offline Map Packs that are like Google Maps but better, for schools especially, as they work offline and avoid all the advertising.
 
-These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, including satellite photos:
+These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos as of June 2019:
 
 - Zoomable, detailed maps (14 levels of vector zoom, works well up to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
 - OpenStreetMap content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
 - Self-contained IIAB Map Packs (about 4-to-23 GB each) offering complete continents, Central America, or the Middle East
   - Or the entire World now fits within 53 GB!
-- Live Demo: http://iiab.me/maps
+
+Live Demo: http://iiab.me/maps
 
 Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who made this all possible!
 
