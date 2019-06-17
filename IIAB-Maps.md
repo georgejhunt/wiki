@@ -33,7 +33,7 @@ Live Demo: http://iiab.me/maps
 
    - Here's a working example/sample of IIAB maps in action, so you know how they'll appear after your chosen Map Pack installs itself, including fully-zoomable details for all continents in this case: http://iiab.me/maps
 
-5. Once your Map Pack is installed, try it at http://box/maps &mdash; and also look over your new IIAB home page (typically http://box, or http://172.18.96.1, or http://box.local) where a new Content Pack should appear, briefly describing the Map Pack you installed &mdash; for students and teachers to click on!
+5. Once your Map Pack is installed, try it out at http://box/maps &mdash; and also look over your new IIAB home page (typically http://box, or http://172.18.96.1, or http://box.local) where a new Content Pack should appear, briefly describing the Map Pack you installed &mdash; for students and teachers to click on!
 
 ## How do I upgrade an IIAB Map Pack?
 
