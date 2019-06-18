@@ -52,7 +52,7 @@ Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Ma
 
     `/library/www/html/common/assets/vector-map-idx.json`
 
-4. Run this 7-line recipe to upgrade all your IIAB software:
+4. Run this 7-line recipe at the Linux command-line, to upgrade all your IIAB software:
 
     ```
     sudo su -
@@ -68,7 +68,7 @@ Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Ma
 
 5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region
 
-6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary.
+6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary!
 
 ## What might future IIAB Maps bring?
 
