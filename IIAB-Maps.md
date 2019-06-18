@@ -4,7 +4,7 @@
 
 [Internet-in-a-Box](http://Internet-in-a-Box.org) (IIAB) provides offline Map Packs that are like Google Maps but better, for schools especially, as they work offline and avoid all the advertising.
 
-These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos as of June 2019:
+These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos:
 
 - Zoomable, detailed maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
@@ -13,9 +13,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Major Continents
   - The Middle East
   - Central America & the Caribbean
-  - The Entire World (which now fits within ~53 GB!)
-
-Live Demo: http://iiab.me/maps
+  - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
 
 ## How do I install an IIAB Map Pack for my region?
 
@@ -31,7 +29,7 @@ Live Demo: http://iiab.me/maps
 
    - Please be patient as this can sometimes take a few hours, depending on your Internet connection etc!  You can monitor the progress by clicking Utilities (on top) > Display Job Status (on the left).
 
-   - Here's a working example/sample of IIAB maps in action, so you know how they'll appear after your chosen Map Pack installs itself, including fully-zoomable details for all continents in this case: http://iiab.me/maps
+   - Here's a working example of IIAB maps in action, so you know how they'll appear after your chosen Map Pack unpacks and installs itself, including fully-zoomable details of all continents in this example: http://iiab.me/maps
 
 5. Once your Map Pack is installed, try it out at http://box/maps &mdash; and also look over your new IIAB home page (typically http://box, or http://172.18.96.1, or http://box.local) where a new Content Pack should appear, briefly describing the Map Pack you installed &mdash; for students and teachers to click on!
 
