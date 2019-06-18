@@ -72,14 +72,14 @@ Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Ma
 
 ## What might future IIAB Maps bring?
 
-_INVITATION: If you can help ongoing efforts to polish maps for children in offline schools in all countries, directly contributing to [beautifying OpenStreetMap (VIDEO)](https://youtu.be/HJub6U_U7Mg) thereby bringing Earth to life for all, Thank You!  Read more at ([#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)) and please do [get in touch](#What_are_the_best_places_for_community_support.3F) to learn more!_
+_INVITATION: If you can help ongoing efforts to polish maps for children in offline schools in all countries, directly contributing to [beautifying OpenStreetMap (VIDEO)](https://youtu.be/HJub6U_U7Mg) thereby bringing Earth to life for all, Thank You!  Read more at ([#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)) and please do [get in touch](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) to learn more!_
 
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
 - Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
-- Please [suggest](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F) something!
+- Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) something!
 
 Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who made this all possible so far!
 
