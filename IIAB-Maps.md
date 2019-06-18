@@ -77,7 +77,7 @@ _INVITATION: If you can help ongoing efforts to polish maps for children in offl
 
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
-- Map issues currently being discussed or worked on: https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
+- Map issues (and pull requests) currently being discussed or worked on: https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
 - http://box/maps causes Chrome to crash rather often on Android, and the user experience could use improvement: [#1728](https://github.com/iiab/iiab/issues/1728)
 - Individual .mbtiles Map Packs (e.g. smaller map regions, for cities, countries, etc) might in future be directly downloadable to your IIAB, as new ones are published here: https://openmaptiles.com/downloads/planet/
 - Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly by combining their .mbtiles files into a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region), similar to what Jérôme Gagnon-Voyer proposed in his original design doc (listed at the bottom of this page).
