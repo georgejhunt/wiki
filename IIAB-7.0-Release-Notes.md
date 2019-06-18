@@ -42,7 +42,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Calibre-Web 0.6.3](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's, with URL _box/books_  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub> <sub><sub>[#1624](https://github.com/iiab/iiab/issues/1624)</sub></sub>
 * [Calibre 3.44](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
 * [Sugarizer Server 1.1.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1657](https://github.com/iiab/iiab/pull/1657)</sub></sub>
-* [MediaWiki 1.32.1](https://mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_
+* [MediaWiki 1.32.2](https://mediawiki.org/wiki/Release_notes/1.32) with URL _box/mediawiki_
 * [Elgg 2.3.13 LTS](https://github.com/Elgg/Elgg/blob/2.3.13/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1730](https://github.com/iiab/iiab/pull/1730)</sub></sub>
 
 ### What might future versions bring?
