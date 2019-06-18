@@ -83,7 +83,7 @@ _Thanks for your help evolving this into a continuously more friendly community 
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) the highest priority mapmaking needs and/or how you might help!
 
-Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & earlier contributors like Braddock Gaskill who've this tremendous progress possible!
+Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & earlier contributors like Braddock Gaskill who've made this tremendous progress possible!
 
 ## Software (Source Code)
 
