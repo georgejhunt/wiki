@@ -8,7 +8,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 
 - Zoomable, detailed maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
-- OpenStreetMap content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- [OpenStreetMap](https://www.openstreetmap.org/) content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
 - Self-contained IIAB Map Packs (about 4-to-23 GB each) are now packaged up and available for:
   - Major Continents
   - The Middle East
@@ -77,7 +77,9 @@ _INVITATION: If you can help ongoing efforts to polish maps for children in offl
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
-- Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc
+- Individual .mbtiles Map Packs (e.g. smaller map regions, for cities, countries, etc) might in future be directly downloadable to your IIAB, as new ones are published here: https://openmaptiles.com/downloads/planet/
+- Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly combining their .mbtiles files a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region).
+- Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc.
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) something!
 
