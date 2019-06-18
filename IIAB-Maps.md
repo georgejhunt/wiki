@@ -13,6 +13,8 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Central America & the Caribbean
   - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
 
+This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
+
 ## How do I install an IIAB Map Pack for my region?
 
 1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
@@ -40,7 +42,7 @@ In the weeks/months after installing your IIAB Map Pack, you might notice that a
 - https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(out of date?)_
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(out of date?)_
 
-Just for now (as of June 2019, for IIAB 7.0) the process of upgrading an IIAB Map Pack needs to be done manually:
+Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)) the process of upgrading an IIAB Map Pack needs to be done manually:
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 
@@ -87,7 +89,7 @@ Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and J
 
 More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in Sept 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
 
-Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & others who are making this tremendous, ongoing progress possible!
+Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & other volunteer professionals who are making this tremendous, ongoing progress possible!
 
 ## Software (Source Code)
 
