@@ -1,7 +1,5 @@
 # Internet-in-a-Box (IIAB) Maps
 
-## _DRAFT_
-
 [Internet-in-a-Box](http://Internet-in-a-Box.org) (IIAB) provides offline Map Packs that are like Google Maps but better, for schools especially, as they work offline and avoid all the advertising.
 
 These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos:
@@ -83,7 +81,13 @@ _Thanks for your help evolving this into a continuously more friendly community 
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) the highest priority mapmaking needs and/or how you might help!
 
-Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & earlier contributors like Braddock Gaskill who've made this tremendous progress possible!
+## Credits
+
+Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and Joel Steres in 2012-2015.
+
+More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in Sept 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
+
+Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who are making this tremendous, ongoing progress possible!
 
 ## Software (Source Code)
 
