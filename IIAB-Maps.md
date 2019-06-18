@@ -7,7 +7,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 - Zoomable, detailed maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
 - [OpenStreetMap](https://www.openstreetmap.org/) content updates approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
-- Self-contained IIAB Map Packs (about 4-to-23 GB each) are now packaged up and available for:
+- Attractive IIAB Map Packs (about 4-to-23 GB each) are now available for:
 
   - Major Continents
   - The Middle East
@@ -78,6 +78,7 @@ _INVITATION: If you can help ongoing efforts to polish maps for children in offl
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
 - Map issues currently being discussed or worked on: https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
+- http://box/maps causes Chrome to crash rather often on Android, and the user experience could use improvement: [#1728](https://github.com/iiab/iiab/issues/1728)
 - Individual .mbtiles Map Packs (e.g. smaller map regions, for cities, countries, etc) might in future be directly downloadable to your IIAB, as new ones are published here: https://openmaptiles.com/downloads/planet/
 - Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly by combining their .mbtiles files into a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region), similar to what Jérôme Gagnon-Voyer proposed in his original design doc (listed at the bottom of this page).
 - Descriptions of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc.
