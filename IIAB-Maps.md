@@ -14,7 +14,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Central America & the Caribbean
   - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
 
-This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
+This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see the [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
 
 ## How do I install an IIAB Map Pack for my region?
 
