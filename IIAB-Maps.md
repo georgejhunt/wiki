@@ -20,7 +20,7 @@ This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & 
 
 1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
 
-2. Use its Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click `Install Content` (on top) > `Get Map Region` (on the left).
+2. Use IIAB's Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click `Install Content` (on top) > `Get Map Region` (on the left).
 
 3. Pick a checkbox on the left to download, unpack and install the Map Region (Map Pack) you want.  As you hover (mouse over) the choices on the left, colorful bounding boxes light up on the world map on the right &mdash; to help you choose the Map Pack most suitable for your region:
 
