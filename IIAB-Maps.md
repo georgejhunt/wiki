@@ -97,5 +97,6 @@ Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir R
 - "Make your own IIAB Map Pack" notes are emerging: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
 - Original Design 1: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
 - Original Design 2: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
+- Legacy instructions for Sept 2018's IIAB 6.6: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/README.md
 - "Package up vector-based OSM maps" task list: https://github.com/iiab/iiab/issues/877#issuecomment-405935272
 - Living Docs for IIAB 7.0 Maps: https://github.com/iiab/iiab/issues/1710
