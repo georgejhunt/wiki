@@ -79,7 +79,7 @@ _Thanks for your help evolving this into a continuously more friendly community 
 - https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
 - Individual .mbtiles Map Packs (e.g. smaller map regions, for cities, countries, etc) might in future be directly downloadable to your IIAB, as new ones are published here: https://openmaptiles.com/downloads/planet/
 - Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly combining their .mbtiles files a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region).
-- Description of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc.
+- Descriptions of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc.
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
 - Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) something!
 
