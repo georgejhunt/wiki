@@ -43,7 +43,9 @@ In the weeks/months after installing your IIAB Map Pack, you might notice that a
 - https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(out of date?)_
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(out of date?)_
 
-Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)) the process of upgrading an IIAB Map Pack needs to be done manually:
+In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.
+
+Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)) the process of upgrading an IIAB Map Pack needs to be done manually, following these instructions:
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 
