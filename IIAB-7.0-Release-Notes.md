@@ -50,6 +50,16 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 
+### Credits
+
+Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria.  To serve One & All.  Building on this software and designs contributed by T.K. Kang, Eric Nitschke, César López-Natarén, Joshua Kanani, Josh Dennis, Arky R., Matt Johnson, James Heilman, Sam Zidovetzki, Reno McKenzie, Anish Mangal, Avni Khatri, Blondel Mondésir, George Hunt, Tim Moody, Jerry Vonau, Adam Holt &mdash; among many others!
+
+_Not just in your own community &mdash; but by keeping in touch with our global volunteer community network ([http://OFF.NETWORK](http://OFF.NETWORK)) each of you are providing the lifeblood "fieldback" &mdash; that keeps us motivated enabling Internet-in-a-Box's quality content collaborations across ALL communities!_
+
+Join our Thursday calls if you too can help: [MINUTES.IIAB.IO](http://MINUTES.IIAB.IO)
+
+Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
+
 ### Known Issues
 
 * IIAB's home page (http://box) will not display in browsers like Windows 7's Internet Explorer 11.  Please install a modern browser e.g. Firefox or Chrome ([js-menu](https://github.com/iiab/iiab-admin-console/tree/master/roles/js-menu) requires a more recent version of JavaScript).  <sub><sub>[#1517](https://github.com/iiab/iiab/issues/1517)</sub></sub>
