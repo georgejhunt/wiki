@@ -87,7 +87,7 @@ Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and J
 
 More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in Sept 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
 
-Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & others who are making this tremendous, ongoing progress possible!
+Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & others who are making this tremendous, ongoing progress possible!
 
 ## Software (Source Code)
 
@@ -96,11 +96,15 @@ Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodrígue
 
 ## Links & Advanced Topics
 
+In reverse chronological order:
+
 - [FAQ.IIAB.IO](http://FAQ.IIAB.IO) > ["How do I add zoomable maps for my region?"](http://FAQ.IIAB.IO#How_do_I_add_zoomable_maps_for_my_region.3F)
-- History And Architecture: https://github.com/iiab/maps/blob/master/docs/README.md
-- "Make your own IIAB Map Pack" notes are emerging: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
-- Original Design 1: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
-- Original Design 2: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
-- Legacy instructions for Sept 2018's IIAB 6.6: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/README.md
-- "Package up vector-based OSM maps" task list: https://github.com/iiab/iiab/issues/877#issuecomment-405935272
-- Living Docs for IIAB 7.0 Maps: https://github.com/iiab/iiab/issues/1710
+- Living Docs for IIAB 7.0 Maps, June 2019: https://github.com/iiab/iiab/issues/1710
+- History And Architecture, June 2019: https://github.com/iiab/maps/blob/master/docs/README.md#history-and-architecture
+- "Make your own IIAB Map Pack" draft notes, May 2019: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
+- IIAB 6.6 Guide, Sept 2018: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/README.md
+- George Hunt Design Doc 2, July 2018: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
+- "Package up vector-based OSM maps" task list, July 2018 onwards: https://github.com/iiab/iiab/issues/877#issuecomment-405935272
+- George Hunt Design Doc 1, April 2018: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
+- Jérôme Gagnon-Voyer 2015 Design Doc 2, August 2015: https://jeromegagnonvoyer.wordpress.com/2015/08/21/offline-solution-for-openstreetmap-osm/
+- Jérôme Gagnon-Voyer 2015 Design Doc 1, August 2015: https://jeromegagnonvoyer.wordpress.com/2015/08/06/merging-multiple-mbtiles-together/
