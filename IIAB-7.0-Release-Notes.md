@@ -25,6 +25,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * Beautify your IIAB home page (http://box) with new click-to-install logos for each of your Content Packs & IIAB Apps.  Rewrite any of their descriptions in your own language, also from IIAB's Admin Console (http://box.lan/admin) so students know exactly what's available to them, in their own language!  <sub><sub>[#1708](https://github.com/iiab/iiab/issues/1708)</sub></sub>
 * [Internet Archive Decentralized Web](https://dweb.archive.org/) helps you create your own offline digital library.  It includes a crawler that can regularly synchronize local collections, against a list of Internet Archive items and collections, and those collections can be moved between installations.  When connected to the internet, it works as a Proxy, i.e. it will store Internet Archive content the user views for later offline viewing.  With URL _box:4244 (box/archive in future)_  <sub><sub>[PR #1617](https://github.com/iiab/iiab/pull/1617)</sub></sub>
 * [Gitea 1.8.3](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub", with URL _box/gitea_  <sub><sub>[PR #1242](https://github.com/iiab/iiab/pull/1242)</sub></sub>
+* Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
 * Please see ["What might future versions bring?"](#what-might-future-versions-bring)
 
 ### What's Upgraded?
@@ -47,7 +48,6 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What might future versions bring?
 
 * New commands like `iiab-diagnostics` can speed up remote support by 10X in many situations, ETA June 2019.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
-* Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 
 ### Credits
