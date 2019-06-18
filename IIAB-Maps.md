@@ -76,12 +76,12 @@ _INVITATION: If you can help ongoing efforts to polish maps for children in offl
 
 _Thanks for your help evolving this into a continuously more friendly community product, as Usability Engineering begins right here &mdash; thanks to all who can assist!  Background: Internet-in-a-Box is a [volunteer community](http://internet-in-a-box.org/pages/contributing.html) that greatly welcomes your suggestions and contributions !_
 
-- https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
+- Map issues currently being discussed or worked on: https://github.com/iiab/iiab/issues?q=is%3Aopen+OSM
 - Individual .mbtiles Map Packs (e.g. smaller map regions, for cities, countries, etc) might in future be directly downloadable to your IIAB, as new ones are published here: https://openmaptiles.com/downloads/planet/
-- Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly combining their .mbtiles files a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region).
+- Multiple Map Packs might be downloadable to your IIAB, all of them viewable thru the same http://box/maps URL, possibly by combining their .mbtiles files into a single unified .mbtiles file, e.g. using [append2region](https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/append2region).
 - Descriptions of Map Packs (on your http://box IIAB Home Page) could offer more tips & tricks for teachers and students, e.g. how to search for cities etc.
 - http://box/maps/maplist/ might show more of a visual catalog of what maps were available around the time your IIAB was originally installed, or most recently updated?
-- Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) something!
+- Please [suggest](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) the highest priority mapmaking needs and/or how you might help!
 
 Thank you to George Hunt, Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo & earlier contributors like Braddock Gaskill who've this tremendous progress possible!
 
