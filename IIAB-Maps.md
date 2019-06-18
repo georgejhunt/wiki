@@ -19,15 +19,15 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 
 1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
 
-2. Use its Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click Install Content (on top) > Get Map Region (on the left).
+2. Use its Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click `Install Content` (on top) > `Get Map Region` (on the left).
 
 3. Pick a checkbox on the left to download, unpack and install the Map Region (Map Pack) you want.  As you hover (mouse over) the choices on the left, colorful bounding boxes light up on the world map on the right &mdash; to help you choose the Map Pack most suitable for your region:
 
    - As of June 2019 you can choose among the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
 
-4. After making your choice, kick off your Map Pack download/installation using the 'Install Selected Region' button:
+4. After making your choice, kick off your Map Pack download/installation using the `Install Selected Region` button:
 
-   - Please be patient as this can sometimes take a few hours, depending on your Internet connection etc!  You can monitor the progress by clicking Utilities (on top) > Display Job Status (on the left).
+   - Please be patient as this can sometimes take a few hours, depending on your Internet connection etc!  You can monitor the progress by clicking `Utilities` (on top) > `Display Job Status` (on the left).
 
    - Here's a working example of IIAB maps in action, so you know how they'll appear after your chosen Map Pack unpacks and installs itself, including fully-zoomable details of all continents in this example: http://iiab.me/maps
 
