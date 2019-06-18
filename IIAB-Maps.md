@@ -89,7 +89,7 @@ Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and J
 
 More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in Sept 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
 
-Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & other volunteer professionals who are making this tremendous, ongoing progress possible!
+Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & other volunteer professionals from the [OpenStreetMap community](https://www.openstreetmap.org/) who are making this tremendous, ongoing progress possible!
 
 ## Software (Source Code)
 
