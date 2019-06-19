@@ -26,6 +26,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Internet Archive Decentralized Web](https://dweb.archive.org/) helps you create your own offline digital library.  It includes a crawler that can regularly synchronize local collections, against a list of Internet Archive items and collections, and those collections can be moved between installations.  When connected to the internet, it works as a Proxy, i.e. it will store Internet Archive content the user views for later offline viewing.  With URL _box:4244 (box/archive in future)_  <sub><sub>[PR #1617](https://github.com/iiab/iiab/pull/1617)</sub></sub>
 * [Gitea 1.8.3](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub", with URL _box/gitea_  <sub><sub>[PR #1242](https://github.com/iiab/iiab/pull/1242)</sub></sub>
 * Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub> <sub><sub>[PR iiab/iiab-admin-console#209](https://github.com/iiab/iiab-admin-console/pull/209)</sub></sub>
+* COMING SOON: AzuraCast is a self-hosted, all-in-one radio station platform.  Use AzuraCast to schedule podcasts, music, and even do live streaming of audio content.  A variety of streaming formats are supported.
 * Please see ["What might future versions bring?"](#what-might-future-versions-bring)
 
 ### What's Upgraded?
