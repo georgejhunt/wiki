@@ -90,7 +90,12 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
 <strike>dnsmasq is _disabled_ when IIAB is in Appliance mode.  _[No longer true as of mid-2019?]</strike>_
 
-2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
+2a) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode, for the LAN clients.  dnsmasq is providing DNS lookups for the box itself.
+
+2b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf).  But all LAN clients will be using dnsmasq.
+
+<strike>dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.</strike>
+
 3) While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
 ```
 systemctl status dhcpcd              # Raspbian
