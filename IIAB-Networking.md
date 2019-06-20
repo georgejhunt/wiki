@@ -84,7 +84,7 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
 #### CLARIFICATIONS:
 
-1a) dnsmasq is providing caching name server for the IIAB post itself only, when in appliance mode (Raspbian only)
+1a) dnsmasq is providing caching name server for the IIAB box itself only, when in appliance mode (Raspbian only)
 
 1b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf)
 
