@@ -88,9 +88,10 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
 3) While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
 ```
-systemctl status dhcpcd              # e.g. on Raspbian
-systemctl status systemd-networkd    # e.g. on Debian 9 Stretch
-systemctl status systemd-resolved    # e.g. on Debian 10 Buster, Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
+systemctl status dhcpcd              # Raspbian
+systemctl status systemd-networkd    # Debian 9 Stretch
+systemctl status  ? ? ?              # Debian 10 Buster
+systemctl status systemd-resolved    # Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
 ```
 4) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
 
