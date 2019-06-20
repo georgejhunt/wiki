@@ -84,15 +84,15 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
 #### CLARIFICATIONS:
 
-1a) dnsmasq is providing caching name server for the IIAB box itself only, when in appliance mode (Raspbian only)
+(1a) dnsmasq is providing caching name server for the IIAB box itself only, when in appliance mode (Raspbian only)
 
-1b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf)
+(1b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf)
 
 <strike>dnsmasq is _disabled_ when IIAB is in Appliance mode.  _[No longer true as of mid-2019?]</strike>_
 
-2a) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode, for the LAN clients.  dnsmasq is providing DNS lookups for the box itself, on Raspbian.
+(2a) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode, for the LAN clients.  dnsmasq is providing DNS lookups for the box itself, on Raspbian.
 
-2b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf).  But all LAN clients will be using dnsmasq.
+(2b) Ubuntu 18.04's systemd-resolvd is running on 127.0.0.53 providing DNS lookups (as seen by /etc/resolv.conf).  But all LAN clients will be using dnsmasq.
 
 <strike>dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.</strike>
 
@@ -103,7 +103,7 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 <strike>`systemctl status  ? ? ?              # Debian 10 Buster`</strike><br>
 <strike>`systemctl status systemd-resolved    # Ubuntu 18.04 (see netplan.io, replacing ifupdown)`</strike>
 
-3) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
+(3) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
 
 ### Common Customizations
 
