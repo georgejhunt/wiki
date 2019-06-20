@@ -64,7 +64,7 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
     cd /opt/iiab/iiab
     git pull
-    ./iiab-install --reinstall    # takes about 20+ min (or run "./runrole osm-vector-maps" which is faster)
+    ./iiab-install --reinstall    # takes about 20+ min (or "./runrole osm-vector-maps")
 
     cd /opt/iiab/iiab-admin-console
     git pull
