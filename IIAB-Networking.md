@@ -98,9 +98,9 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
 <strike>3) While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:</strike>
 
-<strike>`systemctl status dhcpcd              # Raspbian`</strike>
-<strike>`systemctl status systemd-networkd    # Debian 9 Stretch`</strike>
-<strike>`systemctl status  ? ? ?              # Debian 10 Buster`</strike>
+<strike>`systemctl status dhcpcd              # Raspbian`</strike><br>
+<strike>`systemctl status systemd-networkd    # Debian 9 Stretch`</strike><br>
+<strike>`systemctl status  ? ? ?              # Debian 10 Buster`</strike><br>
 <strike>`systemctl status systemd-resolved    # Ubuntu 18.04 (see netplan.io, replacing ifupdown)`</strike>
 
 3) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
