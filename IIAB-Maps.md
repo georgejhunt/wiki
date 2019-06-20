@@ -55,7 +55,9 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
     `/library/www/html/common/assets/vector-map-idx.json`
 
-4. Run this 7-line recipe at the Linux command-line, to upgrade all your IIAB software:
+4. Run `git branch` and look at the outpur carefully, to make sure you're on the master branch in both of IIAB's repo directories below.
+
+   Then run this 7-line recipe at the Linux command-line, to upgrade all your IIAB software:
 
     ```
     sudo su -
