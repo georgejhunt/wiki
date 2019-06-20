@@ -51,7 +51,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * New commands like `iiab-diagnostics` speed up remote support by 10X in many situations.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
 * [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
-* For a more detailed list, see: https://github.com/iiab/iiab/milestone/6
+* For a more detailed list, see the [Internet-in-a-Box 7.1 Milestone](https://github.com/iiab/iiab/milestone/6)
 
 ### Credits
 
