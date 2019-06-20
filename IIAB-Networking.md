@@ -84,7 +84,7 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 
 #### CLARIFICATIONS:
 
-1) dnsmasq is _disabled_ when IIAB is in Appliance mode.
+1) <strike>dnsmasq is _disabled_ when IIAB was in Appliance mode.</strike>  _[No longer true as of mid-2019!]_
 2) dnsmasq provides _both DHCP and DNS server functionality_ when IIAB isn't in Appliance mode.
 3) While LAN clients use dnsmasq, IIAB boxes use one of the following to get their own DNS from upstream:
 ```
