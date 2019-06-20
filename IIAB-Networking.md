@@ -91,7 +91,7 @@ _Finally **after** your IIAB install is complete, you can monitor dnsmasq as fol
 systemctl status dhcpcd              # Raspbian
 systemctl status systemd-networkd    # Debian 9 Stretch
 systemctl status  ? ? ?              # Debian 10 Buster
-systemctl status systemd-resolved    # Ubuntu 18.04 (see also netplan.io, replacing ifupdown)
+systemctl status systemd-resolved    # Ubuntu 18.04 (see netplan.io, replacing ifupdown)
 ```
 4) On Raspbian, note that (a) systemd service `wpa_supplicant` is started by the above-mentioned `dhcpcd` service (b) your building's SSID and password can be put into /etc/wpa_supplicant/wpa_supplicant.conf by running the `raspi-config` command.
 
