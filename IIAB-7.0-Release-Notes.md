@@ -27,6 +27,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Gitea 1.8.3](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub", with URL _box/gitea_  <sub><sub>[PR #1242](https://github.com/iiab/iiab/pull/1242)</sub></sub>
 * Bluetooth access to IIAB's Admin Console, for IIAB field operators/administrators and advanced teachers!  <sub><sub>[PR #1716](https://github.com/iiab/iiab/pull/1716)</sub></sub> <sub><sub>[PR iiab/iiab-admin-console#209](https://github.com/iiab/iiab-admin-console/pull/209)</sub></sub>
 * COMING SOON: AzuraCast is a self-hosted, all-in-one radio station platform.  Use AzuraCast to schedule podcasts, music, and even do live streaming of audio content.  A variety of streaming formats are supported.  <sub><sub>[PR #1733](https://github.com/iiab/iiab/pull/1733)</sub></sub>
+* COMING SOON: [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
 * Please see ["What might future versions bring?"](#what-might-future-versions-bring)
 
 ### What's Upgraded?
@@ -49,7 +50,6 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What might future versions bring?
 
 * New commands like `iiab-diagnostics` can speed up remote support by 10X.  <sub><sub>[#1575](https://github.com/iiab/iiab/issues/1575)</sub></sub> <sub><sub>[PR #1596](https://github.com/iiab/iiab/pull/1596)</sub></sub>
-* [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 * For a more detailed list, see the [Internet-in-a-Box (IIAB) 7.1 Milestone](https://github.com/iiab/iiab/milestone/6)
 
