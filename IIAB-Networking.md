@@ -24,36 +24,36 @@ EXAMPLE: If you're going to use a wired Ethernet on the LAN-side (i.e. as a slav
 
 Many of the port numbers below can be changed when installing IIAB.  If you need to do this, look over the default ports in [default_vars.yml](https://github.com/iiab/iiab/blob/master/vars/default_vars.yml), and then override those that are necessary within [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 
-|Protocol  | Port                          |Service                                  |
-|:--------:|:-----------------------------:|-----------------------------------------|
-| TCP      | 22                                  | sshd                                    |
-| TCP      | 80                                  | web server                              |
-| TCP      | 83, 5060, 5160, 5161, 10000-20000   | pbx (Asterisk & FreePBX)                |
-| UDP      | 137, 138                            | samba                                   |
-| TCP      | 139, 445                            | samba                                   |
-| TCP      | 631                                 | cups (printing)                         |
-| TCP      | 873                                 | xinetd (xs-rsync, for legacy XOs)       |
-| TCP      | 1880                                | nodered                                 |
-| TCP      | 1883                                | mosquitto                               |
-| TCP      | 3000                                | kiwix-serve                             |
-| TCP      | 3128                                | squid / dansguardian                    |
-| TCP      | 3130                                | squid                                   |
-| TCP      | 4244                                | internetarchive                         |
-| TCP      | 4369, 5222, 5223, 5280, 47893       | ejabberd OR ejabberd-xs                 |
-| UDP      | 5353                                | avahi, mDNS, bonjour                    |
-| TCP      | 8006                                | kalite-serve-fr                         |
-| TCP      | 8007                                | kalite-serve-es                         |
-| TCP      | 8008                                | kalite-serve (English & others)         |
-| TCP      | 8009                                | kolibri                                 |
-| TCP      | 8010                                | calibre-serve (if avoiding idmgr/8080)  |
-| TCP      | 8080                                | calibre-serve OR idmgr (for legacy XOs) |
-| TCP      | 1935, 8081                          | cham video streaming server (nginx+rtmp)|
-| TCP      | 8083                                | calibre-web                             |
-| TCP      | 8089                                | sugarizer                               |
-| TCP      | 9091, 51413                         | transmission (BitTorrent downloader)    |
-| TCP      | 10000-10100, 10443                  | azuracast                               |
-| TCP      | 27018                               | mongodb (if used by Sugarizer)          |
-| UDP      | 30000                               | minetest (open source Minecraft clone)  |
+|Protocol  | Port                              |Service                                  |
+|:--------:|:---------------------------------:|-----------------------------------------|
+| TCP      | 22                                | sshd                                    |
+| TCP      | 80                                | web server                              |
+| TCP      | 83, 5060, 5160, 5161, 10000-20000 | pbx (Asterisk & FreePBX)                |
+| UDP      | 137, 138                          | samba                                   |
+| TCP      | 139, 445                          | samba                                   |
+| TCP      | 631                               | cups (printing)                         |
+| TCP      | 873                               | xinetd (xs-rsync, for legacy XOs)       |
+| TCP      | 1880                              | nodered                                 |
+| TCP      | 1883                              | mosquitto                               |
+| TCP      | 3000                              | kiwix-serve                             |
+| TCP      | 3128                              | squid / dansguardian                    |
+| TCP      | 3130                              | squid                                   |
+| TCP      | 4244                              | internetarchive                         |
+| TCP      | 4369, 5222, 5223, 5280, 47893     | ejabberd OR ejabberd-xs                 |
+| UDP      | 5353                              | avahi, mDNS, bonjour                    |
+| TCP      | 8006                              | kalite-serve-fr                         |
+| TCP      | 8007                              | kalite-serve-es                         |
+| TCP      | 8008                              | kalite-serve (English & others)         |
+| TCP      | 8009                              | kolibri                                 |
+| TCP      | 8010                              | calibre-serve (if avoiding idmgr/8080)  |
+| TCP      | 8080                              | calibre-serve OR idmgr (for legacy XOs) |
+| TCP      | 1935, 8081                        | cham video streaming server (nginx+rtmp)|
+| TCP      | 8083                              | calibre-web                             |
+| TCP      | 8089                              | sugarizer                               |
+| TCP      | 9091, 51413                       | transmission (BitTorrent downloader)    |
+| TCP      | 10000-10100, 10443                | azuracast                               |
+| TCP      | 27018                             | mongodb (if used by Sugarizer)          |
+| UDP      | 30000                             | minetest (open source Minecraft clone)  |
 
 ### Firewall (iptables)
 
