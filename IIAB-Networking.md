@@ -51,7 +51,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 | TCP      | 8083                              | calibre-web                             |
 | TCP      | 8089                              | sugarizer                               |
 | TCP      | 9091, 51413                       | transmission (BitTorrent downloader)    |
-| TCP      | 10000-10100, 10443                | azuracast                               |
+| TCP      | 10000-10100, 10080 (main), 10443  | azuracast                               |
 | TCP      | 27018                             | mongodb (if used by Sugarizer)          |
 | UDP      | 30000                             | minetest (open source Minecraft clone)  |
 
