@@ -17,7 +17,7 @@ Internet-in-a-Box brings the [Internet's crown jewels](http://internet-in-a-box.
 
 Use <b>drag-and-drop</b> to customize this "learning hotspot" with local gems too — tailored to the needs of your school, your library, your prison, your region and/or your very own family!
 
-Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) with a $35 Raspberry Pi computer, starting today?
+Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) with a $35 Raspberry Pi 4 computer, starting today?
 
 ### What's New?
 
