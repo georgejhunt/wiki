@@ -33,6 +33,8 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 | TCP      | 139, 445                          | samba                                   |
 | TCP      | 631                               | cups (printing)                         |
 | TCP      | 873                               | xinetd (xs-rsync, for legacy XOs)       |
+| UDP      | 1194                              | openvpn outgoing and not in iptables    |
+| TCP      | 1705                              | openvpn outgoing handle announcements   |        
 | TCP      | 1880                              | nodered                                 |
 | TCP      | 1883                              | mosquitto                               |
 | TCP      | 3000                              | kiwix-serve                             |
