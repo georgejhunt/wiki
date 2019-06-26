@@ -39,7 +39,6 @@ This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & 
 In the weeks/months after installing your IIAB Map Pack, you might notice that a new Map Pack is published, e.g. if you monitor this "map catalog" link showing the latest available:
 
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
-- https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json 
 
 In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.
 
