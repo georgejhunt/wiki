@@ -36,12 +36,10 @@ This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & 
 
 ## How do I upgrade an IIAB Map Pack?
 
-In the weeks/months after installing your IIAB Map Pack, you might notice that a new Map Pack is published, e.g. if you monitor these "map catalog" links showing the latest available:
+In the weeks/months after installing your IIAB Map Pack, you might notice that a new Map Pack is published, e.g. if you monitor this "map catalog" link showing the latest available:
 
-- https://archive.org/search.php?query=osm-vector&sort=-publicdate
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
-- https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(out of date?)_
-- https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(out of date?)_
+- https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json 
 
 In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.
 
@@ -50,10 +48,6 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 
 2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a sub-directory named something like `en-osm-omt_africa_2017-07-03_v0.2` &mdash; that contains many gigabytes.
-
-3. Use a text editor like `nano` to remove the deleted Map Pack's stanza (all 8 lines of it) from:
-
-    `/library/www/html/common/assets/vector-map-idx.json`
 
 4. Run `git branch` in both of IIAB's repo directories below, then look at the output carefully, to make sure you're on the master branch in both cases.
 
@@ -64,7 +58,7 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
     cd /opt/iiab/iiab
     git pull
-    ./iiab-install --reinstall    # takes about 20+ min (or "./runrole osm-vector-maps")
+    ./iiab-install --reinstall    # takes about 20+ min (or "./runrole osm-vector-maps -only 1 min")
 
     cd /opt/iiab/iiab-admin-console
     git pull
