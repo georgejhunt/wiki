@@ -74,7 +74,7 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
     ./install                     # takes about 3-5 min
     ```
 
-   _Alternative: if you're in a hurry, and you're sure you don't want to upgrade all your IIAB software (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
+   _Alternative: if you're in a hurry, and you're sure you don't want to upgrade other IIAB Apps (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
 
 5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region.
 
