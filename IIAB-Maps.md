@@ -40,9 +40,9 @@ In the weeks/months after installing your IIAB Map Pack, you might notice that a
 
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
 
-In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.  Map hackers are also sometimes interested in these underlying mechanics:
+In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically, while noting that the internal format for Map Packs may change!  If you too are a map hacker interested in contributing, please [contact us](http://wiki.laptop.org/go/IIAB/FAQ#What_are_the_best_places_for_community_support.3F), and we can explain in more detail some of the underlying mechanics of things like:
 
-- https://archive.org/search.php?query=osm-vector&sort=-publicdate _(timeline of published Map Packs, whose internal format may change!)_
+- https://archive.org/search.php?query=osm-vector&sort=-publicdate _(published Map Packs)_
 - https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(deprecated)_
 - https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(deprecated)_
 
