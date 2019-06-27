@@ -6,7 +6,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 
 - Zoomable, detailed maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom)
 - Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
-- [OpenStreetMap](https://www.openstreetmap.org/) content updated approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- [OpenStreetMap](https://www.openstreetmap.org/) content is updated approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
 - Attractive IIAB Map Packs (about 4-to-23 GB each) are now available for:
 
   - Major Continents
