@@ -98,7 +98,7 @@ _Thanks for your help evolving this into a continuously more friendly community 
 
 Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and Joel Steres in 2012-2015.
 
-More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in Sept 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
+More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in September 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
 
 Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & other volunteer professionals from the [OpenStreetMap community](https://www.openstreetmap.org/) who are making this tremendous, ongoing progress possible!
 
@@ -115,7 +115,7 @@ In reverse chronological order:
 - Living Docs for IIAB 7.0 Maps, June 2019: https://github.com/iiab/iiab/issues/1710
 - History And Architecture, June 2019: https://github.com/iiab/maps/blob/master/docs/README.md#history-and-architecture
 - "Make your own IIAB Map Pack" draft notes, May 2019: https://github.com/georgejhunt/maps/blob/simple/generate-regions/readme.md
-- IIAB 6.6 Guide, Sept 2018: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/README.md
+- IIAB 6.6 Guide, September 2018: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/README.md
 - George Hunt Design Doc 2, July 2018: https://github.com/iiab/iiab-factory/blob/master/content/vector-tiles/Design-Decisions.md
 - "Package up vector-based OSM maps" task list, July 2018 onwards: https://github.com/iiab/iiab/issues/877#issuecomment-405935272
 - George Hunt Design Doc 1, April 2018: https://github.com/georgejhunt/iiab-factory/blob/vector-maps/content/vector-tiles/Design-Decisions.md
