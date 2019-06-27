@@ -40,13 +40,23 @@ In the weeks/months after installing your IIAB Map Pack, you might notice that a
 
 - http://download.iiab.io/content/OSM/vector-tiles/maplist/assets/regions.json
 
-In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.
+In the future, IIAB Maps will use the "perma_ref" names (seen in regions.json above) to allow you to upgrade Map Packs more automagically.  Map hackers are also sometimes interested in these underlying mechanics:
+
+- https://archive.org/search.php?query=osm-vector&sort=-publicdate
+- https://github.com/georgejhunt/maps/blob/new-bboxes/resources/regions.json _(deprecated)_
+- https://github.com/iiab/maps/blob/master/osm-source/ukids/assets/regions.json _(deprecated)_
 
 Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)) the process of upgrading an IIAB Map Pack needs to be done manually, following these instructions:
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 
 2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a sub-directory named something like `en-osm-omt_africa_2017-07-03_v0.2` &mdash; that contains many gigabytes.
+
+3. Not necessary after 2019-06-27:
+
+   <strike>Use a text editor like `nano` to remove the deleted Map Pack's stanza (all 8 lines of it) from:</strike>
+
+   <strike>`/library/www/html/common/assets/vector-map-idx.json`</strike>
 
 4. Run `git branch` in both of IIAB's repo directories below, then look at the output carefully, to make sure you're on the master branch in both cases.
 
@@ -57,12 +67,14 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
     cd /opt/iiab/iiab
     git pull
-    ./iiab-install --reinstall    # takes about 20+ min (or "./runrole osm-vector-maps -only 1 min")
+    ./iiab-install --reinstall    # takes about 20+ min
 
     cd /opt/iiab/iiab-admin-console
     git pull
     ./install                     # takes about 3-5 min
     ```
+
+   _Alternative: if you're in a hurry, and you're sure you don't want to upgrade all your IIAB software (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
 
 5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region.
 
