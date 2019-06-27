@@ -50,7 +50,7 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 1. Back up your Internet-in-a-Box (IIAB) using one of the techniques described in http://FAQ.IIAB.IO > "How do I back up, shrink & copy IIAB microSD cards?"
 
-2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; this will be a sub-directory named something like `en-osm-omt_africa_2017-07-03_v0.2` &mdash; that contains many gigabytes.
+2. Delete your existing/installed Map Pack from within `/library/www/osm-vector-maps` &mdash; it will be a sub-directory named something like `en-osm-omt_africa_2017-07-03_v0.2` &mdash; that contains many gigabytes.
 
 3. Not necessary after 2019-06-26:
 
