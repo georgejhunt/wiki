@@ -76,7 +76,7 @@ Just for now (as of June 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
    _Alternative: if you're in a hurry, and you're sure you don't want to upgrade other IIAB Apps (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
 
-5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > Install Content > Get Map Region.
+5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > `Install Content` > `Get Map Region`.
 
 6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary!
 
