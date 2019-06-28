@@ -57,11 +57,11 @@ OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content fo
 
 - Only Fedora 18 has been tested, arising from [OLPC OS](http://wiki.laptop.org/go/Releases)
 
-#### Raspberry Pi 3 or 3 B+
+#### Raspberry Pi 3, 3 B+ or 4
 
-1 GB RAM, typically with a microSD card of 32, 64, or 128 GB.  Four USB ports allow the addition of Ethernet dongles, a Wi-Fi adapter, and possibly additional storage.
+1 GB RAM, typically with a microSD card of 32, 64, 128 or 256 GB.  Four USB ports optionally allow for Ethernet dongles, external Wi-Fi, and possibly additional storage.
 
-- Tested with Raspbian especially
+- Tested with Raspbian especially... _do not use NOOBS!_
 
 (After building your Internet-in-a-Box microSD inside a Raspberry Pi 3 or 3 B+, also consider testing it within the amazing/tiny 512MB Raspberry Pi Zero W, available for [as little as $3.14 at Micro Center](http://www.microcenter.com/product/486575/zero_w) stores in the USA.)
 
