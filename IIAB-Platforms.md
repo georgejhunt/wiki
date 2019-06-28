@@ -8,15 +8,14 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
-* [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
+* [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, or 3 B+ _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
-* [Debian 9.9](https://www.debian.org/releases/stretch/) "Stretch" LTS
+* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS, ETA 2019-07-06: [installer](https://www.debian.org/devel/debian-installer/), [daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387)
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
   * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
-* [Debian 10](https://www.debian.org/devel/debian-installer/) "Buster" pre-releases ([quasi-daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/))
-  * Install Tips: _[#1387](https://github.com/iiab/iiab/issues/1387)_
+* [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
   * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
