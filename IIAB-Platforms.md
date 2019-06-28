@@ -49,7 +49,7 @@ In practice, IIAB has been tested on the platforms and configurations below.  Fo
 
 Mini PC's also include MSI and Zotac etc, typically configured with 4 to 8 GB RAM and a 1TB internal hard disk, or 200+ GB SSD.  Most models have a minimum of four USB ports and some have an internal Wi-Fi adapter.
 
-- Install Ubuntu 18.04 LTS, Debian 9.8 <!--or CentOS 7.6-->
+- Install Ubuntu 18.04 LTS, or Debian 10 "Buster" <!--or CentOS 7.6-->
 
 #### OLPC XO-1.5, XO-1.75, XO-4
 
@@ -61,13 +61,13 @@ OLPC laptops with an SD card of 32, 64, or 128 GB and a subset of the content fo
 
 1 GB RAM, typically with a microSD card of 32, 64, 128 or 256 GB.  Four USB ports optionally allow for Ethernet dongles, external Wi-Fi, and possibly additional storage.
 
-- Tested with Raspbian especially... _do not use NOOBS!_
+- Use the Raspbian OS _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 
 (After building your Internet-in-a-Box microSD inside a Raspberry Pi 3 or 3 B+, also consider testing it within the amazing/tiny 512MB Raspberry Pi Zero W, available for [as little as $3.14 at Micro Center](http://www.microcenter.com/product/486575/zero_w) stores in the USA.)
 
 #### VirtualBox VM
 
-Virtual machines with varying configurations, especially Debian and CentOS 7, are often used for testing or proof-of-concept.
+Virtual machines with varying configurations, especially Ubuntu and Debian, are often used for testing and proofs-of-concept.
 
 #### Other Recent Intel/AMD Computers
 
@@ -79,7 +79,7 @@ Disable UEFI in your computer's BIOS if possible!
 
 It's critical to avoid a large /home partition, so there's room to add content (in /library).  Pay close attention while installing your OS (Ubuntu, Debian etc).  You should remove (or dramatically shrink) this /home partition, if your Linux distro insists on creating one.
 
-On a 1TB disk, we recommend the following 2-to-4 partitions, such as: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
+On a 1+ TB disk, we recommend the following 2-to-4 partitions, such as: (traditionally we use standard partitioning, but now increasingly LVM partitioning is also possible)
 * /boot - 500 MB
 * swap - 2 GB (optional partition, set this to your RAM size, or create a swap file if you prefer)
 * / - 50 GB
