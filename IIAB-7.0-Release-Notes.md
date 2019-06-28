@@ -51,6 +51,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What might future versions bring?
 
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
+* [https://matomo.org/ Matomo] for usage analytics, alongside some careful re-thinking of how IIAB content contributors can learn from offline needs.  <sub><sub>[#1762](https://github.com/iiab/iiab/issues/1762)</sub></sub>
 * For a more detailed list, see the [Internet-in-a-Box (IIAB) 7.1 Milestone](https://github.com/iiab/iiab/milestone/6)
 
 ### Credits
