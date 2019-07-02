@@ -44,7 +44,7 @@ This is for people who already know how to do everything in these instructions a
 
 There are basically three ways to install IIAB software:
 
-   1. _Strongly Recommended in 2018: use our new [1-line installer script](http://download.iiab.io/) which does essentially everything!_
+   1. **_Strongly Recommended in 2019: use our new [1-line installer script](http://download.iiab.io/) which does essentially everything!_**
    2. Do everything from scratch, manually, following the instructions below.
    3. Take a short cut if you have access to an "image" files from someone else who did everything from scratch, or at least some of the steps.  Here are some [older suggestions](http://tinyurl.com/iiabimages) on how to create short cut image files, towards helping others.
 
