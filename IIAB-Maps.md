@@ -14,11 +14,11 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Central America & the Caribbean
   - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
 
-This represents the state-of-the-art as of July 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see the [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
+This represents the state-of-the-art as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes).  For nuts & bolts details as to how this came together, please see the [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
 
 ## How do I install an IIAB Map Pack for my region?
 
-1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) [7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) (or higher) from http://download.iiab.io
+1. If you have not yet, install [Internet-in-a-Box](http://internet-in-a-box.org) (IIAB) 7.0 (or higher) from http://download.iiab.io
 
 2. Use IIAB's Admin Console (http://box.lan/admin, default passwords at http://FAQ.IIAB.IO) to click `Install Content` (on top) > `Get Map Region` (on the left).
 
