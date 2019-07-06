@@ -4,9 +4,10 @@
 
 These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos:
 
-- Zoomable, detailed maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom)
-- Every IIAB Map Pack now includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/)
-- [OpenStreetMap](https://www.openstreetmap.org/) content is updated approximately annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- Zoomable maps (14 levels of vector zoom, scales beautifully to 18 levels of zoom) offering detail to 5 m
+  - This [OpenStreetMap](https://www.openstreetmap.org/) content is updated quasi-annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- Every IIAB Map Pack also includes satellite photos (10 levels of zoom) from [Sentinel](https://s2maps.eu/), offering detail to 5 km
+- Search for cities/towns/settlements that have more than 1000 people (127,654 are included)
 - Attractive IIAB Map Packs (about 4-to-23 GB each) are now available for:
 
   - Major Continents
@@ -14,7 +15,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
   - Central America & the Caribbean
   - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
 
-This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see the [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
+This represents the state-of-the-art as of July 2019, for IIAB 7.0.  For nuts & bolts details as to how this came together, please see the [Credits](#credits), [Software (Source Code)](#software-source-code) and [Links & Advanced Topics](#links--advanced-topics) sections below.
 
 ## How do I install an IIAB Map Pack for my region?
 
@@ -24,7 +25,7 @@ This represents the state-of-the-art as of June 2019, for IIAB 7.0.  For nuts & 
 
 3. Pick a checkbox on the left to download, unpack and install the Map Region (Map Pack) you want.  As you hover (mouse over) the choices on the left, colorful bounding boxes light up on the world map on the right &mdash; to help you choose the Map Pack most suitable for your region:
 
-   - As of June 2019 you can choose among each of the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
+   - As of July 2019 you can choose among each of the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
 
 4. After making your choice, kick off your Map Pack download/installation using the `Install Selected Region` button:
 
@@ -98,7 +99,7 @@ _Thanks for your help evolving this into a continuously more friendly community 
 
 Much of the original work on IIAB Maps was coordinated by Braddock Gaskill and Joel Steres in 2012-2015.
 
-More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in September 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and June 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
+More recently George Hunt refined city search, moved to vector-based Map Packs, and added satellite photos &mdash; leading to major advances in September 2018 ([IIAB 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes)) and July 2019 ([IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes)).
 
 Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodríguez Lombardo, Minh Nguyen, Paul Norman, Jérôme Gagnon-Voyer, Nick Doiron & other volunteer professionals from the [OpenStreetMap community](https://www.openstreetmap.org/) who are making this tremendous, ongoing progress possible!
 
