@@ -105,6 +105,7 @@ Thank you also to Tim Moody, Adam Holt, Anish Mangal, Avni Khatri, Mir Rodrígue
 ## Software (Source Code)
 
 - https://github.com/iiab/maps
+  - [/usr/bin/iiab-update-map](https://github.com/iiab/iiab/blob/master/roles/osm-vector-maps/templates/iiab-update-map)
 - https://github.com/iiab/iiab/tree/master/roles/osm-vector-maps
 
 ## Links & Advanced Topics
