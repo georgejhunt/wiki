@@ -51,7 +51,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What might future versions bring?
 
-* Instant submission of Content Pack descriptions/logos for your IIAB home page, so that non-technical implementers/educators around the planet can rapidly & efficiently share ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing), putting community action into high gear
+* Instant submission of Content Pack descriptions/logos for your IIAB home page, so that non-technical implementers/educators around the planet can rapidly & efficiently share ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._
 * [Matomo](https://matomo.org/) for usage analytics, alongside some careful re-thinking of how IIAB teachers and content contributors can learn from users' needs.  <sub><sub>[#1762](https://github.com/iiab/iiab/issues/1762)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 * [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
