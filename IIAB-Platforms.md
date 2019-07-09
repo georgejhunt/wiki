@@ -10,7 +10,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 * [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
 * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
-* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS, ETA 2019-07-06: [installer](https://www.debian.org/devel/debian-installer/), [daily ISO](https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/), [weekly ISO](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387)
+* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
