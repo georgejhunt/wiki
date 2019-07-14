@@ -71,7 +71,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 ### Known Issues
 
-* Map Packs cause Chrome browser to crash on many (most?) mobile devices.  <sub><sub>[#728](https://github.com/iiab/iiab/issues/1728)</sub></sub>
+* Map Packs cause Chrome and Firefox browsers to crash on many (most?) mobile devices.  <sub><sub>[#728](https://github.com/iiab/iiab/issues/1728)</sub></sub>
 * When trying to upgrade a Map Pack, Admin Console reports Map Pack as installed when it isn't.  <sub><sub>[iiab/iiab-admin-console#229](https://github.com/iiab/iiab-admin-console/issues/229)</sub></sub>
 * The "Mobile/Desktop" button that used to allow developing world teachers to rapidly see Content Pack details (on their own Android phones) is not working at this time.  <sub><sub>[#1775](https://github.com/iiab/iiab/issues/1775)</sub></sub>
 * IIAB's home page (http://box) will not display in browsers like Windows 7's Internet Explorer 11.  Please install a modern browser e.g. Firefox or Chrome ([js-menu](https://github.com/iiab/iiab-admin-console/tree/master/roles/js-menu) requires a more recent version of JavaScript).  <sub><sub>[#1517](https://github.com/iiab/iiab/issues/1517)</sub></sub>
