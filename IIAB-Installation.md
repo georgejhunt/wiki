@@ -58,7 +58,7 @@ Here is the complete list of the steps required.  Some may already be done.
 
    **Traditionally we use Standard partitioning, but increasingly since 2017 LVM partitioning is possible as well.  In any case, the above "IIAB Platforms" document is the place to start for all partitioning tips.**
 
-2. Install your OS (e.g. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/) or [Debian 9 "Stretch"](https://www.debian.org/distrib/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3 (or 3 B+), install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version, but DO NOT USE NOOBS) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
+2. Install your OS (e.g. [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/) or [Debian 10 "Buster"](https://www.debian.org/distrib/)) using a **minimal** install (do install ssh, but avoid installing Apache or most anything else!)  If using a Raspberry Pi 3, 3 B+ or 4, install the latest [Raspbian OS](https://www.raspberrypi.org/downloads/raspbian/) ("With Desktop" graphical version or "Lite" headless version, but DO NOT USE NOOBS) onto a microSD.  If installing onto XO laptops, use [OLPC's latest OS](http://wiki.laptop.org/go/Releases) (based on Fedora 18).  See more at [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) and read "What OS should I use? " at [FAQ.IIAB.IO](http://FAQ.IIAB.IO#What_OS_should_I_use.3F).  _WARNING: OTHER LINUX DISTRIBUTIONS MAY NOT/YET WORK!_
 
 3. While installing over Wi-Fi is possible, an Ethernet (live Internet) cable is **strongly recommended** during installation!
 
@@ -120,13 +120,13 @@ STRONGLY RECOMMENDED: The above happens automatically if you run our [1-line ins
 ```
    curl d.iiab.io/install.txt | sudo bash
 ```
-_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3 or 3 B+), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 9.x (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).  Please review the [comparison table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) to help you make your choice.
+_This 1-line installer requires the latest Raspbian OS (on Raspberry Pi 3, 3 B+ or 4), Ubuntu 18.04 LTS (on x86_64 PC's) or Debian 10 (on x86_64 PC's)._  Note the above can take a couple hours on a Raspberry Pi &mdash; even with a fast Internet connection &mdash; so if you want to get moving faster, stick with a MIN-sized or MEDIUM-sized install.  Conversely a much larger but slower installation is possible ("BIG-sized") if you want to experiment with the more full suite of [~20 server apps](http://wiki.laptop.org/go/IIAB/local_vars_big.yml).  Please review the [comparison table](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F) to help you make your choice.
 
 Finally, please browse our [install script](https://github.com/iiab/iiab-factory/blob/master/iiab) to inspect and learn from the automated steps of the bash-driven installation process, and please write to bugs @ iiab.io if you find issues, Thank You !
 
-**In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi 3 CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
+**In general, beware ./iiab-install (formerly "./runansible") runs slowly (1) the 1st time you run it (2) if you permit your Raspberry Pi CPU to rise above 80C on a hot day without active ventilation (3) if you're using a slower/older SD card and/or (4) if you have a slow Internet connection.**
 
-**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 15-to-25 minutes on Raspberry Pi 3 and 3 B+.**
+**Whereas subsequent runs (e.g. via Admin Console -> Configure -> Install Configured Options) can take as little as 10-to-20 minutes on a modern Raspberry Pi.**
 
 Similarly, if you want to help test CentOS, you might consider [improving on](https://github.com/iiab/iiab/issues/89) these 2 older recipes from 2017:
 ```
@@ -162,6 +162,8 @@ You will need tools to unpack or decompress these files and then burn/flash them
 
 #### Tools
 
+For the latest, please instead see "How do I back up, shrink & copy IIAB microSD cards?" at http://FAQ.IIAB.IO
+
 * Windows
   * [Etcher](https://etcher.io) or [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) - friendly ways to burn/flash an image onto a microSD card
   * [7-Zip](https://www.7-zip.org) - unpacks compressed files of almost any kind
@@ -174,9 +176,7 @@ You will need tools to unpack or decompress these files and then burn/flash them
 
 Naturally, while the ["Do Everything from Scratch"](https://github.com/iiab/iiab/wiki/IIAB-Installation#do-everything-from-scratch) steps (above) are generic and apply to any platform, short cuts apply only to specific platforms (below, when pre-built images exist).
 
-#### Raspberry Pi 3 (or 3 B+)
-
-Raspberry Pi 2 might also work, but is slower, and lacks the all-important internal Wi-Fi!
+#### Raspberry Pi 3, or 3 B+ or 4
 
 The most recent IIAB for Raspian Lite (or for the full Raspbian with Desktop, including desktop apps) can be installed from http://download.iiab.io
 
@@ -214,7 +214,7 @@ Finally, while these images have been developed on the Intel NUC, they may well 
 
   Context: early in 2017 Ansible 2.2.0 had been required, avoiding 2.2.1 which had issues.
 
-  _As of late September 2018, [Ansible 2.6.4+ was recommended](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
+  _As of late July 2019, [Ansible 2.8.2+ was recommended](http://FAQ.IIAB.IO#What_is_Ansible_and_what_version_should_I_use.3F) &mdash; please verify Ansible's version number by running:_
 
          ansible --version
 
@@ -283,9 +283,11 @@ The IIAB installation attempts to determine the network topology based on the nu
 
 ### Enable Services
 
-Different services (a.k.a. server apps) can be enabled on your IIAB server by checking boxes in Admin Console (http://box.lan/admin) -> Configure menu -> Enable Services.
+It's best to choose your IIAB Apps (services) prior to installing IIAB, by configuring [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F), as the 1-line installer asks you to do.
 
-Remember to then click Save Configuration -> Install Configured Options.
+Some of these apps/service can also be enabled after IIAB software is installed, by checking boxes in Admin Console (http://box.lan/admin) -> Configure menu -> Enable Services.
+
+If you attempt this, temember to then click Save Configuration -> Install Configured Options.
 
 Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status -> Refresh Status.
 
