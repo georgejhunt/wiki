@@ -287,7 +287,7 @@ It's best to choose your IIAB Apps (services) prior to installing IIAB, by confi
 
 Some of these apps/service can also be enabled after IIAB software is installed, by checking boxes in Admin Console (http://box.lan/admin) -> Configure menu -> Enable Services.
 
-If you attempt this, temember to then click Save Configuration -> Install Configured Options.
+If you attempt this, remember to then click Save Configuration -> Install Configured Options.
 
 Finally, confirm that it has completed in the coming minutes, within Utilities menu -> Display Job Status -> Refresh Status.
 
@@ -297,7 +297,7 @@ _If you're new to the Admin Console, please read "What are the default passwords
 
 **Please see "[How do I customize my Internet-in-a-Box home page?](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F)" at [FAQ.IIAB.IO](http://FAQ.IIAB.IO) and watch the HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) (several available as [.mp4 and .webm](http://d.iiab.io/content/videos)) to get moving downloading & arranging content on your IIAB (Internet-in-a-Box).**
 
-Since IIAB/XSCE 6.0, many kinds of content (but not all) can be downloaded and installed through your IIAB server's Admin Console (http://box.lan/admin).
+Since IIAB/XSCE 6.0, many kinds of content can be downloaded and installed through your IIAB server's Admin Console (http://box.lan/admin).
 
 WARNING: some of these Content Packs are quite large and you should pay attention to the space available and space required displayed on each screen.  Note that space calculations may not reflect multiple types of downloads happening simultaneously.
 
