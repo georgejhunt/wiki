@@ -4,6 +4,7 @@
 
 The "$35" [Raspberry Pi](https://www.raspberrypi.org/) computer is the most popular hardware, in most IIAB communities.
  Here are 2 wonderful PDF guides:
+
 * [Raspberry Pi Beginner's Guide](https://www.raspberrypi.org/magpi-issues/Beginners_Guide_v1.pdf) (1st Edition, 2018, 244 pages, 19 MB)
 * [Raspberry Pi User Guide](https://dn.odroid.com/IoT/other_doc.pdf) (4th Edition, 2016, 315 pages, 29 MB)
 
