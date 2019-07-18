@@ -2,6 +2,10 @@
 
 [IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) details several ways of installing Internet-in-a-Box.  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
+[The Raspberry Pi ](https://www.raspberrypi.org/), for price/performance reasons, is becoming more and more the focus for IIAB. Here are 2 wonderful sources:
+   * [Official Raspberry Pi Beginner's Guide (1st Edition)](https://www.raspberrypi.org/magpi-issues/Beginners_Guide_v1.pdf) 244-page from 2018 
+   * [RPi User Guide (4th edition)](https://dn.odroid.com/IoT/other_doc.pdf) 315-page 28.5MB 2016
+
 Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) for a high-level system view.
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS and hardware choices, as well as the **partitioning scheme**.
