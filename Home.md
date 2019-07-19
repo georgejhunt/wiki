@@ -1,6 +1,6 @@
 ## Welcome to the Internet-in-a-Box (IIAB) Tech Docs Wiki!
 
-[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) details several ways of installing Internet-in-a-Box (IIAB).  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
+[IIAB Installation](https://github.com/iiab/iiab/wiki/IIAB-Installation) details several ways of installing [Internet-in-a-Box (IIAB)](http://internet-in-a-box.org).  Please also see our growing collection of **[HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g)**.
 
 An IIAB can be built using an old laptop or PC, but more commonly is built using a "$35" [Raspberry Pi](https://www.raspberrypi.org/) computer:
 
@@ -9,9 +9,9 @@ An IIAB can be built using an old laptop or PC, but more commonly is built using
 
 Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) for a high-level system view.
 
-See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more OS and hardware choices, as well as the **partitioning scheme**.
+See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more OS and hardware choices, as well as the [partitioning scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning).
 
-[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
+[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports, firewall (iptables) and DNS.
 
 After installing IIAB, use the Admin Console (http://box.lan/admin) to refine server apps, download content and arrange a friendly home page (http://box.lan) for your entire community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
 
