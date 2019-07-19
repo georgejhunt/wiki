@@ -9,7 +9,7 @@ An IIAB can be built using an old laptop or PC, but more commonly is built using
 
 Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) for a high-level system view.
 
-See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for OS and hardware choices, as well as the **partitioning scheme**.
+See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more OS and hardware choices, as well as the **partitioning scheme**.
 
 [IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports and DNS.
 
@@ -19,7 +19,7 @@ Most IIAB implementers will also want to install [IIAB Maps](https://github.com/
 
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
-**_Internet-in-a-Box is a global community project formerly known as the One Laptop Per Child School Server (or XSCE) that [greatly welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._**
+**_Internet-in-a-Box is a global community project that emerged from One Laptop Per Child, and [greatly welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet!_**
 
 
 ## Our Evolution
