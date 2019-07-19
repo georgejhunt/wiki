@@ -11,11 +11,11 @@ Read about [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architectu
 
 See [IIAB Platforms](https://github.com/iiab/iiab/wiki/IIAB-Platforms) for more OS and hardware choices, as well as the [partitioning scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning).
 
-[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports, firewall (iptables) and DNS.
+[IIAB Networking](https://github.com/iiab/iiab/wiki/IIAB-Networking) summarizes common network setups/topologies, TCP/UDP ports, the firewall (iptables) and DNS.
 
 After installing IIAB, use the Admin Console (http://box.lan/admin) to refine server apps, download content and arrange a friendly home page (http://box.lan) for your entire community &mdash; as outlined in [IIAB Menuing](https://github.com/iiab/iiab/wiki/IIAB-Menuing).
 
-Most IIAB implementers will also want to install [IIAB Maps](https://github.com/iiab/iiab/wiki/IIAB-Maps) as suitable for their region or continent.
+Most IIAB implementers will also then want to install [IIAB Maps](https://github.com/iiab/iiab/wiki/IIAB-Maps), as suitable for their region or continent.
 
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
