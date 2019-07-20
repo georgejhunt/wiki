@@ -17,6 +17,8 @@ After installing IIAB, use the Admin Console (http://box.lan/admin) to refine se
 
 Most IIAB implementers will also then want to install [IIAB Maps](https://github.com/iiab/iiab/wiki/IIAB-Maps), as suitable for their region or continent.
 
+If you use [Lokole](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) for "offline" email, please see the [Lokole-IIAB User's Manual](https://github.com/iiab/iiab/blob/master/roles/lokole/The%20Lokole-IIAB%20User's%20Manual.pdf) (2018, 10 pages, 1.5MB).
+
 Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.IO)) to get up-to-date on the very latest techniques, towards building your very own powerful digital library!
 
 **_Internet-in-a-Box is a global community project that emerged from One Laptop Per Child, and [greatly welcomes contributors](http://internet-in-a-box.org/pages/contributing.html) from all corners of the planet._**
