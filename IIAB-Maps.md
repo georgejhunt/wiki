@@ -24,7 +24,7 @@ This represents the state-of-the-art as of July 2019, for [IIAB 7.0](https://git
 
 3. Pick a checkbox on the left to download, unpack and install the Map Region (Map Pack) you want.  As you hover (mouse over) the choices on the left, colorful bounding boxes light up on the world map on the right &mdash; to help you choose the Map Pack most suitable for your region:
 
-   - As of July 2019 you can choose among each of the major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
+   - As of July 2019 you can choose among each of the ~7 major continents, Central America (3.77 GB), the Middle East (7.66 GB) or the World (53.17 GB).
 
 4. After making your choice, kick off your Map Pack download/installation using the `Install Selected Region` button:
 
