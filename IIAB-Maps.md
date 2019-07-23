@@ -9,7 +9,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 - Search for cities/towns/settlements that have more than 1000 people (127,654 are included).
 - Attractive IIAB Map Packs (about 4-to-23 GB each) are now available for:
 
-  - Major Continents
+  - ~7 Major Continents
   - The Middle East
   - Central America & the Caribbean
   - The Entire World &mdash; which now fits within ~53 GB ([Live Demo!](http://iiab.me/maps))
