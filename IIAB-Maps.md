@@ -4,7 +4,7 @@
 
 These Map Packs are compressed and use vector (not bitmap) techniques so you can easily download and install an entire continent/region, or the entire world, also including satellite photos:
 
-- Zoomable maps (15 levels of vector zoom from 0-14, scales beautifully to level 18) offering detailed resolution to about 1 m.  This [OpenStreetMap](https://www.openstreetmap.org/) content is updated quasi-annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
+- Zoomable maps (15 levels of vector zoom from 0-14, scales beautifully to level 18) offering detailed resolution to about 1 m within the bounding box focus area.  This [OpenStreetMap](https://www.openstreetmap.org/) content is updated quasi-annually, thanks to [OpenMapTiles.org](https://OpenMapTiles.org)
 - Every IIAB Map Pack also includes worldwide map data outside its bounding box focus area (11 levels of vector zoom, from 0-10).
 - Every IIAB Map Pack also includes satellite photos (10 levels of zoom, from 0-9) from [Sentinel](https://s2maps.eu/), offering detailed resolution to about 1 km.
 - Search for cities/towns/settlements that have more than 1000 people (127,654 are included).
