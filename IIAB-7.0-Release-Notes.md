@@ -47,7 +47,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Calibre 3.46+](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
 * [Sugarizer Server 1.1.1](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1657](https://github.com/iiab/iiab/pull/1657)</sub></sub>
 * [MediaWiki 1.33.0](https://mediawiki.org/wiki/Release_notes/1.33) with URL _box/mediawiki_  <sub><sub>[PR #1809](https://github.com/iiab/iiab/pull/1809)</sub></sub>
-* [Elgg 2.3.13 LTS](https://github.com/Elgg/Elgg/blob/2.3.13/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1730](https://github.com/iiab/iiab/pull/1730)</sub></sub>
+* [Elgg 2.3.14 LTS](https://github.com/Elgg/Elgg/blob/2.3.14/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1897](https://github.com/iiab/iiab/pull/1897)</sub></sub>
 
 ### What might future versions bring?
 
