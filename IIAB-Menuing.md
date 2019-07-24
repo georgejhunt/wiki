@@ -18,7 +18,7 @@ Any one of these can be selected using the Admin Console option Configure->Serve
 
 Dynamic Menuing (introduced with IIAB/XSCE 6.1, improved with IIAB/XSCE 6.2) allows you to rapidly rearrange the presentation of all your Content Packs &mdash; so they appear as your school/library/clinic community wants &mdash; when users browse [http://box](http://box).  Dynamic Menuing uses JavaScript to auto-generate this menu of Content Packs, based on an array of menu items and other properties.
 
-As of 2019 the menu is defined by a file menu.json located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in /library/www/html/home, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
+As of 2019 the menu is defined by a file `menu.json` located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in `/library/www/html/home`, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
 
 Bonus: if users prefer http://box.lan, http://172.18.96.1 or [http://hogwarts](http://hogwarts) (or any other base URL that works, as your network topology evolves) then important ports like kiwix-serve's 3000 and KA Lite's 8008 continue to work, as they are updated live by JavaScript inside the HTML, e.g. to [http://hogwarts:3000](http://hogwarts:3000) and [http://hogwarts:8008](http://hogwarts:8008)
 
@@ -34,7 +34,7 @@ e.g. kn-wikipedia_kn_medicine.json is a menu item for the medical wiki in the Ka
 
 There is also a menu-def json file named _menudef-template.json which has the various fields with comments.
 
-After installation these files will be in **/library/www/html/js-menu/menu-files/menu-defs**
+After installation these files will be in `/library/www/html/js-menu/menu-files/menu-defs`
 
 There is a separate directory /library/www/html/js-menu/local in which locally modified versions of these files may be stored so that they will not be overwritten when cp-menus is run, but will instead be merged in.
 
@@ -50,7 +50,7 @@ As of mid-2019 Menu Item Definition files have the following fields:
 
 * intended_use - May be one of zim, html, webroot, external, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
 * lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
-* logo_url - An image file in /library/www/html/js-menu/menu-files/images
+* logo_url - An image file in `/library/www/html/js-menu/menu-files/images`
 * moddir - The name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
 * zim_name - The generic name of a Kiwix ZIM, such as wikipedia_en_all_novid
 * start_url - Optional url for link to be added to the computed link, used mostly when a module has no index.html
