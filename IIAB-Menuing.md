@@ -48,19 +48,19 @@ The html fragments are mostly extracted from RACHEL and are all \<ul\>\</ul\> st
 
 As of mid-2019 Menu Item Definition files have the following fields:
 
-* intended_use - may be one of zim, html, webroot, external, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
+* intended_use - May be one of zim, html, webroot, external, kalite, kolibri, cups, nodered, calibre, calibreweb, info, download
 * lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
-* logo_url - an image file in /library/www/html/js-menu/menu-files/images
-* moddir - the name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
-* zim_name - the generic name of a Kiwix ZIM, such as wikipedia_en_all_novid
-* start_url - optional url for link to be added to the computed link, used mostly when a module has no index.html
-* title - localized title for link
-* description - expanded text for link
-* extra_description - more expanded text for link
-* extra_html - nominally <menu_item_name>.html, an optional free form html for a submenu
+* logo_url - An image file in /library/www/html/js-menu/menu-files/images
+* moddir - The name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
+* zim_name - The generic name of a Kiwix ZIM, such as wikipedia_en_all_novid
+* start_url - Optional url for link to be added to the computed link, used mostly when a module has no index.html
+* title - Localized title for link
+* description - Expanded text for link
+* extra_description - More expanded text for link
+* extra_html - Nominally <menu_item_name>.html, an optional free form html for a submenu
                be careful of embedded quotes, brackets or other characters that will break json
-* footnote - catalog entry type information such as number of pdfs or size
-* apk_file - this is no longer used; use the download type for downloading apks and other files
+* footnote - Catalog entry type information such as number of pdfs or size
+* apk_file - This is no longer used; use the download type for downloading apks and other files
 
 You may also notice that there are menu definitions with additional properties. These have been taken from RACHEL catalog and are information only fields, not used by the IIAB menuing system. They will be removed over time.
 
@@ -81,7 +81,7 @@ Multiple instances of kalite may be run to separate content by language when not
 * mobilePortraitSize - Font size for mobile devices in portrait orientation
 * poweroffPin        - Not Used
 * poweroffPinHash    - Not Used
-* kiwixUrl           - prefix to URL for ZIM files when running kiwix in proxy mode
+* kiwixUrl           - Prefix to URL for ZIM files when running kiwix in proxy mode
 
 ## 2019 Additions
 
