@@ -73,6 +73,8 @@ As of December, 2017 the IIAB menuing system has a configuration file, \<docroot
 * es-kalitePort      - Alternate Port for kalite to serve content in Spanish
 * fr-kalitePort      - Alternate Port for kalite to serve content in French
 
+See also: http://FAQ.IIAB.IO -> "KA Lite Administration: What tips & tricks exist?" -> "Multilingual?" | "Monolingual in Spanish or French or similar?"
+
 Multiple instances of kalite may be run to separate content by language when not using registered users.
 * calibrePort        - Port on which calibre is listening  
 * apkBaseUrl         - URL where downloadable APKs are stored; used by download phrase in Medical Wikis 
