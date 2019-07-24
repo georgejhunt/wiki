@@ -52,9 +52,9 @@ As of mid-2019 Menu Item Definition files have the following fields:
 * lang - 2 or 3 char code of the language of the menu item, not necessarily the target content
 * logo_url - an image file in /library/www/html/js-menu/menu-files/images
 * moddir - the name of a directory under <webroot>/modules, for intended_use webroot or download it is relative to <webroot>
-* zim_name - the generic name of a Kiwix zim, such as wikipedia_en_all_novid
-* start_url -optional url for link to be added to the computed link, used mostly when a module has no index.html
-* title - ocalized title for link
+* zim_name - the generic name of a Kiwix ZIM, such as wikipedia_en_all_novid
+* start_url - optional url for link to be added to the computed link, used mostly when a module has no index.html
+* title - localized title for link
 * description - expanded text for link
 * extra_description - more expanded text for link
 * extra_html - nominally <menu_item_name>.html, an optional free form html for a submenu
