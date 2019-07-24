@@ -18,9 +18,9 @@ Any one of these can be selected using the Admin Console option Configure->Serve
 
 Dynamic Menuing (introduced with IIAB/XSCE 6.1, improved with IIAB/XSCE 6.2) allows you to rapidly rearrange the presentation of all your Content Packs &mdash; so they appear as your school/library/clinic community wants &mdash; when users browse [http://box](http://box).  Dynamic Menuing uses JavaScript to auto-generate this menu of Content Packs, based on an array of menu items and other properties.
 
-As of 2019 the menu is defined by a file `menu.json` located in the same directory as index.html. That file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in `/library/www/html/home`, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right to learn more about the menu.json fields.
+As of 2019 the menu is defined by a file `menu.json` located in the same directory as `index.html`. The menu.json file contains properties for the menu as a whole and a list of menu items to be included as links on the menu. For most installations these files are in `/library/www/html/home`, but they can be anywhere and the index.html file can be named anything (e.g. /test/medlib.html). When using IIAB's Admin Console (http://box.lan/admin) you can click on [Help (top-right) > Content Menus > Edit Content Menus](https://github.com/iiab/iiab-admin-console/blob/master/roles/console/files/help/ContentMenus.rst#edit-content-menus) to learn more about the menu.json fields.
 
-Bonus: if users prefer http://box.lan, http://172.18.96.1 or [http://hogwarts](http://hogwarts) (or any other base URL that works, as your network topology evolves) then important ports like kiwix-serve's 3000 and KA Lite's 8008 continue to work, as they are updated live by JavaScript inside the HTML, e.g. to [http://hogwarts:3000](http://hogwarts:3000) and [http://hogwarts:8008](http://hogwarts:8008)
+Bonus: if users prefer http://box.lan, http://172.18.96.1, http://box.local or [http://hogwarts](http://hogwarts) (or any other base URL that works, as your network topology evolves) then important ports like kiwix-serve's 3000 and KA Lite's 8008 continue to work, as they are updated live by JavaScript inside the HTML, e.g. to [http://hogwarts:3000](http://hogwarts:3000) and [http://hogwarts:8008](http://hogwarts:8008)
 
 As of 2019 the source for the menuing system is part of the git repo for the Admin Console, named [iiab-admin-console](https://github.com/iiab/iiab-admin-console) and is installed when the install script for Admin Console is run. There are several sample menus that can be copied as is to /library/www/html/home if you are using the /home home page redirect selection.
 
@@ -31,8 +31,6 @@ A menu item definition consists of a json and an optional html fragment file, wh
 <2 char lang code of menu item (may be different from content)>\-\<generic zim or module name which may have inherent language embedded in it; must separate parts with underscores\>.json
 
 e.g. kn-wikipedia_kn_medicine.json is a menu item for the medical wiki in the Kannada language, where the title and description are (theoretically) in Kannada, whereas en-wikipedia_kn_medicine.json would be an English menu item for the Kannada medical wiki.  In future we may have a CMS that allows these to be selected visually and edited, but for now the easiest method is to browse index-dynamic.html and get the name from the generated html.  **More or less all names are in content-ready-index.html, though they have been commented out to reduce clutter.**
-
-There is also a menu-def json file named _menudef-template.json which has the various fields with comments.
 
 After installation these files will be in `/library/www/html/js-menu/menu-files/menu-defs`
 
@@ -45,6 +43,8 @@ There is a separate directory /library/www/html/js-menu/local in which locally m
 The html fragments are mostly extracted from RACHEL and are all \<ul\>\</ul\> structures, but they can be created manually as long as they don't break Ajax.  The php href code was replaced with ##HREF-BASE## when the file was extracted from rachel-index.php and is dynamically rewritten with the appropriate href at run time.
 
 ## Menu Item Definition Fields
+
+Earlier (in 2017) [_menudef-template.json](https://github.com/iiab/iiab-menu/blob/master/samples/_menudef-template.json) was used to explain these various fields.
 
 As of mid-2019 Menu Item Definition files have the following fields:
 
@@ -73,9 +73,8 @@ As of December, 2017 the IIAB menuing system has a configuration file, \<docroot
 * es-kalitePort      - Alternate Port for kalite to serve content in Spanish
 * fr-kalitePort      - Alternate Port for kalite to serve content in French
 
-See also: http://FAQ.IIAB.IO -> "KA Lite Administration: What tips & tricks exist?" -> "Multilingual?" | "Monolingual in Spanish or French or similar?"
+Multiple instances of KA Lite may be run to separate content by language (with the caveat that KA Lite itself uses a shared cookie, so a browser cannot log into these multiple instance at the same time)<!-- when not using registered users-->.  For implementation tips, see: http://FAQ.IIAB.IO -> "KA Lite Administration: What tips & tricks exist?" -> "Multilingual?" | "Monolingual in Spanish or French or similar?"
 
-Multiple instances of kalite may be run to separate content by language when not using registered users.
 * calibrePort        - Port on which calibre is listening  
 * apkBaseUrl         - URL where downloadable APKs are stored; used by download phrase in Medical Wikis 
 * apkLocalUrl        - Not used, but serves to preserve the URL in the local server  
