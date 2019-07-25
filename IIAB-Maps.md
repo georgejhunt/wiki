@@ -83,7 +83,7 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 ## Warnings ##
 
-1. If you downloaded a Map Pack prior to 2019-07-25, you can make it work far more reliably on mobile devices & low-memory client machines by running these manual steps: (corresponds to PR [iiab/iiab-admin-console#247](https://github.com/iiab/iiab-admin-console/pull/247))
+1. If you downloaded a Map Pack prior to 2019-07-25, you can make it work far more reliably on mobile devices & low-memory client machines by running these manual steps:
 
    ```
    sudo su -
@@ -91,6 +91,8 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
    mv main.js main.js.old
    wget https://raw.githubusercontent.com/iiab/maps/master/osm-source/regional-base/build/main.js
    ```
+
+   As corresponds to PR [iiab/iiab-admin-console#247](https://github.com/iiab/iiab-admin-console/pull/247).
 
 2. In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).
 
