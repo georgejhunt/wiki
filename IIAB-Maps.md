@@ -83,7 +83,9 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 ### WARNING ###
 
-In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).  So if you get completely stuck, please don't hesitate to [contact us](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) !
+In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).
+
+So if you get completely stuck, please don't hesitate to [contact us](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) !
 
 ## What might future IIAB Maps bring?
 
