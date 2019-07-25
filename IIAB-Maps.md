@@ -85,12 +85,10 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 1. If you downloaded a Map Pack prior to 2019-07-25, you can make it work far more reliably on mobile devices & low-memory client machines by running these manual steps:
 
-   ```
-   sudo su -
-   cd /library/www/osm-vector-maps/en-osm-omt_africa_2017-07-03_v0.23    # YOUR MAP PACK DIRECTORY
-   mv main.js main.js.old
-   wget https://raw.githubusercontent.com/iiab/maps/master/osm-source/regional-base/build/main.js
-   ```
+   - sudo su -
+   - cd /library/www/osm-vector-maps/en-osm-omt_africa_2017-07-03_v0.23    # YOUR MAP PACK DIRECTORY
+   - mv main.js main.js.old
+   - wget https://raw.githubusercontent.com/iiab/maps/master/osm-source/regional-base/build/main.js
 
    As corresponds to PR [iiab/iiab-admin-console#247](https://github.com/iiab/iiab-admin-console/pull/247).
 
