@@ -63,17 +63,17 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
    If confirmed, run this 7-line recipe at the Linux command-line, to upgrade all your IIAB software:
 
-    ```
-    sudo su -
+   ```
+   sudo su -
 
-    cd /opt/iiab/iiab
-    git pull
-    ./iiab-install --reinstall    # takes about 10-20 min
+   cd /opt/iiab/iiab
+   git pull
+   ./iiab-install --reinstall    # takes about 10-20 min
 
-    cd /opt/iiab/iiab-admin-console
-    git pull
-    ./install                     # takes about 2-4 min
-    ```
+   cd /opt/iiab/iiab-admin-console
+   git pull
+   ./install                     # takes about 2-4 min
+   ```
 
    _Alternative: if you're in a hurry, and you're sure you don't want to upgrade other IIAB Apps (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
 
@@ -81,11 +81,20 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary!
 
-### WARNING ###
+## Warnings ##
 
-In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).
+1. If you downloaded a Map Pack prior to 2019-07-25, you can make it work far more reliably on mobile devices & low-memory client machines by running these manual steps:
 
-So if you get completely stuck, please don't hesitate to [contact us](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) !
+   ```
+   sudo su -
+   cd /library/www/osm-vector-maps/en-osm-omt_africa_2017-07-03_v0.23 _(or equivalent!)_
+   mv main.js main.js.old
+   wget https://raw.githubusercontent.com/iiab/maps/master/osm-source/regional-base/build/main.js
+   ```
+
+2. In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).
+
+   So if you get completely stuck, don't hesitate to [contact us](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) !
 
 ## What might future IIAB Maps bring?
 
