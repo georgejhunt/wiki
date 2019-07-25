@@ -81,6 +81,8 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
 6. Beautify, update or [customize your IIAB home page](http://wiki.laptop.org/go/IIAB/FAQ#How_do_I_customize_my_Internet-in-a-Box_home_page.3F) (e.g. http://box) as necessary!
 
+WARNING: In some situations glitches can arise, like [#1791](https://github.com/iiab/iiab/issues/1791), [#1793](https://github.com/iiab/iiab/issues/1793) and [#1800](https://github.com/iiab/iiab/issues/1800).  So if you get completely stuck, please don't hesitate to [contact]((http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F)) us!
+
 ## What might future IIAB Maps bring?
 
 _INVITATION: If you can help ongoing efforts to polish maps for children in offline schools in all countries, directly contributing to [beautifying OpenStreetMap (VIDEO)](https://youtu.be/HJub6U_U7Mg) thereby bringing Earth to life for all, Thank You!  Read more at ([#877](https://github.com/iiab/iiab/issues/877#issuecomment-405935272)) and please do [get in touch](http://FAQ.IIAB.IO/#What_are_the_best_places_for_community_support.3F) to learn more!_
