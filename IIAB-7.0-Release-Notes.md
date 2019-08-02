@@ -46,7 +46,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Kiwix 2.1.0](https://github.com/kiwix/kiwix-tools/blob/master/Changelog) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_  <sub><sub>[PR #1909](https://github.com/iiab/iiab/pull/1909)</sub></sub>
 * [Calibre-Web 0.6.4](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) now does a better job showing visual thumbnail previews e.g. for locally uploaded PDF's, with customizable URL's _box/books, box/libros, box/livres_  <sub><sub>[PR #1565](https://github.com/iiab/iiab/pull/1565)</sub></sub> <sub><sub>[PR #1865](https://github.com/iiab/iiab/pull/1865)</sub></sub>
 * [Calibre 3.46+](https://calibre-ebook.com/whats-new) on x86_64 and 3.39.1 on Raspberry Pi, with URL _box:8080_
-* [Sugarizer Server 1.1.1](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1657](https://github.com/iiab/iiab/pull/1657)</sub></sub>
+* [Sugarizer Server 1.1.1](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1777](https://github.com/iiab/iiab/pull/1777)</sub></sub>
 * [MediaWiki 1.33.0](https://mediawiki.org/wiki/Release_notes/1.33) with URL _box/mediawiki_  <sub><sub>[PR #1809](https://github.com/iiab/iiab/pull/1809)</sub></sub>
 * [Elgg 2.3.14 LTS](https://github.com/Elgg/Elgg/blob/2.3.14/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1897](https://github.com/iiab/iiab/pull/1897)</sub></sub>
 
