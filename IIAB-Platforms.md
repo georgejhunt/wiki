@@ -85,7 +85,7 @@ On a 1+ TB disk, we recommend the following 2-to-4 partitions, such as: (traditi
 * / - 50 GB
 * /library - the remainder (optional partition, can protect your content during major upgrades)
 
-On smaller disks and SD cards we strongly recommend:
+On smaller disks and SD cards, also consider:
 1) reducing (or altogether eliminating) the swap partition &mdash; see variable `pi_swap_file_size` in [/etc/iiab/local_vars.yml](http://FAQ.IIAB.IO#What_is_local_vars.yml_and_how_do_I_customize_it.3F)
 2) avoiding a separate partition for /library &mdash; far better to keep your content directory (/library) within the main partition!
 
