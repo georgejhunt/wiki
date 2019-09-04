@@ -113,9 +113,9 @@ OUTSIDE OF APPLIANCE MODE:
 
 ### Common Customizations
 
-(1) If you you want to hard-code a Fixed IP Address for the WAN-side of your IIAB, please see "How do I set a static IP address?" at http://FAQ.IIAB.IO
+(1) If you you want to hard-code a Fixed IP Address on the WAN-side of your IIAB, please see "How do I set a static IP address?" at http://FAQ.IIAB.IO
 
-(2) If your Internet-in-a-Box (IIAB) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point from the wlan0 interface:
+(2) If your Internet-in-a-Box (IIAB) contains multiple Wi-Fi interfaces, put the following into [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) to ask IIAB not to create a LAN-side access point on the wlan0 interface:
 
     reserved_wifi: wlan0
 
