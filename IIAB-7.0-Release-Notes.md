@@ -50,6 +50,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 * [Sugarizer Server 1.1.1](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md)) with URL _box/sugarizer_  <sub><sub>[PR #1777](https://github.com/iiab/iiab/pull/1777)</sub></sub>
 * [MediaWiki 1.33.0](https://mediawiki.org/wiki/Release_notes/1.33) with URL _box/mediawiki_  <sub><sub>[PR #1809](https://github.com/iiab/iiab/pull/1809)</sub></sub>
 * [Elgg 2.3.14 LTS](https://github.com/Elgg/Elgg/blob/2.3.14/CHANGELOG.md) with URL _box/elgg_  <sub><sub>[PR #1897](https://github.com/iiab/iiab/pull/1897)</sub></sub>
+* [phpMyAdmin 4.9.1](https://www.phpmyadmin.net/) for remote administration of MySQL  <sub><sub>[#1956](https://github.com/iiab/iiab/pull/1956)</sub></sub>
 
 ### What might future versions bring?
 
