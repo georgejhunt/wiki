@@ -8,7 +8,7 @@ These Map Packs are compressed and use vector (not bitmap) techniques so you can
 - Every IIAB Map Pack also includes worldwide map data outside its bounding box focus area (11 levels of vector zoom, from 0-10).
 - Every IIAB Map Pack also includes satellite photos (10 levels of zoom, from 0-9) from [Sentinel](https://s2maps.eu/), offering detailed resolution to about 1 km.
 - Search for cities/towns/settlements that have more than 1000 people (127,654 are included).
-- Attractive IIAB Map Packs (about 4-to-23 GB each) are now available for:
+- Attractive [IIAB Map Packs](http://iiab.me/maps/maplist/) (about 4-to-23 GB each) are now available for:
 
   - ~7 Major Continents
   - The Middle East
