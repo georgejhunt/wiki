@@ -14,7 +14,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
-* [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) pre-releases.
+* Ubuntu 19.10 Eoan Ermine [pre-releases](http://cdimage.ubuntu.com/ubuntu-server/daily/current/)
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
   * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
 * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
