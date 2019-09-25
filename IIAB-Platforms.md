@@ -13,6 +13,8 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 * [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
+
+* [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) pre-releases.
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
   * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
 * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
