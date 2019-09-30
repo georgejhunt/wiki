@@ -54,6 +54,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What might future versions bring?
 
+* Automatic installation of content favorites during IIAB installation (up to 64 GB or 128 GB typically) so new implementers can pick a language and hit the ground running.  <sub><sub>[#1958](https://github.com/iiab/iiab/issues/1958)</sub></sub>
 * Instant submission of Content Pack descriptions/logos for your IIAB home page, so that non-technical implementers/educators around the planet can rapidly & efficiently share ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
 * [Matomo](https://matomo.org/) for usage analytics, alongside some careful re-thinking of how IIAB teachers and content contributors can learn from users' needs.  <sub><sub>[#1762](https://github.com/iiab/iiab/issues/1762)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
