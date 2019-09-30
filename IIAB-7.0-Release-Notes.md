@@ -1,23 +1,14 @@
-### _DRAFT_
+Internet-in-a-Box (IIAB) 7.0 was released September 30, 2019.
 
-[Internet-in-a-Box (IIAB)](http://internet-in-a-box.org) version 7.0 will build upon [IIAB 6.7](https://github.com/iiab/iiab/wiki/IIAB-6.7-Release-Notes), to be released Q3 2019 ([Roadmap Ideas](https://github.com/iiab/iiab/wiki/IIAB-6.7-Release-Notes#what-might-future-versions-bring), [GitHub Milestone](https://github.com/iiab/iiab/milestone/5), [Wiki](http://wiki.laptop.org/go/IIAB/7.0)) in service of DIY digital libraries for schools, clinics and communities across all corners of the planet.
+Use it to "steal" the [Internet's crown jewels](http://internet-in-a-box.org/#quality-content) and craft your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, or any old laptop.
 
-See our Frequently Asked Questions ([FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)) and consider installing a pre-release today:
+Our [HOW-TO videos](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) show you how to customize your Internet-in-a-Box "knowledge hotspot" — for your school, your clinic, your library, your entire region — or your very own family.
 
-<p align="center">
-  <b><a href=http://download.iiab.io>download.iiab.io</a></b>
-  <!--[download.iiab.io](http://download.iiab.io)-->
-</p>
+Install Internet-in-a-Box (IIAB) 7.0 using its [1-line installer](http://download.iiab.io/7.0) to transform an old laptop into a "learning palace" for a developing world school, that urgently needs this today!
 
-Please [join us in making this major release happen](http://internet-in-a-box.org/pages/contributing.html), Thank You!
+Then **drag-and-drop** the very best of the World's Free Knowledge (Wikipedia in any language, thousands of Khan Academy videos, zoomable OpenStreetMap, E-Books, WordPress journaling, the new Sugarizer 1.2, Toys from Trash electronics projects, ETC) for those who are burning for learning — but just happen to be offline.
 
-### About
-
-Internet-in-a-Box brings the [Internet's crown jewels](http://internet-in-a-box.org/#quality-content) and the very best of the World’s Free Knowledge (Wikipedia, Khan Academy, OpenStreetMap, E-Books, etc) to those who are burning for learning — but just happen to be offline.
-
-Use <b>drag-and-drop</b> to customize this "learning hotspot" with local gems too — tailored to the needs of your school, your library, your prison, your region and/or your very own family!
-
-Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g) with a $35 Raspberry Pi 4 computer, starting today?
+_The crown jewels are all free, liberated — and open source too!  Internet-in-a-Box is now used in schools, libraries and medical clinics in more than 20 countries.  Why not DIY your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, starting today?_
 
 ### What's New?
 
