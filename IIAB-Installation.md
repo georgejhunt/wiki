@@ -154,9 +154,9 @@ You can see the log of the last install by typing:
 
 ### Take a Short Cut
 
-This step applies if you've been given a pre-built disk image (ISO file or similar) for a particular configuration and even content i.e. if everything from the steps listed above has already been completed for you.
+This step applies if you've been given a [pre-built disk image (ISO file, .img file or similar)](https://archive.org/search.php?query=iiab%20.img&sort=-publicdate) for a particular configuration and even content i.e. if everything from the steps listed above has already been completed for you.
 
-In general the process of using one of these files is to download it to a separate computer and then write it to storage media for the target machine.  What happens next depends on the specific file downloaded.
+In general the process of using one of these files ([summarized here](https://github.com/iiab/iiab/wiki/Raspberry-Pi-IIAB-Images)) is to download it to a separate computer and then write it to storage media for the target machine.  What happens next depends on the specific file downloaded.
 
 You will need tools to unpack or decompress these files and then burn/flash them to portable media.  On Windows you can download the graphical tools listed below.  On MacOS and Linux you also have the option to use powerful command-line tools (like dd) that come with the OS.
 
