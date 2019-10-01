@@ -45,9 +45,9 @@ _The crown jewels are all free, liberated — and open source too!  Internet-in-
 
 ### What might future versions bring?
 
-* Automatic installation of content favorites during IIAB installation (up to 64 GB or 128 GB typically) so new implementers can pick a language and hit the ground running.  <sub><sub>[#1958](https://github.com/iiab/iiab/issues/1958)</sub></sub>
-* Instant submission of Content Pack descriptions/logos for your IIAB home page, so that non-technical implementers/educators around the planet can rapidly & efficiently share ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
-* HowTo Videos for enterprising teachers and students  <sub><sub>[#1975](https://github.com/iiab/iiab/issues/1975)</sub></sub>
+* Automatic installation of content favorites during IIAB installation (up to 64 GB or 128 GB typically) so new implementers can pick a language &mdash; then hit the ground running.  <sub><sub>[#1958](https://github.com/iiab/iiab/issues/1958)</sub></sub>
+* Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
+* HowTo Videos for enterprising teachers and students, with actionable subtitles in common languages.  <sub><sub>[#1975](https://github.com/iiab/iiab/issues/1975)</sub></sub>
 * [Matomo](https://matomo.org/) for usage analytics, alongside some careful re-thinking of how IIAB teachers and content contributors can learn from users' needs.  <sub><sub>[#1762](https://github.com/iiab/iiab/issues/1762)</sub></sub>
 * [Magrit 0.8.11](http://magrit.cnrs.fr/) for civic/local mapmaking, with URL _box/magrit_ ? <sub><sub>[PR #1579](https://github.com/iiab/iiab/pull/1579)</sub></sub>
 * [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
