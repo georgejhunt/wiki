@@ -30,11 +30,13 @@ To build an Internet-in-a-Box (IIAB) server, you need 3 steps:
 2. Configure the Server - Set Parameters and Enable Services
 3. Add Content
 
-We greatly encourage you to watch our [installation video](https://youtu.be/FBIUpZzZsmg)!
+Our 1-line installer at http://download.iiab.io is really all you need to get this rolling as of 2019!
+
+For more customized IIAB installs however, please watch our [installation video](https://youtu.be/FBIUpZzZsmg) from 2019-02-14, and continue reading below.
 
 _Building your own DIY Library of Alexandria is very much worth it in the end &mdash; we strongly encourage you to [get in touch](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) with our global volunteer community network (http://OFF.NETWORK) such that the very best learning content is increasingly available to deserving minds of all ages, in ALL countries._
 
-Thank you for taking Digital Libraries seriously for one & all!
+_Thank you for taking Digital Libraries seriously for one & all!_
 
 ## Expert Mode
 
