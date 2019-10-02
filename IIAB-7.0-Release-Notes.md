@@ -57,7 +57,7 @@ _The crown jewels are all free, liberated — and open source too!  Internet-in-
 
 Thank you e-v-e-r-y-o-n-e for building your own DIY Library of Alexandria.  To serve One & All.
 
-Building on this software and designs contributed by Mir Rodríguez Lombardo, Mitra Ardron, Kurt Maier, T.K. Kang, Eric Nitschke, César López-Natarén, Joshua Kanani, Josh Dennis, Arky R., Matt Johnson, James Heilman, Sam Zidovetzki, Reno McKenzie, Anish Mangal, Mikko Kotila, Avni Khatri, Blondel Mondésir, Evelyn Fitzgerald, George Hunt, Tim Moody, Jerry Vonau, Adam Holt &mdash; among many others!
+Building on this software and designs contributed by Mir Rodríguez Lombardo, Mitra Ardron, Kurt Maier, T.K. Kang, Eric Nitschke, César López-Natarén, Joshua Kanani, Josh Dennis, Arky R., Matt Johnson, James Heilman, Sam Zidovetzki, Reno McKenzie, Anish Mangal, Mikko Kotila, Avni Khatri, Blondel Mondésir, Evelyn Fitzgerald, George Hunt, Tim Moody, Jerry Vonau, Adam Holt &mdash; among [many other contributors](http://internet-in-a-box.org/pages/contributing.html) !
 
 _Not just in your own community &mdash; but by keeping in touch with our global volunteer community network ([http://OFF.NETWORK](http://OFF.NETWORK)) each of you are providing the lifeblood "fieldback" &mdash; that keeps us motivated enabling Internet-in-a-Box's quality content collaborations across ALL communities!_
 
