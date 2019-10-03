@@ -59,23 +59,9 @@ Just for now (as of July 2019, for [IIAB 7.0](https://github.com/iiab/iiab/wiki/
 
    <strike>`/library/www/html/common/assets/vector-map-idx.json`</strike>
 
-4. Run `git branch` in both of IIAB's repo directories below, then look at the output carefully, to make sure you're on the master branch in both cases.
+4. [Upgrade your IIAB software](http://wiki.laptop.org/go/IIAB/FAQ#Can_I_upgrade_IIAB_software.3F) as explained within http://FAQ.IIAB.IO
 
-   If confirmed, run this 7-line recipe at the Linux command-line, to upgrade all your IIAB software:
-
-   ```
-   sudo su -
-
-   cd /opt/iiab/iiab
-   git pull
-   ./iiab-install --reinstall    # takes about 10-20 min
-
-   cd /opt/iiab/iiab-admin-console
-   git pull
-   ./install                     # takes about 2-4 min
-   ```
-
-   _Alternative: if you're in a hurry, and you're sure you don't want to upgrade other IIAB Apps (using the above `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes in about 1 minute._
+   _Optimization: if you're in a hurry, and you're sure you don't want to upgrade other IIAB Apps (using `./iiab-install --reinstall`) then instead run `./runrole osm-vector-maps` at that point, which completes a lot faster (in about 1 minute)._
 
 5. Get your **new** Map Pack by following the original instructions above ("How do I install an IIAB Map Pack for my region?") i.e. http://box.lan/admin > `Install Content` > `Get Map Region`.
 
