@@ -6,7 +6,7 @@ Our [HOW-TO videos](http://wiki.laptop.org/go/IIAB/FAQ#What_technical_documentat
 
 Install Internet-in-a-Box (IIAB) 7.0 using its [1-line installer](http://download.iiab.io/7.0) to transform an old laptop into a "learning palace" for a developing world school, that urgently needs this today!
 
-Then **drag-and-drop** the very best of the World's Free Knowledge (Wikipedia in any language, thousands of Khan Academy videos, zoomable OpenStreetMap, E-Books, WordPress journaling, the new Sugarizer 1.2, Toys from Trash electronics projects, ETC) for those who are burning for learning — but just happen to be offline.
+Then **drag-and-drop** the very best of the World's Free Knowledge (Wikipedia in any language, thousands of Khan Academy videos, zoomable OpenStreetMap, E-Books, WordPress journaling, the new Sugarizer 1.2, Toys from Trash electronics projects, RACHEL Content Packs, Kolibri, ETC) for those who are burning for learning — but just happen to be offline.
 
 _The crown jewels are all free, liberated — and open source too!  Internet-in-a-Box is now used in schools, libraries and medical clinics in more than 20 countries.  Why not DIY your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, starting today?_
 
