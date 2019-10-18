@@ -163,5 +163,5 @@ Get in touch
 ============
 
 * Join our [technology](http://lists.laptop.org/listinfo/server-devel) and [learning/design](https://groups.google.com/group/unleashkids) mailing lists
-* Join our [weekly calls](http://minutes.iiab.io) 10AM to Noon NYC Time, most every Thursday<!--* Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)--><!--* Post an idea or question to our [community forums](http://iiab.io/)-->
+* Join our [weekly calls](http://minutes.iiab.io) which are typically held 10AM to Noon NYC Time, most every Thursday<!--* Join us on IRC live chat: [#schoolserver](https://webchat.freenode.net/?channels=#schoolserver) on [freenode]( https://www.freenode.net/)--><!--* Post an idea or question to our [community forums](http://iiab.io/)-->
 * Read "[What are the best places for community support?](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F)" and "[How can I help?](http://wiki.laptop.org/go/IIAB/FAQ#How_can_I_help.3F)" within our Frequently Asked Questions  ([FAQ.IIAB.IO](http://FAQ.IIAB.IO))
