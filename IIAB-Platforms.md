@@ -33,7 +33,7 @@ The following OS's are theoretically possible, but may require extensive babysit
   * Run IIAB's 1-line installer: http://d.iiab.io
   * Turn aufs (UnionFS) back on.
   * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
-* [CentOS 7.6](https://www.centos.org/download/) LTS
+* [CentOS 7.7](https://www.centos.org/download/) LTS
 * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
 * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
 * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
