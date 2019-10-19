@@ -14,7 +14,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
-* Ubuntu 19.10 Eoan Ermine pre-releases ([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))
+* Ubuntu 19.10 Eoan Ermine ([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))
   * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) Disco Dingo released 2019-04-18
   * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
