@@ -15,7 +15,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
 * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine, released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
-  * Install Tips: _[#1586](https://github.com/iiab/iiab/issues/1586)_
+  * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
 * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
