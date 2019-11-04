@@ -5,9 +5,9 @@ Getting started
 
 Internet-in-a-Box (IIAB) runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian &mdash; and possibly also also on CentOS, Fedora and Ubermix if you [invest the effort](https://github.com/iiab/iiab/wiki/IIAB-Platforms#operating-systems)!
 
-You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3 (or 3 B+).  Example PC's include Intel NUC and Gigabyte BRIX.  Partial support is also available on OLPC laptops like the XO-1.5, XO-1.75 and XO-4.  A VirtualBox VM can also be used for testing purposes.  Using Docker containers however is not recommended as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
+You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3, 3 B+ or 4.  Example PC's include Intel NUC and Gigabyte BRIX.  Partial support is also available on OLPC laptops like the XO-1.5, XO-1.75 and XO-4.  A VirtualBox VM can also be used for testing purposes.  Using Docker containers however is not recommended as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
 
-Finally, running Internet-in-a-Box on the Raspberry Pi Zero W is also possible, if you transfer a working IIAB (microSD card) that was built up inside a Raspberry Pi 3 (or 3 B+).
+Finally, running Internet-in-a-Box on the Raspberry Pi Zero W is also possible, if you transfer a working IIAB (microSD card) that was built up inside a Raspberry Pi 3, 3 B+ or 4.
 
 Please see ["What hardware should I use?"](http://wiki.laptop.org/go/IIAB/FAQ#What_hardware_should_I_use.3F) at [FAQ.IIAB.IO](http://FAQ.IIAB.IO) and the HOW-TO videos on Internet-in-a-Box's [YouTube channel](https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g).  You might also want to review Internet-in-a-Box's [upcoming milestones](https://github.com/iiab/iiab/milestones) on GitHub.
 
