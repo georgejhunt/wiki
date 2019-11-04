@@ -3,7 +3,7 @@ _To contribute to less-technical efforts, please see "[How can I help?](http://w
 Getting started
 ===============
 
-Internet-in-a-Box (IIAB) runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian &mdash; and also also on CentOS, Fedora and Ubermix if you [invest the effort](https://github.com/iiab/iiab/wiki/IIAB-Platforms#operating-systems)!
+Internet-in-a-Box (IIAB) runs on various GNU/Linux operating systems such as Raspbian, Ubuntu, Debian &mdash; and possibly also also on CentOS, Fedora and Ubermix if you [invest the effort](https://github.com/iiab/iiab/wiki/IIAB-Platforms#operating-systems)!
 
 You can install Internet-in-a-Box on x86_64 PCs/laptops and Raspberry Pi 3 (or 3 B+).  Example PC's include Intel NUC and Gigabyte BRIX.  Partial support is also available on OLPC laptops like the XO-1.5, XO-1.75 and XO-4.  A VirtualBox VM can also be used for testing purposes.  Using Docker containers however is not recommended as our [Ansible](https://www.ansible.com/) provisioning system requires low-level access to the operating system.
 
