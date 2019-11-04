@@ -103,13 +103,10 @@ This section provide a quick setup of Internet-in-a-Box (IIAB) development envir
 
    cd /opt/iiab/iiab-admin-console/
    ./install
-
-   cd /opt/iiab/iiab-menu/
-   ./cp-menus
 ```
 6. Hack away!
 
-7. You can commit your local changes to your personal forks of Internet-in-a-Box repository and then send pull request to the IIAB project.  Once you've forked a repository, you change directory into that repository and set a default git remote push setting with the following command:
+7. You can commit your local changes to your personal forks of (either above) Internet-in-a-Box repository and then a send pull request to the IIAB project.  Once you've forked a repository, you change directory into that repository and set a default git remote push setting with the following command:
 
    `cd <repo> && git remote set-url --push origin git@github.com:<your_username>/<your_forked_iiab_repo_name>.git`
 
@@ -128,7 +125,7 @@ Here are few strategies for debugging problems during the Internet-in-a-Box inst
    PLAY RECAP *********************************************************************
    127.0.0.1                  : ok=405  changed=125  unreachable=0    failed=0
 ```
-* Search through the Ansible playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles/*>` to find the failed task.
+* Search through the Ansible playbooks using `egrep -rn <string from the failing step> /opt/iiab/iiab/roles` to find the failed task.
 * You can add additional [debug print statements](http://docs.ansible.com/ansible/latest/debug_module.html) to Ansible playbooks for debugging the problem.
 * Talk to us or report a bug using the information below.
 
