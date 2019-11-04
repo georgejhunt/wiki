@@ -55,6 +55,8 @@ At runtime (to build up your Internet-in-a-Box server) Ansible gathers system in
 
 Please refer to the [IIAB Architecture](https://github.com/iiab/iiab/wiki/IIAB-Architecture) and [IIAB Variables]( https://github.com/iiab/iiab/wiki/IIAB-Variables) pages for more detail.
 
+For the nitty-gritty of how IIAB installs the most recent Ansible and associated python3-* apt packages, see:  https://github.com/iiab/iiab/blob/master/scripts/ansible.md
+
 Installation
 ============
 
