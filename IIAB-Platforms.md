@@ -9,8 +9,8 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
-* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS
-* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
+* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on x86_64
+* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS on x86_64 ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
