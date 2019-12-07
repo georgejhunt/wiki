@@ -26,7 +26,8 @@ Finally, see our **Frequently Asked Questions** ([FAQ.IIAB.IO](http://FAQ.IIAB.I
 
 ## Our Evolution
 
-* [Release Notes 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) - DRAFT
+* [Release Notes 7.1](https://github.com/iiab/iiab/wiki/IIAB-7.1-Release-Notes) - DRAFT
+* [Release Notes 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes) - September 30, 2019
 * [Release Notes 6.7](https://github.com/iiab/iiab/wiki/IIAB-6.7-Release-Notes) - February 21, 2019
 * [Release Notes 6.6](https://github.com/iiab/iiab/wiki/IIAB-6.6-Release-Notes) - September 12, 2018
 * [Release Notes 6.5](https://github.com/iiab/iiab/wiki/IIAB-6.5-Release-Notes) - May 24, 2018
