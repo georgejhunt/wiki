@@ -18,7 +18,7 @@ The following OS's are theoretically possible, but may require extensive babysit
 * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
   * [Server & Desktop editions for x86_64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17. <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
     * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
-  * 64-bit [Ubuntu Server for Raspberry Pi](https://ubuntu.com/download/raspberry-pi), e.g. 19.10.1 released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
+  * For Kiwix support, stick with the 32-bit version of [Ubuntu Server for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) for now, e.g. 19.10.1 released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
 * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
