@@ -1,4 +1,4 @@
-Internet-in-a-Box (IIAB) 7.0 was released September 30, 2019.
+Internet-in-a-Box (IIAB) 7.0 was released September 30, 2019 ([announcement](https://groups.google.com/forum/m/#!topic/unleashkids/Xe0eBQ4GFso)).
 
 Use it to "steal" the [Internet's crown jewels](http://internet-in-a-box.org/#quality-content) and craft your own LIBRARY OF ALEXANDRIA with a $35 Raspberry Pi computer, or an old laptop.
 
