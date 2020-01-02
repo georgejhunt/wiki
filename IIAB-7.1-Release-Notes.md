@@ -29,6 +29,8 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What might future versions bring?
 
+Restructuring of OSM (OpenStreetMap) for [#1726](https://github.com/iiab/iiab/issues/1726) and [similar](https://github.com/iiab/iiab/search?q=OSM&type=Issues).
+
 ### Credits
 
 ### Known Issues
