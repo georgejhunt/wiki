@@ -2,9 +2,9 @@
 
 ## Operating Systems
 
-Install a **minimal** 64-bit OS in all cases, OLPC laptops notwithstanding!
-
 Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#disk-partitioning) below.
+
+Please install a **minimal** OS if possible, as [IIAB's installer](http://download.iiab.io) will add the packages you need.
 
 [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
