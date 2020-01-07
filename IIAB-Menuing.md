@@ -97,6 +97,15 @@ Log in to IIAB's Admin Console (http://box.lan/admin, default passwords are in h
 7) Menu supports filtering by language.
 8) Verbosity for desktop and mobile layouts can be configured.
 9) There is a choice of header font for desktop and mobile layouts.
+10) Individual Menu Item Definitions can be edited.
+11) New Menu Item Definitions can be created using the Clone button.
+12) There are two new check boxes to indicate if your changes should be uploaded to the central repository and if you want to receive changes from others. 
 
 While using IIAB's Admin Console (http://box.lan/admin) please also click on "Help" in the top-right, a copy of which is here:  
 https://github.com/iiab/iiab-admin-console/blob/master/roles/console/files/help/ContentMenus.rst
+
+## Testing or Non-production Use
+
+Please put the following in /etc/iiab/local_vars.yml so edits do not go into the production repository:
+
+menu_files_repo : iiab-share/js-menu-files-test/
