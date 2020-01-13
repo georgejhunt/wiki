@@ -27,7 +27,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 |Protocol  | Port                              |Service                                  |
 |:--------:|:---------------------------------:|-----------------------------------------|
 | TCP      | 22                                | sshd                                    |
-| TCP      | 80                                | web server                              |
+| TCP      | 80                                | main web server: NGINX, formerly Apache |
 | TCP      | 83, 5060, 5160, 5161, 10000-20000 | pbx (Asterisk & FreePBX)                |
 | UDP      | 137, 138                          | samba                                   |
 | TCP      | 139, 445                          | samba                                   |
@@ -52,6 +52,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 | TCP      | 1935, 8081                        | cham video streaming server (nginx+rtmp)|
 | TCP      | 8083                              | calibre-web                             |
 | TCP      | 8089                              | sugarizer                               |
+| TCP      | 9090                              | NGINX proxying to Apache (legacy svcs)  |
 | TCP      | 9091, 51413                       | transmission (BitTorrent downloader)    |
 | TCP      | 10000-10100, 10080 (main), 10443  | azuracast                               |
 | TCP      | 27018                             | mongodb (if used by Sugarizer)          |
