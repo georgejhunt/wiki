@@ -25,7 +25,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's New?
 
-- [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web/releases/tag/0.6.5) at box/books (soon!)
+- [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web/releases/tag/0.6.5) at box/books
 
 ### What's Upgraded?
 
