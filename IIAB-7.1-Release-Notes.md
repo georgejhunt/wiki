@@ -37,12 +37,12 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_
 - [Calibre 4.8+](https://calibre-ebook.com/whats-new) (3.48+ on Raspberry Pi) with URL _box:8080_
 - [Lokole 0.5.5](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
-- [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) with URL _box/moodle_
+- [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
 - [WordPress 5.3.2+](https://wordpress.org/news/2019/12/wordpress-5-3-2-maintenance-release/) based on [5.3](https://wordpress.org/news/2019/11/kirk/), with URL _box/wordpress_
 - [Kiwix 3.0.1-8](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
 - [Sugarizer 1.2.0](https://groups.google.com/forum/#!topic/unleashkids/fCod2NHrQZ4) ([changelog](https://github.com/llaske/sugarizer/blob/master/CHANGELOG.md#120---2019-09-26)) with [Sugarizer Server 1.2.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md#120---2019-12-01)) with URL _box/sugarizer_
 - [MediaWiki 1.34.0](https://mediawiki.org/wiki/Release_notes/1.34) with URL _box/mediawiki_
-- [phpMyAdmin 5.0.1](https://www.phpmyadmin.net/) for remote administration of MySQL
+- [phpMyAdmin 5.0.1](https://www.phpmyadmin.net/) ([changelog](https://github.com/phpmyadmin/phpmyadmin/releases)) for remote administration of MySQL
 - [Node.js 12 LTS](https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f) ([changelog](https://nodejs.org/en/blog/release/v12.13.0/))  <sub><sub>[#2075](https://github.com/iiab/iiab/pull/2075)</sub></sub>
 
 ### What might future versions bring?
