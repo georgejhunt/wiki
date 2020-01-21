@@ -25,9 +25,9 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's New?
 
-- [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) that actually works on substantially more client devices/browsers (when IIAB is installed on Raspberry Pi, coming very soon!)
-- [NGINX](https://github.com/iiab/iiab/tree/master/roles/nginx#transition-to-nginx) alongside Apache, modernizing Internet-in-a-Box's web server engine.
-- Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
+- Coming Soon: [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) that actually works on substantially more client devices/browsers when Internet-in-a-Box (IIAB) is installed on Raspberry Pi.
+- Coming Soon: [NGINX](https://github.com/iiab/iiab/tree/master/roles/nginx#transition-to-nginx) alongside Apache, substantially modernizing IIAB's web server engine and associated underlying infrastructure.
+- Coming Soon: Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
 - Coming Soon: [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
 
 ### What's Upgraded?
