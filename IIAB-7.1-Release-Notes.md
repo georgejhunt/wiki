@@ -25,15 +25,24 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's New?
 
-- Captive Portal that actually works on substantially more client devices/browsers (when IIAB is installed on Raspberry Pi, coming very soon!)
+- [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) that actually works on substantially more client devices/browsers (when IIAB is installed on Raspberry Pi, coming very soon!)
+- [NGINX](https://github.com/iiab/iiab/tree/master/roles/nginx#transition-to-nginx) alongside Apache, modernizing Internet-in-a-Box's web server engine.
 - Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
 - Coming Soon: [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
 
 ### What's Upgraded?
 
-- [Kolibri 0.13](https://medium.com/kolibri-releases/kolibri-v0-13-is-here-4ac99259367a) ([changelog](https://github.com/learningequality/kolibri/releases))
-- [Nextcloud 18](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18))
+- [Kolibri 0.13](https://medium.com/kolibri-releases/kolibri-v0-13-is-here-4ac99259367a) ([changelog](https://github.com/learningequality/kolibri/releases)) with URL _box/kolibri_
+- [Nextcloud 18](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
 - [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_
+- [Calibre 4.8+](https://calibre-ebook.com/whats-new) (3.48+ on Raspberry Pi) with URL _box:8080_
+- [Lokole 0.5.5](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
+- [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) with URL _box/moodle_
+- [WordPress 5.3.2+](https://wordpress.org/news/2019/12/wordpress-5-3-2-maintenance-release/) based on [5.3](https://wordpress.org/news/2019/11/kirk/), with URL _box/wordpress_
+- [Kiwix 3.0.1-8](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
+- [Sugarizer 1.2.0](https://groups.google.com/forum/#!topic/unleashkids/fCod2NHrQZ4) ([changelog](https://github.com/llaske/sugarizer/blob/master/CHANGELOG.md#120---2019-09-26)) with [Sugarizer Server 1.2.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md#120---2019-12-01)) with URL _box/sugarizer_
+- [MediaWiki 1.34.0](https://mediawiki.org/wiki/Release_notes/1.34) with URL _box/mediawiki_
+- [phpMyAdmin 5.0.1](https://www.phpmyadmin.net/) for remote administration of MySQL
 - [Node.js 12 LTS](https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f) ([changelog](https://nodejs.org/en/blog/release/v12.13.0/))  <sub><sub>[#2075](https://github.com/iiab/iiab/pull/2075)</sub></sub>
 
 ### What might future versions bring?
@@ -60,6 +69,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 ### Known Issues
 
 - On Ubuntu 18.04, IIAB's [1-line installer](http://download.iiab.io) must be run as root  <sub><sub>[#1714](https://github.com/iiab/iiab/issues/1714)</sub></sub>
+- Admin Console removes comments from local_vars.yml  <sub><sub>[#1964](https://github.com/iiab/iiab/issues/1964)</sub></sub>
 - Kolibri blocks you from logging in at times, with its login page infinitely/rapidly looping.  Deleting your browser's cookies is not quite enough to work around this problem, but running your browser in incognito/privacy mode does work.  <sub><sub>[#1532](https://github.com/iiab/iiab/issues/1532)</sub></sub>
 - Sugarizer generally requires MongoDB, which is no longer packaged by Linux OS's like Debian 10 Buster.  <sub><sub>[#1437](https://github.com/iiab/iiab/issues/1437)</sub></sub>
 - Node.js applications like Asterisk/FreePBX, Node-RED and Sugarizer won't work on Raspberry Pi Zero W (ARMv6) if you installed Node.js while on RPi 3, 3 B+ (ARMv7) or RPi 4 (ARMv8).  If necessary, run `apt remove nodejs` then ([attempt!](https://nodered.org/docs/hardware/raspberrypi#swapping-sd-cards)) things like `cd /opt/iiab/iiab; ./runrole nodejs` to [install Node.js](https://github.com/iiab/iiab/blob/master/roles/nodejs/tasks/main.yml) _on the Raspberry Pi Zero W itself_ — before proceeding to install Asterisk/FreePBX, Node-RED and/or Sugarizer.  <sub><sub>[#2082](https://github.com/iiab/iiab/issues/2082)</sub></sub>
