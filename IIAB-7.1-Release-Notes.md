@@ -29,7 +29,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - Coming Soon: [NGINX](https://github.com/iiab/iiab/tree/master/roles/nginx#transition-to-nginx) alongside Apache, greatly modernizing IIAB's web server engine and associated underlying infrastructure.  <sub><sub>[#224](https://github.com/iiab/iiab/issues/224)</sub></sub>
 - Coming Soon: Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
 - Coming Soon: [Cham](https://github.com/eka-foundation/cham) is a lightweight live video streaming platform with adaptive bitrates for IIAB.  <sub><sub>[PR #1743](https://github.com/iiab/iiab/pull/1743)</sub></sub>
-- Auto-validation of the most important variables in your [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F)  <sub><sub>[PR #2180](https://github.com/iiab/iiab/pull/2180)</sub></sub>
+- Auto-validation of the most important variables in your [/etc/iiab/local_vars.yml](http://wiki.laptop.org/go/IIAB/FAQ#What_is_local_vars.yml_and_how_do_I_customize_it.3F) configuration file, in case you make mistakes during implementation.  <sub><sub>[PR #2180](https://github.com/iiab/iiab/pull/2180)</sub></sub>
 
 ### What's Upgraded?
 
