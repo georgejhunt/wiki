@@ -53,6 +53,7 @@ Many of the port numbers below can be changed when installing IIAB.  If you need
 | TCP      | 8083                              | calibre-web                              |
 | TCP      | 8089                              | sugarizer                                |
 | TCP      | 8090                              | apache2 [(NGINX proxying to legacy svcs)](https://github.com/iiab/iiab/blob/master/roles/nginx/README.md)  |
+| TCP      | 9090                              | captiveportal                            |
 | TCP      | 9091, 51413                       | transmission (BitTorrent downloader)     |
 | TCP      | 10000-10100, 10080 (main), 10443  | azuracast                                |
 | TCP      | 27018                             | mongodb (if used by Sugarizer)           |
