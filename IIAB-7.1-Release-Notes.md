@@ -25,6 +25,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 ### What's New?
 
+- [Python 3.x](https://python-release-cycle.glitch.me/) instead of [Python 2.7](https://pythonclock.org/), putting Internet-in-a-Box (IIAB) on a whole new foundation for a new decade  <sub><sub>[#1810](https://github.com/iiab/iiab/issues/1810)</sub></sub>
 - Coming Soon: [Captive Portal](http://wiki.laptop.org/go/IIAB/FAQ#Captive_Portal_Administration:_What_tips_.26_tricks_exist.3F) that actually works on substantially more client devices/browsers when Internet-in-a-Box (IIAB) is installed on Raspberry Pi.  <sub><sub>[#1182](https://github.com/iiab/iiab/issues/1182), [PR #2171](https://github.com/iiab/iiab/pull/2171)</sub></sub>
 - Coming Soon: [NGINX](https://github.com/iiab/iiab/tree/master/roles/nginx#transition-to-nginx) alongside Apache, greatly modernizing IIAB's web server engine and associated underlying infrastructure.  <sub><sub>[#224](https://github.com/iiab/iiab/issues/224)</sub></sub>
 - Coming Soon: Instant submission of Content Pack descriptions/logos for your IIAB home page, so non-technical implementers/educators around the planet can rapidly & efficiently circulate ["menu item definitions"](https://github.com/iiab/iiab/wiki/IIAB-Menuing) &mdash; _putting community action into high gear._  <sub><sub>[#1831](https://github.com/iiab/iiab/issues/1831)</sub></sub>
