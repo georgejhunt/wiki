@@ -38,7 +38,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - [Nextcloud 18](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
 - [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_
 - [Calibre 4.8+](https://calibre-ebook.com/whats-new) (3.48+ on Raspberry Pi) with URL _box:8080_
-- [Lokole 0.5.6](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
+- [Lokole 0.5.7](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
 - [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
 - [WordPress 5.3.2+](https://wordpress.org/news/2019/12/wordpress-5-3-2-maintenance-release/) based on [5.3](https://wordpress.org/news/2019/11/kirk/), with URL _box/wordpress_
 - [Kiwix 3.0.1-8](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
