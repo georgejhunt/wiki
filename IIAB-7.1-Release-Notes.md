@@ -35,7 +35,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What's Upgraded?
 
 - [Kolibri 0.13](https://medium.com/kolibri-releases/kolibri-v0-13-is-here-4ac99259367a) ([changelog](https://github.com/learningequality/kolibri/releases)) with URL _box/kolibri_
-- [Nextcloud 18](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
+- [Nextcloud 18.0.1](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
 - [Calibre-Web 0.6.5](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_  <sub><sub>[#2195](https://github.com/iiab/iiab/issues/2195)</sub></sub>
 - [Calibre 4.10+](https://calibre-ebook.com/whats-new) (4.7+ on Raspberry Pi) with URL _box:8080_
 - [Lokole 0.5.10+](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
