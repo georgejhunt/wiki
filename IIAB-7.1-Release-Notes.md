@@ -74,7 +74,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 
 - On Ubuntu 18.04, IIAB's [1-line installer](http://download.iiab.io) must be run as root  <sub><sub>[#1714](https://github.com/iiab/iiab/issues/1714)</sub></sub>
 - Admin Console removes comments from local_vars.yml  <sub><sub>[#1964](https://github.com/iiab/iiab/issues/1964)</sub></sub>
-- Nextcloud video(s) might not play?  <sub><sub>[PR #2255](https://github.com/iiab/iiab/pull/2255)</sub></sub>
+- Nextcloud video(s) might not play?  <sub><sub>[#2262](https://github.com/iiab/iiab/issues/2262)</sub></sub>
 - Kolibri blocks you from logging in at times, with its login page infinitely/rapidly looping.  Deleting your browser's cookies is not quite enough to work around this problem, but running your browser in incognito/privacy mode does work.  <sub><sub>[#1532](https://github.com/iiab/iiab/issues/1532)</sub></sub>
 - Sugarizer generally requires MongoDB, which is no longer packaged by Linux OS's like Debian 10 Buster.  <sub><sub>[#1437](https://github.com/iiab/iiab/issues/1437)</sub></sub>
 - Node.js applications like Asterisk/FreePBX, Node-RED and Sugarizer won't work on Raspberry Pi Zero W (ARMv6) if you installed Node.js while on RPi 3, 3 B+ (ARMv7) or RPi 4 (ARMv8).  If necessary, run `apt remove nodejs` then ([attempt!](https://nodered.org/docs/hardware/raspberrypi#swapping-sd-cards)) things like `cd /opt/iiab/iiab; ./runrole nodejs` to [install Node.js](https://github.com/iiab/iiab/blob/master/roles/nodejs/tasks/main.yml) _on the Raspberry Pi Zero W itself_ — before proceeding to install Asterisk/FreePBX, Node-RED and/or Sugarizer.  <sub><sub>[#2082](https://github.com/iiab/iiab/issues/2082)</sub></sub>
