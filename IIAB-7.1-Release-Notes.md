@@ -36,7 +36,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 
 - [Kolibri 0.13.1+](https://medium.com/kolibri-releases/kolibri-v0-13-is-here-4ac99259367a) ([changelog](https://github.com/learningequality/kolibri/releases)) with URL _box/kolibri_
 - [Nextcloud 18.0.1+](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
-- [Calibre-Web 0.6.6](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_  <sub><sub>[#2195](https://github.com/iiab/iiab/issues/2195)</sub></sub>
+- [Calibre-Web 0.6.6](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_
 - [Calibre 4.11.2+](https://calibre-ebook.com/whats-new) (3.39.1+ on Raspberry Pi) with URL _box:8080_
 - [Lokole 0.5.11+](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
 - [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
