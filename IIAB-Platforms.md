@@ -6,42 +6,45 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 Please install a **minimal** OS if possible, as [IIAB's installer](http://download.iiab.io) will add the packages you need.
 
-[FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
+1) [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
-* [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
-* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on AMD64 _(WARNING: IIAB's [1-line installer](http://download.iiab.io) must be run as root!)_
-* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS on AMD64 ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
+   * [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
+   * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on AMD64 _(WARNING: IIAB's [1-line installer](http://download.iiab.io) must be run as root!)_
+   * [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS on AMD64 ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
 
-The following OS's are theoretically possible, but may require extensive babysitting to get right:
+2) The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
-* [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/)
-* [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Stick with the 32-bit version for now, until 64-bit Kiwix support appears ([kiwix/kiwix-build#396](https://github.com/kiwix/kiwix-build/issues/396)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
-* [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
-  * [Server & Desktop editions for AMD64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
-    * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
-* [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
-* [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
-* [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
-  * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
-  * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand.
-  * Use your Ubermix USB install stick to do an ADVANCED install of Ubermix 4.x on your designated computer (turn off UEFI in its BIOS if possible) following the instructions under "Installing on your System" here: http://ubermix.org/download.html
-    * You need to shrink the /home partition to make room for content to be stored in /library.  Change partition sizes by selecting Option 2 ("Advanced image") to set a larger size for the Default System partition (/dev/ext2) and/or larger size for the User Changes partition (/dev/ext3). You will be prompted to manually enter in partition sizes.
-      * e.g. for an 80GB hard drive, consider 12GB (default) for the Default System partition and 50GB for the User Changes partition (IF /library IIAB content will be stored in the User Changes partition, wiped during factory reset reverts). You can adjust the partition sizes as necessary based on your hard drive size and content size needs.
-      * e.g. consider reversing this: 50GB for the Default System partition and 12GB for the User Changes partition (IF /library IIAB content will be stored in the Default System partition, to protect it from factory reset reverts)
-    * Ubermix will install in ~5 or so minutes.
-  * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
-  * Turn off aufs (UnionFS). Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
-  * Congratulations, you are now ready to install IIAB.
-  * Install curl, by manually running: sudo apt install curl
-  * Run IIAB's 1-line installer: http://d.iiab.io
-  * Turn aufs (UnionFS) back on.
-  * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
-* [CentOS 7.7](https://www.centos.org/download/) LTS
-* [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
-* [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
-* [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
+   * [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/)
+   * [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Stick with the 32-bit version for now, until 64-bit Kiwix support appears ([kiwix/kiwix-build#396](https://github.com/kiwix/kiwix-build/issues/396)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
+   * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
+     * [Server & Desktop editions for AMD64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
+       * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
+   * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
+   * [Ubermix 4.x](http://wiki.ubermix.org/page/Ubermix_Changelog) based on Ubuntu 18.04
+     * Create a USB stick (USB drive >= 4GB will suffice initially) to install Ubermix 4.x. Download the latest from http://ubermix.org/files.html and follow the instructions at http://ubermix.org/download.html
+     * Read the "Customization Overview" section here: http://ubermix.org/customization.html. This is important information to understand.
+     * Use your Ubermix USB install stick to do an ADVANCED install of Ubermix 4.x on your designated computer (turn off UEFI in its BIOS if possible) following the instructions under "Installing on your System" here: http://ubermix.org/download.html
+       * You need to shrink the /home partition to make room for content to be stored in /library.  Change partition sizes by selecting Option 2 ("Advanced image") to set a larger size for the Default System partition (/dev/ext2) and/or larger size for the User Changes partition (/dev/ext3). You will be prompted to manually enter in partition sizes.
+         * e.g. for an 80GB hard drive, consider 12GB (default) for the Default System partition and 50GB for the User Changes partition (IF /library IIAB content will be stored in the User Changes partition, wiped during factory reset reverts). You can adjust the partition sizes as necessary based on your hard drive size and content size needs.
+         * e.g. consider reversing this: 50GB for the Default System partition and 12GB for the User Changes partition (IF /library IIAB content will be stored in the Default System partition, to protect it from factory reset reverts)
+       * Ubermix will install in ~5 or so minutes.
+     * Once Ubermix is installed and you are logged in, confirm the partitions are as you expect by opening up the Terminal and entering "df -h". Proceed if all is as expected. 
+     * Turn off aufs (UnionFS). Follow steps #2-6 under the "Rebuilding the Base Image" section here: http://ubermix.org/customization.html 
+     * Congratulations, you are now ready to install IIAB.
+     * Install curl, by manually running: sudo apt install curl
+     * Run IIAB's 1-line installer: http://d.iiab.io
+     * Turn aufs (UnionFS) back on.
+     * Consider building a USB stick to install everything at once onto other laptops/desktops, reading "Rebuilding the Base Image" in http://www.ubermix.org/customization.html ("5. Expert Options", then "1. Update the image on the key using this machine as a model")
 
-_[Contact us if you can help, testing would be greatly appreciated!](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F)_
+3) The following OS's are **no longer recommended** at this time:
+
+   * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
+   * [CentOS 7.7](https://www.centos.org/download/) LTS
+   * [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) LTS
+   * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
+   * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
+
+_**[Contact us](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) if you can help, as [user-driven testing & co-design are greatly appreciated!](http://internet-in-a-box.org/pages/contributing.html)**_
 
 ## Hardware Platforms
 
