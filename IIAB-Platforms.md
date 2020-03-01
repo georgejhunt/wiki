@@ -15,7 +15,7 @@ Please install a **minimal** OS if possible, as [IIAB's installer](http://downlo
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
 * [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/)
-* [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05: stick with the 32-bit version for now, for Kiwix support ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
+* [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Stick with the 32-bit version for now, until 64-bit Kiwix support appears ([kiwix/kiwix-build#396](https://github.com/kiwix/kiwix-build/issues/396)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
 * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
   * [Server & Desktop editions for x86_64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
     * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
