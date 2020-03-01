@@ -6,7 +6,7 @@ Read the [partition scheme](https://github.com/iiab/iiab/wiki/IIAB-Platforms#dis
 
 Please install a **minimal** OS if possible, as [IIAB's installer](http://download.iiab.io) will add the packages you need.
 
-1) [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
+1) [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents Internet-in-a-Box (IIAB) [OS trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
    * [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
    * [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on AMD64 _(WARNING: IIAB's [1-line installer](http://download.iiab.io) must be run as root!)_
@@ -44,7 +44,7 @@ Please install a **minimal** OS if possible, as [IIAB's installer](http://downlo
    * [Debian 8.11](https://www.debian.org/releases/jessie/debian-installer/) "Jessie" LTS
    * [Fedora 18 (32-bit)](http://wiki.laptop.org/go/Releases) for legacy support of One Laptop per Child's (OLPC) XO laptops
 
-_**[Contact us](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) if you can help, as [user-driven testing & co-design are greatly appreciated!](http://internet-in-a-box.org/pages/contributing.html)**_
+_**[Contact us](http://FAQ.IIAB.IO#What_are_the_best_places_for_community_support.3F) if you can help, as [user-driven testing & co-design are greatly appreciated,](http://internet-in-a-box.org/pages/contributing.html) strengthening everyone's community product!**_
 
 ## Hardware Platforms
 
