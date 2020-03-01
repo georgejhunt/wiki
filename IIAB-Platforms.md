@@ -9,15 +9,15 @@ Please install a **minimal** OS if possible, as [IIAB's installer](http://downlo
 [FAQ.IIAB.IO](http://FAQ.IIAB.IO) documents [OS implementation trends](http://FAQ.IIAB.IO#What_OS_should_I_use.3F), among these recommended choices:
 
 * [Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) on Raspberry Pi 3, 3 B+ or 4 _(WARNING: NOOBS IS NOT SUPPORTED, as its partitioning is very different!)_
-* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on amd64 _(WARNING: IIAB's [1-line installer](http://download.iiab.io) must be run as root!)_
-* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS on amd64 ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
+* [Ubuntu 18.04](http://releases.ubuntu.com/18.04/) LTS on AMD64 _(WARNING: IIAB's [1-line installer](http://download.iiab.io) must be run as root!)_
+* [Debian 10](https://www.debian.org/releases/buster/) "Buster" LTS on AMD64 ([installer](https://www.debian.org/releases/buster/debian-installer/), [#1387 install tips](https://github.com/iiab/iiab/issues/1387))
 
 The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
 * [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/)
 * [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Stick with the 32-bit version for now, until 64-bit Kiwix support appears ([kiwix/kiwix-build#396](https://github.com/kiwix/kiwix-build/issues/396)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
 * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
-  * [Server & Desktop editions for amd64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
+  * [Server & Desktop editions for AMD64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
     * Install Tips: _[#2003](https://github.com/iiab/iiab/issues/2003)_
 * [Debian "Sid"](https://wiki.debian.org/DebianUnstable) for developers
 * [Debian 9.x](https://www.debian.org/releases/stretch/) "Stretch" LTS
