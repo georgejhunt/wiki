@@ -44,7 +44,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - [Kiwix 3.0.3](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
 - [Sugarizer 1.2.0](https://groups.google.com/forum/#!topic/unleashkids/fCod2NHrQZ4) ([changelog](https://github.com/llaske/sugarizer/blob/master/CHANGELOG.md#120---2019-09-26)) with [Sugarizer Server 1.2.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md#120---2019-12-01)) with URL _box/sugarizer_
 - [MediaWiki 1.34.0](https://mediawiki.org/wiki/Release_notes/1.34) with URL _box/mediawiki_
-- [Gitea 1.11.1](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub" version control system, to learn to code collaboratively, with URL _box/gitea_
+- [Gitea 1.11.2](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub" version control system, to learn to code collaboratively, with URL _box/gitea_
 - [phpMyAdmin 5.0.1](https://www.phpmyadmin.net/) ([changelog](https://github.com/phpmyadmin/phpmyadmin/releases)) for remote administration of MySQL
 - [Node.js 12 LTS](https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f) ([changelog](https://nodejs.org/en/blog/release/v12.13.0/))  <sub><sub>[PR #2075](https://github.com/iiab/iiab/pull/2075)</sub></sub>
 - [WikiHow](https://wikihow.com/) is now searchable in Spanish  <sub><sub>[PR #2198](https://github.com/iiab/iiab/pull/2198)</sub></sub>
