@@ -74,7 +74,7 @@ Frequently Asked Questions: [FAQ.IIAB.IO](http://FAQ.IIAB.IO)
 ### Known Issues
 
 - On Ubuntu 18.04, IIAB's [1-line installer](http://download.iiab.io) must be run as root  <sub><sub>[#1714](https://github.com/iiab/iiab/issues/1714)</sub></sub>
-- If you install IIAB on one kind (e.g. Raspberry Pi 4) and then move the microSD card to another kind of Raspberry Pi (e.g. RPi 3 / 3 B+, or e.g. RPi Zero W) you'll likely need to run `rfkill unblock wifi`.  Do this after the microSD is inserted into the new hardware, so that hostapd (and your IIAB hotspot!) work.  <sub><sub>[#2265](https://github.com/iiab/iiab/issues/2265)</sub></sub>
+- If you install IIAB on one kind of Raspberry Pi (e.g. RPi 4) and then move the microSD card to another kind of Raspberry Pi (e.g. RPi 3 / 3 B+, or e.g. RPi Zero W) you'll likely need to run `rfkill unblock wifi`.  Do this after the microSD is inserted into the new hardware, so that hostapd (and your IIAB hotspot!) work.  <sub><sub>[#2265](https://github.com/iiab/iiab/issues/2265)</sub></sub>
 - Admin Console removes comments from local_vars.yml  <sub><sub>[#1964](https://github.com/iiab/iiab/issues/1964)</sub></sub>
 - Nextcloud video(s) might not play?  <sub><sub>[#2262](https://github.com/iiab/iiab/issues/2262)</sub></sub>
 - Kolibri blocks you from logging in at times, with its login page infinitely/rapidly looping.  Deleting your browser's cookies is not quite enough to work around this problem, but running your browser in incognito/privacy mode does work.  <sub><sub>[#1532](https://github.com/iiab/iiab/issues/1532)</sub></sub>
