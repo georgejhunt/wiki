@@ -4,7 +4,7 @@
 
 ### _DRAFT_
 
-[Internet-in-a-Box (IIAB)](http://internet-in-a-box.org) version 7.1 will build upon [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes), to be released Q1 2020 ([Roadmap Ideas](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes#what-might-future-versions-bring), [GitHub Milestone](https://github.com/iiab/iiab/milestone/6), [Wiki](http://wiki.laptop.org/go/IIAB/7.1)) in service of DIY digital libraries for schools, clinics and communities across all corners of the planet.
+[Internet-in-a-Box (IIAB)](http://internet-in-a-box.org) version 7.1 will build upon [IIAB 7.0](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes), to be released in April 2020 ([Roadmap Ideas](https://github.com/iiab/iiab/wiki/IIAB-7.0-Release-Notes#what-might-future-versions-bring), [GitHub Milestone](https://github.com/iiab/iiab/milestone/6), [Wiki](http://wiki.laptop.org/go/IIAB/7.1)) in service of DIY digital libraries for schools, clinics and communities across all corners of the planet.
 
 See our Frequently Asked Questions ([FAQ.IIAB.IO](http://wiki.laptop.org/go/IIAB/FAQ)) and consider installing a pre-release today:
 
