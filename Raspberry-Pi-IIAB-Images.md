@@ -58,10 +58,10 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 2. Download and unzip the IIAB image of your choice. See [unzip suggestions](https://www.raspberrypi.org/downloads/raspbian/) in the first paragraph of the Raspbian download page.
 3. Image Choices
 
-|    OS   | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   |  GUI   |              Features                                          |
-| :--- | :--- | :--- | :--- | --- | :--- |
-| Raspbian| 32 | Min  | 2.3GB |  NO  | Uses fewer memory and SD card resources             |
-| Raspbian| 32 | Med  | 4.2GB |  YES  | Optional GUI             |
-| Ubuntu| 64 | Min  | 4.2GB |  YES  | Optional GUI             |
+|    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Raspbian| Lite | 32 | Min  | 4.5GB | 24 |  NO  | Uses fewer memory and SD card resources             |
+| Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | GUI uses 150MB more than non-gui              |
+| Ubuntu| Lite | 64 | Min  | 7.3GB | 32 | Optional  | Faster, more clients, gui is 1.8GB             |
 
 
