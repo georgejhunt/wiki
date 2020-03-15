@@ -10,11 +10,7 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 
 3. Image Choices -- [For more information -- Which Image is for Me?](Raspberry-Pi-Image-Features).
 
-|    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Raspbian| Lite | 32 | Min  | 4.5GB | 18 |  NO  | Uses less RAM and SD card|
-| Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | 18 clients(RPi4), or 24(RPi3+), GUI uses 150MB less RAM when off              |
-| Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | 32 clients,10% Faster, LXDE uses 1.8GB of SD Card           |
+You can find a growing number of **prebuilt** IIAB images on the [Internet Archive](https://archive.org/details/internetinabox). This page provides a select few to help navigate through the Internet Archive site. The images divide into three broad categories, **Generic**, **Specific Curations** and **Experimental**.
 
 3. Start the ```rpi-imager``` with this command in a terminal window: **"imager"**. We have installed the **"imager"** script which in turn calls ```rpi-imager``` with an additional command line parameter that puts the IIAB images into the top level of the **"CHOOSE OS"** selection list. It is very easy to use:
 
@@ -75,4 +71,23 @@ A demo of this image is available at [Uganda Demo](http://medbox.iiab.me/medbox-
 ### [Medical Internet in a Box Beta 3.0 Spanish (32G)](https://archive.org/details/iiab-6.4-180907-medbox-beta3.0-es-32G-g3ea4256.img)
 
 This is an older version of Internet in a Box based on IIAB 6.4
+
+## Experimental
+Author: George Hunt; Last Updated: Mar 16, 2020
+
+* The Raspberry Pi Foundation has recently released [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) which runs on Windows, Mac OS, and Linux. This tool makes getting started with IIAB quick and easy. 
+
+* Once a downloaded image is written to an SD card, and running on a RPi, there are tools for updating to the most recent version, and using IIAB's browser based **Administrative Console** to download content.
+
+### Steps to Install an Image on a RPi
+1. Download and install [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) on your working laptop or desktop (needs about 50GB of free space).
+2. Download and unzip the IIAB image of your choice. See [unzip suggestions](https://www.raspberrypi.org/downloads/raspbian/) in the first paragraph of the Raspbian download page.
+3. Image Choices
+
+|    OS   | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   |  GUI   |              Features                                          |
+| :--- | :--- | :--- | :--- | --- | :--- |
+| Raspbian| 32 | Min  | 2.3GB |  NO  | Uses fewer memory and SD card resources             |
+| Raspbian| 32 | Med  | 4.2GB |  YES  | Optional GUI             |
+| Ubuntu| 64 | Min  | 4.2GB |  YES  | Optional GUI             |
+
 
