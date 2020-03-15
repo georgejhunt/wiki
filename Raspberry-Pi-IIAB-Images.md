@@ -88,6 +88,6 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Raspbian| Lite | 32 | Min  | 4.5GB | 24 |  NO  | Uses fewer memory and SD card resources             |
 | Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | GUI uses 150MB more than non-gui              |
-| Ubuntu| Lite | 64 | Min  | 7.3GB | 32 | Optional  | Faster, more clients, gui is 1.8GB             |
+| Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | Faster, more clients, LXDE is 1.8GB             |
 
 
