@@ -18,6 +18,8 @@
 1. The GUI and menuing system showcases the services and functions of the Raspbian Operating System.
 2. Skills learned on other Operating Systems transfer more easily during IIAB setup.
 3. There is a wide selection of programs which permit using this image as a stand alone computer. The image is dual purpose, as both a client and as a server.
+4. Realvnc has apparently licensed their remote desktop server to Raspberry Pi Foundation. This version of the VNC server provides a WiFi remote GUI connection. It lets clients authendicate via regular linux user/password credentials which greatly simplifies  server security.
+5. As a first trial run, this image greatly simplifies setting up a Raspberry pi, and trying IIAB. It eliminates the need for separate purchase of a monitor, keyboard, mouse, and the miscellaneous video cables -- assuming that a VNC viewer can be installed on the laptop or desktop used to download images and copy them to SD cards.
 
 #### Cons
 1. Compared with the Lite image (4GB), it uses more than twice as much SD card (11GB).
@@ -32,4 +34,5 @@
 
 #### Cons
 1. The ease of use of Raspbian, advanced by the continuous refinement and feedback from 11 million users, is not available. The best example of this is the lack of ```raspi-config``` which permits easy refinement of a downloaded image in either text and graphical mode.
+1. VNC is much more difficult to set up, to make secure, and not provided in this image. It is possible to take advantage of the secure remote access provided by ```ssh``` (secure shell). But it requires changes to the way "secure shell" is set up and used.
 
