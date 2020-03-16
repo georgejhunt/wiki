@@ -29,8 +29,9 @@
 
 ### Ubuntu
 #### Pros
+1. More clients -- Ubuntu has been verified to support 32 simultaneous WiFi clients.
 1. The 64bit Operating system appears to be about 15 percent faster.
-1. More clients.Ubuntu has been verified to support 32 simultaneous WiFi clients.
+
 
 #### Cons
 1. The ease of use of Raspbian, advanced by the continuous refinement and feedback from 11 million users, is not available. The best example of this is the lack of ```raspi-config``` which permits easy refinement of a downloaded image in either text and graphical mode.
