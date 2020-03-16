@@ -1,4 +1,4 @@
-## Which ***Internet In A Box* (IIAB) Image is Best for Me?
+## Which **Internet In A Box** (IIAB) Image is Best for Me?
 
 ### Raspbian Lite
  
