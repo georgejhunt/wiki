@@ -55,7 +55,7 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 
 ### Steps to Install an Image on a RPi
 1. Download and install [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) on your working laptop or desktop (needs about 50GB of free space).
-2. Download and unzip the IIAB image of your choice. See [unzip suggestions](https://www.raspberrypi.org/downloads/raspbian/) in the first paragraph of the Raspbian download page.
+2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
 3. Image Choices
 
 |    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
@@ -64,4 +64,19 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 | Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | GUI uses 150MB more than non-gui              |
 | Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | Faster, more clients, LXDE is 1.8GB             |
 
-
+4. The ```rpi-imager``` is very easy to use:
+ 
+    1. Install **rpi-imager** in the normal manner for your Operatin System and start ``rpi-imager``.
+    1. It gets added to the menu system on Linux and Windows as an Accessory, and into the application folder on a Mac.
+    1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
+    1. If you haven't unziped the download, do it now.
+    1. Select the image.
+    1. Put your SD card in a usb adapter or an SD adapter if your computer has a standard SD slot.
+    1. Click **Choose SD Card**, and verify that it is the proper size.
+    1. Write it.
+5. Put the SD card in your RPi, and apply power.
+6. Look for the WiFi SSID "Internet in a Box", and associate to it.
+7. If it does not automatically open a browser, open your browser and browse to "box.lan".
+8. On a Mac or Linux, you can ssh into the rpi with "ssh iiab-admin@box.lan" (using username/password iiab-admin/g0adm1n). On a Windows machine, download and use "putty" to do the same.
+9. Use ```sudo su``` to become root.
+9. Change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
