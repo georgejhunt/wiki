@@ -107,4 +107,4 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 9. Use ```sudo su``` to become root.
 9. Then change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
 9. Use the terminal command  ```sudo iiab-gui on``` or ```sudo iiab-gui off``` to change the at-boot default behavior of the GUI. 
-9. If you set the boot GUI default to "off", you can toggle the GUI on with ```startx```, and off by logging out from the menu. The reason you might want to let the default be "no GUI" is that there would be about 150MB more RAM available to service client requests when the RPi is acting as a server.
+9. If you set the boot GUI default to "off", you can toggle the GUI on with ```startx```, and off by logging out from the menu. The reason you might want to let the default be "GUI off" is that there would be about 150MB more RAM available to service client requests when the RPi is acting as a server.
