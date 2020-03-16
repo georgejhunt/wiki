@@ -79,4 +79,6 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 7. If it does not automatically open a browser, open your browser and browse to "box.lan".
 8. On a Mac or Linux, you can ssh into the rpi with "ssh iiab-admin@box.lan" (using username/password iiab-admin/g0adm1n). On a Windows machine, download and use "putty" to do the same.
 9. Use ```sudo su``` to become root.
-9. Change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
+9. Then change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
+9. Use the terminal command  ```sudo iiab-gui on``` or ```sudo iiab-gui off``` to change the at-boot default behavior of the GUI. 
+9. If you set the boot GUI default to "off", you can toggle the GUI on with ```startx```, and off by logging out from the menu.
