@@ -35,5 +35,5 @@
 
 #### Cons
 1. The ease of use of Raspbian, advanced by the continuous refinement and feedback from 11 million users, is not available. The best example of this is the lack of ```raspi-config``` which permits easy refinement of a downloaded image in either text and graphical mode.
-1. VNC is much more difficult to set up, to make secure, and not provided in this image. It is possible to take advantage of the secure remote access provided by ```ssh``` (secure shell). But it requires changes to the way "secure shell" is set up and used.
+1. VNC is much more difficult to set up, to make secure, and not provided in this image. It is possible to "tunnel" through the secure remote access provided by ```ssh``` (secure shell). But it requires changes to the way "secure shell" is set up and used.
 
