@@ -1,10 +1,42 @@
 # Raspberry Pi Images
+Author: George Hunt; Last Updated: Mar 16, 2020
 
+* The Raspberry Pi Foundation has recently announced their [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) which runs on Windows, Mac OS, and Linux. This tool makes getting started with IIAB quick and easy. 
+
+* Once a downloaded image is written to an SD card, and running on a RPi, there are tools for updating to the most recent version, and using IIAB's browser based **Administrative Console** to download content.
+
+### Steps to Install an Image on a RPi
+1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space).
+2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
+3. Image Choices -- [For more information](./info/images.md).
+
+|    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Raspbian| Lite | 32 | Min  | 4.5GB | 18 |  NO  | Uses less RAM and SD card|
+| Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | 18 clients(RPi4), or 24(RPi3+), GUI uses 150MB less RAM when off              |
+| Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | 32 clients,10% Faster, LXDE uses 1.8GB of SD Card           |
+
+4. The ```rpi-imager``` is very easy to use:
+ 
+    1. Install **rpi-imager** in the normal manner for your Operating System and start ``rpi-imager``.
+    1. It gets added to the menu system on Linux and Windows as an Accessory, and into the application folder on a Mac.
+    1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
+    1. If you haven't unziped the download, do it now.
+    1. Select the image.
+    1. Put your SD card in a usb adapter or an SD adapter if your computer has a standard SD slot.
+    1. Click **Choose SD Card**, and verify that it is the proper size.
+    1. Write it.
+5. Put the SD card in your RPi, and apply power.
+6. Look for the WiFi SSID "Internet in a Box", and associate to it.
+7. If it does not automatically open a browser, open your browser and browse to "box.lan".
+8. On a Mac or Linux, you can ssh into the rpi with "ssh iiab-admin@box.lan" (using username/password iiab-admin/g0adm1n). On a Windows machine, download and use "putty" to do the same.
+9. Use ```sudo su``` to become root.
+9. Then change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
+9. Use the terminal command  ```sudo iiab-gui on``` or ```sudo iiab-gui off``` to change the at-boot default behavior of the GUI. 
+9. If you set the boot GUI default to "off", you can toggle the GUI on with ```startx```, and off by logging out from the menu. The reason you might want to let the default be "GUI off" is that there would be about 150MB more RAM available to service client requests when the RPi is acting as a server.
+
+## Archived IIAB Images
 Author: Tim Moody; Last Updated: Mar 16, 2019
-
-You can find a growing number of **prebuilt** IIAB images on the [Internet Archive](https://archive.org/details/internetinabox). This page provides a select few to help navigate through the Internet Archive site. The images divide into three broad categories, **Generic**, **Specific Curations** and **Experimental**.
-
-## Generic IIAB Images
 
 The generic images are simply prebuilt versions of what you could build yourself with [curl scripts at download.iiab.io](http://download.iiab.io/). Instead of downloading a raspbian image, writing it to an sdcard, and running the curl script, you just download one of these images, write it to the sdcard, and boot IIAB.
 
@@ -24,7 +56,7 @@ Each of the links below gives a description and both torrent and download links 
 
 ## Specific Curations
 
-IIAB is deployed in a number of different countries and languages and also for a variety of audiences. Below is a selection of curations for specific environments.
+You can find a growing number of **prebuilt** IIAB images on the [Internet Archive](https://archive.org/details/internetinabox). IIAB is deployed in a number of different countries and languages and also for a variety of audiences. Below is a selection of curations for specific environments.
 
 ### [Medical Internet in a Box Beta 3.6 Content Ready](https://archive.org/details/iiab-6.7-190314-medical-beta3.6-content-ready-ga0c8314.img)
 
@@ -46,39 +78,3 @@ A demo of this image is available at [Uganda Demo](http://medbox.iiab.me/medbox-
 
 This is an older version of Internet in a Box based on IIAB 6.4
 
-## Experimental
-Author: George Hunt; Last Updated: Mar 16, 2020
-
-* The Raspberry Pi Foundation has recently announced their [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) which runs on Windows, Mac OS, and Linux. This tool makes getting started with IIAB quick and easy. 
-
-* Once a downloaded image is written to an SD card, and running on a RPi, there are tools for updating to the most recent version, and using IIAB's browser based **Administrative Console** to download content.
-
-### Steps to Install an Image on a RPi
-1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space).
-2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
-3. Image Choices -- [For more information](./info/images.md).
-
-|    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Raspbian| Lite | 32 | Min  | 4.5GB | 24 |  NO  | Uses fewer memory and SD card resources             |
-| Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | GUI uses 150MB more than non-gui              |
-| Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | Faster, more clients, LXDE is 1.8GB             |
-
-4. The ```rpi-imager``` is very easy to use:
- 
-    1. Install **rpi-imager** in the normal manner for your Operatin System and start ``rpi-imager``.
-    1. It gets added to the menu system on Linux and Windows as an Accessory, and into the application folder on a Mac.
-    1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
-    1. If you haven't unziped the download, do it now.
-    1. Select the image.
-    1. Put your SD card in a usb adapter or an SD adapter if your computer has a standard SD slot.
-    1. Click **Choose SD Card**, and verify that it is the proper size.
-    1. Write it.
-5. Put the SD card in your RPi, and apply power.
-6. Look for the WiFi SSID "Internet in a Box", and associate to it.
-7. If it does not automatically open a browser, open your browser and browse to "box.lan".
-8. On a Mac or Linux, you can ssh into the rpi with "ssh iiab-admin@box.lan" (using username/password iiab-admin/g0adm1n). On a Windows machine, download and use "putty" to do the same.
-9. Use ```sudo su``` to become root.
-9. Then change the iiab-admin password with the command ```passwd iiab-admin```, the create a root password with ```passwd```.
-9. Use the terminal command  ```sudo iiab-gui on``` or ```sudo iiab-gui off``` to change the at-boot default behavior of the GUI. 
-9. If you set the boot GUI default to "off", you can toggle the GUI on with ```startx```, and off by logging out from the menu. The reason you might want to let the default be "GUI off" is that there would be about 150MB more RAM available to service client requests when the RPi is acting as a server.
