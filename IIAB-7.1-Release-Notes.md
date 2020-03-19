@@ -35,11 +35,11 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 ### What's Upgraded?
 
 - [Kolibri 0.13.1+](https://medium.com/kolibri-releases/kolibri-v0-13-is-here-4ac99259367a) ([changelog](https://github.com/learningequality/kolibri/releases)) with URL _box/kolibri_
-- [Nextcloud 18.0.1+](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
+- [Nextcloud 18.0.2+](https://nextcloud.com/blog/) ([changelog](https://nextcloud.com/changelog/#latest18)) with URL _box/nextcloud_
 - [Calibre-Web 0.6.6](https://github.com/janeczku/calibre-web#about) ([changelog](https://github.com/janeczku/calibre-web/releases)) with customizable URL's _box/books, box/libros, box/livres_
 - [Calibre 4.12+](https://calibre-ebook.com/whats-new) (3.39.1+ on Raspberry Pi) with URL _box:8080_
 - [Lokole 0.5.11+](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
-- [Moodle 3.8.1+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
+- [Moodle 3.8.2+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
 - [WordPress 5.3.2+](https://wordpress.org/news/2019/12/wordpress-5-3-2-maintenance-release/) based on [5.3](https://wordpress.org/news/2019/11/kirk/), with URL _box/wordpress_
 - [Kiwix 3.0.3](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
 - [Minetest 5.1.1 Server](https://www.minetest.net/) ([changelog](https://dev.minetest.net/Changelog#5.1.0_.E2.86.92_5.1.1)). Allows client machines with the 5.x Minetest app to run this Minecraft-like collaborative game in a shared virtual environment.
