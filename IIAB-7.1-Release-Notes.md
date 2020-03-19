@@ -47,7 +47,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - [MediaWiki 1.34.0](https://mediawiki.org/wiki/Release_notes/1.34) with URL _box/mediawiki_
 - [Gitea 1.11.3](https://github.com/iiab/iiab/tree/master/roles/gitea#gitea-readme) ([changelog](https://github.com/go-gitea/gitea/releases)) lightweight self-hosted "GitHub" version control system, to learn to code collaboratively, with URL _box/gitea_
 - [phpMyAdmin 5.0.1](https://www.phpmyadmin.net/) ([changelog](https://github.com/phpmyadmin/phpmyadmin/releases)) for remote administration of MySQL
-- [Node.js 12 LTS](https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f) ([changelog](https://nodejs.org/en/blog/release/v12.13.0/))  <sub><sub>[PR #2075](https://github.com/iiab/iiab/pull/2075)</sub></sub>
+- [Node.js 12 LTS](https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f) ([changelog](https://nodejs.org/en/blog/release/))  <sub><sub>[PR #2075](https://github.com/iiab/iiab/pull/2075)</sub></sub>
 - [WikiHow](https://wikihow.com/) is now searchable in Spanish  <sub><sub>[PR #2198](https://github.com/iiab/iiab/pull/2198)</sub></sub>
 
 ### What might future versions bring?
