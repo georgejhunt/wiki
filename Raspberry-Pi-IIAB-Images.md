@@ -7,7 +7,7 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 
 ### Steps to Install an Image on a RPi
 1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space). [See detailed installation instructions for each Operating System](/Rpi-Imager-Installation.md)
-2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
+
 3. Image Choices -- [For more information -- Which Image is for Me?](Raspberry-Pi-Image-Features.md
 ).
 
@@ -17,16 +17,14 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 | Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | 18 clients(RPi4), or 24(RPi3+), GUI uses 150MB less RAM when off              |
 | Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | 32 clients,10% Faster, LXDE uses 1.8GB of SD Card           |
 
-4. The ```rpi-imager``` is very easy to use:
+3. The ```rpi-imager``` is very easy to use:
+    1. In our install process, we have added IIAB menu items. So for most situations, just "CHOSE OS" and "CHOSE SD CARd", and "WRITE".
  
-    1. Install **rpi-imager** in the normal manner for your Operating System and start ``rpi-imager``.
-    1. It gets added to the menu system on Linux and Windows as an Accessory, and into the application folder on a Mac.
-    1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
-    1. If you haven't unziped the download, do it now.
-    1. Select the image.
-    1. Put your SD card in a usb adapter or an SD adapter if your computer has a standard SD slot.
-    1. Click **Choose SD Card**, and verify that it is the proper size.
-    1. Write it.
+    1. If you do not see the IIAB image that you would like to load, there is an option at the bottom of the top menu which lets you use the file chooser provided by your Operating System. But it has more step:
+        1. You must download the image zip file (There may be custom images documented in IIAB documentation, and there is a search function at archive.org).
+        2. Unzip the file you have downloaded. See unzip suggestions in the first paragraph of the [Raspbian download]
+    (https://www.raspberrypi.org/downloads/raspbian/) page.
+        1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
 5. Put the SD card in your RPi, and apply power.
 6. Look for the WiFi SSID "Internet in a Box", and associate to it.
 7. If it does not automatically open a browser, open your browser and browse to "box.lan".
