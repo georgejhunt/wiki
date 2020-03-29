@@ -21,7 +21,7 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 
     1. for most situations, just "CHOSE OS" and "CHOSE SD CARD", and "WRITE".
     1. If you do not see the IIAB image that you would like to load, there is an option at the bottom of the top menu which lets you use the file chooser provided by your Operating System. But it has more steps:
-        1. You must download the image zip file (There are be custom images documented listed at the bottom of this page, and IIAB documentation. And there is a search function at archive.org).
+        1. You must download the image zip file (There are custom images listed at the bottom of this page, and in other IIAB documentation. And there is a search function at archive.org).
         2. Unzip the file you have downloaded. See unzip suggestions in the first paragraph of the [Raspbian download]
     (https://www.raspberrypi.org/downloads/raspbian/) page.
         1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to the unzipped image file (<image  name>.img).
