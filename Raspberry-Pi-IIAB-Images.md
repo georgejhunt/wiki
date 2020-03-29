@@ -17,14 +17,14 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 | Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | 18 clients(RPi4), or 24(RPi3+), GUI uses 150MB less RAM when off              |
 | Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | 32 clients,10% Faster, LXDE uses 1.8GB of SD Card           |
 
-3. The ```rpi-imager``` is very easy to use:
-    1. In our install process, we have added IIAB menu items. So for most situations, just "CHOSE OS" and "CHOSE SD CARd", and "WRITE".
- 
-    1. If you do not see the IIAB image that you would like to load, there is an option at the bottom of the top menu which lets you use the file chooser provided by your Operating System. But it has more step:
-        1. You must download the image zip file (There may be custom images documented in IIAB documentation, and there is a search function at archive.org).
+3. Start the ```rpi-imager``` with this command in a terminal window: **"./imager"**. We have installed the **"imager"** script which in turn calls ```rpi-imager``` with an additional command line parameter that puts the IIAB images into the top level of the **"CHOOSE OS"** selection list. It is very easy to use:
+
+    1. for most situations, just "CHOSE OS" and "CHOSE SD CARD", and "WRITE".
+    1. If you do not see the IIAB image that you would like to load, there is an option at the bottom of the top menu which lets you use the file chooser provided by your Operating System. But it has more steps:
+        1. You must download the image zip file (There are be custom images documented listed at the bottom of this page, and IIAB documentation. And there is a search function at archive.org).
         2. Unzip the file you have downloaded. See unzip suggestions in the first paragraph of the [Raspbian download]
     (https://www.raspberrypi.org/downloads/raspbian/) page.
-        1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to wherever you browser downloads files.
+        1. Click on **Choose OS**, then scroll down to **Use Custom**, and navigate to the unzipped image file (<image  name>.img).
 5. Put the SD card in your RPi, and apply power.
 6. Look for the WiFi SSID "Internet in a Box", and associate to it.
 7. If it does not automatically open a browser, open your browser and browse to "box.lan".
