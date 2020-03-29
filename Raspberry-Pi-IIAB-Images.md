@@ -1,12 +1,12 @@
 # Raspberry Pi Images
-Author: George Hunt; Last Updated: Mar 16, 2020
+Author: George Hunt; Last Updated: Mar 29, 2020
 
 * The Raspberry Pi Foundation has recently announced their [rpi-imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) which runs on Windows, Mac OS, and Linux. This tool makes getting started with IIAB quick and easy. 
 
 * Once a downloaded image is written to an SD card, and running on a RPi, there are tools for updating to the most recent version, and using IIAB's browser based **Administrative Console** to download content.
 
 ### Steps to Install an Image on a RPi
-1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space).
+1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space). [See detailed installation instructions for each Operating System](/Rpi-Imager-Installation.md)
 2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
 3. Image Choices -- [For more information -- Which Image is for Me?](Raspberry-Pi-Image-Features.md
 ).
