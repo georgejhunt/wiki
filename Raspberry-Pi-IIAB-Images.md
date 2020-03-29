@@ -8,7 +8,8 @@ Author: George Hunt; Last Updated: Mar 16, 2020
 ### Steps to Install an Image on a RPi
 1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space).
 2. Download and unzip the IIAB image of your choice. See unzip suggestions in the first paragraph of the [Raspbian download](https://www.raspberrypi.org/downloads/raspbian/) page.
-3. Image Choices -- [For more information -- Which Image is for Me?](Rpi_image_features.md).
+3. Image Choices -- [For more information -- Which Image is for Me?](Raspberry-Pi-Image-Features.md
+).
 
 |    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
