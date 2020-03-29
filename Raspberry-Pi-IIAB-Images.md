@@ -6,9 +6,9 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 * Once a downloaded image is written to an SD card, and running on a RPi, there are tools for updating to the most recent version, and using IIAB's browser based **Administrative Console** to download content.
 
 ### Steps to Install an Image on a RPi
-1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space). [See detailed installation instructions for each Operating System](https://github.com/iiab/iiab/wiki/Rpi-Imager-Installation.md)
+1. Download and install [rpi-imager](https://www.raspberrypi.org/downloads/) on your working laptop or desktop (needs about 50GB of free space). [See detailed installation instructions for each Operating System](Rpi-Imager-Installation.md)
 
-3. Image Choices -- [For more information -- Which Image is for Me?](https://github.com/iiab/iiab/wiki/Raspberry-Pi-Image-Features.md
+3. Image Choices -- [For more information -- Which Image is for Me?](Raspberry-Pi-Image-Features.md
 ).
 
 |    OS   | Version | Bits |[IIAB Preset](http://wiki.laptop.org/go/IIAB/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F)  |  Size   | WiFi Clients | GUI   |              Features                                          |
