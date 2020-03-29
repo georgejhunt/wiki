@@ -17,7 +17,7 @@ The first steps are the same for each system:
 1. On my Windows 10 machine, after doing the install process, there is a new **rpi-imager** icon on the start menu. 
 1. Use a text editor you are familiar with to place the following line in a file that you save in c:\windows\imager.cmd:
 ```
-c:\program-- waiting for my OS to update -- taking hours
+"C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/georgejhunt/iiab-factory/iiab/box/rpi/iiab-imager/os_list_imagingutility.json
 ```
 4. Open the terminal, (you man need to click start, and enter "term", and then click on the terminal icon).
 4. Then type "imager", get the big red window, click on "OS", and verify that "IIAB" menu is at the top of the list.
