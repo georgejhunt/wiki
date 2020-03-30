@@ -17,7 +17,7 @@ The first steps are the same for each system:
 1. On my Windows 10 machine, after doing the install process, there is a new **rpi-imager** icon on the start menu. 
 1. Use a text editor you are familiar with to place the following line in a file that you save in c:\windows\imager.cmd:
 ```
-"C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/georgejhunt/iiab-factory/iiab/box/rpi/iiab-imager/os_list_imagingutility.json
+"C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json
 ```
 4. Open the terminal, (you man need to click start, and enter "term", and then click on the terminal icon).
 4. Then type "imager", get the big red window, click on "OS", and verify that "IIAB" menu is at the top of the list.
@@ -37,7 +37,7 @@ The first steps are the same for each system:
 #!/bin/bash
 # start up the rpi-imager and specify a root menu
 
- /usr/bin/rpi-imager --repo https://raw.githubusercontent.com/georgejhunt/iiab-factory/iiab/box/rpi/iiab-imager/os_list_imagingutility.json
+ /usr/bin/rpi-imager --repo https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json
 chmod 755  /usr/local/sbin/imager
 ```
 1. Test your script. Type ```imager```, and click on **OS**. Success is indicated if the top menu item is an IIAB item.
@@ -49,7 +49,7 @@ chmod 755  /usr/local/sbin/imager
 1. Execute the following lines by cutting and pasting into a terminal window (on my Mac the **Terminal.app** is in the Applications/utilities folder
 ```
 cd   # navigate to your home directory
-echo "open /Applications/Raspberry\ Pi\ Imager.app/ --args --repo  https://raw.githubusercontent.com/georgejhunt/iiab-factory/iiab/box/rpi/iiab-imager/os_list_imagingutility.json" > ~/imager
+echo "open /Applications/Raspberry\ Pi\ Imager.app/ --args --repo  https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json" > ~/imager
 chmod 755 imager
 ```
 4. If you are wanting to use imager frequently, I find it convenient to drag the **Terminal.app** to the task bar so that it is easily available.
