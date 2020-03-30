@@ -14,7 +14,9 @@ Please install a **minimal** OS if possible, as [IIAB's installer](http://downlo
 
 2) The following OS's are theoretically possible, but may require extensive babysitting to get right:
 
-   * [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/).  On Raspberry Pi, try: http://cdimage.ubuntu.com/ubuntu-server/daily-preinstalled/current/
+   * [Ubuntu 20.04](https://wiki.ubuntu.com/FocalFossa/ReleaseSchedule) LTS (Focal Fossa) daily pre-releases: [Desktop](http://cdimage.ubuntu.com/daily-live/pending/) or [Server](http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/).
+     * On Raspberry Pi, try the latest `arm64` pre-release from http://cdimage.ubuntu.com/ubuntu-server/daily-preinstalled/current/ and for now install Node.js 10.x manually using `apt install nodejs npm`, then upgrade it to Node.js 12.x using https://linuxconfig.org/how-to-install-node-js-on-ubuntu-20-04-lts-focal-fossa, then add the line `nodejs_installed: True` to the end of file `/etc/iiab/iiab_state.yml` (creating the file if necessary!)
+     * See also: "Unable to install Calibre-Web on Ubuntu 20.04 pre-release: Python 3.8 issue?" [#2311](https://github.com/iiab/iiab/issues/2311)
    * [Ubuntu Server 19.10.1 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi) released 2019-12-05 ([docs](https://wiki.ubuntu.com/ARM/RaspberryPi), [downloads](http://cdimage.ubuntu.com/releases/19.10.1/release/)).  Stick with the 32-bit version for now, until 64-bit Kiwix support appears ([kiwix/kiwix-build#396](https://github.com/kiwix/kiwix-build/issues/396)).  Please do not install or enable Sugarizer in /etc/iiab/local_vars.yml as this OS lacks MongoDB.
    * [Ubuntu 19.10](http://releases.ubuntu.com/19.10/) Eoan Ermine:
      * [Server & Desktop editions for AMD64](http://cdimage.ubuntu.com/releases/19.10/release/), released 2019-10-17 <!--([server](http://cdimage.ubuntu.com/ubuntu-server/daily/current/) or [desktop](http://cdimage.ubuntu.com/daily-live/current/))-->
