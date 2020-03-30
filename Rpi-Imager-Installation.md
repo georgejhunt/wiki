@@ -1,6 +1,6 @@
 ## Installing RPI-IMAGER
 #### Introduction -- Windows, Mac OS, Linux
-Each of the three major Operating Systems has standard methods of adding functions. Raspberry Pi Foundation has developed a package they call **rpi-imager** for each of these main Operating Systems. This page explains the steps that are similar in some respects, but also also particular to each OS.
+Each of the three major Operating Systems has standard methods of adding programs. Raspberry Pi Foundation has developed a package they call **rpi-imager** for each of these Operating Systems. This page explains the steps that are similar in some respects, but also particular to each OS.
 
 For each of the systems, after the normal install process, you can create a file, with the proper contents for your OS, placed in the correct place, which adds the IIAB images to the ones made available by the Raspberry Pi Foundation.
 
