@@ -41,7 +41,7 @@ Why not build your own [LIBRARY OF ALEXANDRIA](https://www.youtube.com/channel/U
 - [Calibre 4.13+](https://calibre-ebook.com/whats-new) (3.39.1+ on Raspberry Pi) with URL _box:8080_
 - [Lokole 0.5.11+](https://github.com/iiab/iiab/tree/master/roles/lokole#lokole-readme) ([changelog](https://github.com/ascoderu/opwen-webapp/releases)) email for rural communities, students and teachers, with URL _box/lokole_
 - [Moodle 3.8.2+](https://docs.moodle.org/dev/Moodle_3.8.1_release_notes) based on [3.8](https://docs.moodle.org/dev/Moodle_3.8_release_notes), with URL _box/moodle_
-- [WordPress 5.3.2+](https://wordpress.org/news/2019/12/wordpress-5-3-2-maintenance-release/) based on [5.3](https://wordpress.org/news/2019/11/kirk/), with URL _box/wordpress_
+- [WordPress 5.4+](https://wordpress.org/news/2020/03/adderley/) with URL _box/wordpress_
 - [Kiwix 3.0.3](https://en.wikipedia.org/wiki/Kiwix) ([changelog](https://github.com/kiwix/kiwix-tools/blob/master/Changelog)) with URL _box/kiwix_
 - [Minetest 5.1.1 Server](https://www.minetest.net/) ([changelog](https://dev.minetest.net/Changelog#5.1.0_.E2.86.92_5.1.1)). Allows client machines with the 5.x Minetest app to run this Minecraft-like collaborative game in a shared virtual environment.
 - [Sugarizer 1.3.0](https://groups.google.com/forum/m/#!topic/unleashkids/8vgGJ_LG_CA) ([changelog](https://github.com/llaske/sugarizer/blob/master/CHANGELOG.md#130---2020-03-27)) using [Sugarizer Server 1.2.0](https://github.com/llaske/sugarizer-server/) ([changelog](https://github.com/llaske/sugarizer-server/blob/master/CHANGELOG.md#120---2019-12-01)) with URL _box/sugarizer_
