@@ -49,7 +49,8 @@ chmod 755  /usr/local/sbin/imager
 1. Execute the following lines by cutting and pasting into a terminal window (on my Mac the **Terminal.app** is in the Applications/utilities folder
 ```
 cd   # navigate to your home directory
-echo "open /Applications/Raspberry\ Pi\ Imager.app/ --args --repo  https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json" > ~/imager
-chmod 755 imager
+sudo cp "open /Applications/Raspberry\ Pi\ Imager.app/ --args --repo  https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json" > /usr/local/bin/imager
+sudo chmod 755 imager
 ```
 4. If you are wanting to use imager frequently, I find it convenient to drag the **Terminal.app** to the task bar so that it is easily available.
+5. In the terminal, you will need to type ```imager```.
