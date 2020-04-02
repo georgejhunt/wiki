@@ -19,7 +19,7 @@ The first steps are the same for each system:
 ```
 "C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json
 ```
-4. Open the terminal, (you man need to click start, and enter "term", and then click on the terminal icon).
+4. Open the terminal, (you may need to click start, and enter "term", and then click on the terminal icon).
 4. Then type "imager", get the big red window, click on "OS", and verify that "IIAB" menu is at the top of the list.
 
 #### Linux
