@@ -16,7 +16,7 @@ Author: George Hunt; Last Updated: Mar 29, 2020
 | Raspbian| Full | 32 | Med  | 11.3GB | 24 |  Optional  | 18 clients(RPi4), or 24(RPi3+), GUI uses 150MB less RAM when off              |
 | Ubuntu| LXDE | 64 | Min  | 7.3GB | 32 | Optional  | 32 clients,10% Faster, LXDE uses 1.8GB of SD Card           |
 
-3. Start the ```rpi-imager``` with this command in a terminal window: **"./imager"**. We have installed the **"imager"** script which in turn calls ```rpi-imager``` with an additional command line parameter that puts the IIAB images into the top level of the **"CHOOSE OS"** selection list. It is very easy to use:
+3. Start the ```rpi-imager``` with this command in a terminal window: **"imager"**. We have installed the **"imager"** script which in turn calls ```rpi-imager``` with an additional command line parameter that puts the IIAB images into the top level of the **"CHOOSE OS"** selection list. It is very easy to use:
 
     1. for most situations, just "CHOSE OS" and "CHOSE SD CARD", and "WRITE".
     1. If you do not see the IIAB image that you would like to load, there is an option at the bottom of the top menu which lets you use the file chooser provided by your Operating System. But it has more steps:
