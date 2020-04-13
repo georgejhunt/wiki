@@ -15,18 +15,25 @@ The first steps are the same for each system:
 
 1. In File Manager, double click on the downloaded **rpi-image.exe** file. This will start the install process.
 1. On my Windows 10 machine, after doing the install process, there is a new **rpi-imager** icon on the start menu. 
-1. Use a text editor you are familiar with to place the following line in a file that you save in c:\windows\imager.cmd:
+1. The easiest way to use the rpi-imager with IIAB images is to open a command prompt and paste the following into it and then press enter (make sure you include the quotes):
+```
+"C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo http://iiab.me/images.json
+```
+If you like you can create a .bat or .cmd file with your favorite editor in any directory you like. Just add the same line.
+The following command is a little longer but does the same thing:
 ```
 "C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/iiab/iiab-factory/master/box/rpi/iiab-imager/os_list_imagingutility.json
 ```
 
-4. I put the following into c:\windows\testimager to access my test environmwnt (ghunt)
+4. You can test George's images with:
 ```
 "C:\Program Files (x86)\Raspberry Pi Imager\rpi-imager.exe" --repo https://raw.githubusercontent.com/georgejhunt/iiab-factory/testiiab/box/rpi/iiab-imager/os_list_imagingutility.json
 ```
 
-4. Open the terminal, (you may need to click start, and enter "term", and then click on the terminal icon).
-4. Then type "imager", get the big red window, click on "OS", and verify that "IIAB" menu is at the top of the list.
+4. If you created a .bat or .cmd file you can navigate to it in File Explorer and double click it.
+4. Another approach is to pin rpi-imager to the task bar and then edit the icon adding one of the lines above.
+4. If your .bat or .cmd file is in your path, open the command prompt, (you may need to click start, and enter "comm", and then click on the command icon).
+4. Then type "imager" or whatever you called your .bat file, get the big red window, click on "OS", and verify that "IIAB" menu is at the top of the list.
 
 #### Linux
  
